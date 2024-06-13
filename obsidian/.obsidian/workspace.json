@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "8af8aa3383d51f38",
+    "type": "split",
+    "children": [
+      {
+        "id": "c91358f6fa6f7f17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57ebc1bb0659e0fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kali/Recon/Active Recon/Nmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aab6966f4b66b97c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kali/Recon/Passive Recon/IP/IP Search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d788b89820982cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kali/Recon/Passive Recon/IP/DNS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b96b79a67f386a67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kali/Recon/Active Recon/SMB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a37b6d3924dc70ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kali/Recon/Active Recon/SNMP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7569f284adb480b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "888d627f288963ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbb1422ad88e1488",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "187968cc5c6bcee8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ff1f6a9fbb94d8fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aafa2561bb4befc4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "8919a7d5cc3708df",
+    "type": "split",
+    "children": [
+      {
+        "id": "67b97a7d7b5f96df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbdeb208cba992e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5c746b04334a1b4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5f64d8d557e371dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d8ec4f858ed02001",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "7569f284adb480b2",
+  "lastOpenFiles": [
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Disassociation (or De-authentication) Attacks.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613091735.png",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613091445.png",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613091306.png",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Evil Twin Attacks.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Rogue Access Points.md",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613090508.png",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613090408.png",
+    "Kali/Docs/Cisco Lab.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Route Manipulation Attacks.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/DHCP Starvation Attacks and Rogue DHCP Servers.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613085241.png",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613085049.png",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613084934.png",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/VLAN Hopping.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Network Access Control (NAC) Bypass.md",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613082444.png",
+    "Kali/Docs/Concepts/IMG/Pasted image 20240613081851.png",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/DoS and DDoS Attacks.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Kerberos, LDAP, and On-Path Attacks.md",
+    "Kali/Docs/Concepts",
+    "Kali/Tools/Ettercap.md",
+    "Kali/Tools",
+    "Kali/Docs/Concepts/IMG",
+    "Kali/Recon/Active Recon/FTP.md",
+    "Kali/Docs",
+    "Kali/Recon/Active Recon/SMTP.md",
+    "Kali/Recon/Active Recon/SNMP.md",
+    "Kali/Recon/Active Recon/Nmap.md",
+    "Kali/Recon/Active Recon/SMB.md",
+    "Kali/Recon/Passive Recon/IP/DNS.md",
+    "Kali/Recon/Passive Recon/IP/IP Search.md",
+    "Extra/test/title.md",
+    "Extra/test/Test.md",
+    "Kali/Recon/Passive Recon/IP",
+    "Kali/Recon/Passive Recon/OSINT",
+    "Kali/Recon/Active Recon",
+    "Extra/Templates/Recon.md",
+    "- - -.md"
+  ]
+}
