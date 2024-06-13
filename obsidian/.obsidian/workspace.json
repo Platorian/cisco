@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+                "file": "Kali/Tools/MultiTool/Recon-ng.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+                "file": "Kali/Tools/MultiTool/Recon-ng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+                "file": "Kali/Tools/MultiTool/Recon-ng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md"
+                "file": "Kali/Tools/MultiTool/Recon-ng.md"
               }
             }
           }
@@ -210,8 +210,26 @@
   },
   "active": "7569f284adb480b2",
   "lastOpenFiles": [
-    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Disassociation (or De-authentication) Attacks.md",
+    "Kali/Tools/MultiTool/Amass.md",
+    "Kali/Tools/MultiTool/Recon-ng.md",
+    "Kali/Tools/MultiTool/Sniper.md",
+    "Kali/Tools/MultiTool",
+    "Kali/Tools/Website/Nikto.md",
+    "Kali/Recon/Active Recon/Nmap.md",
+    "Kali/Recon/Active Recon/DNS Zone Transfer.md",
+    "Kali/Recon/Active Recon/SNMP.md",
+    "Kali/Recon/Active Recon/SMTP.md",
+    "Kali/Recon/Active Recon/SMB.md",
+    "Kali/Recon/Active Recon/FTP.md",
+    "Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
+    "Kali/Tools/Website/Sublist3r.md",
+    "Kali/Tools/Website/The Harvester.md",
+    "Kali/Tools/Website/Whatweb.md",
+    "Kali/Recon/Passive Recon/IP/DNS.md",
+    "Kali/Recon/Passive Recon/IP/IP Search.md",
+    "Kali/Tools/Website",
     "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
+    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Disassociation (or De-authentication) Attacks.md",
     "Kali/Docs/Concepts/IMG/Pasted image 20240613091735.png",
     "Kali/Docs/Concepts/IMG/Pasted image 20240613091445.png",
     "Kali/Docs/Concepts/IMG/Pasted image 20240613091306.png",
@@ -233,25 +251,10 @@
     "Kali/Docs/Concepts/IMG/Pasted image 20240613082444.png",
     "Kali/Docs/Concepts/IMG/Pasted image 20240613081851.png",
     "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/DoS and DDoS Attacks.md",
-    "Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Kerberos, LDAP, and On-Path Attacks.md",
     "Kali/Docs/Concepts",
-    "Kali/Tools/Ettercap.md",
     "Kali/Tools",
     "Kali/Docs/Concepts/IMG",
-    "Kali/Recon/Active Recon/FTP.md",
     "Kali/Docs",
-    "Kali/Recon/Active Recon/SMTP.md",
-    "Kali/Recon/Active Recon/SNMP.md",
-    "Kali/Recon/Active Recon/Nmap.md",
-    "Kali/Recon/Active Recon/SMB.md",
-    "Kali/Recon/Passive Recon/IP/DNS.md",
-    "Kali/Recon/Passive Recon/IP/IP Search.md",
-    "Extra/test/title.md",
-    "Extra/test/Test.md",
-    "Kali/Recon/Passive Recon/IP",
-    "Kali/Recon/Passive Recon/OSINT",
-    "Kali/Recon/Active Recon",
-    "Extra/Templates/Recon.md",
-    "- - -.md"
+    "Kali/Recon/Passive Recon/IP"
   ]
 }
