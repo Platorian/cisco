@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "0c56e80cda158036",
+    "type": "split",
+    "children": [
+      {
+        "id": "b78b7d2134a69d53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c3739c629c08f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b95e3a91d7495cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "b79305231e050625",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19752380c3e0b1b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b7b1694eb8dfdb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "493663f1afc727a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "11679b6984b12500",
+    "type": "split",
+    "children": [
+      {
+        "id": "02c356e0214d0983",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "060aad2af920e6cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "50ad8a2ee120e386",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "759f0a1a71f3e36b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "802ba0cbb574c6bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7c3739c629c08f44",
+  "lastOpenFiles": [
+    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
+    "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+    "obsidian/Kali/Docs/Concepts/General/File transfer.md",
+    "obsidian/Kali/Docs/Concepts/General/TTY Shell.md",
+    "obsidian/Kali/Docs/Concepts/General",
+    "obsidian/Kali/Tools/MultiTool/MSFVenom.md",
+    "obsidian/Kali/Tools/Website/Whatweb.md",
+    "obsidian/Kali/Tools/Website/The Harvester.md",
+    "obsidian/Kali/Tools/Website/Sublist3r.md",
+    "obsidian/Kali/Tools/Website/Nikto.md",
+    "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
+    "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
+    "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
+    "obsidian/Kali/Recon/Active Recon/SNMP.md",
+    "obsidian/Kali/Recon/Active Recon/SMTP.md",
+    "obsidian/Kali/Recon/Active Recon/SMB.md",
+    "obsidian/Kali/Recon/Active Recon/Nmap.md",
+    "obsidian/Kali/Recon/Active Recon/FTP.md",
+    "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md"
+  ]
+}
