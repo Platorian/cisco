@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+                "file": "obsidian/Kali/Docs/Reverse Shells.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+                "file": "obsidian/Kali/Docs/Reverse Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+                "file": "obsidian/Kali/Docs/Reverse Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/ZSH.md"
+                "file": "obsidian/Kali/Docs/Reverse Shells.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
+    "obsidian/Kali/Tools/Website/WPScan.md",
+    "obsidian/Kali/Docs/Reverse Shells.md",
+    "obsidian/Extra/Table whitespace character.md",
     "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
     "obsidian/Kali/Docs/Concepts/General/File transfer.md",
     "obsidian/Kali/Docs/Concepts/General/TTY Shell.md",
     "obsidian/Kali/Docs/Concepts/General",

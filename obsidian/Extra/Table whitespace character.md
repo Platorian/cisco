@@ -1,0 +1,1 @@
+https://forum.obsidian.md/t/howto-fixed-column-width-in-table/69537

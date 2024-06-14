@@ -81,3 +81,6 @@ chsh -s $(which zsh)
 Preferred window manager:
 - Terminator 
 
+Plugins
+- https://github.com/stevemcilwain/quiver
+
