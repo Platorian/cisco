@@ -1,6 +1,4 @@
 
-Some of this may need to be modified, everything but java should be on one line. 
-Looked okay in mousepad, but be aware of this.
 ### Bash
 
 Some versions of [bash can send you a reverse shell](http://www.gnucitizen.org/blog/reverse-shell-with-bash/) (this was tested on Ubuntu 10.10):

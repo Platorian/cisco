@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/KARMA Attacks.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/KARMA Attacks.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/KARMA Attacks.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/KARMA Attacks.md"
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Test.md"
               }
             }
           }
@@ -146,37 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125230.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125031.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614124958.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614124812.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614124457.png",
+    "obsidian/Kali/Docs/Reverse Shells.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Test.md",
+    "obsidian/Kali/Docs/Cisco Lab.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Summary.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Summary.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614101910.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Password Spraying.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/5.2.15 Radio-Frequency Identification (RFID) Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Bluetooth Low Energy (BLE) Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Bluejacking and Bluesnarfing.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Credential Harvesting.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Fragmentation Attacks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Initialization Vector (IV) Attacks and Unsecured Wireless Protocols.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/KARMA Attacks.md",
     "obsidian/Kali/Tools/Wireless/Aircrack-ng.md",
     "obsidian/Kali/Tools/Ettercap.md",
     "obsidian/Kali/Tools/Wireless",
-    "Pasted image 20240614091539.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614091539.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614091104.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/War Driving.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Preferred Network List Attacks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Rogue Access Points.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Wireless Signal Jamming and Interference.md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/Extra/Table whitespace character.md",
     "obsidian/Kali/Docs/Concepts/General/ZSH.md",
     "obsidian/Kali/Tools/MultiTool/Metasploit.md",
     "obsidian/Kali/Docs/Concepts/General/File transfer.md",
-    "obsidian/Kali/Docs/Concepts/General/TTY Shell.md",
-    "obsidian/Kali/Docs/Concepts/General",
-    "obsidian/Kali/Tools/MultiTool/MSFVenom.md",
-    "obsidian/Kali/Tools/Website/Whatweb.md",
-    "obsidian/Kali/Tools/Website/The Harvester.md",
-    "obsidian/Kali/Tools/Website/Sublist3r.md",
-    "obsidian/Kali/Tools/Website/Nikto.md",
-    "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
-    "obsidian/Kali/Recon/Active Recon/SNMP.md",
-    "obsidian/Kali/Recon/Active Recon/SMTP.md"
+    "obsidian/Kali/Docs/Concepts/General"
   ]
 }
