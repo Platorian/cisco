@@ -19,7 +19,7 @@ wpscan -u <Target> -e u vp
 
 Passwords
 ```
-wpscan -u <Target> -e u --wordlist <Path To Wordlist> 
+wpscan -u <Target> -e u -P <Path To Wordlist> 
 ```
 
 Assuming we got into the site as an admin we can look for ways to post a reverse shell. WP sites have an editor option which is perfect for our shells, we can modify the 404 page and add our shell, then all we need to do is visit the 404 with a listener open.
