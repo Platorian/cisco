@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
+                "file": "obsidian/Kali/Recon/Forensics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
+                "file": "obsidian/Kali/Recon/Forensics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
+                "file": "obsidian/Kali/Recon/Forensics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md"
+                "file": "obsidian/Kali/Recon/Forensics.md"
               }
             }
           }
@@ -146,20 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/Using the GVM Vulnerability Scanner.md",
+    "obsidian/Kali/Recon/Forensics.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/OWASP Top 10.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/HTTP Protocol.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Redirect Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Overview.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Lab - Using Password Tools.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Kerberos Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Default Credentials.md",
+    "obsidian/Kali/Tools/Website/GoBuster.md",
+    "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
+    "obsidian/Kali/Tools/Cracking/Hydra.md",
+    "obsidian/Kali/Recon/Active Recon/FTP.md",
+    "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Kerberos Vulnerabilities.md",
     "Pasted image 20240615144108.png",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Default Credentials.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Redirect Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615142438.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615142106.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615141349.png",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Overview.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Lab - Injection Attacks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Lightweight Directory Access Protocol (LDAP) Injection Vulnerabilities.md",
@@ -176,19 +185,10 @@
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/How to Build Your Own Web Application Lab.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/Using the GVM Vulnerability Scanner.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/OWASP Top 10.md",
     "obsidian/Kali/Docs/Concepts/General/ZSH.md",
     "obsidian/Kali/Tools/Cracking/John the Ripper.md",
-    "obsidian/Kali/Tools/Cracking/Hydra.md",
     "obsidian/Kali/Tools/Cracking",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/HTTP Protocol.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/Web Sessions.md",
-    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Docs/Reverse Shells.md",
-    "obsidian/Kali/Tools/Website/Nikto.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities",
     "obsidian/Kali/Tools/Wireless",
     "obsidian/Kali/Docs/Concepts/General"
