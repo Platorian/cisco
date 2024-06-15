@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md"
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md"
               }
             }
           }
@@ -146,26 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "Pasted image 20240615141349.png",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Lab - Using Password Tools.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Kerberos Vulnerabilities.md",
+    "Pasted image 20240615144108.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Default Credentials.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Redirect Attacks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615142438.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615142106.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615141349.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Overview.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Lab - Injection Attacks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Lightweight Directory Access Protocol (LDAP) Injection Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
-    "Pasted image 20240615130305.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615130305.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615113747.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615113210.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110403.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110151.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110001.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615103354.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615103243.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615102833.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615102811.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Business Logic Flaws.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10",
@@ -184,10 +189,6 @@
     "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Tools/Website/Nikto.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
-    "obsidian/Kali/Tools/Website/WPScan.md",
-    "obsidian/Kali/Recon/Active Recon/FTP.md",
-    "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities",
     "obsidian/Kali/Tools/Wireless",
     "obsidian/Kali/Docs/Concepts/General"
