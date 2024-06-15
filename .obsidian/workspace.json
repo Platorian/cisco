@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Hydra.md",
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 200
   },
   "right": {
     "id": "11679b6984b12500",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Hydra.md",
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Hydra.md",
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Hydra.md"
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Tools/Website/WPScan.md",
+    "Pasted image 20240615035621.png",
+    "Pasted image 20240615035451.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
     "obsidian/Kali/Tools/Hydra.md",
+    "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Recon/Active Recon/FTP.md",
     "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
@@ -167,7 +171,6 @@
     "obsidian/Extra/Table whitespace character.md",
     "obsidian/Kali/Tools/Wireless/Aircrack-ng.md",
     "obsidian/Kali/Tools/Ettercap.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Test.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125230.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125031.png",
@@ -179,8 +182,6 @@
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Summary.md",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614101910.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Password Spraying.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/5.2.15 Radio-Frequency Identification (RFID) Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Bluetooth Low Energy (BLE) Attacks.md",
     "obsidian/Kali/Tools/Wireless",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614091539.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614091104.png",

