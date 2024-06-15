@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md"
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md"
               }
             }
           }
@@ -146,29 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Tools/Cracking/Hydra.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Using the GVM Vulnerability Scanner.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615113747.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615113210.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110403.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110151.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110001.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615103354.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615103243.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615102833.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615102811.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Business Logic Flaws.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/How to Build Your Own Web Application Lab.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/Using the GVM Vulnerability Scanner.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/OWASP Top 10.md",
+    "obsidian/Kali/Docs/Concepts/General/ZSH.md",
     "obsidian/Kali/Tools/Cracking/John the Ripper.md",
+    "obsidian/Kali/Tools/Cracking/Hydra.md",
     "obsidian/Kali/Tools/Cracking",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Web Sessions.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/HTTP Protocol.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/Web Sessions.md",
     "obsidian/Kali/Tools/MultiTool/Metasploit.md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Docs/Concepts/General/ZSH.md",
     "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Tools/Website/Nikto.md",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615043324.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615043014.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615042846.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615041542.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615040631.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615040458.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615035621.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615035451.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/Kali/Recon/Active Recon/FTP.md",
@@ -179,12 +187,7 @@
     "obsidian/Kali/Tools/Website/The Harvester.md",
     "obsidian/Kali/Tools/Website/Sublist3r.md",
     "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
-    "obsidian/Extra/Templates/Recon.md",
-    "obsidian/Extra/test/title.md",
-    "obsidian/Extra/test/Test.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125230.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125031.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities",
     "obsidian/Kali/Tools/Wireless",
     "obsidian/Kali/Docs/Concepts/General"
   ]

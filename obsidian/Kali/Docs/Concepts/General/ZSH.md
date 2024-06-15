@@ -74,6 +74,12 @@ ZSH_THEME="robbyrussell"
 
 ##### Change Your Default Shell
 
+Start shell
+```
+zsh
+```
+
+Change shell
 ```shell
 chsh -s $(which zsh)
 ```
