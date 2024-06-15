@@ -1,0 +1,5 @@
+The Open Web Application Security Project (OWASP) is an international organization dedicated to educating industry professionals, creating tools, and evangelizing best practices for securing web applications and underlying systems. There are dozens of OWASP chapters around the world. It is recommended that you become familiar with OWASP’s website ([_https://www.owasp.org_](https://www.owasp.org)) and guidance.
+
+OWASP publishes and regularly updates a list of the top 10 application security risks. The **_OWASP Top 10_** is an awareness document and a community effort (see [_https://owasp.org/www-project-top-ten/_](https://owasp.org/www-project-top-ten/)). You can also contribute and review via the OWASP GitHub repository at [_https://github.com/OWASP/Top10_](https://github.com/OWASP/Top10). This course covers the vulnerabilities highlighted in the OWASP Top 10 list. The best way to keep up with OWASP updates is by navigating directly to its website. This module covers vulnerabilities in the OWASP Top 10, such as injection vulnerabilities and cross-site scripting (XSS).
+
+I

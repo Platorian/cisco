@@ -277,3 +277,38 @@ function printit ($string) {
 
 ?>
 ```
+
+##### Change default shell
+View shells
+```
+cat /etc/shells
+```
+
+Currently using this shell
+```
+echo $SHELL
+```
+
+Currently using this user shell
+```
+which sh
+```
+
+##### Using the chsh utility
+To change your interactive shell use `chsh` with the `-s` (shell) option. Pass the path to the new shell on the command line:
+```
+chsh -s /usr/bin/fish
+```
+
+or
+```
+chsh -s /usr/bin/zsh
+```
+
+cat out the file path as we showed earlier.
+
+Change another users shell
+```
+sudo chsh -s /usr/bin/fish mary
+```
+

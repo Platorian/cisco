@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md"
+                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md"
               }
             }
           }
@@ -148,11 +148,18 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Using the GVM Vulnerability Scanner.md",
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
+    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
+    "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Web Sessions.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
-    "Pasted image 20240615043324.png",
-    "Pasted image 20240615043014.png",
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
+    "obsidian/Kali/Docs/Concepts/General/ZSH.md",
+    "obsidian/Kali/Docs/Reverse Shells.md",
+    "obsidian/Kali/Tools/Website/Nikto.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615043324.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615043014.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615042846.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615041542.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615040631.png",
@@ -162,7 +169,6 @@
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
     "obsidian/Kali/Tools/Hydra.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Recon/Active Recon/FTP.md",
     "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
     "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
@@ -170,21 +176,15 @@
     "obsidian/Kali/Tools/Website/Whatweb.md",
     "obsidian/Kali/Tools/Website/The Harvester.md",
     "obsidian/Kali/Tools/Website/Sublist3r.md",
-    "obsidian/Kali/Tools/Website/Nikto.md",
     "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
-    "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Extra/Templates/Recon.md",
     "obsidian/Extra/test/title.md",
     "obsidian/Extra/test/Test.md",
     "obsidian/Extra/Table whitespace character.md",
     "obsidian/Kali/Tools/Wireless/Aircrack-ng.md",
-    "obsidian/Kali/Tools/Ettercap.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125230.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125031.png",
-    "obsidian/Kali/Docs/Cisco Lab.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Summary.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Network-Based Vulnerabilities/Summary.md",
     "obsidian/Kali/Tools/Wireless",
     "obsidian/Kali/Docs/Concepts/General"
   ]

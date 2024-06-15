@@ -154,6 +154,11 @@ $ nmap --script http-robots.txt <hosts>
 $ nmap --script smb-brute.nse -p445 <hosts>
 ```
 
+- or
+```
+sudo nmap -sV -p 445 -script smb-brute <Target>
+```
+
 - smb-psexec: Attempts to run a series of programs on the target machine, using credentials provided as scriptargs.
 ```
 $ nmap --script smb-psexec.nse –script-args=smbuser=<username>,smbpass=<password>[,config=<config>] -p445 <hosts>
