@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
+                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
+                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
+                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md"
+                "file": "obsidian/Kali/Tools/Cracking/John the Ripper.md"
               }
             }
           }
@@ -148,13 +148,16 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Kali/Tools/Cracking/Hydra.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Using the GVM Vulnerability Scanner.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
-    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Web Sessions.md",
+    "obsidian/Kali/Tools/Cracking/John the Ripper.md",
+    "obsidian/Kali/Tools/Cracking",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/HTTP Protocol.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/OWASP Top 10.md",
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/How to Build Your Own Web Application Lab.md",
+    "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks/Web Sessions.md",
+    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
+    "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Concepts/General/ZSH.md",
     "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Tools/Website/Nikto.md",
@@ -167,7 +170,6 @@
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615035621.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615035451.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
-    "obsidian/Kali/Tools/Hydra.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/Kali/Recon/Active Recon/FTP.md",
     "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
@@ -180,8 +182,6 @@
     "obsidian/Extra/Templates/Recon.md",
     "obsidian/Extra/test/title.md",
     "obsidian/Extra/test/Test.md",
-    "obsidian/Extra/Table whitespace character.md",
-    "obsidian/Kali/Tools/Wireless/Aircrack-ng.md",
     "obsidian/Kali/Docs/Concepts/Web Application-Based Attacks",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125230.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240614125031.png",
