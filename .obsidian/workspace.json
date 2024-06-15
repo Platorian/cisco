@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md"
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md"
               }
             }
           }
@@ -146,10 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
+    "Pasted image 20240615141349.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Lab - Injection Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Lightweight Directory Access Protocol (LDAP) Injection Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
+    "Pasted image 20240615130305.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615113747.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615113210.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615110403.png",
@@ -176,17 +183,11 @@
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Tools/Website/Nikto.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615043324.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Wired and Wireless Networks/Exploiting Wireless Vulnerabilities/Test.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/Kali/Recon/Active Recon/FTP.md",
     "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
     "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
-    "obsidian/Kali/Tools/Website/Whatweb.md",
-    "obsidian/Kali/Tools/Website/The Harvester.md",
-    "obsidian/Kali/Tools/Website/Sublist3r.md",
-    "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities",
     "obsidian/Kali/Tools/Wireless",
     "obsidian/Kali/Docs/Concepts/General"
