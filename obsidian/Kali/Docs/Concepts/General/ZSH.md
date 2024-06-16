@@ -15,6 +15,32 @@
 ### Arch Linux or Manjaro
 `pacman -S zsh`
 
+### OhMyZsh
+
+Install
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Add theme
+```
+open ~/.zshrc
+```
+
+Update config
+```
+source ~/.zshrc
+```
+
+Syntax highlighting
+```
+sudo apt-get install zsh-syntax-highlighting
+```
+
+Enable zsh-syntax-highlighting
+```
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
 
 ### Prompt
 ### Quick Install

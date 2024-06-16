@@ -350,3 +350,17 @@ If the `steghide info` command reveals that data is embedded, proceed to extract
 ```
 $ stegcracker <file> [<wordlist>]
 ```
+
+##### Open pdf file from terminal
+```
+eog <File>
+```
+- eye of gnome
+
+### Zsteg
+
+Auto tool
+```
+zsteg -a
+```
+
