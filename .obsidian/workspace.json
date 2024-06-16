@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Overview.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Comments in Source Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Overview.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Comments in Source Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Overview.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Comments in Source Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Overview.md"
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Comments in Source Code.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities/Remote File Inclusion Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Comments in Source Code.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities/Remote File Inclusion Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616104210.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities/Local File Inclusion Vulnerabilities.md",
@@ -186,7 +187,6 @@
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/OWASP Top 10.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Web Application-Based Attacks for Security Professionals and the OWASP Top 10/HTTP Protocol.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Session Hijacking.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authentication-Based Vulnerabilities/Redirect Attacks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Authorization-Based Vulnerabilities",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615144108.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240615142438.png",
