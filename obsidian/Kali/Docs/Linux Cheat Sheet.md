@@ -624,6 +624,7 @@ http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/
 ls -i
 stat
 ```
+
 * Find where a commmand is executed from
 
 ```

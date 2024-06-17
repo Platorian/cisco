@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Attacks Against Misconfigured Cloud Assets.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Attacks Against Misconfigured Cloud Assets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Attacks Against Misconfigured Cloud Assets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Linux Cheat Sheet.md"
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Attacks Against Misconfigured Cloud Assets.md"
               }
             }
           }
@@ -146,24 +146,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083449.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083429.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083408.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083351.png",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Metadata Service Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Attacks Against Misconfigured Cloud Assets.md",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Account Takeover.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082748.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082729.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082709.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082646.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082625.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082554.png",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Privilege Escalation.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617081918.png",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Credential Harvesting.md",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Overview.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Overview.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617065804.png",
+    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies",
+    "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/6.13.3 Quiz - Performing Post-Exploitation Techniques.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617063224.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617063147.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Summary.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052604.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052544.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052521.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052448.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052429.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052407.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052344.png",
     "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
     "obsidian/Extra/CyberMentor/Tools/Sublist3r.md",
     "obsidian/Extra/CyberMentor/IMG",
@@ -183,16 +191,8 @@
     "obsidian/Kali/Tools/Website/Whatweb.md",
     "obsidian/Kali/Tools/Website/The Harvester.md",
     "obsidian/Kali/Tools/Website/Nikto.md",
-    "obsidian/Kali/Docs/Concepts/General/Docker.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Summary.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/CSRF and XSRF/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Additional Web Application Hacking Tools.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Lack of Code Signing.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Hidden Elements.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Unprotected APIs.md",
     "obsidian/Kali/Tools/Defense",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices",
-    "git-upload.sh",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities"
+    "git-upload.sh"
   ]
 }
