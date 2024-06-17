@@ -483,11 +483,33 @@ To install VirtualBox Guest Additions 7 14 on Linux BlackArch, follow these step
 6. Once the installation is complete, click on Devices > Optical Drives > Remove disk from virtual drive. 
 7. Open the terminal and switch to the root user account. 
 8. Mount the VirtualBox Guest Additions ISO file by running the following command: mount /dev/cdrom /mnt 
-9. Change to the mounted directory by executing the following command: cd /mnt 1
+9. Change to the mounted directory by executing the following command: cd /mnt 
 10. Install the necessary build tools by running the following command: pacman -S base-devel 
 11. Change to the directory containing the VirtualBox Guest Additions installer by executing the following command: cd LinuxAdditions 
 12. Install the Guest Additions by running the following command: ./VBoxLinuxAdditions.run 
 13. Wait for the installation to complete. 
 14. Once the installation is complete, reboot the virtual machine by running the following command: reboot 
 15. After rebooting, the VirtualBox Guest Additions should be installed and working. You can check by opening the virtual machine window, going to the Devices menu, and checking if “Shared Clipboard” and “Drag and Drop” are enabled.
+
+Suggestions
+
+# My Fix 
+I just needed to start dhclient and i was able to get a connection. I could then finish the above steps, but i still don't think it worked :) 
+
+**Signature Unkown**
+1st option:  
+
+rm -rf /etc/pacman.d/gnupg  
+pacman-key --init  
+pacman-key --populate archlinux blackarch  
+pacman-key --update --keyserver keyserver.ubuntu.com
+#### Works i think after these steps and finish the above steps.
+
+
+|                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <br>i found a way to solve this while i was using arch linux, so if u have the same problem:<br><br>1. boot to arch iso<br>2. mount the partition that your os is installed on: `mount /dev/sdaX /mnt`<br>3. chroot to the system: `arch-chroot /mnt`<br>4. download networkmanager or anything u need: `pacman -S iwd dhclient`<br>5. DONE ! now u can reboot. |
+
+
+---
 
