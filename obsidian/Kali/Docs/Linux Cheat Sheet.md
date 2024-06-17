@@ -415,6 +415,7 @@ echo "Sorry no login now" > /etc/nologin
 date
 
 ```
+
 * Print the hostname of this machine:
 
 
