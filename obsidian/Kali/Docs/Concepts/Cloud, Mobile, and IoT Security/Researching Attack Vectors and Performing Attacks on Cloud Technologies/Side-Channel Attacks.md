@@ -1,0 +1,6 @@
+**_Side-channel attacks_** are often based on information gained from the implementation of the underlying computer system (or cloud environment) instead of a specific weakness in the implemented technology or algorithm. For instance, different elements – such as computing timing information, power consumption, electromagnetic leaks, and even sound – can provide detailed information that can help an attacker compromise a system. The attacker aims to gather information from or influence an application or a system by measuring or exploiting indirect effects of the system or its hardware. Most side-channel attacks are used to exfiltrate credentials, cryptographic keys, and other sensitive information by measuring coincidental hardware emissions.
+
+Side-channel attacks can be used against VMs and in cloud computing environments where a compromised system controlled by the attacker and target share the same physical hardware.
+
+**TIP** Examples of vulnerabilities that could lead to side-channel attacks are the Spectre and Meltdown vulnerabilities affecting Intel, AMD, and ARM processors. Cloud providers that use Intel CPUs in their virtualized solutions could be affected by these vulnerabilities if they do not apply the appropriate patches. You can find information about Spectre and Meltdown at [_https://spectreattack.com_](https://spectreattack.com).
+
