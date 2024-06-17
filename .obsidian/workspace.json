@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Mobile Devices.md",
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Data Storage System Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Mobile Devices.md",
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Data Storage System Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Mobile Devices.md",
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Data Storage System Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Mobile Devices.md"
+                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Data Storage System Vulnerabilities.md"
               }
             }
           }
@@ -146,31 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Overview.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617121418.png",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/IoT Security Special Considerations.md",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Data Storage System Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617120921.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617120829.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617120752.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617120650.png",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Analyzing IoT Protocols.md",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Internet of Things (IoT) Devices.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Mobile Devices.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617114204.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617103442.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617103418.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617103353.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617103325.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617103253.png",
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Overview.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Tools and Software Development Kits (SDKs).md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Practice - Cloud Attack Types.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617092914.png",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Side-Channel Attacks.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Cloud Malware Injection Attacks.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Resource Exhaustion and DoS Attacks.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617090405.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617090331.png",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Attacks Against Misconfigured Cloud Assets.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Kali/Docs/CTF",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083449.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083429.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083408.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617083351.png",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Metadata Service Attacks.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Account Takeover.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082748.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082729.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617082709.png",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Privilege Escalation.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Credential Harvesting.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Overview.md",
@@ -185,14 +190,9 @@
     "obsidian/Extra/CyberMentor/Tools/Sublist3r.md",
     "obsidian/Extra/CyberMentor/IMG",
     "obsidian/Extra/CyberMentor/Tools",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Lab - Use the OWASP Web Security Testing Guide.md",
     "obsidian/Extra/CyberMentor/Web App/Passive recon",
     "obsidian/Extra/CyberMentor/Web App",
     "obsidian/Extra/CyberMentor",
-    "obsidian/Kali/Tools/Website/Sublist3r.md",
-    "obsidian/Kali/Tools/Website/GoBuster.md",
-    "obsidian/Kali/Docs/Concepts/General/Firefox port Restricted.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Lab - Cross Site Scripting.md",
     "obsidian/Kali/Tools/Defense"
   ]
 }
