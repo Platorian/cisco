@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md"
+                "file": "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Summary.md"
               }
             }
           }
@@ -146,13 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Extra/CyberMentor/Tools/Sublist3r.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052604.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052544.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052521.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052448.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052429.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052407.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052344.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052316.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052242.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052213.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617052146.png",
     "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Summary.md",
+    "obsidian/Extra/CyberMentor/Tools/Sublist3r.md",
     "obsidian/Extra/CyberMentor/IMG",
     "obsidian/Extra/CyberMentor/Tools",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240616195450.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Lab - Use the OWASP Web Security Testing Guide.md",
     "obsidian/Extra/CyberMentor/Web App/Passive recon",
     "obsidian/Extra/CyberMentor/Web App",
@@ -170,15 +181,6 @@
     "obsidian/Kali/Tools/Website/Nikto.md",
     "obsidian/Kali/Docs/Concepts/General/Docker.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Summary.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133902.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133840.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133824.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133807.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133750.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133730.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133709.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133646.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240616133623.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/CSRF and XSRF/Overview.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Additional Web Application Hacking Tools.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Lack of Code Signing.md",
@@ -188,8 +190,6 @@
     "obsidian/Kali/Tools/Defense",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Race Conditions.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Hard-Coded Credentials.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Lack of Error Handling and Overly Verbose Error Handling.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices/Comments in Source Code.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting Insecure Code Practices",
     "git-upload.sh",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities",
