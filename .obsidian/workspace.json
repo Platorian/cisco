@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
+                "file": "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 200
   },
   "right": {
     "id": "11679b6984b12500",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
+                "file": "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
+                "file": "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md"
+                "file": "obsidian/Kali/Docs/Concepts/General/Black Arch.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/6.13.3 Quiz - Performing Post-Exploitation Techniques.md",
+    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/6.13.3 Quiz - Performing Post-Exploitation Techniques.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Summary.md",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617130020.png",
     "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240617125956.png",
@@ -184,8 +186,6 @@
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Privilege Escalation.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Credential Harvesting.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Overview.md",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security",
     "obsidian/Extra/CyberMentor/IMG",

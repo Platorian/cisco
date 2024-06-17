@@ -405,9 +405,7 @@ who -umH
 echo "Sorry no login now" > /etc/nologin
 ```
 
-
 ## Hardware
-
 
 * Print full date and time:
 
