@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Command and Control (C2) Utilities.md",
+                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Command and Control (C2) Utilities.md",
+                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Command and Control (C2) Utilities.md",
+                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Command and Control (C2) Utilities.md"
+                "file": "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Summary.md"
               }
             }
           }
@@ -148,24 +148,37 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618092757.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618092537.png",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Reverse and Bind Shells.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618123534.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618123516.png",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/How to Cover Your Tracks.md",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Summary.md",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Privilege Escalation.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618120741.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618120650.png",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Legitimate Utilities and Living-off-the-Land.md",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618120238.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618115833.png",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Scanning.md",
+    "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Overview.md",
+    "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
+    "obsidian/Kali/Tools/Post Exploitation",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618110937.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618110911.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618110644.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618110442.png",
+    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618105351.png",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/New Users.md",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Custom Daemons, Processes, and Additional Backdoors.md",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Scheduled Jobs and Tasks.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Command and Control (C2) Utilities.md",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618092143.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618085811.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618085705.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618085631.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618085139.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618085053.png",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618085019.png",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Reverse and Bind Shells.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Overview.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Overview.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618083718.png",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation",
-    "obsidian/Kali/Docs/Concepts/IMG/Pasted image 20240618082027.png",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Summary.md",
     "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
     "obsidian/Kali/Docs/Concepts/General/ZSH.md",
@@ -176,23 +189,10 @@
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Exploiting Virtual Machines.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Management Interface Vulnerabilities.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Data Storage System Vulnerabilities.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/IoT Security Special Considerations.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Analyzing IoT Protocols.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Internet of Things (IoT) Devices.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Attacking Mobile Devices.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Tools and Software Development Kits (SDKs).md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Practice - Cloud Attack Types.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Side-Channel Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Cloud Malware Injection Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies/Resource Exhaustion and DoS Attacks.md",
     "obsidian/Kali/Docs/CTF",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security",
-    "obsidian/Extra/CyberMentor/IMG",
-    "obsidian/Extra/CyberMentor/Tools",
-    "obsidian/Extra/CyberMentor/Web App/Passive recon",
-    "obsidian/Extra/CyberMentor/Web App"
+    "obsidian/Extra/CyberMentor/IMG"
   ]
 }
