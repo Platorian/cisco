@@ -52,8 +52,13 @@ https://securityheaders.com
 In burp we have the option to right click the target and perform a scan (crawl)
 - crawl and audit option will attempt to exploit the website, and vuln scan.
 
+Web Architecture:
+https://builtwith.com/
+https://www.wappalyzer.com/
 Firefox extensions:
 `wappalyzer`
+https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
+
 
 If yo find a microsoft server you know not to look for php files and need to be looking for:
 - asp
@@ -76,7 +81,10 @@ Paid data breech resource, but very useful for OSINT and credential stuffing. ht
 *Advanced
 You can use the data dump to look for similarities in passwords, do they often use the same dates and places etc.*
 
+Find emails and email structure for companies, e.g. first letter of first name then last name: 
+emusk@tesla.com
 
+After using Burp for admin user pentesting, iif you make a user account for example, be careful if you run an active scan, because it will repeat the requests. 
 
 
 

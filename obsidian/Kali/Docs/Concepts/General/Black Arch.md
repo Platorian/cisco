@@ -506,6 +506,35 @@ pacman-key --update --keyserver keyserver.ubuntu.com
 #### Works i think after these steps and finish the above steps.
 try un-mounting the /mnt folder
 
+More steps lol:
+```
+sudo pacman -S virtualbox-guest-utils
+```
+
+xrandr, re-size and rotate 
+```
+xrandr --screen 0 1920x1080
+```
+
+-  --s - choose which screen to alter, in this case screen zero
+
+![[Pasted image 20240618163701.png]]
+
+Update and Sync
+```
+sudo pacman -Sy
+```
+
+Install desktop
+```
+sudo pacman -S xfce4  
+```
+
+Terminal
+```
+sudo pacman -S mate
+```
+
 |                                                                                                                                                                                                                                                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <br>i found a way to solve this while i was using arch linux, so if u have the same problem:<br><br>1. boot to arch iso<br>2. mount the partition that your os is installed on: `mount /dev/sdaX /mnt`<br>3. chroot to the system: `arch-chroot /mnt`<br>4. download networkmanager or anything u need: `pacman -S iwd dhclient`<br>5. DONE ! now u can reboot. |
