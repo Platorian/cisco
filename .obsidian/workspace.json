@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md"
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
     "obsidian/Extra/CyberMentor/Resources.md",
     "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
-    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
     "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240618163701.png",
     "obsidian/Kali/Recon/Active Recon/SMTP.md",
@@ -188,7 +189,6 @@
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Overview.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System",
     "obsidian/Kali/Docs/Concepts/Post Exploitation",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Summary.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems",
     "obsidian/Kali/Docs/CTF",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies",

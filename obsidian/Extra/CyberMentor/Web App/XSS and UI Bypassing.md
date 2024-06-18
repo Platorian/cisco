@@ -44,7 +44,7 @@ Encoding
 < == &lt:
 
 <!-- What it will look like as it hits the server -->
-&lt:script
+&lt:/script>
 ```
 
 Filtering is almost the same but instead of changing it it just deletes it.
@@ -54,8 +54,12 @@ Validation is a predefined allow/disallow list, and lastly sanitization is a com
 
 Look for anywhere on the site that takes input and test out how it responds.
 
+Cookies
+If secure flag is not set, it will not be able prevent cookies from being stolen with a document.cookie XSS.
 
+HTTP only and Secure flag should always be set.
 
+---
 
 
 
