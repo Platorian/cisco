@@ -58,25 +58,37 @@ For each of the listed vulnerabilities, describe a suggested fix or mitigation s
 
 ---
 
-What is your suggested fix for the **Operating System End-of-Life** vulnerability?
+**Q.** What is your suggested fix for the **Operating System End-of-Life** vulnerability?
 
+**A.** Update to the current supported version of the operating system and plan a means of keeping the OS up to date in the future.
 
-What is your suggested fix for the **Directory indexing found** vulnerability?
+**Q.** What is your suggested fix for the **Directory indexing found** vulnerability?
 
+**A.** Add a blank index page in each web-accessible directory or disable the feature in the web server configuration file.
 
-What is your suggested fix for the **Cleartext Transmission of Sensitive Information via HTTP** vulnerability?
+**Q.** What is your suggested fix for the **Cleartext Transmission of Sensitive Information via HTTP** vulnerability?
 
+**A.** Use encryption protocols such as SSL/TLS or HTTPS to ensure data is encrypted in transit.
 
-What is your suggested fix for the **Missing “HttpOnly” Cookie Attribute (HTTP)** vulnerability?
+**Q.** What is your suggested fix for the **Missing “HttpOnly” Cookie Attribute (HTTP)** vulnerability?
 
+**A.** Tag cookies with the HttpOnly flag which tells the browser that this particular cookie should only be accessed by the server.
 
-What is your suggested fix for the **anti-clickjacking X-Frame-Options header is not present** vulnerability?
+**Q.** What is your suggested fix for the **anti-clickjacking X-Frame-Options header is not present** vulnerability?
 
-
+**A.** Send the proper X-Frame-Options in HTTP response headers that instruct the browser to not allow framing from other domains. Employ defensive code in the UI to ensure that the current frame is the most top level window.
 
 ---
 
 # Reflection
 
-Why is it important to use multiple methods to find vulnerabilities and misconfigurations in web servers?
+**Q.** Why is it important to use multiple methods to find vulnerabilities and misconfigurations in web servers?
+
+**A.** Because not all vulnerability scanners use the same methodologies to uncover vulnerabilities. To get the most complete view of the device, it can be necessary to use multiple scanning tools.
+
+---
+
+**Q.** A vulnerability scan of the Pixel Paradise network discovered a **Missing "HTTPOnly" Cookie Attribute (HTTP)** vulnerability. What should you recommend be done to mitigate this vulnerability?
+
+**A.** The **Missing "HTTPOnly" Cookie Attribute (HTTP)** vulnerability can be mitigated by configuring the server to tag cookies with the HTTPOnly attribute so that cookies can only be accessed by the server.
 

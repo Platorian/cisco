@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md"
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md"
               }
             }
           }
@@ -148,9 +148,24 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619091530.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619091508.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619091444.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619091422.png",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Additional Post-Report Delivery Activities.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Post-Engagement Cleanup.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Goal Reprioritization and Presentation of Findings.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Explaining Post-Report Delivery Activities.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Reasons for Communication.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Communication Triggers.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619080235.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Physical Controls.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075715.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075701.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075646.png",
@@ -158,11 +173,7 @@
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075414.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075349.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075314.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075230.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Administrative Controls.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619074653.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619074606.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619074449.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Overview.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
@@ -178,21 +189,10 @@
     "obsidian/Kali/Docs/Concepts/Reporting and Communication",
     "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
     "obsidian/Extra/CyberMentor/Resources.md",
-    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
-    "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
-    "obsidian/Kali/Recon/Active Recon/SMTP.md",
-    "obsidian/Kali/Recon/Active Recon/SMB.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Recon/Active Recon/FTP.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Quiz - Performing Post-Exploitation Techniques.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Summary.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
     "obsidian/Kali/Tools/Post Exploitation",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems",
-    "obsidian/Kali/Docs/CTF"
+    "obsidian/Kali/Docs/Concepts/Post Exploitation"
   ]
 }
