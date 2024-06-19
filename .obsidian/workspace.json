@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md"
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md"
               }
             }
           }
@@ -146,14 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619063443.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619062439.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619062426.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619062408.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619062340.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619062316.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619062254.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619061947.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619061923.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619061854.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619061832.png",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Common Themes, or Root Causes.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Note Taking.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Storage Time for Report and Secure Distribution.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Report Contents.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports",
     "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication",
+    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
     "obsidian/Extra/CyberMentor/Resources.md",
     "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
     "obsidian/Kali/Docs/Concepts/General/Black Arch.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618163701.png",
     "obsidian/Kali/Recon/Active Recon/SMTP.md",
     "obsidian/Kali/Recon/Active Recon/SMB.md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
@@ -163,36 +182,17 @@
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Summary.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Overview.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618123534.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618123516.png",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/How to Cover Your Tracks.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Privilege Escalation.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618120741.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618120650.png",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Legitimate Utilities and Living-off-the-Land.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618120238.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618115833.png",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Scanning.md",
-    "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Overview.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
     "obsidian/Kali/Tools/Post Exploitation",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618110937.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618110911.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240618110644.png",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/New Users.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Custom Daemons, Processes, and Additional Backdoors.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Scheduled Jobs and Tasks.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Command and Control (C2) Utilities.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Reverse and Bind Shells.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System/Overview.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System",
     "obsidian/Kali/Docs/Concepts/Post Exploitation",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems",
     "obsidian/Kali/Docs/CTF",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security",
-    "obsidian/Extra/CyberMentor/IMG"
+    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies"
   ]
 }
