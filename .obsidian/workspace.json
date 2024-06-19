@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Automation Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Automation Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Automation Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md"
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Automation Code.md"
               }
             }
           }
@@ -148,8 +148,26 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Exploit Code.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Automation Code.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn JavaScript.md",
+    "Pasted image 20240619175132.png",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn Perl.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn PowerShell.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn Ruby.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn Python.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/The Bash Shell.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Analysis of Scripts and Code Samples for Use in Penetration Testing.md",
+    "Pasted image 20240619173620.png",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Classes.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Functions.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Procedures.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Libraries.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Data Structures.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619172715.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619171824.png",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Overview.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Overview.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619104957.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development",
@@ -162,7 +180,6 @@
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091530.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091508.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091444.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619091422.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Additional Post-Report Delivery Activities.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Post-Engagement Cleanup.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Overview.md",
@@ -170,25 +187,8 @@
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Explaining Post-Report Delivery Activities.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Reasons for Communication.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Communication Triggers.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619080235.png",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Physical Controls.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075715.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075701.png",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Operational Controls.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Administrative Controls.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Common Themes, or Root Causes.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Note Taking.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Storage Time for Report and Secure Distribution.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Report Contents.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Overview.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools",

@@ -28,3 +28,11 @@ These operators perform mathematical operations (such as addition, subtraction, 
 
 Omar Santos has also added a large number of resources and tutorials about different programming concepts in his GitHub repository, at [_https://github.com/The-Art-of-Hacking/h4cker/tree/master/programming_and_scripting_for_cybersecurity_](https://github.com/The-Art-of-Hacking/h4cker/tree/master/programming_and_scripting_for_cybersecurity).
 
+---
+
+Practice - Logic Constructs
+
+Match the programming operators and logical constructs to their descriptions.
+
+![[Pasted image 20240619171824.png]]
+
