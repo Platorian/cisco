@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md"
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md"
               }
             }
           }
@@ -146,22 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Overview.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619080235.png",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Physical Controls.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Lab - Recommend Remediation Based on Findings.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075715.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075701.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075646.png",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Operational Controls.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075414.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075349.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075314.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619075230.png",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Administrative Controls.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619074653.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619074606.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619074449.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Overview.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619063443.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619062439.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619062426.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619062408.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619062340.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619062316.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619062254.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619061947.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619061923.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619061854.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Common Themes, or Root Causes.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Note Taking.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Storage Time for Report and Secure Distribution.md",
@@ -182,11 +187,6 @@
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Overview.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Quiz - Performing Post-Exploitation Techniques.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Summary.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems/Quiz - Cloud, Mobile, and IoT Security.md",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/How to Cover Your Tracks.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Privilege Escalation.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Legitimate Utilities and Living-off-the-Land.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
     "obsidian/Kali/Tools/Post Exploitation",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration",
