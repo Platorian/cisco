@@ -39,3 +39,15 @@ This topic provides an overview of important steps to follow after delivering a 
 
 Furthermore, there are several additional post-report delivery activities. The client's acceptance of the report and its related deliverables should be properly documented. Penetration testers should also critically analyze and present any lessons learned during the engagement. Follow-up actions, such as retesting different applications or systems, may be requested by the client and should be addressed within an agreed-upon timeframe. Clear attestation of findings is needed, demonstrating that the assessment was indeed performed and detailing the findings. Lastly, any client-sensitive data collected during the penetration test should be destroyed, in line with agreements made during the pre-engagement activities.
 
+---
+
+Reflection Questions
+
+Penetration testers provide a service to their customers. While it is easy to get caught up in planning and executing the test, the test is nothing without the final product - the report. Why is it important that this report is of the highest possible quality?
+
+Multiple people who work in different roles will read the report. How does the report need to accommodate the diverse needs of stakeholders such as managers and technical staff?
+
+Part of the responsibility of the penetration tester is to not only report on vulnerabilities, but to also provide analysis and recommendations. What kind of recommendations should appear in the report? Where should that information come from?  
+  
+Finally, after the final report has been approved, pentesters must restore the systems that were tested to the condition that they were in before the test. What activities does this include? What should be done with any sensitive data or information that was copied from the clients' systems?
+

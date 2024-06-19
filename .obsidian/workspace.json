@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md"
+                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md"
               }
             }
           }
@@ -146,14 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Overview.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619104957.png",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Quiz - Reporting and Communication.md",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619100036.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240619094244.png",
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Quiz - Performing Post-Exploitation Techniques.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091530.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091508.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091444.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619091422.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Additional Post-Report Delivery Activities.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Summary.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Post-Engagement Cleanup.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities/Overview.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process/Goal Reprioritization and Presentation of Findings.md",
@@ -168,11 +178,7 @@
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Physical Controls.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075715.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619075701.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075646.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Operational Controls.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075414.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075349.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619075314.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Administrative Controls.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Overview.md",
@@ -183,16 +189,10 @@
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Storage Time for Report and Secure Distribution.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Report Contents.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Overview.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports",
-    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication",
-    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
-    "obsidian/Extra/CyberMentor/Resources.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
     "obsidian/Kali/Tools/Post Exploitation",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation"
+    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration"
   ]
 }
