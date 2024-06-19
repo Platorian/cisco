@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md"
+                "file": "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report/Technical Controls.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619063443.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619062439.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619062426.png",
@@ -158,9 +162,7 @@
     "obsidian/Kali/Docs/IMG/Pasted image 20240619061947.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619061923.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240619061854.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240619061832.png",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Common Themes, or Root Causes.md",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Lab - Explore PenTest Reports.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Note Taking.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Storage Time for Report and Secure Distribution.md",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports/Report Contents.md",
@@ -185,14 +187,12 @@
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/How to Cover Your Tracks.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Privilege Escalation.md",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Legitimate Utilities and Living-off-the-Land.md",
-    "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration/Post-Exploitation Scanning.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
     "obsidian/Kali/Tools/Post Exploitation",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Understanding How to Perform Lateral Movement, Detection Avoidance, and Enumeration",
     "obsidian/Kali/Docs/Concepts/Post Exploitation/Creating a Foothold and Maintaining Persistence After Compromising a System",
     "obsidian/Kali/Docs/Concepts/Post Exploitation",
     "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Explaining Common Attacks and Vulnerabilities Against Specialized Systems",
-    "obsidian/Kali/Docs/CTF",
-    "obsidian/Kali/Docs/Concepts/Cloud, Mobile, and IoT Security/Researching Attack Vectors and Performing Attacks on Cloud Technologies"
+    "obsidian/Kali/Docs/CTF"
   ]
 }
