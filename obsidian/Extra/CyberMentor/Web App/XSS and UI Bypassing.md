@@ -54,10 +54,10 @@ Validation is a predefined allow/disallow list, and lastly sanitization is a com
 
 Look for anywhere on the site that takes input and test out how it responds.
 
-Cookies
-If secure flag is not set, it will not be able prevent cookies from being stolen with a document.cookie XSS.
-
-HTTP only and Secure flag should always be set.
+Cookies:
+- If HTTP Only flag is not set, it will not be able prevent cookies from being stolen with a document.cookie XSS.
+- Secure flag prevents the cookie from being seen in clear text.
+- HTTP only and Secure flag should always be set.
 
 ---
 

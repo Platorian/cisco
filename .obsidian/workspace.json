@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md"
+                "file": "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md"
               }
             }
           }
@@ -161,9 +161,15 @@
   },
   "active": "68cd546272b3ea5f",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Concepts/Capstone.md",
-    "obsidian/Kali/Docs/Concepts/General/SQL.md",
+    "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
     "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240620190418.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240620190123.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240620182057.png",
+    "obsidian/Kali/Docs/Concepts/General/SQL.md",
+    "obsidian/Kali/Docs/Concepts/Capstone.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620161334.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620160856.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620155624.png",
@@ -176,10 +182,7 @@
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Overview.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Lab - Cross Site Scripting.md",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/CSRF and XSRF/Overview.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620144918.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620142548.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Credential Attacks.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620141258.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Cloud Tools.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Steganography Tools.md",
@@ -194,9 +197,6 @@
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Exploit Code.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Libraries.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Procedures.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn JavaScript.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis",
