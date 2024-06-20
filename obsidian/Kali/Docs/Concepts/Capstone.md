@@ -6,7 +6,7 @@ I manged to use sql to show the user database and password.
 
 ![[Pasted image 20240620141258.png]]
 
-I can now crack the passwords with hashcat or john.
+I can now crack the passwords with hashcat and john.
 
 ```
 hashcat -m 0 -a 0 -o cracked.txt hashes.txt /usr/share/wordlists/rockyou.txt 
@@ -24,7 +24,7 @@ I did all of the passes just in case they are needed later:
 john --show --format=RAW-MD5 hashes.txt
 ```
 
-Having trouble logging in for some reason.
+Having trouble logging in for some reason. I realise i must not have the correct username.
 
 ##### Task
 
@@ -43,7 +43,7 @@ Finding the number of tables
 
 ![[Pasted image 20240620152856.png]]
 
-We can also do order by to find the columns:
+We can also do `order by` to find the columns:
 
 ![[Pasted image 20240620154235.png]]
 
@@ -67,19 +67,28 @@ SELECT group_concat(CASE(table_schema)When(database())Then(table_name)END)
 
 ---
 
-I remembered about command injection and tried to see if i could get a username from that
+I remembered about command injection and tried to see if i could get a username from that.
 
 ```
 192.168.78.6;cat /etc/passwd
 ```
 
-I get gordons username, and i'm quite annoyed i didn't try it. It must have been one of the only name combos i didn't try, but that's okay! 
+I get gordons username by simply adding on another command to the initial ping, and i'm quite annoyed i didn't try it out already. It must have been one of the only name combos i didn't try, but that's okay! 
 
 ![[Pasted image 20240620160856.png]]
 
 We can now log in and finish part one of the capstone, but it's getting late so i'll have to start first thing in the morning. 
 
-Before i finish i log into the gordonb account to verify it's correct, and it is.
+Username:gordonb
+Password:abc123
+
+Before i finish, i log into the gordonb account to verify it's correct, and it is.
 
 ![[Pasted image 20240620161100.png]]
+
+And we get the code:
+
+![[Pasted image 20240620161334.png]]
+
+---
 

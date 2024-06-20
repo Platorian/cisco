@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md"
+                "file": "obsidian/Kali/Docs/Concepts/General/SQL.md"
               }
             }
           }
@@ -161,13 +161,15 @@
   },
   "active": "68cd546272b3ea5f",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Concepts/Capstone.md",
+    "obsidian/Kali/Docs/Concepts/General/SQL.md",
+    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620161334.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620160856.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620155624.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620152856.png",
-    "obsidian/Kali/Docs/Concepts/Capstone.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620161100.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
-    "obsidian/Kali/Docs/Concepts/General/SQL.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620154259.png",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620154235.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
@@ -179,7 +181,6 @@
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Credential Attacks.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240620141258.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620110136.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Cloud Tools.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Steganography Tools.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Wireless Tools.md",
