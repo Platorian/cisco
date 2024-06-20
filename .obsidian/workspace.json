@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
+                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68cd546272b3ea5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
+                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
+                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md"
+                "file": "obsidian/Kali/Docs/Concepts/Capstone.md"
               }
             }
           }
@@ -146,44 +159,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "68cd546272b3ea5f",
   "lastOpenFiles": [
-    "Pasted image 20240620110136.png",
-    "Pasted image 20240620110100.png",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Cloud Tools.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620160856.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620155624.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620152856.png",
+    "obsidian/Kali/Docs/Concepts/Capstone.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620161100.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/General/SQL.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620154259.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620154235.png",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Lab - Cross Site Scripting.md",
+    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/CSRF and XSRF/Overview.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620144918.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620142548.png",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Credential Attacks.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620141258.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620110005.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240620110136.png",
+    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Cloud Tools.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Steganography Tools.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620105756.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Wireless Tools.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620104649.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Software Assurance.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620103816.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Forensics.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620102321.png",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Decompilation, Disassembly, and Debugging Tools.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620101736.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620101416.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620101302.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620101057.png",
     "obsidian/Kali/Docs/Concepts/General/Registers.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Exploitation Frameworks.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Evasion.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Persistence.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Credential Attacks.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Exploit Code.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Libraries.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Logic Constructs.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Overview.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Procedures.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn JavaScript.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn Perl.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn PowerShell.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn Python.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Resources to Learn Ruby.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/The Bash Shell.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Analysis of Scripts and Code Samples for Use in Penetration Testing.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Classes.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis",
