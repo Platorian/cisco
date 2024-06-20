@@ -141,6 +141,157 @@ Use the **cat** command to view the contents of the **scan_results.txt** file th
  445/tcp open  microsoft-ds
 
 ---
+#### Step 2
 
+### Modify the script to enumerate shares on the target.
 
+As seen in the previous step, the target at 10.6.6.23 has open ports that could indicate a Samba server. In this step, you will edit your script to run **enum4linux** if a Samba drive share port is open to determine any available drive shares or user accounts.
+
+What indicates that a Samba server is running on the hosts?
+**Ports 139 and 445 are open.**
+1. Open the **recon.sh** file in the text editor. Add the following commands.
+
+13 **_# If the Samba port 445 is found and open, run enum4linux._**
+
+14 **_if grep 445 scan_results.txt | grep -iq open_**
+
+15 **_then_**
+
+16    **_enum4linux -U -S $1 >> scan_results.txt_**
+
+17    **_echo "Samba found. Enumeration complete."_**
+
+18    **_echo "Results added to scan_results.txt."_**
+
+19    _**echo "To view the results, cat the file."**_
+
+20 **_else_**
+
+21    _**echo "Open SMB share ports not found."**_
+
+22 _**fi**_
+
+2. Analyze the additional code.
+
+- Line 13 is a comment.
+- Line 14 indicates the start of an **if/then** statement that will search in the Nmap results for open port 445. The **grep** command searches lines in the file that match the pattern “445 open.” The **grep** command searches for lines that match the pattern “445” first. Then the output is piped into a second **grep** command to search again for lines that match the pattern **open**. With the option **-i**, the **grep** command ignores the case distinctions in the search patterns. The option **-q** suppresses standard outputs.
+    
+- Line 15 is the "**then**" clause. This contains the command that will be executed should the **if** test return "true".
+- Lines 16 - 19 are executed if the SMB file sharing port (445) is found. Line 16 runs **enum4linux** with the **-U** and **-S** options on the target host specified in **$1** and appends the results to the end of the **scan_results.txt** file. Lines 17, 18 and 19 display messages when emun4linux finished the scan and provides directions to view the results.
+- Line 20 indicates that the action to take if the logical if the condition fails.
+- Line 21 displays a message if the SMB file sharing port (445) is not open.
+- Line 22 the **fi** signifies the end of the **if/then** clause.
+
+What do the **-U** and **-S** options do in enum4linux?
+**-U enumerates users found  
+-S enumerates drive shares**
+
+```bash
+#!/bin/bash
+
+# Check if IP of target is entered
+
+if [ -z "$1" ]
+
+  	then
+
+    	echo "Correct usage is ./recon.sh <IP>"
+
+    	exit
+
+else
+
+    echo "Target IP $1"
+
+    echo "Running Nmap…"
+
+# Run Nmap scan on target and save results to file
+
+    nmap -sV $1 > scan_results.txt
+
+    echo "Scan complete – results written to scan_results.txt"
+
+fi
+
+# If the Samba port 445 is found and open, run enum4linux.
+
+if grep 445 scan_results.txt | grep -iq open
+
+	then
+
+    	enum4linux -U -S $1 >> scan_results.txt
+
+    	echo "Samba found. Enumeration complete."
+
+		echo "Results added to scan_results.txt."
+
+    	echo "To view the results, cat the file."
+
+else
+
+		echo "Open SMB share ports not found."
+
+fi
+```
+
+What file shares were found on the target?
+
+**homes           Disk      All home directories**
+
+        workfiles       Disk      Confidential Workfiles
+
+        print$          Disk      Printer Drivers
+
+        IPC$            IPC       IPC Service (Samba 4.9.5-Debian)
+
+---
+### Step 3: Automate Nmap from the command line.
+
+Another way to automate Nmap is to scan a group of specific targets that are specified in an external file.
+
+1. Create a new file in Mousepad and type in the IP addresses of the existing hosts on the 10.6.6.0/24 network. To list all the available hosts with their IP addresses, enter the command **containers** at a terminal.
+
+Be sure the IP addresses are separated with a space or list each IP address on a separate line.
+
+2. Save the file with the name **to_scan.txt**.
+3. At the prompt, enter the command to run Nmap with the targets from the file. For the purposes of this lab, will just run a simple ping scan, but any type of scan that takes an IP address as a target can be run in this way.
+
+┌──(kali㉿Kali)-[~]
+
+└─$ **nmap -sn -iL to_scan.txt**
+
+4. After a brief delay, you should see Nmap output the scan reports for each host that was specified in the **to_scan.txt** file.
+
+**Note**: The to_scan.txt file does not require executable permissions because it is serving as a data file, not as a script file.
+
+## Part 2: Differentiate between scripts written in Bash, Python, Ruby, and PowerShell
+
+In this part, you will use what you learned in the previous part about writing and analyzing a Bash script to analyze pre-written scripts. Knowing what scripting language is being used in scripts that you discover while penetration testing enables you to understand the purpose of the script, and potentially be able to modify it to obtain additional information.
+
+Use this chart that illustrates the different syntax characteristics of the scripting languages.
+
+---
+
+Code analysis skills are tested on penetration testing certifications. What benefit does having code analysis skills provide to penetration testers when discovering vulnerabilities?
+
+**According to one certification creator, in order to analyze code, pen testers must be familiar with coding languages. Code analysis helps pen testers discover vulnerabilities, including code attempting to download files, launch remote access, enumerate users and/or enumerate assets. 
+
+---
+
+Skills Check
+
+What is true of the code below? (Choose all that apply.)
+
+```python
+import nmap
+start = 20
+stop = 26
+thost = '192.186.6.20’
+for i in range(start,stop+1):
+   results = nmap.PortScanner(thost,str(i))
+   results = results['scan'][thost]['tcp'][i]['state']
+   print(‘Port {i} is {results}.')
+```
+
+**This is a Python script. It imports the Python module to enable the script to use Nmap. It will scan the target 192.168.6.20 to determine the state of TCP ports 20 to 26. It will display the results for each scan.**
 
