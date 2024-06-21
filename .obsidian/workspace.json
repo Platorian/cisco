@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/Types of Vulnerability Scans.md",
+                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/Types of Vulnerability Scans.md",
+                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/Types of Vulnerability Scans.md",
+                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/Types of Vulnerability Scans.md"
+                "file": "obsidian/Kali/Docs/Concepts/Quiz.md"
               }
             }
           }
@@ -160,51 +160,51 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621102041.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621102000.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621101933.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621101859.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621101835.png",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/How a Typical Automated Vulnerability Scanner Works.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/Types of Vulnerability Scans.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621101736.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621101655.png",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Lab - Network Sniffing with Wireshark.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Lab - Packet Crafting with Scapy.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621101035.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621100951.png",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Packet Inspection and Eavesdropping.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Lab - Enumeration with Nmap.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621100337.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621100203.png",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Types of Enumeration.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Nmap Scan Types.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621124626.png",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Social-Engineer Toolkit (SET).md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Browser Exploitation Framework (BeEF).md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Explore the Social Engineer Toolkit (SET).md",
+    "obsidian/Kali/Docs/Concepts/Quiz.md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Shodan Searches.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Quiz - Social Engineering Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Summary.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Methods of Influence/Overview.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621113753.png",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Using the Browser Exploitation Framework (BeEF).md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Methods of Influence",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Call Spoofing Tools.md",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112744.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112638.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112627.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112615.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112602.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112458.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112446.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112435.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621112424.png",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Badge Cloning.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Shoulder Surfing.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Dumpster Diving.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Tailgating.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Watering Hole Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Universal Serial Bus (USB) Drop Key.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Short Message Service (SMS) Phishing.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Vishing.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Email Phishing.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Quiz - Information Gathering and Vulnerability Scanning.md",
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding How to Analyze Vulnerability Scan Results",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans",
     "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Open-Source Intelligence (OSINT) Gathering.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Advanced Searches.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Finding Out About the Organization.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Company Reputation and Security Posture.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Finding Information from SSL Certificates.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Cryptographic Flaws.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Employee Intelligence Gathering.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Social Media Scraping.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Cloud vs. Self-Hosted Applications and Related Subdomains.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - DNS Lookups.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Identification of Technical and Administrative Contacts.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/DNS Lookups.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Using OSINT Tools.md",
     "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report"
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning"
   ]
 }

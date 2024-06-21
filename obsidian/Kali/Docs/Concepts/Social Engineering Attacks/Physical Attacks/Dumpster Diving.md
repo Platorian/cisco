@@ -1,0 +1,2 @@
+With **_Dumpster diving_**, a person scavenges for private information in garbage and recycling containers. To protect sensitive documents, an organization should store them in a safe place as long as possible. When it no longer needs the documents, the organization should shred them. (Some organizations incinerate their documents or have them shredded by a certified professional third party.) Dumpster divers might find information on paper and on hard drives or removable media.
+
