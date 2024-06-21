@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md"
+                "file": "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md"
               }
             }
           }
@@ -160,11 +160,21 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621153304.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621152740.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621151752.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621151543.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621151513.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621150828.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621150749.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621150358.png",
+    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+    "obsidian/Kali/Docs/Concepts/Quiz.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240621124626.png",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Social-Engineer Toolkit (SET).md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Browser Exploitation Framework (BeEF).md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Explore the Social Engineer Toolkit (SET).md",
-    "obsidian/Kali/Docs/Concepts/Quiz.md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Quiz - Social Engineering Attacks.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Summary.md",
@@ -174,14 +184,6 @@
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Methods of Influence",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Call Spoofing Tools.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240621112744.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112638.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112627.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112615.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112602.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112458.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112446.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112435.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621112424.png",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Overview.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Badge Cloning.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools",
@@ -198,8 +200,6 @@
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Overview.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Overview.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Quiz - Information Gathering and Vulnerability Scanning.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks",
     "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding How to Analyze Vulnerability Scan Results",
     "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans",
