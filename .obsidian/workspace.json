@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Types of Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Types of Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md",
+                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Types of Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Capstone.md"
+                "file": "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Types of Enumeration.md"
               }
             }
           }
@@ -158,53 +158,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3739c629c08f44",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "Pasted image 20240621063415.png",
-    "Pasted image 20240621063152.png",
-    "Pasted image 20240621063002.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621062921.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621051749.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621051717.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240621050249.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095521.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095459.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095438.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095310.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095141.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095102.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095019.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621095003.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621094950.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621094915.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240621094905.png",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Nmap Scan Types.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Types of Enumeration.md",
+    "obsidian/Kali/Recon/Active Recon/Nmap.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Shodan Searches.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Open-Source Intelligence (OSINT) Gathering.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Advanced Searches.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Finding Out About the Organization.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Company Reputation and Security Posture.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Finding Information from SSL Certificates.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Cryptographic Flaws.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Employee Intelligence Gathering.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Social Media Scraping.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Cloud vs. Self-Hosted Applications and Related Subdomains.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - DNS Lookups.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Identification of Technical and Administrative Contacts.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/DNS Lookups.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Lab - Using OSINT Tools.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Active Reconnaissance vs. Passive Reconnaissance.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Overview.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance.md",
+    "obsidian/Kali/Docs/Concepts/Capstone.md",
+    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning",
     "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
     "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
-    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
-    "obsidian/Extra/Table whitespace character.md",
-    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240620190418.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240620190123.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240620182057.png",
-    "obsidian/Kali/Docs/Concepts/General/SQL.md",
-    "obsidian/Kali/Docs/Concepts/Capstone.md",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240620161334.png",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/Command Injection Vulnerabilities.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Injection-Based Vulnerabilities/SQL Injection Vulnerabilities.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Understanding Cross-Site Scripting (XSS) Vulnerabilities/Lab - Cross Site Scripting.md",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/CSRF and XSRF/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Credential Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Summary.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Cloud Tools.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Steganography Tools.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Wireless Tools.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Software Assurance.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Forensics.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Decompilation, Disassembly, and Debugging Tools.md",
-    "obsidian/Kali/Docs/Concepts/General/Registers.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Exploitation Frameworks.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Evasion.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code/Common Tools for Persistence.md",
-    "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development/Lab - Analyze Exploit Code.md",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Understanding the Different Use Cases of Penetration Testing Tools and Analyzing Exploit Code",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis/Scripting and Software Development",
     "obsidian/Kali/Docs/Concepts/Tools and Code Analysis",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining Post-Report Delivery Activities",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Explaining the Importance of Communication During the Penetration Testing Process",
     "obsidian/Kali/Docs/Concepts/Reporting and Communication/Analyzing the Findings and Recommending the Appropriate Remediation Within a Report",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports",
-    "obsidian/Kali/Docs/Concepts/Reporting and Communication",
-    "obsidian/Kali/Tools/Post Exploitation/Windows Tools",
-    "obsidian/Kali/Tools/Post Exploitation"
+    "obsidian/Kali/Docs/Concepts/Reporting and Communication/Comparing and Contrasting Important Components of Written Reports"
   ]
 }
