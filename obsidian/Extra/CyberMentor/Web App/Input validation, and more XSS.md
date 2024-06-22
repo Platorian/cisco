@@ -97,3 +97,16 @@ SYSTEM is a keyword used in ENTITY which says that it's an external resource, an
 
 ![[Pasted image 20240621174233.png]]
 
+The best way to prevent this is to disable DTDs.
+
+---
+
+Resources:
+
+stok - $7500 bug bounty explained:
+https://www.youtube.com/watch?v=aSiIHKeN3ys
+
+HacktheBox Devoops box
+
+---
+
