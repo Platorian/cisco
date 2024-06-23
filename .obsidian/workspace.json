@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md"
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md"
               }
             }
           }
@@ -158,28 +158,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623091829.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623085747.png",
-    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623120931.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623120249.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623114054.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623112633.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623105739.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623105709.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623101923.png",
+    "obsidian/Kali/Docs/Concepts/General/SQL.md",
+    "obsidian/Kali/Docs/CTF/CTF Resources.md",
+    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
     "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
     "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
-    "obsidian/Extra/CyberMentor/Web App/PHP.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
+    "obsidian/Extra/CyberMentor/Resources.md",
+    "obsidian/Kali/Docs/Reverse Shells.md",
+    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623093551.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623091829.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623085747.png",
+    "obsidian/Extra/CyberMentor/Web App/Concepts",
     "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
     "obsidian/Extra/CyberMentor/Web App/Command Injection.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623073025.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623072948.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623072718.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623072556.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623070917.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623064110.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623063815.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623062509.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623061808.png",
     "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
     "obsidian/Kali/Docs/Concepts/Quiz.md",
     "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials",
@@ -197,12 +202,7 @@
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Using the Browser Exploitation Framework (BeEF).md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Methods of Influence",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Call Spoofing Tools.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Badge Cloning.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Shoulder Surfing.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Dumpster Diving.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Tailgating.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks"
