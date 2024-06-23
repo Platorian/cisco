@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Concepts/Quiz.md"
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md"
               }
             }
           }
@@ -158,26 +158,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622062225.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622061458.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622061332.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622061054.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622060820.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622060711.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622060539.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622055346.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622055154.png",
-    "obsidian/Kali/Docs/IMG/Pasted image 20240622054330.png",
-    "obsidian/Kali/Docs/Concepts/Capstone.md",
-    "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
-    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
-    "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240621174233.png",
-    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
     "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts",
+    "obsidian/Extra/CyberMentor/Web App/XSS and UI Bypassing.md",
+    "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
+    "obsidian/Extra/CyberMentor/Web App/PHP.md",
+    "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
+    "obsidian/Extra/CyberMentor/Web App/Command Injection.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623073025.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623072948.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623072718.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623072556.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623070917.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623064110.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623063815.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623062509.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623061808.png",
+    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240623061255.png",
+    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
     "obsidian/Kali/Docs/Concepts/Quiz.md",
+    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials",
+    "obsidian/Python Essentials/Module 1. Intro To Python",
+    "obsidian/Python Essentials",
+    "obsidian/Kali/Docs/Concepts/Capstone.md",
+    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Social-Engineer Toolkit (SET).md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Browser Exploitation Framework (BeEF).md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Explore the Social Engineer Toolkit (SET).md",
@@ -195,16 +203,8 @@
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Dumpster Diving.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Tailgating.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks/Overview.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Watering Hole Attacks.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Universal Serial Bus (USB) Drop Key.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks/Short Message Service (SMS) Phishing.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding How to Analyze Vulnerability Scan Results",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Understanding the Art of Performing Vulnerability Scans",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Active Reconnaissance",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning/Performing Passive Reconnaissance",
-    "obsidian/Kali/Docs/Concepts/Information Gathering and Vulnerability Scanning"
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks"
   ]
 }
