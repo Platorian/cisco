@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md"
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md"
               }
             }
           }
@@ -160,12 +160,19 @@
   },
   "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
+    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations",
+    "obsidian/Python Essentials/IMG/Pasted image 20240625075915.png",
+    "obsidian/Python Essentials/IMG",
+    "obsidian/Python Essentials/IMG/Pasted image 20240625075841.png",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055848.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055721.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055451.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055010.png",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
     "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
@@ -175,13 +182,9 @@
     "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
     "obsidian/Kali/Tools/Cracking/Hash.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240624194738.png",
-    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624143937.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624135731.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624134139.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624122149.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624122027.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624121643.png",
     "obsidian/Kali/Docs/Concepts/General/SQL.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Extra/CyberMentor/Resources.md",
@@ -200,11 +203,8 @@
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Explore the Social Engineer Toolkit (SET).md",
     "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Quiz - Social Engineering Attacks.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Summary.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Methods of Influence",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Socials Engineering Attacks",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks"
+    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks"
   ]
 }
