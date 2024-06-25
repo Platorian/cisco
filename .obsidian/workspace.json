@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md"
+                "file": "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md"
               }
             }
           }
@@ -158,11 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "7c3739c629c08f44",
   "lastOpenFiles": [
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
+    "Pasted image 20240625125516.png",
+    "obsidian/Python Essentials/IMG/Pasted image 20240625114940.png",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240625095028.png",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
     "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations",
     "obsidian/Python Essentials/IMG/Pasted image 20240625075915.png",
@@ -183,9 +189,6 @@
     "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
     "obsidian/Kali/Tools/Cracking/Hash.md",
     "obsidian/Kali/Docs/IMG/Pasted image 20240624194738.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624143937.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624135731.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240624134139.png",
     "obsidian/Kali/Docs/Concepts/General/SQL.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Extra/CyberMentor/Resources.md",
@@ -199,10 +202,6 @@
     "obsidian/Python Essentials",
     "obsidian/Kali/Docs/Concepts/Capstone.md",
     "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Social-Engineer Toolkit (SET).md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Browser Exploitation Framework (BeEF).md",
-    "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools/Lab - Explore the Social Engineer Toolkit (SET).md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Methods of Influence",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Social Engineering Tools",
     "obsidian/Kali/Docs/Concepts/Social Engineering Attacks/Physical Attacks"
