@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md"
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md"
               }
             }
           }
@@ -173,10 +173,11 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
+    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
+    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240626082233.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240626064008.png",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
@@ -195,7 +196,6 @@
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055848.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055721.png",
     "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055451.png",
-    "obsidian/Extra/CyberMentor/IMG/Pasted image 20240625055010.png",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
