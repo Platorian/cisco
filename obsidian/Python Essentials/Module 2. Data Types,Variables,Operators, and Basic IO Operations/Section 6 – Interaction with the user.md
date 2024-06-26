@@ -281,3 +281,27 @@ my_input = input("Enter something: ") # Example input: hello
 print(my_input * 3) # Expected output: hellohellohello
 ```
 
+Maths Operators:
+
+```python
+4 + 2
+6
+4 - 2
+2
+4 * 2
+8
+4 / 2 
+2.0
+5 / 2
+2.5
+# No remainder
+5 // 2
+2
+# Remainder
+5 % 2
+1
+# Power of 
+4 ** 2
+16
+```
+
