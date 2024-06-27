@@ -476,3 +476,175 @@ for letter in user_word:
     x = letter.replace("a", "")
     print(x)
 ```
+
+3.
+```python
+str = input("string: ")
+vowel = "aeiou"
+print("Input: ", str)
+
+for char in str:
+	if char in vowel:
+		str=str.replace(char,"")
+print("Output: ", str)
+```
+
+Final.
+```python
+user_word = input("Enter a word: ")
+user_word = user_word.upper()
+# print(user_word)
+
+for word in user_word:
+	if word == "A":
+		continue
+
+	elif word == "E":
+		continue
+
+	elif word == "I":
+		continue
+
+	elif word == "O":
+		continue
+
+	elif word == "U":
+		continue
+	else:
+		print(word)
+```
+
+---
+
+## The while loop and the else branch
+
+Both loops, while and for, have one interesting (and rarely used) feature.
+
+We'll show you how it works – try to judge for yourself if it's usable and whether you can live without it or not.
+
+In other words, try to convince yourself if the feature is valuable and useful, or is just syntactic sugar.
+
+Take a look at the snippet in the editor. There's something strange at the end – the else keyword.
+
+As you may have suspected, **loops may have the else branch too, like ifs**.
+
+The loop's else branch is **always executed once, regardless of whether the loop has entered its body or not**.
+
+Can you guess the output? Run the program to check if you were right.
+
+```python
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+```
+
+For loops behave a bit differently – take a look at the snippet in the editor and run it.
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("else:", i)
+```
+
+The i variable retains its last value.
+
+Modify the code a bit to carry out one more experiment.
+
+```python
+i = 111
+for i in range(2, 1):
+    print(i)
+else:
+    print("else:", i)
+```
+
+The loop's body won't be executed here at all. Note: we've assigned the i variable before the loop.
+
+Run the program and check its output.
+
+When the loop's body isn't executed, the control variable retains the value it had before the loop.
+
+Note: **if the control variable doesn't exist before the loop starts, it won't exist when the execution reaches the else branch**.
+
+How do you feel about this variant of else?
+
+Soon we'll tell you about some other kinds of variables. Our current variables can only **store one value at a time**, but there are variables that can do much more – they can **store as many values as you want**. But let's do some labs, first.
+
+---
+
+**LAB**   Essentials of the _while_ loop
+
+## Scenario
+
+Listen to this story: a boy and his father, a computer programmer, are playing with wooden blocks. They are building a pyramid.
+
+Their pyramid is a bit weird, as it is actually a pyramid-shaped wall – it's flat. The pyramid is stacked according to one simple principle: each lower layer contains one block more than the layer above.
+
+The figure illustrates the rule used by the builders:
+
+![[Pasted image 20240627054032.png]]
+
+Your task is to write a program which reads the number of blocks the builders have, and outputs the height of the pyramid that can be built using these blocks.
+
+Note: the height is measured by the number of **fully completed layers** – if the builders don't have a sufficient number of blocks and cannot complete the next layer, they finish their work immediately.
+
+> Solution
+
+```python
+blocks = int(input("Enter the number of blocks: "))
+
+#
+# Write your code here.
+#	
+
+print("The height of the pyramid:", height)
+```
+
+1.
+```python
+blocks = int(input("Enter the number of blocks: "))
+height = 0
+inlayer = 1
+
+while inlayer <= blocks:
+
+    height += 1
+    blocks -= inlayer
+    inlayer += 1
+
+print("The height of the pyramid: ", height)
+```
+
+---
+
+**LAB**   Collatz's hypothesis
+
+## Scenario
+
+In 1937, a German mathematician named Lothar Collatz formulated an intriguing hypothesis (it still remains unproven) which can be described in the following way:
+
+1. take any non-negative and non-zero integer number and name it c0;
+2. if it's even, evaluate a new c0 as c0 ÷ 2;
+3. otherwise, if it's odd, evaluate a new c0 as 3 × c0 + 1;
+4. if c0 ≠ 1, go back to point 2.
+
+The hypothesis says that regardless of the initial value of c0, it will always go to 1.
+
+Of course, it's an extremely complex task to use a computer in order to prove the hypothesis for any natural number (it may even require artificial intelligence), but you can use Python to check some individual numbers. Maybe you'll even find the one which would disprove the hypothesis.
+
+Write a program which reads one natural number and executes the above steps as long as c0 remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of c0, too.
+
+Hint: the most important part of the problem is how to transform Collatz's idea into a while loop – this is the key to success.
+
+Test your code using the data we've provided.
+
+```python
+c0 = 16
+if c0 is %2 = 0:
+	c0 = c0 / 2
+	print(c0)
+```
