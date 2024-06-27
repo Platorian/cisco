@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Code/SQL Brute Force.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Code/SQL Brute Force.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Code/SQL Brute Force.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Code/SQL Brute Force.md"
+                "file": "obsidian/Python Essentials/Cheat Sheet.md"
               }
             }
           }
@@ -173,16 +173,18 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Middle letter.md",
+    "obsidian/Python Essentials/Cheat Sheet.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Function multiply.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Randomness.md",
+    "obsidian/Python Essentials/Code/SQL Brute Force.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Capital Indexes.md",
     "obsidian/Python Essentials/Python Modules",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Middle letter.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Randomness.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer",
     "obsidian/Python Essentials/Code/Challenges",
     "obsidian/Python Essentials/Code/Untitled.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240627054032.png",
-    "obsidian/Python Essentials/Code/SQL Brute Force.md",
     "obsidian/Python Essentials/Code",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240626082233.png",
@@ -214,7 +216,6 @@
     "obsidian/Extra/CyberMentor/Web App/Command Injection.md",
     "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
     "obsidian/Kali/Tools/Cracking/Hash.md",
-    "obsidian/Kali/Docs/Concepts/General/SQL.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts",
     "obsidian/Extra/CyberMentor/Web App/Concepts",
     "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials"

@@ -7,5 +7,10 @@ Write a function named `mid` that takes a string as its parameter. Your function
 For example, `mid("abc")` should return `"b"` and `mid("aaaa")` should return `""`.
 
 ```python
+str = input("Enter word: ")
 
+x = len(str)
+y = x // 2
+
+print("Midddle Char is: " + str[y])
 ```
