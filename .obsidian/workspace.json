@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
+                "file": "obsidian/Extra/Bash/Bash.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
+                "file": "obsidian/Extra/Bash/Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
+                "file": "obsidian/Extra/Bash/Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md"
+                "file": "obsidian/Extra/Bash/Bash.md"
               }
             }
           }
@@ -173,8 +173,11 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 4 – Lists.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
+    "obsidian/Extra/Bash/Bash.md",
+    "obsidian/Extra/Bash",
+    "obsidian/Extra/Untitled.md",
+    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 4 – Lists.md",
     "obsidian/Python Essentials/Python Modules/argparse.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 3 – Logic and bit operations in Python.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240628082904.png",
@@ -214,10 +217,7 @@
     "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
-    "obsidian/Extra/CyberMentor/Web App/XSS, SQL Injection, and Broken Access.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts",
-    "obsidian/Extra/CyberMentor/Web App/Concepts",
-    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials"
+    "obsidian/Extra/CyberMentor/Web App/Concepts"
   ]
 }
