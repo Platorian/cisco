@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md",
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md",
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md",
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md"
+                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md",
+    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
+    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 4 – Lists.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
@@ -214,7 +215,6 @@
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
-    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations",
     "obsidian/Python Essentials/IMG",
     "obsidian/Extra/CyberMentor/Web App/Concepts",
