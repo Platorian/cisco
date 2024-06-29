@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md"
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md"
               }
             }
           }
@@ -173,16 +173,27 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md",
+    "obsidian/Python Essentials/Python Modules/Argparse.md",
+    "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
+    "obsidian/Python Essentials/Python Modules/URLlib.md",
+    "obsidian/Python Essentials/Python Modules/Socket.md",
+    "obsidian/Python Essentials/Code/SQL Brute Force.md",
+    "obsidian/Extra/Bash/Bash.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 7 – Lists in advanced applications.md",
+    "obsidian/Python Essentials/IMG/Pasted image 20240629093445.png",
+    "obsidian/Python Essentials/IMG/Pasted image 20240629093410.png",
+    "obsidian/Python Essentials/IMG/Pasted image 20240629090347.png",
+    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 6 – Operations on lists.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 5 - Sorting simple lists, the bubble sort algorithm.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 4 – Lists.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Extra/Bash/Bash.md",
     "obsidian/Extra/Bash",
     "obsidian/Extra/Untitled.md",
-    "obsidian/Python Essentials/Python Modules/argparse.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 3 – Logic and bit operations in Python.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240628082904.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240628080953.png",
@@ -191,7 +202,6 @@
     "obsidian/Python Essentials/IMG/Pasted image 20240628075846.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240628074834.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240628074813.png",
-    "obsidian/Python Essentials/IMG/Pasted image 20240628074725.png",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 2 – Loops in Python.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Randomness.md",
@@ -199,22 +209,12 @@
     "obsidian/Python Essentials/Code/Challenges/Begginer/Function multiply.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Capital Indexes.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Python Essentials/Code/SQL Brute Force.md",
     "obsidian/Python Essentials/Python Modules",
     "obsidian/Python Essentials/Code/Challenges/Begginer",
     "obsidian/Python Essentials/Code/Challenges",
     "obsidian/Python Essentials/Code/Untitled.md",
-    "obsidian/Python Essentials/IMG/Pasted image 20240627054032.png",
     "obsidian/Python Essentials/Code",
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
-    "obsidian/Python Essentials/IMG/Pasted image 20240626082233.png",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations",
     "obsidian/Python Essentials/IMG",
     "obsidian/Extra/CyberMentor/Web App/Concepts",
