@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md"
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md"
               }
             }
           }
@@ -171,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3013490957630182",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
+    "obsidian/Python Essentials/IMG/Pasted image 20240701071934.png",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
+    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
+    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240701054848.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240701053457.png",
     "obsidian/Python Essentials/Cheat Sheet.md",
@@ -200,8 +202,6 @@
     "obsidian/Python Essentials/Code/Challenges/Begginer/Type Check.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Randomness.md",
     "obsidian/Python Essentials/Python Modules/URLlib.md",
-    "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
-    "obsidian/Python Essentials/Python Modules/Argparse.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240629093445.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240629093410.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240629090347.png",
