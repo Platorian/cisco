@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md",
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md",
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md",
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md"
+                "file": "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md"
               }
             }
           }
@@ -173,14 +173,18 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Add Dots.md",
+    "obsidian/Python Essentials/Cheat Sheet.md",
+    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
+    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing",
+    "obsidian/Python Essentials/Code/SQL Brute Force.md",
+    "obsidian/Extra/Binary Conversion.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Add Dots.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Middle letter.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Function multiply.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Double letters.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Divisible by 3.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Capital Indexes.md",
-    "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
@@ -192,13 +196,10 @@
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 4 – Lists.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Type Check.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Randomness.md",
-    "obsidian/Python Essentials/Code/SQL Brute Force.md",
     "obsidian/Python Essentials/Python Modules/URLlib.md",
     "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
     "obsidian/Python Essentials/Python Modules/Argparse.md",
     "obsidian/Python Essentials/Python Modules/Socket.md",
-    "obsidian/Extra/Bash/Bash.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL injection in different contexts.md",
     "obsidian/Python Essentials/IMG/Pasted image 20240629093445.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240629093410.png",
     "obsidian/Python Essentials/IMG/Pasted image 20240629090347.png",
@@ -217,7 +218,6 @@
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations",
     "obsidian/Python Essentials/IMG",
-    "obsidian/Extra/CyberMentor/Web App/Concepts",
     "obsidian/Extra/CyberMentor/Web App/Concepts"
   ]
 }
