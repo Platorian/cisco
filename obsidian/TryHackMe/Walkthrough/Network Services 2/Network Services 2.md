@@ -551,6 +551,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
 ```
 
 I don't think i'm not doing nmap correctly, so i'm leaving it for now.
+- Maybe i needed to add a wordlist, which would make sense.
 
 ---
 
