@@ -524,3 +524,84 @@ Integrity Checking the Suspicious SUID Binary
 ![[Pasted image 20240703044927.png]]
 
 The output above shows that the two binaries are identical, further enhancing our understanding of the attacker's actions to escalate to root.
+
+---
+### Commands
+
+```php
+sudo debsums -e -s
+```
+
+```php
+find / -perm -u=s -type f 2>/dev/null
+```
+
+
+---
+_Run the `debsums` utility on the compromised host to check only configuration files. Which file came back as altered?
+
+**/etc/sudoers**
+
+_What is the `md5sum` of the binary that the attacker created to escalate privileges to root?
+
+**7063c3930affe123baecd3b340f1ad2c**
+
+---
+
+### Rootkits
+
+A rootkit is a type of malicious set of tools or software designed to gain administrator-level control of a system while remaining undetected by the system or user. The term "rootkit" derives from "root", the highest-level user in Unix-based systems, and "kit", which typically refers to a set of tools used to maintain this access.
+
+Rootkits are particularly dangerous because they can hide their presence on a system and allow attackers to maintain long-term access without detection. Attackers can also use them to stage other malicious activities on the target, exfiltrate sensitive information, or command and control the compromised system remotely.
+
+Fortunately, we can use some automated tools on UNIX-based systems to help detect and remove rootkits.
+
+Chkrootkit
+
+[Chkrootkit (Check Rootkit)](https://www.chkrootkit.org/) is a popular Unix-based utility used to examine the filesystem for rootkits. It operates as a simple shell script, leveraging common Linux binaries like `grep` and `strings` to scan the core system programs to identify signatures. It can use the signatures from files, directories, and processes to compare the data and identify common patterns of known rootkits. As it does not perform an in-depth analysis, it is an excellent tool for a first-pass check to identify potential compromise, but it may not catch all types of rootkits.
+
+Additionally, modern rootkits might deliberately attempt to identify and target copies of the _chkrootkit_ program or adopt other strategies to evade its detection.
+
+We can access the _chkrootkit_ on the compromised system using our mounted binaries. We can perform a simple check by running `chkrootkit`:
+
+Chkrootkit Example
+
+![[Pasted image 20240703050905.png]]
+
+This scan will produce a large output, but it indicates the results of various checks for known rootkit-related files or patterns.
+
+RKHunter
+
+[RKHunter (Rootkit Hunter)](https://rkhunter.sourceforge.net/) is another helpful tool designed to detect and remove rootkits on Unix-like operating systems. It offers a more comprehensive and feature-rich rootkit detection check compared to _chkrootkit_. _RKHunter_ can compare SHA-1 hashes of core system files with known good ones in its database to search for common rootkit locations, wrong permissions, hidden files, and suspicious strings in kernel modules. It is an excellent choice for a more comprehensive assessment of the affected system.
+
+Because rkhunter leverages a live database of known rootkit signatures, checking for database updates (`rkhunter --update`) before running in the field is crucial. Because this system is isolated, we won't be able to run a database update here, but the latest version was acquired before mounting our tools to the system.
+
+To perform a simple scan with _rkhunter_, we can run the following command:
+
+Rkhunter Example
+
+ ![[Pasted image 20240703050932.png]]
+
+This check will take some time to run but we have bypassed the user interaction prompts with the `-sk` argument. Afterwards, you will receive a system check summary detailing what was found.
+
+---
+#### Commands
+
+```php
+sudo chkrootkit
+```
+
+```php
+sudo rkhunter -c -sk
+```
+
+---
+
+_Run _chkrootkit_ on the affected system. What is the full path of the `.sh` file that was detected?  
+
+**/var/tmp/findme.sh**
+
+_Run _rkhunter_ on the affected system. What is the result of the `(UID 0) accounts` check?
+
+**Warning**
+
