@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md"
+                "file": "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md"
               }
             }
           }
@@ -173,25 +173,35 @@
   },
   "active": "3013490957630182",
   "lastOpenFiles": [
+    "Pasted image 20240703032250.png",
+    "Pasted image 20240703032228.png",
+    "Pasted image 20240703032210.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703032144.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031956.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031937.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031908.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031840.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031818.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031752.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703031730.png",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG",
+    "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
+    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Monthly Expenses.md",
+    "README.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Palindrome.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Up Down.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Counting Syllables.md",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md",
     "obsidian/TryHackMe/Walkthrough/Network Services 2",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/IMG/Pasted image 20240702091309.png",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/IMG/Pasted image 20240702090643.png",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/IMG/Pasted image 20240702090325.png",
     "obsidian/TryHackMe/Walkthrough/Network Services 2/IMG",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/IMG/Pasted image 20240702084736.png",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 4 – Scopes in Python.md",
     "obsidian/TryHackMe/Walkthrough",
     "obsidian/TryHackMe",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
-    "obsidian/Python Essentials/IMG/Pasted image 20240701071934.png",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
-    "obsidian/Python Essentials/IMG/Pasted image 20240701054848.png",
-    "obsidian/Python Essentials/IMG/Pasted image 20240701053457.png",
     "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing",
     "obsidian/Python Essentials/Code/SQL Brute Force.md",
@@ -206,18 +216,8 @@
     "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 3 – Logic and bit operations in Python.md",
-    "obsidian/Python Essentials/IMG/Pasted image 20240629093445.png",
-    "obsidian/Python Essentials/IMG/Pasted image 20240629093410.png",
-    "obsidian/Python Essentials/IMG/Pasted image 20240629090347.png",
     "obsidian/Extra/Bash",
     "obsidian/Python Essentials/Python Modules",
-    "obsidian/Python Essentials/Code/Challenges/Begginer",
-    "obsidian/Python Essentials/Code/Challenges",
-    "obsidian/Python Essentials/Code"
+    "obsidian/Python Essentials/Code/Challenges/Begginer"
   ]
 }

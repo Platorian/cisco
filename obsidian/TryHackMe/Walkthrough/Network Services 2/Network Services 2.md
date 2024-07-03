@@ -278,7 +278,7 @@ This is a very simplified version of the process, and there are a lot of sub-pro
 
 [https://computer.howstuffworks.com/e-mail-messaging/email3.htm](https://computer.howstuffworks.com/e-mail-messaging/email3.htm)
 
-******What runs SMTP?******
+**What runs SMTP?**
 
 SMTP Server software is readily available on Windows server platforms, with many other variants of SMTP being available to run on Linux.  
 
@@ -552,6 +552,336 @@ Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
 
 I don't think i'm not doing nmap correctly, so i'm leaving it for now.
 - Maybe i needed to add a wordlist, which would make sense.
+- i don't think you can add a pass file
 
 ---
+
+**What do we know?**
+
+Okay, at the end of our Enumeration section we have a few vital pieces of information:
+
+1. A user account name  
+
+2. The type of SMTP server and Operating System running.
+
+We know from our port scan, that the only other open port on this machine is an SSH login. We're going to use this information to try and **bruteforce** the password of the SSH login for our user using Hydra.
+
+**Preparation**
+
+It's advisable that you exit Metasploit to continue the exploitation of this section of the room. Secondly, it's useful to keep a note of the information you gathered during the enumeration stage, to aid in the exploitation.  
+
+**Hydra**
+
+There is a wide array of customisability when it comes to using Hydra, and it allows for adaptive password attacks against of many different services, including SSH. Hydra comes by default on both Parrot and Kali, however if you need it, you can find the GitHub [here](https://github.com/vanhauser-thc/thc-hydra).
+
+Hydra uses dictionary attacks primarily, both Kali Linux and Parrot OS have many different wordlists in the "_/usr/share/wordlists_" directory- if you'd like to browse and find a different wordlists to the widely used "rockyou.txt". Likewise I recommend checking out SecLists for a wider array of other wordlists that are extremely useful for all sorts of purposes, other than just password cracking. E.g. subdomain enumeration  
+
+The syntax for the command we're going to use to find the passwords is this:
+
+**"hydra -t 16 -l USERNAME -P /usr/share/wordlists/rockyou.txt -vV 10.10.13.32 ssh"**
+
+Let's break it down:
+
+
+![[Pasted image 20240703011708.png]]
+
+_What is the password of the user we found during our enumeration stage?_
+
+**alejandro**
+
+_Great! Now, let's SSH into the server as the user, what is contents of smtp.txt_
+
+**THM{who_knew_email_servers_were_c00l?}**
+
+![[Pasted image 20240703011911.png]]
+
+---
+
+### MySQL
+
+**What is MySQL?**
+
+In its simplest definition, MySQL is a relational database management system (RDBMS) based on Structured Query Language (SQL). Too many acronyms? Let's break it down:
+
+**Database:**
+
+A database is simply a persistent, organised collection of structured data
+
+**RDBMS:**
+
+A software or service used to create and manage databases based on a relational model. The word "relational" just means that the data stored in the dataset is organised as tables. Every table relates in some way to each other's "primary key" or other "key" factors.  
+
+**SQL:**
+
+MYSQL is just a brand name for one of the most popular RDBMS software implementations. As we know, it uses a client-server model. But how do the client and server communicate? They use a language, specifically the Structured Query Language (SQL).  
+
+Many other products, such as PostgreSQL and Microsoft SQL server, have the word SQL in them. This similarly signifies that this is a product utilising the Structured Query Language syntax.  
+
+****How does MySQL work?****
+
+  
+MySQL, as an RDBMS, is made up of the server and utility programs that help in the administration of MySQL databases.
+
+The server handles all database instructions like creating, editing, and accessing data. It takes and manages these requests and communicates using the MySQL protocol. This whole process can be broken down into these stages:  
+
+1. MySQL creates a database for storing and manipulating data, defining the relationship of each table.
+2. Clients make requests by making specific statements in SQL.
+3. The server will respond to the client with whatever information has been requested.  
+    
+
+******What runs MySQL?******
+
+MySQL can run on various platforms, whether it's Linux or windows. It is commonly used as a back end database for many prominent websites and forms an essential component of the LAMP stack, which includes: Linux, Apache, MySQL, and PHP.
+
+**More Information:**
+
+Here are some resources that explain the technical implementation, and working of, MySQL in more detail than I have covered here:
+
+[https://dev.mysql.com/doc/dev/mysql-server/latest/PAGE_SQL_EXECUTION.html](https://dev.mysql.com/doc/dev/mysql-server/latest/PAGE_SQL_EXECUTION.html) 
+
+[https://www.w3schools.com/php/php_mysql_intro.asp](https://www.w3schools.com/php/php_mysql_intro.asp)
+
+---
+
+_What type of software is MySQL?_
+
+**relational database management system**
+
+_What language is MySQL based on?_
+
+**SQL**
+
+_What communication model does MySQL use?_ 
+
+**client-server**
+
+_What is a common application of MySQL?_ 
+
+**back end database**
+
+_What major social network uses MySQL as their back-end database? This will require further research._
+
+**Facebook**
+
+---
+
+### Enumerate SQL
+
+**Let's Get Started**
+
+Before we begin, make sure to deploy the room and give it some time to boot. Please be aware, as this can take up to five minutes, so be patient!
+
+**When you would begin attacking MySQL**
+
+MySQL is likely not going to be the first point of call when getting initial information about the server. You can, as we have in previous tasks, attempt to brute-force default account passwords if you really don't have any other information; however, in most CTF scenarios, this is unlikely to be the avenue you're meant to pursue.
+
+**The Scenario**  
+
+Typically, you will have gained some initial credentials from enumerating other services that you can then use to enumerate and exploit the MySQL service. As this room focuses on exploiting and enumerating the network service, for the sake of the scenario, we're going to assume that you found the **credentials: "root:password"** while enumerating subdomains of a web server. After trying the login against SSH unsuccessfully, you decide to try it against MySQL.
+
+**Requirements**
+
+You will want to have MySQL installed on your system to connect to the remote MySQL server. In case this isn't already installed, you can install it using `sudo apt install default-mysql-client`. Don't worry- this won't install the server package on your system- just the client.  
+
+Again, we're going to be using Metasploit for this; it's important that you have Metasploit installed, as it is by default on both Kali Linux and Parrot OS.
+
+**Alternatives**
+
+As with the previous task, it's worth noting that everything we will be doing using Metasploit can also be done either manually or with a set of non-Metasploit tools such as nmap's mysql-enum script: [https://nmap.org/nsedoc/scripts/mysql-enum.html](https://nmap.org/nsedoc/scripts/mysql-enum.html) or [https://www.exploit-db.com/exploits/23081](https://www.exploit-db.com/exploits/23081). I recommend that after you complete this room, you go back and attempt it manually to make sure you understand the process that is being used to display the information you acquire.
+
+Okay, enough talk. Let's get going!
+
+---
+#### nmap
+
+```php
+┌──(kali㉿kali)-[~]
+└─$ sudo nmap -sS -A -T4 10.10.14.213
+[sudo] password for kali: 
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-07-02 20:43 EDT
+Nmap scan report for 10.10.14.213
+Host is up (0.024s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 06:36:56:2f:f0:d4:a4:d2:ab:6a:43:3e:c0:f9:9b:2d (RSA)
+|   256 30:bd:be:28:bd:32:dc:f6:ff:28:b2:57:57:31:d9:cf (ECDSA)
+|_  256 f2:3b:82:4a:5c:d2:18:19:89:1f:cd:92:0a:c7:cf:65 (ED25519)
+3306/tcp open  mysql   MySQL 5.7.29-0ubuntu0.18.04.1
+| ssl-cert: Subject: commonName=MySQL_Server_5.7.29_Auto_Generated_Server_Certificate
+| Not valid before: 2020-04-23T10:13:27
+|_Not valid after:  2030-04-21T10:13:27
+|_ssl-date: TLS randomness does not represent time
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.29-0ubuntu0.18.04.1
+|   Thread ID: 3
+|   Capabilities flags: 65535
+|   Some Capabilities: LongPassword, SupportsCompression, Support41Auth, FoundRows, SwitchToSSLAfterHandshake, Speaks41ProtocolOld, SupportsTransactions, ConnectWithDatabase, IgnoreSigpipes, ODBCClient, DontAllowDatabaseTableColumn, InteractiveClient, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolNew, SupportsLoadDataLocal, LongColumnFlag, SupportsAuthPlugins, SupportsMultipleResults, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: JG\x1C5T3^v\x0E<wx_\x04_-\x08)d&
+|_  Auth Plugin Name: mysql_native_password
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=7/2%OT=22%CT=1%CU=35617%PV=Y%DS=2%DC=T%G=Y%TM=66849
+OS:EA6%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)O
+OS:PS(O1=M508ST11NW6%O2=M508ST11NW6%O3=M508NNT11NW6%O4=M508ST11NW6%O5=M508S
+OS:T11NW6%O6=M508ST11)WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)E
+OS:CN(R=Y%DF=Y%T=40%W=F507%O=M508NNSNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 1720/tcp)
+HOP RTT      ADDRESS
+1   26.33 ms 10.9.0.1
+2   26.38 ms 10.10.14.213
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.83 seconds
+
+```
+
+---
+
+_As always, let's start out with a port scan, so we know what port the service we're trying to attack is running on. What port is MySQL using?_  
+
+**3306**
+
+_Good, now- we think we have a set of credentials. Let's double check that by manually connecting to the MySQL server. We can do this using the command "_mysql -h [IP] -u [username] -p_"  
+
+```bash
+mysql -h [IP] -u [username] -p
+```
+
+![[Pasted image 20240703014705.png]]
+
+_Okay, we know that our login credentials work. Lets quit out of this session with "exit" and launch up Metasploit._ 
+
+_We're going to be using the "mysql_sql" module._
+
+
+_Search for, select and list the options it needs. What three options do we need to set? (in descending order)._  
+
+**PASSWORD/RHOSTS/USERNAME**
+
+_Run the exploit. By default it will test with the "select version()" command, what result does this give you?_  
+
+**5.7.29-0ubuntu0.18.04.1**
+
+_Great! We know that our exploit is landing as planned. Let's try to gain some more ambitious information. Change the "sql" option to "show databases". how many databases are returned?_
+
+**4**
+
+![[Pasted image 20240703020249.png]]
+
+---
+
+### Exploiting MySQL
+
+**What do we know?**
+
+Let's take a sanity check before moving on to try and exploit the database fully, and gain more sensitive information than just database names. We know:  
+
+1. MySQL server credentials  
+
+2. The version of MySQL running
+
+3. The number of Databases, and their names.
+
+**Key Terminology**
+
+In order to understand the exploits we're going to use next- we need to understand a few key terms.
+
+**Schema:**
+
+> In MySQL, physically, a _schema_ is synonymous with a _database_. You can substitute the keyword "SCHEMA" instead of DATABASE in MySQL SQL syntax, for example using CREATE SCHEMA instead of CREATE DATABASE. It's important to understand this relationship because some other database products draw a distinction. For example, in the Oracle Database product, a _schema_ represents only a part of a database: the tables and other objects owned by a single user.
+
+**Hashes:**  
+
+Hashes are, very simply, the product of a cryptographic algorithm to turn a variable length input into a fixed length output.
+
+In MySQL hashes can be used in different ways, for instance to index data into a hash table. Each hash has a unique ID that serves as a pointer to the original data. This creates an index that is significantly smaller than the original data, allowing the values to be searched and accessed more efficiently
+
+However, the data we're going to be extracting are password hashes which are simply a way of storing passwords not in plaintext format.
+
+Lets get cracking.
+
+---
+
+_First, let's search for and select the "mysql_schemadump" module. What's the module's full name?_  
+
+**auxiliary/scanner/mysql/mysql_schemadump**
+
+_Great! Now, you've done this a few times by now so I'll let you take it from here. Set the relevant options, run the exploit. What's the name of the last table that gets dumped?_  
+
+**x$waits_global_by_latency**
+
+_Awesome, you have now dumped the tables, and column names of the whole database. But we can do one better... search for and select the "mysql_hashdump" module. What's the module's full name?_
+
+**auxiliary/scanner/mysql/mysql_hashdump**
+
+_Again, I'll let you take it from here. Set the relevant options, run the exploit. What non-default user stands out to you?_  
+
+**Carl**
+
+![[Pasted image 20240703021313.png]]
+
+```php
+[+] 10.10.14.213:3306 - Saving HashString as Loot: root:
+[+] 10.10.14.213:3306 - Saving HashString as Loot: mysql.session:*THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE
+[+] 10.10.14.213:3306 - Saving HashString as Loot: mysql.sys:*THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE
+[+] 10.10.14.213:3306 - Saving HashString as Loot: debian-sys-maint:*D9C95B328FE46FFAE1A55A2DE5719A8681B2F79E
+[+] 10.10.14.213:3306 - Saving HashString as Loot: root:*2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19
+[+] 10.10.14.213:3306 - Saving HashString as Loot: carl:*EA031893AA21444B170FC2162A56978B8CEECE18
+[*] 10.10.14.213:3306 - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+```
+
+
+
+_Another user! And we have their password hash. This could be very interesting. Copy the hash string in full, like: bob:*HASH to a text file on your local machine called "hash.txt"._
+
+
+_What is the user/hash combination string?_  
+
+**carl:*EA031893AA21444B170FC2162A56978B8CEECE18**
+
+_Now, we need to crack the password! Let's try John the Ripper against it using: "_john hash.txt_" what is the password of the user we found?
+
+**carl:doggie**
+
+![[Pasted image 20240703024401.png]]
+
+_Awesome. Password reuse is not only extremely dangerous, but extremely common. What are the chances that this user has reused their password for a different service?_  
+
+_What's the contents of MySQL.txt_
+
+**THM{congratulations_you_got_the_mySQL_flag}**
+
+![[Pasted image 20240703024524.png]]
+
+---
+
+
+
+**Further Reading**
+
+Here's some things that might be useful to read after completing this room, if it interests you:
+
+-  [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/security_guide/ch-exploits](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/security_guide/ch-exploits)
+-  [https://www.nextgov.com/cybersecurity/2019/10/nsa-warns-vulnerabilities-multiple-vpn-services/160456/](https://www.nextgov.com/cybersecurity/2019/10/nsa-warns-vulnerabilities-multiple-vpn-services/160456/)  
+    
+
+**Thank you**  
+
+Thanks for taking the time to work through this room, I wish you the best of luck in future.
+
+~ Polo
 
