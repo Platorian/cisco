@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
+                "file": "obsidian/Kali/Tools/Website/WPScan.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
+                "file": "obsidian/Kali/Tools/Website/WPScan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
+                "file": "obsidian/Kali/Tools/Website/WPScan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md"
+                "file": "obsidian/Kali/Tools/Website/WPScan.md"
               }
             }
           }
@@ -171,8 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "3013490957630182",
   "lastOpenFiles": [
+    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
+    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/IMG",
+    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/IMG/Pasted image 20240704070601.png",
+    "README.md",
+    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow",
     "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/IMG",
     "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/IMG/Pasted image 20240704045814.png",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
@@ -188,12 +193,10 @@
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703044845.png",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703044807.png",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703042604.png",
-    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG/Pasted image 20240703042520.png",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG",
     "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Monthly Expenses.md",
-    "README.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Palindrome.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Up Down.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md",
@@ -206,7 +209,6 @@
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing",
     "obsidian/Python Essentials/Code/SQL Brute Force.md",
     "obsidian/Extra/Binary Conversion.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Online Status.md",
@@ -215,9 +217,6 @@
     "obsidian/Python Essentials/Code/Challenges/Begginer/Function multiply.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Double letters.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Divisible by 3.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Capital Indexes.md",
-    "obsidian/Python Essentials/Module 3. Boolean Values, Conditional Execution, Loops, Lists, Logical and Bitwise Operations/Section 1 – Making decisions in Python.md",
-    "obsidian/Extra/Bash",
-    "obsidian/Python Essentials/Python Modules"
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Capital Indexes.md"
   ]
 }
