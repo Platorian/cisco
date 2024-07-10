@@ -20,19 +20,19 @@
             }
           },
           {
-            "id": "68cd546272b3ea5f",
+            "id": "bbf0859b425493a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Website/WPScan.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bbf0859b425493a4",
+            "id": "3a7607374cae69b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md"
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
               }
             }
           }
@@ -171,32 +171,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "bbf0859b425493a4",
   "lastOpenFiles": [
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710112058.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "README.md",
+    "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710172251.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710170635.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710165758.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710163625.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710162947.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710162308.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710162106.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710161609.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710154546.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710154424.png",
+    "obsidian/Kali/Tools/Cracking/Hydra.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/TryHackMe/Walkthrough/SQLmap/Sqlmap.md",
-    "obsidian/Kali/Tools/Cracking/Hydra.md",
     "obsidian/Kali/Tools/Website/GoBuster.md",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710104850.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710103810.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710103720.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710103610.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710103220.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710103158.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710103108.png",
     "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
     "obsidian/TryHackMe/CTF/mKingdom-ff/IMG",
     "obsidian/TryHackMe/CTF/mKingdom-ff",
     "obsidian/TryHackMe/CTF",
-    "obsidian/TryHackMe/Walkthrough/SQLmap/IMG/Pasted image 20240710085334.png",
-    "obsidian/TryHackMe/Walkthrough/SQLmap/IMG/Pasted image 20240710081234.png",
-    "obsidian/TryHackMe/Walkthrough/SQLmap/IMG/Pasted image 20240710081148.png",
     "obsidian/TryHackMe/Walkthrough/SQLmap/IMG",
     "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
     "obsidian/TryHackMe/Walkthrough/SQLmap",
-    "README.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/IMG",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow",
@@ -206,7 +209,6 @@
     "obsidian/Python Essentials/Final Project.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 4 – Scopes in Python.md",
-    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/IMG",
     "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Monthly Expenses.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Palindrome.md",
@@ -216,8 +218,6 @@
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
-    "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Python Essentials/Code/SQL Brute Force.md",
-    "obsidian/Extra/Binary Conversion.md"
+    "obsidian/Python Essentials/Cheat Sheet.md"
   ]
 }
