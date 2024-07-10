@@ -171,9 +171,9 @@ python -c "import pty; pty.spawn('/bin/bash')"
 - Run one (1) of the below commands to upgrade your shell:
 
 ```
-$ python -c "import pty; pty.spawn('/bin/bash')"
-$ ruby -e "exec '/bin/bash'"
-$ perl -e "exec '/bin/bash';"
+python -c "import pty; pty.spawn('/bin/bash')"
+ruby -e "exec '/bin/bash'"
+perl -e "exec '/bin/bash';"
 ```
 
 - Now, background it
