@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
+              }
             }
           }
         ]
@@ -151,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ef7d19aeb26bc91",
+  "active": "bbf0859b425493a4",
   "lastOpenFiles": [
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/TryHackMe/CTF/Anthem/write-up.md",
