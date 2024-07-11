@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0ef7d19aeb26bc91",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,30 +151,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbf0859b425493a4",
+  "active": "0ef7d19aeb26bc91",
   "lastOpenFiles": [
-    "README.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/TryHackMe/CTF/Anthem/write-up.md",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711113533.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711113248.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711110512.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711105258.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711103927.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711101009.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711100834.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711095915.png",
+    "obsidian/TryHackMe/CTF/Anthem/nmap.md",
+    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711094147.png",
+    "obsidian/TryHackMe/CTF/Anthem/IMG",
+    "obsidian/TryHackMe/CTF/Anthem",
+    "README.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/write-up.md",
     "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711075700.png",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711075503.png",
     "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711073004.png",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711064129.png",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711062227.png",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711061228.png",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711055302.png",
     "obsidian/TryHackMe/CTF/opacity/Notes/gobuster.md",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711051515.png",
     "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/nmap.md",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711045329.png",
     "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
     "obsidian/TryHackMe/CTF/opacity/Notes",
     "obsidian/TryHackMe/CTF/opacity/opacity notes.md",
     "obsidian/TryHackMe/CTF/opacity/IMG",
     "obsidian/TryHackMe/CTF/opacity",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240711044125.png",
     "obsidian/Kali/Tools/Website/wfuzz.md",
     "obsidian/Kali/Tools/ffuf.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
@@ -183,15 +192,11 @@
     "obsidian/TryHackMe/CTF",
     "obsidian/TryHackMe/Walkthrough/SQLmap/IMG",
     "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
-    "obsidian/TryHackMe/Walkthrough/SQLmap",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/IMG",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
     "obsidian/Python Essentials/Final Project.md",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 4 – Scopes in Python.md",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Monthly Expenses.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Palindrome.md"
+    "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md"
   ]
 }
