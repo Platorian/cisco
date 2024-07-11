@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c3739c629c08f44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bbf0859b425493a4",
             "type": "leaf",
             "state": {
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3a7607374cae69b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,26 +148,35 @@
   },
   "active": "bbf0859b425493a4",
   "lastOpenFiles": [
-    "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "README.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/TryHackMe/CTF/opacity/Notes/write-up.md",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711075700.png",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711075503.png",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711073004.png",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711064129.png",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711062227.png",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711061228.png",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711055302.png",
+    "obsidian/TryHackMe/CTF/opacity/Notes/gobuster.md",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711051515.png",
+    "obsidian/Kali/Tools/Website/GoBuster.md",
+    "obsidian/TryHackMe/CTF/opacity/Notes/nmap.md",
+    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711045329.png",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
+    "obsidian/TryHackMe/CTF/opacity/Notes",
+    "obsidian/TryHackMe/CTF/opacity/opacity notes.md",
+    "obsidian/TryHackMe/CTF/opacity/IMG",
+    "obsidian/TryHackMe/CTF/opacity",
+    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240711044125.png",
+    "obsidian/Kali/Tools/Website/wfuzz.md",
+    "obsidian/Kali/Tools/ffuf.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
     "obsidian/Kali/Tools/Post Exploitation/File Transfer",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710172251.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710170635.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710165758.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710163625.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710162947.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710162308.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710162106.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710161609.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710154546.png",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG/Pasted image 20240710154424.png",
     "obsidian/Kali/Tools/Cracking/Hydra.md",
     "obsidian/Kali/Tools/Website/WPScan.md",
     "obsidian/TryHackMe/Walkthrough/SQLmap/Sqlmap.md",
-    "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
     "obsidian/TryHackMe/CTF/mKingdom-ff/IMG",
     "obsidian/TryHackMe/CTF/mKingdom-ff",
@@ -202,22 +186,12 @@
     "obsidian/TryHackMe/Walkthrough/SQLmap",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/IMG",
-    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow",
-    "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/IMG",
     "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
     "obsidian/Python Essentials/Final Project.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass",
     "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 4 – Scopes in Python.md",
     "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Monthly Expenses.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Palindrome.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Up Down.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Min-Maxing.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Counting Syllables.md",
-    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 3 – Returning a result from a function.md",
-    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 2 – How functions communicate with their environment.md",
-    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 1 – Functions.md",
-    "obsidian/Python Essentials/Cheat Sheet.md"
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Palindrome.md"
   ]
 }

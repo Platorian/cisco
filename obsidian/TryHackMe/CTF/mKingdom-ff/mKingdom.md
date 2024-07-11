@@ -285,5 +285,7 @@ I setup the servers:
 
 I got a 404 so i've tried to move back out of the app directory which worked. I also noticed i had forgot the bin/bash tag on my script.
 
+Small error in script, changed : for a / in the address. Now we get root:
 
+![[Pasted image 20240711044125.png]]
 
