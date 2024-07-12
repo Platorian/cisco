@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Extra/Table whitespace character.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
+                "file": "obsidian/Extra/Table whitespace character.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
+                "file": "obsidian/Extra/Table whitespace character.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md"
+                "file": "obsidian/Extra/Table whitespace character.md"
               }
             }
           }
@@ -159,9 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbf0859b425493a4",
+  "active": "0ef7d19aeb26bc91",
   "lastOpenFiles": [
+    "obsidian/Extra/Emacs/Emacs.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Extra/Emacs",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
     "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712121729.png",
     "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712121301.png",
@@ -176,7 +178,6 @@
     "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101736.png",
     "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101444.png",
     "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101343.png",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712084348.png",
     "obsidian/TryHackMe/CTF/Jack of all trades/notes/nmap.md",
     "obsidian/TryHackMe/CTF/Jack of all trades/notes/gobuster.md",
@@ -194,7 +195,6 @@
     "obsidian/TryHackMe/CTF/Anthem/write-up.md",
     "obsidian/TryHackMe/CTF/Anthem/nmap.md",
     "obsidian/TryHackMe/CTF/Anthem/IMG",
-    "obsidian/TryHackMe/CTF/Anthem",
     "README.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/write-up.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/gobuster.md",
