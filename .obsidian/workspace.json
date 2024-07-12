@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbf0859b425493a4",
+            "id": "0ef7d19aeb26bc91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,14 +20,19 @@
             }
           },
           {
-            "id": "0ef7d19aeb26bc91",
+            "id": "bbf0859b425493a4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
+                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md"
               }
             }
           }
@@ -154,9 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbf0859b425493a4",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712064722.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Kali/Tools/Website/GoBuster.md",
+    "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
+    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712064450.png",
+    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712064049.png",
+    "obsidian/TryHackMe/CTF/Ignite/Notes/gobuster.md",
+    "obsidian/TryHackMe/CTF/Ignite/Notes/nmap.md",
+    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712053526.png",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+    "obsidian/TryHackMe/CTF/Ignite/Notes",
+    "obsidian/TryHackMe/CTF/Ignite/IMG",
+    "obsidian/TryHackMe/CTF/Ignite",
     "obsidian/TryHackMe/CTF/Anthem/write-up.md",
     "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711113533.png",
     "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711113248.png",
@@ -165,17 +184,12 @@
     "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711103927.png",
     "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711101009.png",
     "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711100834.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711095915.png",
     "obsidian/TryHackMe/CTF/Anthem/nmap.md",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711094147.png",
     "obsidian/TryHackMe/CTF/Anthem/IMG",
     "obsidian/TryHackMe/CTF/Anthem",
     "README.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/write-up.md",
-    "obsidian/TryHackMe/CTF/opacity/IMG/Pasted image 20240711075700.png",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/gobuster.md",
-    "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/nmap.md",
     "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
     "obsidian/TryHackMe/CTF/opacity/Notes",
@@ -191,15 +205,7 @@
     "obsidian/TryHackMe/Walkthrough/SQLmap/Sqlmap.md",
     "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
     "obsidian/TryHackMe/CTF/mKingdom-ff/IMG",
-    "obsidian/TryHackMe/CTF/mKingdom-ff",
-    "obsidian/TryHackMe/CTF",
-    "obsidian/TryHackMe/Walkthrough/SQLmap/IMG",
     "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
-    "obsidian/TryHackMe/Walkthrough/Linux File System Analysis/Linux File System Analysis.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
-    "obsidian/Python Essentials/Final Project.md",
-    "obsidian/Python Essentials/Module 4. Functions, Tuples, Dictionaries, Exceptions, and Data Processing/Section 4 – Scopes in Python.md",
-    "obsidian/TryHackMe/Walkthrough/Network Services 2/Network Services 2.md"
+    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md"
   ]
 }
