@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
+                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
+                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
+                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md"
+                "file": "obsidian/TryHackMe/CTF/Anonforce/write-up.md"
               }
             }
           }
@@ -159,31 +159,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "bbf0859b425493a4",
   "lastOpenFiles": [
-    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712064722.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/Kali/Tools/Website/GoBuster.md",
+    "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712121729.png",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712121301.png",
+    "obsidian/TryHackMe/CTF/Jack of all trades/notes/write-up.md",
     "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
-    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712064450.png",
-    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712064049.png",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712120612.png",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712120220.png",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712120059.png",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG/Pasted image 20240712115513.png",
+    "obsidian/TryHackMe/CTF/Anonforce/IMG",
+    "obsidian/TryHackMe/CTF/Anonforce",
+    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101736.png",
+    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101444.png",
+    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101343.png",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712084348.png",
+    "obsidian/TryHackMe/CTF/Jack of all trades/notes/nmap.md",
+    "obsidian/TryHackMe/CTF/Jack of all trades/notes/gobuster.md",
+    "obsidian/TryHackMe/CTF/Jack of all trades/notes",
+    "obsidian/TryHackMe/CTF/Jack of all trades/IMG",
+    "obsidian/TryHackMe/CTF/Jack of all trades",
+    "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/TryHackMe/CTF/Ignite/Notes/gobuster.md",
     "obsidian/TryHackMe/CTF/Ignite/Notes/nmap.md",
-    "obsidian/TryHackMe/CTF/Ignite/IMG/Pasted image 20240712053526.png",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/TryHackMe/CTF/Ignite/Notes",
     "obsidian/TryHackMe/CTF/Ignite/IMG",
     "obsidian/TryHackMe/CTF/Ignite",
     "obsidian/TryHackMe/CTF/Anthem/write-up.md",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711113533.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711113248.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711110512.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711105258.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711103927.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711101009.png",
-    "obsidian/TryHackMe/CTF/Anthem/IMG/Pasted image 20240711100834.png",
     "obsidian/TryHackMe/CTF/Anthem/nmap.md",
     "obsidian/TryHackMe/CTF/Anthem/IMG",
     "obsidian/TryHackMe/CTF/Anthem",
@@ -192,20 +200,11 @@
     "obsidian/TryHackMe/CTF/opacity/Notes/gobuster.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/nmap.md",
     "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
-    "obsidian/TryHackMe/CTF/opacity/Notes",
     "obsidian/TryHackMe/CTF/opacity/opacity notes.md",
-    "obsidian/TryHackMe/CTF/opacity/IMG",
-    "obsidian/TryHackMe/CTF/opacity",
     "obsidian/Kali/Tools/Website/wfuzz.md",
     "obsidian/Kali/Tools/ffuf.md",
     "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer",
     "obsidian/Kali/Tools/Cracking/Hydra.md",
-    "obsidian/Kali/Tools/Website/WPScan.md",
-    "obsidian/TryHackMe/Walkthrough/SQLmap/Sqlmap.md",
-    "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/IMG",
-    "obsidian/Extra/CyberMentor/Web App/Input validation, and more XSS.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md"
+    "obsidian/Kali/Tools/Website/WPScan.md"
   ]
 }
