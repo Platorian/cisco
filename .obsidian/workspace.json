@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md"
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
               }
             }
           }
@@ -171,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "0ef7d19aeb26bc91",
   "lastOpenFiles": [
     "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/IMG/Pasted image 20240713170632.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/write-up.md",
