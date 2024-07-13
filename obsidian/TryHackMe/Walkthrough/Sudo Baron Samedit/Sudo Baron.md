@@ -15,6 +15,10 @@ So, first up, what can we do to check whether a system is vulnerable?
 Fortunately there is a very easy method we can use to check; simply enter this command into a terminal:  
 `sudoedit -s '\' $(python3 -c 'print("A"*1000)')`  
 
+```php
+sudoedit -s '\' $(python3 -c 'print("A"*1000)')
+```
+
 If the system is vulnerable then this will overwrite the heap buffer and crash the program:  
 ![](https://assets.muirlandoracle.co.uk/thm/rooms/sudovulnssamedit/c32e7007f934.png)
 
