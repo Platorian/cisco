@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Git Install/Git Install.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/Git Install/Git Install.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/Git Install/Git Install.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/Git Install/Git Install.md"
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
               }
             }
           }
@@ -172,8 +172,8 @@
   },
   "active": "0ef7d19aeb26bc91",
   "lastOpenFiles": [
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/Git Install/Git Install.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/Git Install",
     "obsidian/Kali/Recon/Pasted image 20240713181750.png",
     "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/IMG/Pasted image 20240713170632.png",
