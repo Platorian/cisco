@@ -44,7 +44,13 @@ git push origin main
 
 -the format is: git remote set-url origin `https://<token>@github.com/<username>/<repo>`
 
-git remote set-url origin https://
+# Token expired
+
+**Make sure you're in the correct dir**
+
+```bash
+git remote set-url origin https://<TOKEN>@github.com/<USER>/<REPO> 
+```
 
 # list branch
 git branch -av
