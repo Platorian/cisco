@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Extra/Git Install/Git Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Extra/Git Install/Git Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Extra/Git Install/Git Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
+                "file": "obsidian/Extra/Git Install/Git Install.md"
               }
             }
           }
@@ -170,8 +170,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "0ef7d19aeb26bc91",
   "lastOpenFiles": [
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Extra/Git Install/Git Install.md",
+    "obsidian/Extra/Git Install",
     "obsidian/Kali/Recon/Pasted image 20240713181750.png",
     "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/IMG/Pasted image 20240713170632.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/write-up.md",
@@ -180,7 +183,6 @@
     "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493",
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713113142.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713113041.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713112420.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713111106.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713110520.png",
@@ -189,7 +191,6 @@
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713103740.png",
     "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713101610.png",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713101312.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/nmap.md",
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
     "obsidian/TryHackMe/CTF/Capture/Write-up.md",
@@ -203,7 +204,6 @@
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847",
     "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/IMG",
-    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit",
     "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
     "obsidian/Extra/Table whitespace character.md",
     "obsidian/Extra/Emacs/Emacs.md",
