@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Table whitespace character.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/Table whitespace character.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/Table whitespace character.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/Table whitespace character.md"
+                "file": "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md"
               }
             }
           }
@@ -160,6 +160,19 @@
   },
   "active": "0ef7d19aeb26bc91",
   "lastOpenFiles": [
+    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/IMG/Pasted image 20240713062758.png",
+    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/IMG/Pasted image 20240713055944.png",
+    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
+    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
+    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/IMG",
+    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847",
+    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/IMG/Pasted image 20240713045613.png",
+    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/IMG/Pasted image 20240713045116.png",
+    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
+    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/IMG",
+    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit",
+    "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
+    "obsidian/Extra/Table whitespace character.md",
     "obsidian/Extra/Emacs/Emacs.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/Emacs",
@@ -176,9 +189,6 @@
     "obsidian/TryHackMe/CTF/Anonforce/IMG",
     "obsidian/TryHackMe/CTF/Anonforce",
     "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101736.png",
-    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101444.png",
-    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712101343.png",
-    "obsidian/TryHackMe/CTF/Jack of all trades/IMG/Pasted image 20240712084348.png",
     "obsidian/TryHackMe/CTF/Jack of all trades/notes/nmap.md",
     "obsidian/TryHackMe/CTF/Jack of all trades/notes/gobuster.md",
     "obsidian/TryHackMe/CTF/Jack of all trades/notes",
@@ -189,22 +199,12 @@
     "obsidian/TryHackMe/CTF/Ignite/Notes/nmap.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/TryHackMe/CTF/Ignite/Notes",
-    "obsidian/TryHackMe/CTF/Ignite/IMG",
-    "obsidian/TryHackMe/CTF/Ignite",
     "obsidian/TryHackMe/CTF/Anthem/write-up.md",
     "obsidian/TryHackMe/CTF/Anthem/nmap.md",
-    "obsidian/TryHackMe/CTF/Anthem/IMG",
     "README.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/write-up.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/gobuster.md",
     "obsidian/TryHackMe/CTF/opacity/Notes/nmap.md",
-    "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md",
-    "obsidian/TryHackMe/CTF/opacity/opacity notes.md",
-    "obsidian/Kali/Tools/Website/wfuzz.md",
-    "obsidian/Kali/Tools/ffuf.md",
-    "obsidian/Kali/Tools/Post Exploitation/Windows Tools/Powersploit.md",
-    "obsidian/Kali/Tools/Cracking/Hydra.md",
-    "obsidian/Kali/Tools/Website/WPScan.md"
+    "obsidian/TryHackMe/CTF/mKingdom-ff/mKingdom.md"
   ]
 }
