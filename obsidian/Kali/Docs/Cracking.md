@@ -171,8 +171,8 @@ hashcat -m <hash type mode> -a <attack mode> <hash file> <path to wordlist>
 
 * Salted Hashes
 
-| type | hash                   |
-|:---- |:---------------------- |
+| type | hash                     |
+| :--- | :----------------------- |
 | 10   | MD5 \(\$pass.\$salt\)    |
 | 20   | MD5 \(\$salt.\$pass\)    |
 | 110  | SHA1 \(\$pass.\$salt\)   |

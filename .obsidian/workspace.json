@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a21a6b83247b4416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0ef7d19aeb26bc91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Cracking.md",
+                "file": "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bbf0859b425493a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa0b35f06cba4f90",
+            "id": "2a88d8592a9b6003",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/Cracking.md",
+                "file": "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/Cracking.md",
+                "file": "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/Cracking.md"
+                "file": "obsidian/TryHackMe/CTF/Creative/Write-Up.md"
               }
             }
           }
@@ -170,10 +171,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ef7d19aeb26bc91",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Networking/Subnet.md",
+    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714084142.png",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
+    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714074750.png",
+    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714074246.png",
+    "obsidian/TryHackMe/CTF/Creative/Nmap.md",
+    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714073235.png",
+    "obsidian/Kali/Docs/IMG/Pasted image 20240714072403.png",
+    "obsidian/TryHackMe/CTF/Intermediate Nmap/Write-Up.md",
+    "obsidian/TryHackMe/CTF/Creative/IMG",
+    "obsidian/TryHackMe/CTF/Creative",
+    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
+    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
+    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
+    "obsidian/TryHackMe/CTF/Intermediate Nmap/Nmap.md",
+    "obsidian/TryHackMe/CTF/Intermediate Nmap/IMG",
+    "obsidian/TryHackMe/CTF/Intermediate Nmap",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG/Pasted image 20240714042502.png",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG/Pasted image 20240714042303.png",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG/Pasted image 20240714040959.png",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG/Pasted image 20240714040755.png",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG",
+    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034",
+    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/IMG/Pasted image 20240714035758.png",
+    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/IMG/Pasted image 20240714035547.png",
+    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
+    "obsidian/Extra/Binary Conversion.md",
+    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/IMG",
+    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560",
     "obsidian/Kali/Docs/Cracking.md",
+    "obsidian/Kali/Docs/Networking/Subnet.md",
     "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Kali/Docs/Cisco Lab.md",
@@ -181,42 +212,12 @@
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/Kali/Docs/Networking",
     "obsidian/Kali/Tools/ffuf.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/Git Install/Git Install.md",
     "obsidian/Extra/Git Install",
-    "obsidian/Kali/Recon/Pasted image 20240713181750.png",
-    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/IMG/Pasted image 20240713170632.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/write-up.md",
-    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
-    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/IMG",
-    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713113142.png",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713113041.png",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713112420.png",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713111106.png",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713110520.png",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713110122.png",
-    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713103740.png",
     "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG/Pasted image 20240713101610.png",
     "obsidian/TryHackMe/CTF/Chocolate Factory/nmap.md",
-    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
     "obsidian/TryHackMe/CTF/Capture/Write-up.md",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/IMG",
-    "obsidian/TryHackMe/CTF/Chocolate Factory",
-    "obsidian/TryHackMe/CTF/Capture/nmap.md",
-    "obsidian/TryHackMe/CTF/Anonforce/write-up.md",
-    "obsidian/TryHackMe/CTF/Capture/IMG",
-    "obsidian/TryHackMe/CTF/Capture",
-    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/IMG",
-    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847",
-    "obsidian/TryHackMe/Walkthrough/Sudo Buffer Overflow/Sudo Buffer Overflow.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Vulns Bypass/Sudo Security Bypass.md",
-    "obsidian/Extra/Table whitespace character.md",
-    "obsidian/Extra/Emacs/Emacs.md",
-    "obsidian/TryHackMe/CTF/Jack of all trades/notes/write-up.md",
-    "obsidian/TryHackMe/CTF/Ignite/Notes/wirte-up.md",
-    "obsidian/TryHackMe/CTF/Jack of all trades/notes/nmap.md"
+    "obsidian/TryHackMe/CTF/Capture/nmap.md"
   ]
 }
