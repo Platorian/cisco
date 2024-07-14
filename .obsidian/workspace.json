@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
+                "file": "obsidian/Python Essentials/Cheat Sheet.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
     "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
@@ -179,7 +180,6 @@
     "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
     "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/Kali/Docs/Cracking.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Extra/Bash/Bash.md",
     "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
