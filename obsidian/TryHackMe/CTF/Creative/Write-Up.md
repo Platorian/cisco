@@ -189,6 +189,7 @@ Still using the same method i get the user flag:
 **9a1ce90a7653d74ab98630b47b8b4a84**
 
 I managed to pull the private id_rsa key and added it to a text file on my machine.
+- Had to get the key through burp so it kept it's original form so you could copy paste.
 
 ![[Pasted image 20240714105131.png]]
 
