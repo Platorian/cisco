@@ -180,3 +180,29 @@ hashcat -m <hash type mode> -a <attack mode> <hash file> <path to wordlist>
 | 1420 | SHA256 \(\$salt.\$pass\) |
 | 1710 | SHA512 \(\$pass.\$salt\) |
 | 1720 | SHA512 \(\$salt.\$pass\) |
+
+```php
+hashcat -m 1710 -a 0 "<PASS>:<SALT>" --wordlist=/usr/share/wordlists/rockyou.txt
+```
+
+- May need to add `--force`
+- `hashcat --show` (try adding all of this to one command)
+- Untested... 
+
+---
+
+### Md5sum
+
+Encode
+```php
+echo -n '0' | md5sum 
+```
+
+- If you don't add `-n` it will include the 0 in the md5 hash
+
+### Base64
+
+Decode
+```php
+echo '<b64>' | base64 -d
+```
