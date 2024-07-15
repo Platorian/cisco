@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Cheat Sheet.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Cheat Sheet.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Cheat Sheet.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Cheat Sheet.md"
+                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md"
               }
             }
           }
@@ -170,29 +171,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a21a6b83247b4416",
+  "active": "2a88d8592a9b6003",
   "lastOpenFiles": [
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060226.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060027.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055811.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055701.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715053112.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715052853.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050405.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050301.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050218.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050131.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050031.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/Intro to Log Analysis.md",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs",
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
+    "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/IMG",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
     "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
     "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/Kali/Docs/Cracking.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Extra/Bash/Bash.md",
     "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714112418.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714110155.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714105230.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714105131.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714102639.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714102009.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714101538.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714094850.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714085755.png",
-    "obsidian/TryHackMe/CTF/Creative/IMG/Pasted image 20240714084142.png",
     "obsidian/TryHackMe/CTF/Creative/Nmap.md",
     "obsidian/TryHackMe/CTF/Intermediate Nmap/Write-Up.md",
     "obsidian/TryHackMe/CTF/Creative/IMG",
@@ -203,20 +212,12 @@
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG",
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034",
     "obsidian/Extra/Binary Conversion.md",
-    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/IMG",
-    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560",
     "obsidian/Kali/Docs/Networking/Subnet.md",
     "obsidian/Kali/Docs/Reverse Shells.md",
     "obsidian/Kali/Docs/Cisco Lab.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Kali/Docs/Networking",
     "obsidian/Kali/Tools/ffuf.md",
-    "obsidian/Extra/Git Install/Git Install.md",
-    "obsidian/Extra/Git Install",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/write-up.md",
-    "obsidian/TryHackMe/CTF/Chocolate Factory/nmap.md",
-    "obsidian/TryHackMe/CTF/Capture/Write-up.md",
-    "obsidian/TryHackMe/CTF/Capture/nmap.md"
+    "obsidian/Extra/Git Install/Git Install.md"
   ]
 }
