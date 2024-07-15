@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
+                "file": "obsidian/TryHackMe/CTF/Wreath/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md"
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
               }
             }
           }
@@ -171,19 +170,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "a21a6b83247b4416",
   "lastOpenFiles": [
+    "obsidian/TryHackMe/CTF/Wreath/Notes.md",
+    "obsidian/Python Essentials/Final Project.md",
+    "obsidian/TryHackMe/CTF/Wreath/IMG",
+    "obsidian/TryHackMe/CTF/Wreath",
+    "obsidian/Python Essentials/Cheat Sheet.md",
+    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
+    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
+    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
+    "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715095538.png",
     "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715092117.png",
-    "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
-    "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
     "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715091005.png",
     "obsidian/TryHackMe/CTF/CyberHeroes/CyberHeroes.md",
     "obsidian/TryHackMe/CTF/Bugged/IMG/Untitled",
     "obsidian/TryHackMe/CTF/Bugged/IMG",
     "obsidian/TryHackMe/CTF/Bugged",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715080858.png",
     "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715080123.png",
     "obsidian/Kali/Tools/Ettercap.md",
@@ -198,26 +208,15 @@
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060226.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060027.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055811.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055701.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/Intro to Log Analysis.md",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs",
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
     "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/IMG",
-    "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis",
-    "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
     "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
     "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
     "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
-    "obsidian/Kali/Docs/Cracking.md",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
-    "obsidian/Extra/Bash/Bash.md",
-    "obsidian/TryHackMe/CTF/Creative/Write-Up.md",
-    "obsidian/TryHackMe/CTF/Creative/Nmap.md",
-    "obsidian/TryHackMe/CTF/Intermediate Nmap/Write-Up.md",
-    "obsidian/TryHackMe/CTF/Creative/IMG",
-    "obsidian/TryHackMe/CTF/Intermediate Nmap/Nmap.md",
-    "obsidian/Extra/Binary Conversion.md"
+    "obsidian/Kali/Docs/Cracking.md"
   ]
 }
