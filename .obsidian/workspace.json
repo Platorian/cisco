@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/CTF/Wreath/Notes.md",
+                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
+                "file": "obsidian/Kali/Docs/OSCP/YACS.md"
               }
             }
           }
@@ -170,12 +171,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a21a6b83247b4416",
+  "active": "2a88d8592a9b6003",
   "lastOpenFiles": [
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/Kali/Docs/OSCP",
+    "obsidian/Kali/Docs/CTF/CTF Resources.md",
+    "obsidian/TryHackMe/CTF/Wreath/Notes.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/TryHackMe/CTF/Wreath/Notes.md",
     "obsidian/Python Essentials/Final Project.md",
     "obsidian/TryHackMe/CTF/Wreath/IMG",
     "obsidian/TryHackMe/CTF/Wreath",
@@ -212,11 +216,8 @@
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs",
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
-    "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/IMG",
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
     "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
-    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md",
-    "obsidian/TryHackMe/Walkthrough/Sudo Baron Samedit/Sudo Baron.md",
-    "obsidian/Kali/Docs/Cracking.md"
+    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md"
   ]
 }
