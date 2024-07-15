@@ -20,31 +20,31 @@
             }
           },
           {
-            "id": "0ef7d19aeb26bc91",
+            "id": "2a88d8592a9b6003",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2a88d8592a9b6003",
+            "id": "0ef7d19aeb26bc91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
+                "file": "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
+                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
+                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md"
+                "file": "obsidian/TryHackMe/CTF/Bugged/Bugged.md"
               }
             }
           }
@@ -171,28 +171,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a88d8592a9b6003",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715095538.png",
+    "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715092117.png",
+    "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
+    "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
+    "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715091005.png",
+    "obsidian/TryHackMe/CTF/CyberHeroes/CyberHeroes.md",
+    "obsidian/TryHackMe/CTF/Bugged/IMG/Untitled",
+    "obsidian/TryHackMe/CTF/Bugged/IMG",
+    "obsidian/TryHackMe/CTF/Bugged",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+    "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715080858.png",
+    "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715080123.png",
+    "obsidian/Kali/Tools/Ettercap.md",
+    "obsidian/Kali/Tools/ffuf.md",
+    "obsidian/Kali/Tools/Website/WPScan.md",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715075003.png",
+    "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
+    "obsidian/TryHackMe/CTF/CyberHeroes/IMG",
+    "obsidian/TryHackMe/CTF/CyberHeroes",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715063735.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060226.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060027.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055811.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055701.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715053112.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715052853.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050405.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050301.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050218.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715050131.png",
     "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/Intro to Log Analysis.md",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG",
     "obsidian/TryHackMe/Walkthrough/Intro to Logs",
     "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
     "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/IMG",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
     "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
@@ -205,19 +217,7 @@
     "obsidian/TryHackMe/CTF/Creative/Nmap.md",
     "obsidian/TryHackMe/CTF/Intermediate Nmap/Write-Up.md",
     "obsidian/TryHackMe/CTF/Creative/IMG",
-    "obsidian/TryHackMe/CTF/Creative",
     "obsidian/TryHackMe/CTF/Intermediate Nmap/Nmap.md",
-    "obsidian/TryHackMe/CTF/Intermediate Nmap/IMG",
-    "obsidian/TryHackMe/CTF/Intermediate Nmap",
-    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/IMG",
-    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034",
-    "obsidian/Extra/Binary Conversion.md",
-    "obsidian/Kali/Docs/Networking/Subnet.md",
-    "obsidian/Kali/Docs/Reverse Shells.md",
-    "obsidian/Kali/Docs/Cisco Lab.md",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Kali/Tools/ffuf.md",
-    "obsidian/Extra/Git Install/Git Install.md"
+    "obsidian/Extra/Binary Conversion.md"
   ]
 }
