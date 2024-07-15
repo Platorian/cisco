@@ -441,3 +441,120 @@ Log analysis involves Parsing, Normalisation, Sorting, Classification, Enrichmen
 |![Image Representation of Log Visualisation](https://tryhackme-images.s3.amazonaws.com/user-uploads/63da722f2d207d0049da10b1/room-content/f19a2dcb7e6af13d489590b4b13c6c3f.svg)|Visualisation<br><br>Visualisation represents log data in graphical formats like charts, graphs, or heat maps. Visually presenting data makes recognising patterns, trends, and anomalies easier. Visualisation tools provide an intuitive way to interpret large volumes of log data, making complex information more accessible and understandable.|
 |![Image Representation of Log Reporting](https://tryhackme-images.s3.amazonaws.com/user-uploads/63da722f2d207d0049da10b1/room-content/315f0456ea5f0130ac6a05a7d17153f3.svg)|Reporting<br><br>Reporting summarises log data into structured formats to provide insights, support decision-making, or meet compliance requirements. Effective reporting includes creating clear and concise log data summaries catering to stakeholders' needs, such as management, security teams, or auditors. Regular reports can be vital in monitoring system health, security posture, and operational efficiency.|
 
+## Log Analysis Tools
+
+Security Information and Event Management (SIEM) tools such as Splunk or Elastic Search can be used for complex log analysis tasks.
+
+However, in scenarios where immediate data analysis is needed, such as during incident response, Linux-based systems can employ default tools like `cat`, `grep`, `sed`, `sort`, `uniq`, and `awk`, along with `sha256sum` for hashing log files. Windows-based systems can utilise [EZ-Tools](https://ericzimmerman.github.io/#!index.md) and the default cmdlet `Get-FileHash` for similar purposes. These tools enable rapid parsing and analysis, which suits these situations.
+
+Additionally, proper acquisition should be observed by taking the log file's **hash during collection** to ensure its admissibility in a court of law.
+
+Therefore, it is imperative not only to log events but also to ensure their integrity, that they are analysed, and any lessons obtained from the logs be learned, as the safety and efficiency of an organisation can depend on them.
+
+## Log Analysis Techniques
+
+Log analysis techniques are methods or practices used to interpret and derive insights from log data. These techniques can range from simple to complex and are vital for identifying patterns, anomalies, and critical insights. Here are some common techniques:
+
+**Pattern Recognition:** This involves identifying recurring sequences or trends in log data. It can detect regular system behaviour or identify unusual activities that may indicate a security threat.
+
+**Anomaly Detection:** Anomaly detection focuses on identifying data points that deviate from the expected pattern. It is crucial to spot potential issues or malicious activities early on.
+
+**Correlation Analysis:** Correlating different log entries helps understand the relationship between various events. It can reveal causation and dependencies between system components and is vital in root cause analysis.
+
+**Timeline Analysis:** Analysing logs over time helps understand trends, seasonalities, and periodic behaviours. It can be essential for performance monitoring and forecasting system loads.
+
+**Machine Learning and AI:** Leveraging machine learning models can automate and enhance various log analysis techniques, such as classification and enrichment. AI can provide predictive insights and help in automating responses to specific events.
+
+**Visualisation:** Representing log data through graphs and charts allows for intuitive understanding and quick insights. Visualisation can make complex data more accessible and assist in identifying key patterns and relationships.
+
+**Statistical Analysis:** Using statistical methods to analyse log data can provide quantitative insights and help make data-driven decisions. Regression analysis and hypothesis testing can infer relationships and validate assumptions.
+
+These techniques can be applied individually or in combination, depending on the specific requirements and complexity of the log analysis task. Understanding and using these techniques can significantly enhance the effectiveness of log analysis, leading to more informed decisions and robust security measures.
+
+## Working with Logs: Practical Application
+
+Working with logs is a complex task requiring both comprehension and manipulation of data. This tutorial covers two scenarios. The first is handling unparsed raw log files accessed directly via an open-source [Log Viewer](https://github.com/sevdokimov/log-viewer) tool. This method allows immediate analysis without preprocessing, which is ideal for quick inspections or preserving the original format.
+
+The second scenario focuses on creating a parsed and consolidated log file using Unix tools like `cat`, `grep`, `sed`, `sort`, `uniq`, and `awk`. It involves merging, filtering, and formatting logs to create a standardised file. Accessible through the [Log Viewer](https://github.com/sevdokimov/log-viewer) tool, this consolidated file offers a clear and efficient view of the data, aiding in identifying patterns and issues.
+
+These approaches highlight the flexibility and significance of log analysis in system diagnostics and cyber security. Whether using raw or parsed logs, the ability to compile, view, and analyse data is vital for an organisation's safety and efficiency.
+
+## Unparsed Raw Log Files
+
+When dealing with raw log files, you can access them directly through the Log Viewer tool by specifying the paths in the URL. Here's an example URL that includes multiple log files:
+
+```yaml
+http://10.10.127.201:8111/log?log=%2Fvar%2Flog%2Fgitlab%2Fnginx%2Faccess.log&log=%2Fvar%2Flog%2Fwebsrv-02%2Frsyslog_cron.log&log=%2Fvar%2Flog%2Fwebsrv-02%2Frsyslog_sshd.log&log=%2Fvar%2Flog%2Fgitlab%2Fgitlab-rails%2Fapi_json.log
+```
+
+Paste this URL into your browser to view the unparsed raw log files using the [Log Viewer](https://github.com/sevdokimov/log-viewer) tool.
+
+**NOTE:** You can access the URL using the AttackBox or VM browser. However, please be aware that Firefox on the VM may take a few minutes to boot up.
+
+Parsed and Consolidated Log File
+
+To create a parsed and consolidated log file, you can use a combination of Unix tools like `cat`, `grep`, `sed`, `sort`, `uniq`, and `awk`. Here's a step-by-step guide:
+
+1. Use `awk` and `sed` to normalize the log entries to the desired format. For this example, we will sort by date and time:
+
+```yaml
+# Process nginx access log
+awk -F'[][]' '{print "[" $2 "]", "--- /var/log/gitlab/nginx/access.log ---", "\"" $0 "\""}' /var/log/gitlab/nginx/access.log  | sed "s/ +0000//g" > /tmp/parsed_consolidated.log
+
+# Process rsyslog_cron.log
+awk '{ original_line = $0; gsub(/ /, "/", $1); printf "[%s/%s/2023:%s] --- /var/log/websrv-02/rsyslog_cron.log --- \"%s\"\n", $2, $1, $3, original_line }' /var/log/websrv-02/rsyslog_cron.log >> /tmp/parsed_consolidated.log
+
+# Process rsyslog_sshd.log
+awk '{ original_line = $0; gsub(/ /, "/", $1); printf "[%s/%s/2023:%s] --- /var/log/websrv-02/rsyslog_sshd.log --- \"%s\"\n", $2, $1, $3, original_line }' /var/log/websrv-02/rsyslog_sshd.log >> /tmp/parsed_consolidated.log
+
+# Process gitlab-rails/api_json.log
+awk -F'"' '{timestamp = $4; converted = strftime("[%d/%b/%Y:%H:%M:%S]", mktime(substr(timestamp, 1, 4) " " substr(timestamp, 6, 2) " " substr(timestamp, 9, 2) " " substr(timestamp, 12, 2) " " substr(timestamp, 15, 2) " " substr(timestamp, 18, 2) " 0 0")); print converted, "--- /var/log/gitlab/gitlab-rails/api_json.log ---", "\""$0"\""}' /var/log/gitlab/gitlab-rails/api_json.log >> /tmp/parsed_consolidated.log
+```
+
+2. **Optional:** Use `grep` to filter specific entries:
+    
+    ```yaml
+    grep "34.253.159.159" /tmp/parsed_consolidated.log > /tmp/filtered_consolidated.log
+    ```
+    
+3. Use `sort` to sort all the log entries by date and time:
+    
+    ```yaml
+    sort /tmp/parsed_consolidated.log > /tmp/sort_parsed_consolidated.log
+    ```
+    
+4. Use `uniq` to remove duplicate entries:
+    
+    ```yaml
+    uniq /tmp/sort_parsed_consolidated.log > /tmp/uniq_sort_parsed_consolidated.log
+    ```
+    
+
+You can now access the parsed and consolidated log file through the [Log Viewer](https://github.com/sevdokimov/log-viewer) tool using the following URL:
+
+```yaml
+http://10.10.127.201:8111/log?path=%2Ftmp%2Funiq_sort_parsed_consolidated.log
+```
+
+![Expected Output after logrotate configuration of sshd](https://tryhackme-images.s3.amazonaws.com/user-uploads/63da722f2d207d0049da10b1/room-content/5ef64ce6f3e0eaf396d91cf2409c473f.png)
+
+  
+**NOTE:** You can access the URL using the AttackBox or VM browser. However, please be aware that Firefox on the VM may take a few minutes to boot up.
+
+---
+
+_Upon accessing the log viewer URL for unparsed raw log files, what error does "/var/log/websrv-02/rsyslog_cron.log" show when selecting the different filters?_
+
+**No date field**
+
+![[Pasted image 20240715063735.png]]
+
+_What is the process of standardising parsed data into a more easily readable and query-able format?_
+
+**Normalisation**
+
+_What is the process of consolidating normalised logs to enhance the analysis of activities related to a specific IP address?_
+
+**Enrichment**
+
+---
