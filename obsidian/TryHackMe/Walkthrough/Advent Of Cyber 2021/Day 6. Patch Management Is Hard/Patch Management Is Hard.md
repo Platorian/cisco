@@ -9,7 +9,7 @@ In this task, we will be covering the basics of a Local File Inclusion (LFI) vul
 Let's begin by starting the machine attached to this task,  
   
 
-What is a Local File Inclusion (LFI) vulnerability?
+## What is a Local File Inclusion (LFI) vulnerability?
 
 An LFI vulnerability is found in various web applications. As an example, in the PHP, the following functions cause this kind of vulnerability:
 
@@ -20,11 +20,11 @@ An LFI vulnerability is found in various web applications. As an example, in t
 
 It is a web application vulnerability that allows the attacker to include and read local files on the server. These files could contain sensitive data such as cryptographic keys, databases that contain passwords, and other private data. An LFI  vulnerability happens due to a developer's lack of security awareness. In some cases, developers need to include the content of other local files within a specific page. Suppose a developer includes files without proper input validation. In that case, the LFI vulnerability will exist as a developer should never trust user input and keep all inputs from users to be filtered and sanitized. The main issue of these vulnerabilities is the lack of input validation, in which the user inputs are not sanitized or validated, and the user controls them.  
 
-What is the risk of LFI?
+## What is the risk of LFI?
 
 Once you find an LFI vulnerability, it is possible to read sensitive data if you have readable permissions on files. Thus, one of the most significant risks is leaking sensitive data accessed by a regular user. Also, in some cases, an LFI vulnerability could be chained to perform Remote Code Execution RCE on the server. If we can inject or write to a file on the system, we take advantage of LFI to get RCE. In this task, we prepared a web application with an LFI vulnerability and a possible way to get RCE. We'll be looking at this web application later.
 
-Identifying and testing for LFI
+## Identifying and testing for LFI
 
 Usually, attackers are interested in HTTP parameters to manipulate the input and inject attack payloads to see how the web application behaves. In general, if you are looking for an entry point to test web application attack types, then it is important to use the web app and check its functionalities. An entry point could be HTTP GET  or POST  parameters that pass an argument or data to the web application to perform a specific operation. 
 
@@ -33,7 +33,6 @@ Parameters are query parameter strings attached to the URL that could be used t
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d617515c8cd8348d0b4e68f/room-content/dbf35cc4f35fde7a4327ad8b5a2ae2ec.png)
 
   
-
 For example, parameters are used with Google searching, where GET requests pass user input into the search engine. https://www.google.com/search?q=TryHackMe. If you are not familiar with the topic, you can view the [How The Web Works](https://tryhackme.com/module/how-the-web-works) module to understand the concept.  
 
 Once you find an entry point, we need to understand how this data could be processed within the application. After this point, you can start testing for certain vulnerability types using manual or automated tools. The following is an example of PHP code that is vulnerable to LFI. 
@@ -44,7 +43,7 @@ Once you find an entry point, we need to understand how this data could be proce
 ?>
 ```
 
-The PHP code above uses a GET request via the URL parameter file to include the file on the page. The request can be made by sending the following HTTP request: http://example.thm.labs/index.php?file=welcome.txt to load the content of the welcome.txt file that exists in the same directory.  
+The PHP code above uses a `GET` request via the URL parameter `file` to include the file on the page. The request can be made by sending the following HTTP request: `http://example.thm.labs/index.php?file=welcome.txt` to load the content of the `welcome.txt` file that exists in the same directory.  
 
 In addition, other entry points can be used depending on the web application, and where can consider the User-Agent, Cookies, session, and other HTTP headers.
 
@@ -77,11 +76,11 @@ Once you have successfully viewed the content of the /etc/passwd file, you can
 
 Now, start the attached machine by using the green Start Machine button in this task, and apply what we discussed so far and answer the questions below. In order to access the website, you can either deploy the AttackBox or visit the following website link: https://LAB_WEB_URL.p.thmlabs.com.
 
-Exploiting LFI  
+## Exploiting LFI  
 
 Exploiting an LFI sometimes is limited and depends on the web application server configuration. Besides reading sensitive data, often, we can obtain remote code execution. If we are dealing with a PHP web application, then we can use a PHP-supported Wrapper. For more information, visit the [PHP manual page](https://www.php.net/manual/en/wrappers.php.php). PHP provides various methods of transmission of data (Input/Output stream) to allow PHP to read from. It will enable reading data via various data type channels.
 
-PHP Filter
+## PHP Filter
 
 The PHP filter wrapper is used in LFI to read the actual PHP page content. In typical cases, it is not possible to read a PHP file's content via LFI because PHP files get executed and never show the existing code. However, we can use the PHP filter to display the content of PHP files in other encoding formats such as base64 or ROT13. 
 
@@ -106,7 +105,7 @@ To read this text as plain text, you can use a Linux terminal or use one of the 
 
 Now, try to retrieve the index.php content, and answer question #3 below.
 
-PHP DATA
+## PHP DATA
 
 The PHP wrapper is used to include raw plain text or base64 encoded data. It is used to include images on the current page. It is being used in LFI exploit. 
 
@@ -137,7 +136,7 @@ Other PHP wrappers could be used in the LFI vulnerability. You can do some resea
 
 As we mentioned before, we can gain remote command execution if we have the ability to write into a file or chain it with other vulnerability types. In this task, we will be using the vulnerable web application that we provided to perform an RCE via LFI.
 
-LFI to RCE via Log files
+## LFI to RCE via Log files
 
 It is also called a log poisoning attack. It is a technique used to gain remote command execution on the webserver. The attacker needs to include a malicious payload into services log files such as Apache, SSH, etc. Then, the LFI vulnerability is used to request the page that includes the malicious payload. Exploiting this kind of attack depends on various factors, including the design of the web application and server configurations. Thus, it requires enumerations, analysis, and an understanding of how the web application works. For example, a user can include a malicious payload into an apache log file via User-Agent or other HTTP headers. In SSH, the user can inject a malicious payload in the username section. 
 
@@ -149,8 +148,9 @@ We can see that the log page stores four different headers, including username, 
 
 Terminal
 
-           
-`user@machine$ curl -A "This is testing" http://LAB_WEB_URL.p.thmlabs.com/login.php`
+```python
+curl -A "This is testing" http://<SERVER>/login.php
+```
 
 Once we send the HTTP request using curl, now using a registered user, we can check the log page to see if we can add the User-Agent that we sent.
 
@@ -160,8 +160,9 @@ Nice! we were able to include the User-Agent value we wanted. Now, let's inject
 
 Terminal
 
-           
-`user@machine$ curl -A "<?php phpinfo();?>" http://LAB_WEB_URL.p.thmlabs.com/login.php`
+```python
+ curl -A "<?php phpinfo();?>" <SERVER>/login.php
+```
 
 Now using the LFI, load the log file to get the PHP code executed. Note that it is important to visit the log file via LFI. Once you call the log file, we see the PHP information page.
 
@@ -169,7 +170,7 @@ Now using the LFI, load the log file to get the PHP code executed. Note that it 
 
 Now it is practice time. We have to apply what we discussed to gain RCE. We have to include PHP code into the User-Agent and then use the LFI vulnerability called the log file to get your PHP code executed, then answer the question below.
 
-LFI to RCE via PHP Sessions
+## LFI to RCE via PHP Sessions
 
 The LFI to RCE via PHP sessions follows the same concept of the log poisoning technique. PHP sessions are files within the operating system that store temporary information. After the user logs out of the web application, the PHP session information will be deleted.
 
@@ -206,18 +207,74 @@ If you are interested in learning more about file inclusion vulnerabilities, che
 
 **Answer the questions below**
 
-Deploy the attached VM and look around. What is the entry point for our web application?
+_Deploy the attached VM and look around. What is the entry point for our web application?
 
-Use the entry point to perform LFI to read the /etc/flag file. What is the flag?  
+**err**
 
-Use the PHP filter technique to read the source code of the index.php. What is the $flag variable's value?  
+![[Pasted image 20240716072021.png]]
 
-McSkidy forgot his login credential. Can you help him to login in order to recover one of the server's passwords?
+_Use the entry point to perform LFI to read the /etc/flag file. What is the flag?  
 
-Now that you read the index.php, there is a login credential PHP file's path. Use the PHP filter technique to read its content. What are the username and password?
+![[Pasted image 20240716072311.png]]
 
-Use the credentials to login into the web application. Help McSkidy to recover the server's password. What is the password of the flag.thm.aoc server?   
+![[Pasted image 20240716072932.png]]
 
-The web application logs all users' requests, and only authorized users can read the log file. Use the LFI to gain RCE via the log file page. What is the hostname of the webserver? The log file location is at ./includes/logs/app_access.log.  
+**THM{d29e08941cf7fe41df55f1a7da6c4c06}**
 
-Bonus: The current PHP configuration stores the PHP session files in /tmp. Use the LFI to call the PHP session file to get your PHP code executed.
+_Use the PHP filter technique to read the source code of the index.php. What is the $flag variable's value?  
+
+**Guvf freire unf frafvgvir vasbezngvba. Abgr Nyy npgvbaf gb guvf freire ner ybttrq va!**
+
+![[Pasted image 20240716073952.png]]
+
+```php
+sudo apt install hurl
+```
+
+```php
+hURL -8 <rot13>
+```
+
+![[Pasted image 20240716074706.png]]
+
+**GUZ{791q43q46018n0q89361qos60q5q9ro8}**
+
+![[Pasted image 20240716074911.png]]
+
+**ROT13 decoded     :: THM{791d43d46018a0d89361dbf60d5d9eb8}**
+
+_McSkidy forgot his login credential. Can you help him to login in order to recover one of the server's passwords?
+
+![[Pasted image 20240716075435.png]]
+
+**I threw everything into cyberchef instead of using hURL for big amounts of data.**
+
+
+_Now that you read the index.php, there is a login credential PHP file's path. Use the PHP filter technique to read its content. What are the username and password?
+
+**$USER = "McSkidy";**
+**$PASS = "A0C315Aw3s0m";**
+
+**McSkidy:A0C315Aw3s0m**
+
+_Use the credentials to login into the web application. Help McSkidy to recover the server's password. What is the password of the flag.thm.aoc server?   
+
+![[Pasted image 20240716075923.png]]
+
+- Server Name: **web.thm.aoc** - Password: **pass123**
+- Server Name: **ftp.thm.aoc** - Password: **123321**
+- Server Name: **flag.thm.aoc** - Password: **THM{552f313b52e3c3dbf5257d8c6db7f6f1}**
+
+_The web application logs all users' requests, and only authorized users can read the log file. Use the LFI to gain RCE via the log file page. What is the hostname of the webserver? The log file location is at ./includes/logs/app_access.log.  
+
+```python
+curl -A "This is testing" <SERVER>/login.php
+```
+
+![[Pasted image 20240716081318.png]]
+
+ ```python
+curl -A "<?php phpinfo();?>" <SERVER>/login.php
+```
+
+_Bonus: The current PHP configuration stores the PHP session files in /tmp. Use the LFI to call the PHP session file to get your PHP code executed.
