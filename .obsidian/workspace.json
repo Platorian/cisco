@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Docs/OSCP/YACS.md"
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md"
               }
             }
           }
@@ -173,16 +173,42 @@
   },
   "active": "2a88d8592a9b6003",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/Kali/Docs/OSCP",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/TryHackMe/CTF/Wreath/Notes.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/Pesky Elf Forum.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/IMG/Pasted image 20240716064844.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/IMG/Pasted image 20240716064718.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/IMG/Pasted image 20240716064455.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/Santa's Running Behind.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/IMG/Pasted image 20240716061955.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/IMG/Pasted image 20240716061848.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/Christmas Blackout.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/IMG/Pasted image 20240716060805.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/IMG/Pasted image 20240716060626.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/Elf HR Problems.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/IMG/Pasted image 20240716053219.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/IMG/Pasted image 20240716053118.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/IMG/Pasted image 20240716052442.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 1. Save the Gifts/Day 1. Save the Gifts.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems",
+    "obsidian/TryHackMe/Walkthrough/Wreath/Task 2. Accessing the Network/Accessing the Network.md",
+    "obsidian/TryHackMe/Walkthrough/Wreath/Task 1. Intro/Intro.md",
+    "obsidian/TryHackMe/Walkthrough/Wreath/Notes.md",
+    "README.md",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+    "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/Python Essentials/Final Project.md",
-    "obsidian/TryHackMe/CTF/Wreath/IMG",
-    "obsidian/TryHackMe/CTF/Wreath",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
@@ -191,33 +217,7 @@
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
     "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
     "obsidian/TryHackMe/CTF/Bugged/Bugged.md",
-    "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715095538.png",
-    "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715092117.png",
-    "obsidian/TryHackMe/CTF/Bugged/IMG/Pasted image 20240715091005.png",
     "obsidian/TryHackMe/CTF/CyberHeroes/CyberHeroes.md",
-    "obsidian/TryHackMe/CTF/Bugged/IMG/Untitled",
-    "obsidian/TryHackMe/CTF/Bugged/IMG",
-    "obsidian/TryHackMe/CTF/Bugged",
-    "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715080858.png",
-    "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715080123.png",
-    "obsidian/Kali/Tools/Ettercap.md",
-    "obsidian/Kali/Tools/ffuf.md",
-    "obsidian/Kali/Tools/Website/WPScan.md",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
-    "obsidian/TryHackMe/CTF/CyberHeroes/IMG/Pasted image 20240715075003.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/Intro to Logs.md",
-    "obsidian/TryHackMe/CTF/CyberHeroes/IMG",
-    "obsidian/TryHackMe/CTF/CyberHeroes",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715063735.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060226.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715060027.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG/Pasted image 20240715055811.png",
-    "obsidian/TryHackMe/Walkthrough/Intro to Log Analysis/Intro to Log Analysis.md",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs/IMG",
-    "obsidian/TryHackMe/Walkthrough/Intro to Logs",
-    "obsidian/TryHackMe/Walkthrough/Dirty Pipe CVE-2022-0847/Dirty Pipe CVE-2022-0847.md",
-    "obsidian/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
-    "obsidian/TryHackMe/Walkthrough/Polkit CVE-2021-3560/write-up.md",
-    "obsidian/TryHackMe/Walkthrough/OverlayFS - CVE-2021-3493/OverlayFS - CVE-2021-3493.md"
+    "obsidian/Kali/Tools/Ettercap.md"
   ]
 }
