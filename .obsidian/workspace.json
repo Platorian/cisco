@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Python Modules/Requests.md",
+                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Python Modules/Requests.md",
+                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Python Modules/Requests.md"
+                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md"
               }
             }
           }
@@ -171,10 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a88d8592a9b6003",
+  "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Exploit.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Exploit.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 4/Notes.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 4/Exploit.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 4",
     "obsidian/Python Essentials/Python Modules/Requests.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Notes.md",
     "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 3",
@@ -194,15 +200,12 @@
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054857.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054617.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054321.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/Pesky Elf Forum.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/Santa's Running Behind.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/Christmas Blackout.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/Elf HR Problems.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 1. Save the Gifts/Day 1. Save the Gifts.md",
@@ -214,10 +217,6 @@
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Python Essentials/Final Project.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 6 – Interaction with the user.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 5 – Comments.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 4 – Variables.md",
-    "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md"
+    "obsidian/Python Essentials/Final Project.md"
   ]
 }

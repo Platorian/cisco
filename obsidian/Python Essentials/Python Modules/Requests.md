@@ -1,6 +1,6 @@
 ## Making a GET Request
 
-```
+```python
 import requests
 
 url = "https://api.example.com/data"
@@ -16,7 +16,7 @@ else:
 
 ## Making a POST Request
 
-```
+```python
 import requests
 
 url = "https://api.example.com/create"
@@ -32,7 +32,7 @@ else:
 
 ## Passing URL Parameters
 
-```
+```python
 import requests
 
 url = "https://api.example.com/search"
@@ -49,7 +49,7 @@ else:
 
 ## Handling Headers
 
-```
+```python
 import requests
 
 url = "https://api.example.com/endpoint"
@@ -66,7 +66,7 @@ else:
 
 ## Uploading Files
 
-```
+```python
 import requests
 
 url = "https://api.example.com/upload"
@@ -82,7 +82,7 @@ else:
 
 ## Handling Timeouts
 
-```
+```python
 import requests
 
 url = "https://api.example.com/timeout"
@@ -100,7 +100,7 @@ except requests.exceptions.RequestException as e:
 
 ## Session Management
 
-```
+```python
 import requests
 
 # Create a session for making multiple requests with shared parameters (e.g., cookies)
@@ -113,3 +113,4 @@ response2 = session.get("https://api.example.com/dashboard")
 # Close the session when done
 session.close()
 ```
+
