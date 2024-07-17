@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md"
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md"
               }
             }
           }
@@ -171,8 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "2a88d8592a9b6003",
   "lastOpenFiles": [
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716083244.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716082533.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716081318.png",
@@ -183,7 +187,6 @@
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716073952.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716072932.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716072311.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716072021.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/Pesky Elf Forum.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG",
@@ -194,13 +197,10 @@
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/Christmas Blackout.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/Elf HR Problems.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 1. Save the Gifts/Day 1. Save the Gifts.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/IMG",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems",
     "obsidian/TryHackMe/Walkthrough/Wreath/Task 2. Accessing the Network/Accessing the Network.md",
     "obsidian/TryHackMe/Walkthrough/Wreath/Task 1. Intro/Intro.md",
     "obsidian/TryHackMe/Walkthrough/Wreath/Notes.md",
