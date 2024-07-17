@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/Santa's Bag of Toys.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/Santa's Bag of Toys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/Santa's Bag of Toys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md"
+                "file": "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/Santa's Bag of Toys.md"
               }
             }
           }
@@ -173,21 +173,23 @@
   },
   "active": "2a88d8592a9b6003",
   "lastOpenFiles": [
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717075911.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/Santa's Bag of Toys.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083808.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083726.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717082123.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072723.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072137.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717071739.png",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG",
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054857.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054617.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054321.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054113.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717053912.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717053643.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717052637.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716083244.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716082533.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716081318.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG/Pasted image 20240716075923.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/Pesky Elf Forum.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG",
@@ -199,8 +201,6 @@
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/Elf HR Problems.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/IMG",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 1. Save the Gifts/Day 1. Save the Gifts.md",
     "obsidian/TryHackMe/Walkthrough/Wreath/Task 2. Accessing the Network/Accessing the Network.md",
     "obsidian/TryHackMe/Walkthrough/Wreath/Task 1. Intro/Intro.md",
@@ -217,7 +217,6 @@
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 3 – Operators - data manipulation tools.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 2 – Python literals.md",
     "obsidian/Python Essentials/Module 2. Data Types,Variables,Operators, and Basic IO Operations/Section 1.md",
-    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md",
-    "obsidian/TryHackMe/CTF/Bugged/Bugged.md"
+    "obsidian/Python Essentials/Module 1. Intro To Python/1.0. Welcome to Python Essentials/Learn Python – the language of today and tomorrow.md"
   ]
 }
