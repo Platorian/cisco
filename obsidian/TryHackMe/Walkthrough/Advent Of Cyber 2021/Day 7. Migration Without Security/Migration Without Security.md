@@ -230,18 +230,69 @@ If you are interested in learning more about injection vulnerabilities, check ou
 
 _Interact with the MongoDB server to find the flag. What is the flag?_
 
+Start database
+```php
+mongo
+```
+
+Show databases
+```php
+show databases
+```
+
+Connect to database
+```php
+use <DATABASE>
+```
+
+Show tables
+```php
+db.getCollectionNames()
+```
+
+Show Columns
+```php
+db.<TABLE>.find()
+```
+
 
 
 _We discussed how to bypass login pages as an admin. Can you log into the application that Grinch Enterprise controls as admin and retrieve the flag?
 
+**THM{8814a5e6662a9763f7df23ee59d944f9}**
 
+![[Pasted image 20240717052637.png]]
 
 _Use the knowledge given in AoC3 day 4 to setup and run Burp Suite proxy to intercept the HTTP request for the login page. Then modify the POST parameter.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d617515c8cd8348d0b4e68f/room-content/11ebe0504325632b2690ebb147fdcf58.png)
 
+
+![[Pasted image 20240717053643.png]]
+
+**`Flag: THM{b6b304f5d5834a4d089b570840b467a8}`**
+
 _Once you are logged in, use the gift search page to list all usernames that have guest roles. What is the flag?  
 
+![[Pasted image 20240717053912.png]]
 
+![[Pasted image 20240717054113.png]]
+
+ID:61733f3a72e3abc63d253929:admin:admin
+
+![[Pasted image 20240717054321.png]]
+
+![[Pasted image 20240717054617.png]]
+
+**THM{2ec099f2d602cc4968c5267970be1326}**
 
 _Use the gift search page to perform NoSQL injection and retrieve the mcskidy record. What is the details record?
+
+![[Pasted image 20240717054857.png]]
+
+**ID:6184f516ef6da50433f100f4:mcskidy:admin**
+
+---
+
+**Completed:** _05:49 2024-07-17_
+
