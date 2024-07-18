@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md"
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md"
               }
             }
           }
@@ -160,6 +160,19 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/IMG/Pasted image 20240718160443.png",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/IMG",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7",
+    "obsidian/Extra/PortSwigger/SQL Injection",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/IMG/Pasted image 20240718153748.png",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities",
+    "obsidian/Python Essentials/Python Modules/Requests.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/Atlassian CVE-2022-26134.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/Exploit.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/IMG/Pasted image 20240718125408.png",
@@ -176,34 +189,22 @@
     "obsidian/Extra/Arch/Packages.md",
     "obsidian/CTF/PicoCTF/Reversing/Packer",
     "obsidian/CTF/PicoCTF/Reversing",
-    "obsidian/CTF/PicoCTF",
-    "obsidian/CTF",
     "obsidian/Extra/Templates/Recon.md",
     "obsidian/Extra/misc/title.md",
     "obsidian/Extra/misc/Test.md",
     "obsidian/Extra/Emacs/Emacs.md",
     "obsidian/Extra/Bash/Bash.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
-    "obsidian/Extra/Arch",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
-    "obsidian/Python Essentials/Python Modules/Requests.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
     "obsidian/Extra/misc/Table whitespace character.md",
     "obsidian/Extra/misc/Binary Conversion.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/IMG",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/IMG/Pasted image 20240718051705.png",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Notes.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Exploit.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717075911.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083808.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083726.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717082123.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072723.png"
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083726.png"
   ]
 }
