@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+                "file": "obsidian/Kali/Docs/Reverse Shells.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+                "file": "obsidian/Kali/Docs/Reverse Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+                "file": "obsidian/Kali/Docs/Reverse Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md"
+                "file": "obsidian/Kali/Docs/Reverse Shells.md"
               }
             }
           }
@@ -160,12 +160,28 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+    "obsidian/Kali/Docs/Cracking.md",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/CTF/PicoCTF/Reversing/Packer/Notes.md",
+    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718114050.png",
+    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718113956.png",
+    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718113222.png",
+    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG",
+    "obsidian/Extra/Arch/Packages.md",
+    "obsidian/CTF/PicoCTF/Reversing/Packer",
+    "obsidian/CTF/PicoCTF/Reversing",
+    "obsidian/CTF/PicoCTF",
+    "obsidian/CTF",
+    "obsidian/Extra/Templates/Recon.md",
+    "obsidian/Extra/misc/title.md",
+    "obsidian/Extra/misc/Test.md",
+    "obsidian/Extra/Emacs/Emacs.md",
+    "obsidian/Extra/Bash/Bash.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
+    "obsidian/Extra/Arch",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
     "obsidian/Python Essentials/Python Modules/Requests.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Extra/misc/Test.md",
-    "obsidian/Extra/misc/title.md",
     "obsidian/Extra/misc/Table whitespace character.md",
     "obsidian/Extra/misc/Binary Conversion.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
@@ -179,32 +195,16 @@
     "obsidian/Extra/PortSwigger/Web LLM Attacks",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 4/Notes.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 4/Exploit.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 4",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Exploit.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Notes.md",
-    "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 3",
-    "obsidian/Extra/PortSwigger/Path Traversal",
-    "obsidian/Extra/PortSwigger",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/Santa's Bag of Toys.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717075911.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083808.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083726.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717082123.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072723.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072137.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717071739.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054857.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054617.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/Pesky Elf Forum.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/Santa's Running Behind.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717075911.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083808.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083726.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717082123.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072723.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072137.png"
   ]
 }
