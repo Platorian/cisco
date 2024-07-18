@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
+                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,18 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "obsidian/Python Essentials/Python Modules/Requests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ef7d19aeb26bc91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
+                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
+                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md"
+                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md"
               }
             }
           }
@@ -172,14 +160,31 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Exploit.md",
+    "obsidian/Python Essentials/Python Modules/Requests.md",
+    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+    "obsidian/Extra/misc/Test.md",
+    "obsidian/Extra/misc/title.md",
+    "obsidian/Extra/misc/Table whitespace character.md",
+    "obsidian/Extra/misc/Binary Conversion.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/IMG",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/IMG/Pasted image 20240718051705.png",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Notes.md",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 4/Notes.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 5",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 4/Exploit.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 4",
-    "obsidian/Python Essentials/Python Modules/Requests.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Exploit.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 3/Notes.md",
     "obsidian/Extra/CyberMentor/Web App/SQL Injection.md",
@@ -195,28 +200,11 @@
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717072137.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717071739.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/Migration Without Security.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054857.png",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054617.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG/Pasted image 20240717054321.png",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security/IMG",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 7. Migration Without Security",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 5. Pesky Elf Forum/Pesky Elf Forum.md",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/Patch Management Is Hard.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 6. Patch Management Is Hard/IMG",
     "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 4. Santa's Running Behind/Santa's Running Behind.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/Christmas Blackout.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 2. Elf HR Problems/Elf HR Problems.md",
-    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 1. Save the Gifts/Day 1. Save the Gifts.md",
-    "obsidian/TryHackMe/Walkthrough/Wreath/Task 2. Accessing the Network/Accessing the Network.md",
-    "obsidian/TryHackMe/Walkthrough/Wreath/Task 1. Intro/Intro.md",
-    "obsidian/TryHackMe/Walkthrough/Wreath/Notes.md",
-    "README.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Python Essentials/Final Project.md"
+    "obsidian/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 3. Christmas Blackout/Christmas Blackout.md"
   ]
 }
