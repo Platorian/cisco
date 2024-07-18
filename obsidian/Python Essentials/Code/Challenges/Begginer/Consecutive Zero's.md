@@ -48,3 +48,41 @@ consecutive_zeros("1001101000110")
 ```
 
 _I can't think how to reset the counter and then continue to count_
+
+_Bit closer_
+
+3. 
+```python
+def consecutive_zeros(num):
+    num = list(num)
+    print(num)
+    maximum = 0   
+    total = 0
+    for i in num:
+        if '0' in i:
+            total += 1
+        elif '1' in i:
+            maximum = total
+            total = 0
+            
+
+consecutive_zeros("1001101000110")
+```
+
+
+Solution. 
+
+```python
+def consecutive_zeros(num):
+    result = 0   
+    total = 0
+    for i in num:
+        if i == '0':
+            total += 1
+        else:
+            total = 0
+        result = max(result, total)
+    return result
+print(consecutive_zeros("1001101000110"))
+```
+
