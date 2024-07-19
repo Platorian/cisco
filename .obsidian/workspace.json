@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md"
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
               }
             }
           }
@@ -158,14 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "2a88d8592a9b6003",
   "lastOpenFiles": [
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
+    "obsidian/Extra/Arch/Packages.md",
+    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719132506.png",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719132312.png",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719132255.png",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719130706.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
     "obsidian/CTF/TryHackMe/CTF/Wiseguy/Notes.md",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot",
@@ -200,11 +205,7 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044757.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044743.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044424.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 5. Enumeration/IMG/Pasted image 20240719042827.png",
     "obsidian/Python Essentials/Python Modules/Requests.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md"
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md"
   ]
 }
