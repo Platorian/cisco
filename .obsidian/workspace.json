@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Python Modules/Requests.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 353.5
   },
   "right": {
     "id": "11679b6984b12500",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md"
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md"
               }
             }
           }
@@ -160,51 +160,50 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 14. Chisel/Chisel.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 13. Socat/Socat.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 14. Chisel",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 12. plink.exe/plink.exe.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 11. SSH Tunnelling and Port Forwarding/SSH Tunnelling and Port Forwarding.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 10. Proxychains & Foxyproxy/Proxychains & Foxyproxy.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 9. Enumeration/Enumeration.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 8. High-Level Overview/High-Level Overview.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 7. What is Pivoting?/What is Pivoting?.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/Exploitation.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 5. Enumeration/Enumeration.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 4. Breif/Breif.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 3. Backstory/Backstory.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 2. Accessing the Network/Accessing the Network.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 1. Intro/Intro.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 13. Socat",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Task 12. plink.exe/Untitled",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 12. plink.exe",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 11. SSH Tunnelling and Port Forwarding",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 10. Proxychains & Foxyproxy",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 9. Enumeration",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044757.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044743.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044424.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 5. Enumeration/IMG/Pasted image 20240719042827.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 5. Enumeration/IMG/Pasted image 20240719042509.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 5. Enumeration/IMG/Pasted image 20240719042230.png",
+    "obsidian/Python Essentials/Python Modules/Requests.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/IMG/Pasted image 20240718160443.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/IMG",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7",
-    "obsidian/Extra/PortSwigger/SQL Injection",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/IMG/Pasted image 20240718153748.png",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities",
-    "obsidian/Python Essentials/Python Modules/Requests.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Consecutive Zero's.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/Atlassian CVE-2022-26134.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/Exploit.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/IMG/Pasted image 20240718125408.png",
-    "obsidian/Kali/Docs/Reverse Shells.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134/IMG",
-    "obsidian/CTF/TryHackMe/Walkthrough/Atlassian CVE-2022-26134",
-    "obsidian/Kali/Docs/Cracking.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/CTF/PicoCTF/Reversing/Packer/Notes.md",
-    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718114050.png",
-    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718113956.png",
-    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718113222.png",
-    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG",
-    "obsidian/Extra/Arch/Packages.md",
-    "obsidian/CTF/PicoCTF/Reversing/Packer",
-    "obsidian/CTF/PicoCTF/Reversing",
-    "obsidian/Extra/Templates/Recon.md",
-    "obsidian/Extra/misc/title.md",
-    "obsidian/Extra/misc/Test.md",
-    "obsidian/Extra/Emacs/Emacs.md",
-    "obsidian/Extra/Bash/Bash.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Extra/misc/Table whitespace character.md",
-    "obsidian/Extra/misc/Binary Conversion.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/IMG/Pasted image 20240718051705.png",
-    "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Notes.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 5/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717075911.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083808.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Advent Of Cyber 2021/Day 8. Santa's Bag of Toys/IMG/Pasted image 20240717083726.png"
+    "obsidian/CTF/PicoCTF/Reversing/Packer/IMG/Pasted image 20240718114050.png"
   ]
 }

@@ -50,3 +50,7 @@ As this network is shared amongst a number of people, it goes without saying: pl
 With that being said:- let's get started!
 
 ![[Pasted image 20240716044740.png]]
+
+---
+
+**Completed:** 2024-07-19

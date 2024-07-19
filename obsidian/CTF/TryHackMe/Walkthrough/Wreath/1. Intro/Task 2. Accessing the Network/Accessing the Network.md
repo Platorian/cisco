@@ -56,3 +56,7 @@ The three buttons below the network map can be used to control this functionalit
 - The "Reset" button initiates a full wipe of the network. This requires a percentage of users in the network to click the button, thus preventing a single person from spamming resets
 
 Finally, the "Network Uptime" field at the bottom right of the network map indicates how long the network has been awake for. This is not necessarily the time since the last reset.
+
+---
+
+**Completed:** 2024-07-19
