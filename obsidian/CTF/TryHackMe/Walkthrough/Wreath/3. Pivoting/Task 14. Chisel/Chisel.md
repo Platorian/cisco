@@ -7,6 +7,9 @@ Before we can use chisel, we need to download appropriate binaries from the tool
 You must have an appropriate copy of the chisel binary on _both the attacking machine and the compromised server._ Copy the file to the remote server with your choice of file transfer method. You could use the webserver method covered in the previous tasks, or to shake things up a bit, you could use SCP:  
 `scp -i KEY chisel user@target:/tmp/chisel-USERNAME`
 
+`-i identity_file`
+Selects the file from which the identity (private key) for public key authentication is read.  This option is directly passed to SSH.
+
 ---
 
 The chisel binary has two modes: _client_ and _server_. You can access the help menus for either with the command: `chisel client|server --help`  
@@ -80,7 +83,7 @@ Connecting back to our attacking machine, functioning as a chisel server started
 
 This would allow us to access 172.16.0.10:22 (via SSH) by navigating to 127.0.0.1:2222.
 
-__**Local Port Forward:**_  
+**Local Port Forward:** 
 _As with SSH, a local port forward is where we connect from our own attacking machine to a chisel server listening on a compromised target.
 
 On the compromised target we set up a chisel server:  
@@ -100,14 +103,29 @@ As with the backgrounded socat processes, when we want to destroy our chisel con
 
 _**Note:** When using Chisel on Windows, it's important to remember to upload it with a file extension of_ `.exe` _(e.g._ `chisel.exe`_)!_  
 
+---
+
 Answer the questions below
 
-What command would you use to start a chisel server for a reverse connection on your attacking machine?
+1. What command would you use to start a chisel server for a reverse connection on your attacking machine?
+
+**`./chisel server -p 4242 --reverse &`**
 
 Use port 4242 for the listener and **do not** background the process.  
 
-What command would you use to connect back to this server with a SOCKS proxy from a compromised host, assuming your own IP is 172.16.0.200 and backgrounding the process?
+2. What command would you use to connect back to this server with a SOCKS proxy from a compromised host, assuming your own IP is 172.16.0.200 and backgrounding the process?
 
-How would you forward 172.16.0.100:3306 to your own port 33060 using a chisel remote port forward, assuming your own IP is 172.16.0.200 and the listening port is 1337? Background this process.  
+**`./chisel client 172.16.0.200:4242 R:socks &`**
 
-If you have a chisel server running on port 4444 of 172.16.0.5, how could you create a local portforward, opening port 8000 locally and linking to 172.16.0.10:80?
+3. How would you forward 172.16.0.100:3306 to your own port 33060 using a chisel remote port forward, assuming your own IP is 172.16.0.200 and the listening port is 1337? Background this process.  
+
+**`./chisel client 172.16.0.200:1337 R:33060:172.16.0.100:3306 &`**
+
+4. If you have a chisel server running on port 4444 of 172.16.0.5, how could you create a local portforward, opening port 8000 locally and linking to 172.16.0.10:80?
+
+**`./chisel client 172.16.0.5:4444 8000:172.16.0.10:80:80`**
+
+---
+
+**Completed:** _11:11 2024-07-19_
+
