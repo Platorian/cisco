@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
+                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 291.5
   },
   "right": {
     "id": "11679b6984b12500",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
+                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
+                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md"
+                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md"
               }
             }
           }
@@ -160,8 +160,12 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/CTF/TryHackMe/CTF/Investigating Windows/IMG/Pasted image 20240720110547.png",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Counting Parameters.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
     "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR",
+    "obsidian/CTF/TryHackMe/CTF/Investigating Windows/IMG/Pasted image 20240720110547.png",
     "obsidian/CTF/TryHackMe/CTF/Investigating Windows/IMG/Pasted image 20240720105606.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/CTF/TryHackMe/CTF/Investigating Windows/IMG/Pasted image 20240720104727.png",
@@ -190,7 +194,6 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 15. sshuttle/sshuttle.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 16. Conclusion/Conclusion.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 17. Enumeration",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
@@ -202,8 +205,6 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 12. plink.exe/plink.exe.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 11. SSH Tunnelling and Port Forwarding/SSH Tunnelling and Port Forwarding.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 10. Proxychains & Foxyproxy/Proxychains & Foxyproxy.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 9. Enumeration/Enumeration.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 8. High-Level Overview/High-Level Overview.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 7. What is Pivoting?/What is Pivoting?.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 9. Enumeration/Enumeration.md"
   ]
 }
