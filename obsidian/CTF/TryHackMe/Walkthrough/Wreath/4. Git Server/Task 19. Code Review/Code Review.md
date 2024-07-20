@@ -21,15 +21,21 @@ With the file converted, it's time to read through the exploit to make sure we k
 
 Open the exploit in your favourite text editor and let's get going!  
 
+---
+
 Answer the questions below
 
-Look at the information at the top of the script. On what date was this exploit written?  
+1. Look at the information at the top of the script. On what date was this exploit written?  
+
+**`18.01.2018`**
 
 As this is a Python script, the version of the language used to write the software matters. Many older exploits are still written in Python2. These exploits tend to be incompatible with the Python3 interpreter, and vice versa.
 
 Before we can do anything else, we need to determine whether this exploit was written in Python2 or Python3. A quick way of doing this is to look for the `print` statements (used to echo output to the console).  If there are no round brackets (e.g. `print "Hello World!"`) then the exploit will be Python2, otherwise the exploit is likely to be Python3 (e.g. `print("Hello World!")`). Of course, this is far from the only way to check, but it will work for our purposes.
 
-Bearing this in mind, is the script written in Python2 or Python3?  
+3. Bearing this in mind, is the script written in Python2 or Python3?  
+
+**`python2`**
 
 Now that we know which version of Python we're dealing with we can execute it in one of two ways:
 
@@ -68,3 +74,9 @@ Having added in a shebang, changed the target, and updated the name of the explo
 
 Just to confirm that you have been paying attention to the script: What is the _name_ of the cookie set in the POST request made on line 74 (line 73 if you didn't add the shebang) of the exploit?
 
+**`csrftoken`**
+
+---
+
+**Completed:** _08:18 2024-07-20_
+**Author:** z0d

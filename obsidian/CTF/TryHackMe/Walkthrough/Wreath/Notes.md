@@ -426,3 +426,33 @@ Searchsploit:
 
 ![[Pasted image 20240720064120.png]]
 
+I examine the script:
+
+```php
+searchsploit -x 43777 
+```
+
+- And then transfer it to my working directory.
+
+```php
+searchsploit -m 43777
+```
+
+Before we can use the exploit, we must convert these into Linux line endings using the dos2unix tool:  
+`dos2unix ./EDBID.py`
+
+This  can also be done manually with `sed` if `dos2unix` is unavailable:  
+
+```php
+sed -i 's/\r//' ./EDBID.py
+```
+
+The script is written in python 2 so i add the correct shebang line to the top of the exploit:
+`#!/usr/bin/python2`
+
+**Details:**
+_Set the IP to the correct target for your choice of pivoting technique. If you used sshuttle or one of the proxying techniques then this will just be the IP of the target. If you used a port forward then it will be `localhost:chosen_port`, e.g.:  
+`localhost:8000`_
+
+- I updated the script so that the files it creates have the provided naming convention.
+
