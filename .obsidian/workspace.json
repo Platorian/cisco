@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5
   },
   "right": {
     "id": "11679b6984b12500",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md"
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md"
               }
             }
           }
@@ -159,14 +158,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a88d8592a9b6003",
+  "active": "a21a6b83247b4416",
   "lastOpenFiles": [
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240720040511.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240720040437.png",
+    "obsidian/Kali/Tools/Cracking/John the Ripper.md",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 15. sshuttle/sshuttle.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Enumeration/Enumeration.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 16. Conclusion/Conclusion.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Enumeration",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 16. Conclusion",
+    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 15. sshuttle",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
     "obsidian/Extra/Arch/Packages.md",
-    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719132506.png",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719132312.png",
     "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/IMG/Pasted image 20240719132255.png",
@@ -180,12 +191,9 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 14. Chisel/Chisel.md",
     "obsidian/CTF/TryHackMe/CTF/Wiseguy/IMG",
     "obsidian/CTF/TryHackMe/CTF/Wiseguy",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 13. Socat/Socat.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 14. Chisel",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 12. plink.exe/plink.exe.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 11. SSH Tunnelling and Port Forwarding/SSH Tunnelling and Port Forwarding.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 10. Proxychains & Foxyproxy/Proxychains & Foxyproxy.md",
@@ -196,16 +204,6 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 5. Enumeration/Enumeration.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 4. Breif/Breif.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 3. Backstory/Backstory.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 2. Accessing the Network/Accessing the Network.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 1. Intro/Intro.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 13. Socat",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Task 12. plink.exe/Untitled",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044757.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044743.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044424.png",
-    "obsidian/Python Essentials/Python Modules/Requests.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/2. Webserver/Task 6. Exploitation/IMG/Pasted image 20240719044757.png"
   ]
 }
