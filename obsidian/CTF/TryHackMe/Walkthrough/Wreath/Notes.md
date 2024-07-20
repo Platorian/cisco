@@ -455,4 +455,11 @@ _Set the IP to the correct target for your choice of pivoting technique. If you 
 `localhost:8000`_
 
 - I updated the script so that the files it creates have the provided naming convention.
+- It can now be executed with `./`
+
+Now if everything worked we should be able to use that information in burpsuite repeater and gain a reverse shell.
+
+![[Pasted image 20240720083047.png]]
+
+- I could try to modify the command to try to connect back to me with netcat or something else from pentester monkey's rev-shell cheat sheet.
 
