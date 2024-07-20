@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
+                "file": "obsidian/Python Essentials/Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md"
+                "file": "obsidian/Python Essentials/Cheat Sheet.md"
               }
             }
           }
@@ -160,9 +160,10 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
+    "obsidian/Extra/Arch/Packages.md",
+    "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/Counting Parameters.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
     "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR",
     "obsidian/CTF/TryHackMe/CTF/Investigating Windows/IMG/Pasted image 20240720110547.png",
@@ -198,7 +199,6 @@
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Notes.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
-    "obsidian/Extra/Arch/Packages.md",
     "obsidian/CTF/TryHackMe/CTF/Wiseguy/Notes.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 14. Chisel/Chisel.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 13. Socat/Socat.md",
