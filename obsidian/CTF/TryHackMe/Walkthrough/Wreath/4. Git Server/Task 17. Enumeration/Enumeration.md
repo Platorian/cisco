@@ -36,19 +36,29 @@ _**Note:** The host ending in_ `.250` _is the OpenVPN server, and should be excl
 
 Answer the questions below
 
-Excluding the out of scope hosts, and the current host (`.200`), how many hosts were discovered active on the network?  
+1. Excluding the out of scope hosts, and the current host (`.200`), how many hosts were discovered active on the network?  
 
-In ascending order, what are the last octets of these host IPv4 addresses? (e.g. if the address was 172.16.0.80, submit the 80)
+**`2`**
 
-Scan the hosts -- which one does _not_ return a status of "filtered" for every port (submit the last octet only)?  
+2. In ascending order, what are the last octets of these host IPv4 addresses? (e.g. if the address was 172.16.0.80, submit the 80)
 
-Let's assume that the other host is inaccessible from our current position in the network.
+**`100,150`**
 
-Which TCP ports (in ascending order, comma separated) below port 15000, are open on the remaining target?  
+3. Scan the hosts -- which one does _not_ return a status of "filtered" for every port (submit the last octet only)?  
 
-We cannot currently perform a service detection scan on the target without first setting up a proxy, so for the time being, let's assume that the services Nmap has identified based on their port number are accurate. (Please feel free to experiment with other scan types through a proxy after completing the pivoting section).
+**`150`**
 
-Assuming that the service guesses made by Nmap are accurate, which of the found services is more likely to contain an exploitable vulnerability?  
+4. Let's assume that the other host is inaccessible from our current position in the network. Which TCP ports (in ascending order, comma separated) below port 15000, are open on the remaining target?  
+
+**`80,3389,5985`**
+
+4. We cannot currently perform a service detection scan on the target without first setting up a proxy, so for the time being, let's assume that the services Nmap has identified based on their port number are accurate. (Please feel free to experiment with other scan types through a proxy after completing the pivoting section). Assuming that the service guesses made by Nmap are accurate, which of the found services is more likely to contain an exploitable vulnerability?  
+
+**`HTTP`**
 
 Now that we have an idea about the other hosts on the network, we can start looking at some of the tools and techniques we could use to access them!
 
+---
+
+**Completed:** _06:19 2024-07-20_
+**Author:** z0d
