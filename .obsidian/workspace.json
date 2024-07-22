@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md"
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md"
               }
             }
           }
@@ -160,10 +160,11 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents",
-    "Pasted image 20240721092120.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721092120.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers/Empire Stagers.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721091706.png",
@@ -204,7 +205,6 @@
     "obsidian/Kali/Docs/OSCP/YACS.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 15. sshuttle/sshuttle.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 16. Conclusion/Conclusion.md",
-    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7/Exploit.md"
+    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md"
   ]
 }

