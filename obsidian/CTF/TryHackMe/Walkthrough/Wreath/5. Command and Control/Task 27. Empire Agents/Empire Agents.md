@@ -51,10 +51,19 @@ This results in a menu which gives us access to a variety of amazing features, i
 
 To delete agents in Starkiller we can use either the trashcan icon in the pop-out agent Window, or the kill button in the action menu for the agent back in the Agents tab of Starkiller.  
 
+--- 
+
 Answer the questions below
 
 Using the `help` command for guidance: in Empire CLI, how would we run the `whoami` command inside an agent?  
 
+**`shell whoami`**
+
 We have now covered the basics of Empire, with the exception of modules, which we will look at after getting an agent back from the Git Server.
 
 Kill your agents on the webserver then let's look at proxying Empire agents!
+
+---
+
+**Completed:** _2024-07-22_
+

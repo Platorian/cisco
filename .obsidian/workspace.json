@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d00199db659b3cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -158,11 +170,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a21a6b83247b4416",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 32. C&C Conclusion/C&C Conclusion.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 31. Empire Interactive Shell/Empire Interactive Shell.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 32. C&C Conclusion",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 30. Empire Modules/Empire Modules.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 31. Empire Interactive Shell",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 29. Git Server/Git Server.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 30. Empire Modules",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 28. Empire Hop Listeners/Empire Hop Listeners.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 29. Git Server",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 28. Empire Hop Listeners",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722100617.png",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722091152.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722090731.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722085946.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722085006.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722083033.png",
+    "obsidian/Extra/Arch/Custom Scripts.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721092120.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers/Empire Stagers.md",
@@ -177,18 +208,8 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 23. Empire Install/Empire Install.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 22. Intro/Intro.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 23. Empire Install",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 22. Intro",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721083948.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721083505.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721082043.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Kali/Tools/Post Exploitation/Evil-WinRM.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721080138.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721074043.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721073424.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 21. Stabilisation & Post Exploitation/Stabilisation & Post Exploitation.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 21. Stabilisation & Post Exploitation",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 20. Exploitation/Exploitation.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
     "obsidian/Extra/Arch/Packages.md",
@@ -196,15 +217,6 @@
     "obsidian/Python Essentials/Code/Challenges/Begginer/Counting Parameters.md",
     "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR.md",
     "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR",
-    "obsidian/CTF/TryHackMe/CTF/Investigating Windows/IMG",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 19. Code Review/Code Review.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 18. Pivoting/Pivoting.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 17. Enumeration/Enumeration.md",
-    "obsidian/Kali/Tools/Cracking/John the Ripper.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 15. sshuttle/sshuttle.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/3. Pivoting/Task 16. Conclusion/Conclusion.md",
-    "obsidian/CTF/TryHackMe/CTF/Jax sucks alot/Jax sucks alot.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 19. Code Review/Code Review.md"
   ]
 }
