@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a21a6b83247b4416",
+            "id": "1d00199db659b3cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,18 +32,19 @@
             }
           },
           {
-            "id": "1d00199db659b3cf",
+            "id": "a21a6b83247b4416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,53 +171,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
+    "Pasted image 20240723135626.png",
+    "Pasted image 20240723133800.png",
+    "Pasted image 20240723132608.png",
+    "Pasted image 20240723125016.png",
+    "Pasted image 20240723120835.png",
+    "Pasted image 20240723120622.png",
+    "Pasted image 20240723120425.png",
+    "Pasted image 20240723120251.png",
+    "Pasted image 20240723120113.png",
+    "Pasted image 20240723120037.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240723115854.png",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 46. Final Thoughts/Final Thoughts.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 45. Debrief & Report/Debrief & Report.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 46. Final Thoughts",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation/Task 44. Exfiltration Techniques & Post Exploitation/Exfiltration Techniques & Post Exploitation.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 45. Debrief & Report",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 43. Privilege Escalation/Privilege Escalation.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation/Task 44. Exfiltration Techniques & Post Exploitation",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 42. Enumeration/Enumeration.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 43. Privilege Escalation",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 41. Compiling Netcat & Reverse Shell!/Compiling Netcat & Reverse Shell!.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 42. Enumeration",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 40. PHP Payload Obfuscation/PHP Payload Obfuscation.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 41. Compiling Netcat & Reverse Shell!",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 39. AV Detection Methods/AV Detection Methods.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 40. PHP Payload Obfuscation",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 38. Introduction/Introduction.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 39. AV Detection Methods",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC/Task 37. Exploit PoC/Exploit Poc.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC/Task 36. Website Code Analysis/Website Code Analysis.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC/Task 35. The Wonders of Git/The Wonders of Git.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC/Task 34. Pivoting/Pivoting.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC/Task 33. Enumeration/Enumeration.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 32. C&C Conclusion/C&C Conclusion.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 31. Empire Interactive Shell/Empire Interactive Shell.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 32. C&C Conclusion",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 30. Empire Modules/Empire Modules.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 31. Empire Interactive Shell",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 29. Git Server/Git Server.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 30. Empire Modules",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 28. Empire Hop Listeners/Empire Hop Listeners.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 29. Git Server",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 28. Empire Hop Listeners",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722100617.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722091152.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722090731.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722085946.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722085006.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240722083033.png",
     "obsidian/Extra/Arch/Custom Scripts.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721092120.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers/Empire Stagers.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721091706.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721091610.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 24. Empire Overview/Empire Overview.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 24. Empire Overview",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/IMG/Pasted image 20240721090302.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 23. Empire Install/Empire Install.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 22. Intro/Intro.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 23. Empire Install",
-    "obsidian/Kali/Tools/Post Exploitation/Evil-WinRM.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 21. Stabilisation & Post Exploitation/Stabilisation & Post Exploitation.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 20. Exploitation/Exploitation.md",
-    "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Extra/Arch/Packages.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Solution Validation.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/Counting Parameters.md",
-    "obsidian/Python Essentials/Code/Challenges/Begginer/List XOR.md",
-    "obsidian/CTF/TryHackMe/CTF/Investigating Windows/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/4. Git Server/Task 19. Code Review/Code Review.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers/Empire Stagers.md"
   ]
 }

