@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,20 +173,21 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724061240.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724061206.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/Tech_Supp0rt.md",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055818.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055334.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055134.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724054842.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724054615.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724095812.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724095641.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Pwnkit CVE-2021-4034/write-up.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724051506.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724045056.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724045040.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724044510.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/Tech_Supp0rt.md",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724092133.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724092000.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724091548.png",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724085044.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724084605.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724082022.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724081233.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724080843.png",
+    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724080628.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt",
@@ -217,7 +218,6 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/6. Personal PC/Task 33. Enumeration/Enumeration.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 32. C&C Conclusion/C&C Conclusion.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 31. Empire Interactive Shell/Empire Interactive Shell.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 30. Empire Modules/Empire Modules.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 29. Git Server/Git Server.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 30. Empire Modules/Empire Modules.md"
   ]
 }
