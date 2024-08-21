@@ -68,3 +68,16 @@ git rebase -i HEAD~5
 
 -i - interactive
 5 = number of commits to go back
+
+---
+
+Taking a look at `github-cli` 
+
+### Configuration
+
+- Run [`gh auth login`](https://cli.github.com/manual/gh_auth_login) to authenticate with your GitHub account. Alternatively, `gh` will respect the `GITHUB_TOKEN` [environment variable](https://cli.github.com/manual/gh_help_environment).
+
+- To set your preferred editor, use `gh config set editor <editor>`. Read more about [`gh config`](https://cli.github.com/manual/gh_config) and [environment variables](https://cli.github.com/manual/gh_help_environment).
+
+- Declare your aliases for often-used commands with [`gh alias set`](https://cli.github.com/manual/gh_alias_set).
+
