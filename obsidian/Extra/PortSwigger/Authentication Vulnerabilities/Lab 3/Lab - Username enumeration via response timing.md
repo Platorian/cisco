@@ -47,8 +47,14 @@ I now just need to modify the request by adding the correct Username, and then i
 
 If the Password is correct it should give me a redirect status code `302` as it tries to take me to the `my account` page.
 
- Username:
- Password:
+ Username: alterwind
+ Password: ranger
  
 _May need to do it on repeater so that i can add the header and change the IP_
+
+---
+
+I run the first attack and search by response time. One entry is longer than the others so i add that to repeater and use a really long password, this then gives me a substantial wait before returning an error message, so i know it's the right username. Now i can just run the second attack to get the password.
+
+![[Pasted image 20240822114944.png]]
 

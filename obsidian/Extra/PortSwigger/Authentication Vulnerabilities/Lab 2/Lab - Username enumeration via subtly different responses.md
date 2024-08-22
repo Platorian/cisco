@@ -19,7 +19,11 @@ _Tip:_ If i had a valid User/Pass i could login and send it to burp compare, the
 
 **Solution:** 
 
-Username: 
-Password: 
+I had to grep the error message to find the correct username. Then i could simply run burp intruder against the app with the provided password list.
+
+![[Screenshot_2024-08-22-11-17-36_2560x1440.png]]
+
+Username: alabama
+Password: access
 
 

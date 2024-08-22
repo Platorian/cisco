@@ -16,7 +16,17 @@ Using burp, and the analysis i did earlier i can use the provided User/Pass list
 - Enumerate Username looking for a change in Length
 - Enumerate Password
 
+---
+
+It looks like americas is the correct Username, but we can check it by making the Password longer and seeing if the response takes longer to come back. If the response takes longer, then it's checking the Password, which means that the Username is correct.
+
+![[Screenshot_2024-08-21-12-51-01_2560x1440.png]]
+
+Now i just need to run the passwords list and look for the redirect code.
+
+![[Screenshot_2024-08-21-12-56-03_2560x1440.png]]
+
 **Solution:** 
-- Username:
-- Password: 
+- Username: americas
+- Password: dragon
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/Lab - Username enumeration via different responses.md",
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/Lab - Username enumeration via different responses.md",
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/Lab - Username enumeration via different responses.md",
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/Lab - Username enumeration via different responses.md"
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md"
               }
             }
           }
@@ -173,32 +173,39 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3/Lab - Username enumeration via response timing.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2/Lab - Username enumeration via subtly different responses.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Overview.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3/Lab - Username enumeration via response timing.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3/IMG",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3/IMG/Pasted image 20240822114944.png",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2/Lab - Username enumeration via subtly different responses.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2/IMG",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2/IMG/Screenshot_2024-08-22-11-17-36_2560x1440.png",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/Lab - Username enumeration via different responses.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/User and Pass.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/IMG/Screenshot_2024-08-21-12-56-03_2560x1440.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/IMG",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/IMG/Screenshot_2024-08-21-12-51-01_2560x1440.png",
+    "obsidian/Extra/Bash/Bash.md",
+    "obsidian/Extra/Git Install/Git Install.md",
+    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
     "obsidian/Extra/Arch/UFW.md",
     "obsidian/Extra/Arch/Custom Scripts.md",
     "obsidian/Extra/Arch/Packages.md",
-    "obsidian/Extra/Git Install/Git Install.md",
     "README.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724061240.png",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724061206.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/Tech_Supp0rt.md",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055818.png",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055334.png",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055134.png",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724054842.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724054615.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724051506.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724045056.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724045040.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt",
@@ -209,15 +216,8 @@
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 46. Final Thoughts",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation/Task 44. Exfiltration Techniques & Post Exploitation/Exfiltration Techniques & Post Exploitation.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 45. Debrief & Report",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 43. Privilege Escalation/Privilege Escalation.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation/Task 44. Exfiltration Techniques & Post Exploitation",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 42. Enumeration/Enumeration.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 43. Privilege Escalation",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 41. Compiling Netcat & Reverse Shell!/Compiling Netcat & Reverse Shell!.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 40. PHP Payload Obfuscation/PHP Payload Obfuscation.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 39. AV Detection Methods/AV Detection Methods.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 38. Introduction/Introduction.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 41. Compiling Netcat & Reverse Shell!/Compiling Netcat & Reverse Shell!.md"
   ]
 }
