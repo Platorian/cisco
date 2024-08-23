@@ -39,3 +39,13 @@ for pwd in lines:
 	i = i+1
 ```
 
+![[Pasted image 20240823082050.png]]
+
+After running the script, i launch a pitchfork attack by adding two points in burpsuite intruder, and adding the newly modified user/pass lists as the payloads one, and two. 
+
+This allows me to login and complete the lab.
+
+**Solution**
+**User:** carlos
+**Pass:** monitor
+
