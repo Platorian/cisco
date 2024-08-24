@@ -21,6 +21,28 @@ The password needs to look like this:
 With your second payload field marked by the two dollar signs. 
 
 **Solution**
-**User:** 
+**User:** apache
 **Pass:** 
+
+Namegen script for use with OWASPZap:
+```python
+#!/usr/bin/python3
+
+with open("usernames.txt", "r") as f:
+        lines = f.readlines()
+for i in lines:
+        print(i * 5)
+```
+
+- I skipped this part, but learn how to fix the list, it had gaps in it. Either modify the list with a text editor, or with the script itself.
+
+![[Pasted image 20240824074450.png]]
+
+I find the correct password as it redirects to the my account page:
+
+![[Pasted image 20240824075059.png]]
+
+I think that if you are locked out, but you try the correct password, the logic in the back end malfunctions, and allows me to login anyway.
+
+![[Pasted image 20240824075501.png]]
 

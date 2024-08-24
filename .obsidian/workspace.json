@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md",
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/Lab - 2FA broken logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md",
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/Lab - 2FA broken logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md",
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/Lab - 2FA broken logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md"
+                "file": "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/Lab - 2FA broken logic.md"
               }
             }
           }
@@ -173,10 +173,21 @@
   },
   "active": "a21a6b83247b4416",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/IMG",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Overview.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/Lab - 2FA broken logic.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 6/Lab - 2FA simple bypass.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/IMG",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 6/IMG/Pasted image 20240824083426.png",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 6/IMG/Pasted image 20240824083309.png",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 6/IMG",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 6",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/IMG/Pasted image 20240824075501.png",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/IMG/Pasted image 20240824075059.png",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/IMG/Pasted image 20240824074450.png",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/IMG",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/IMG",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/IMG/Pasted image 20240823082050.png",
@@ -192,31 +203,21 @@
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/IMG/Screenshot_2024-08-21-12-56-03_2560x1440.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Instructions - Short.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/IMG",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/IMG/Screenshot_2024-08-21-12-51-01_2560x1440.png",
     "obsidian/Extra/Bash/Bash.md",
     "obsidian/Extra/Git Install/Git Install.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 6/Exploit.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
     "obsidian/Extra/Arch/UFW.md",
     "obsidian/Extra/Arch/Custom Scripts.md",
     "obsidian/Extra/Arch/Packages.md",
     "README.md",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724061240.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724061206.png",
     "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/Tech_Supp0rt.md",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055818.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055334.png",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG/Pasted image 20240724055134.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/Notes.md",
-    "obsidian/CTF/TryHackMe/CTF/Tech Supp0rt/IMG",
     "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 46. Final Thoughts/Final Thoughts.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/9. Conclusion/Task 45. Debrief & Report/Debrief & Report.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation/Task 44. Exfiltration Techniques & Post Exploitation/Exfiltration Techniques & Post Exploitation.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/7. AV Evasion/Task 43. Privilege Escalation/Privilege Escalation.md"
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/8. Exfiltration Techniques & Post Exploitation/Task 44. Exfiltration Techniques & Post Exploitation/Exfiltration Techniques & Post Exploitation.md"
   ]
 }
