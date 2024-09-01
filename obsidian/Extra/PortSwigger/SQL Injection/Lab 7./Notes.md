@@ -37,13 +37,13 @@ SELECT FROM DUAL
 Now to complete the lab i need to output the version of the database.
 
 ```php
-SELECT banner FROM v%version
+SELECT banner FROM v$version
 ```
 
 ### Payload
 
 ```php
-' UNION SELECT banner, NULL FROM v%version--
+' UNION SELECT banner, NULL FROM v$version--
 ```
 
 
