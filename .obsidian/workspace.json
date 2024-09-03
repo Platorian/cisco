@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
-                "mode": "source",
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md"
+                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md"
               }
             }
           }
@@ -162,11 +162,26 @@
   },
   "active": "0f28212acfc32b6b",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./Lab - SQL injection attack, listing the database contents on non-Oracle databases.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Cheat Sheet.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./IMG",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12.",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./IMG/Pasted image 20240903081846.png",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./IMG/Pasted image 20240903081734.png",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./Lab - Blind SQL injection with conditional errors.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./IMG",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11.",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./IMG/Pasted image 20240903075347.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./IMG",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10.",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./IMG/Pasted image 20240902084917.png",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./IMG/Pasted image 20240902082543.png",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./Lab - SQL injection attack, listing the database contents on non-Oracle databases.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./IMG",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 9.",
-    "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./IMG/Pasted image 20240901101104.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./IMG",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./IMG/Pasted image 20240901095736.png",
@@ -178,35 +193,20 @@
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/Arch/Firefox.md",
     "obsidian/CTF/HTB/PermX/Notes.md",
-    "obsidian/CTF/HTB/PermX/IMG",
     "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240831123247.png",
     "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/Kali/Docs/OSCP/YACS.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/CTF/HTB/PermX",
-    "obsidian/CTF/HTB",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 6./Lab - SQL injection UNION attack, retrieving multiple values in a single column.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 5./Lab - SQL injection UNION attack, retrieving data from other tables.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 6./IMG",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 6./IMG/Pasted image 20240831090455.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Cheat Sheet.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 6.",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 2./Lab - SQL injection vulnerability allowing login bypass.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./Lab - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
     "obsidian/Extra/PortSwigger/WebSockets Vulnerabilities/Lab 2./Lab - Manipulating the WebSocket handshake to exploit vulnerabilities.md",
     "obsidian/Extra/PortSwigger/WebSockets Vulnerabilities/Lab 3./Lab - Cross-site WebSocket hijacking.md",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 12/Lab - Password brute-force via password change.md",
     "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 11/Lab - Password reset poisoning via middleware.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 10/Lab - Password reset broken logic.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 4./Lab - SQL injection UNION attack, finding a column containing text.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 5.",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 4./IMG/Pasted image 20240831060409.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 3./Lab - SQL injection UNION attack, determining the number of columns returned by the query.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 2./IMG/Pasted image 20240830124349.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./IMG/Pasted image 20240830103324.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Overview.md",
-    "obsidian/Extra/PortSwigger/WebSockets Vulnerabilities/Lab 3./IMG/Pasted image 20240830084156.png",
-    "obsidian/Extra/PortSwigger/WebSockets Vulnerabilities/Lab 3./IMG/Pasted image 20240830084055.png"
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 10/Lab - Password reset broken logic.md"
   ]
 }

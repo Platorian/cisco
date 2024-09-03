@@ -212,12 +212,12 @@ You can potentially identify both the database type and version by injecting pro
 
 The following are some queries to determine the database version for some popular database types:
 
-|   |   |
-|---|---|
-|Database type|Query|
-|Microsoft, MySQL|`SELECT @@version`|
-|Oracle|`SELECT * FROM v$version`|
-|PostgreSQL|`SELECT version()`|
+| Database type    | Query                     |
+| ---------------- | ------------------------- |
+|                  |                           |
+| Microsoft, MySQL | `SELECT @@version`        |
+| Oracle           | `SELECT * FROM v$version` |
+| PostgreSQL       | `SELECT version()`        |
 
 For example, you could use a `UNION` attack with the following input:
 
@@ -298,8 +298,6 @@ To understand how this exploit works, suppose that two requests are sent contain
 
 This allows us to determine the answer to any single injected condition, and extract data one piece at a time.
 
-## Exploiting blind SQL injection by triggering conditional responses - Continued
-
 For example, suppose there is a table called `Users` with the columns `Username` and `Password`, and a user called `Administrator`. You can determine the password for this user by sending a series of inputs to test the password one character at a time.
 
 To do this, start with the following input:
@@ -312,15 +310,97 @@ Next, we send the following input:
 
 `xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 't`
 
-This does not return the "Welcome back" message, indicating that the injected condition is false, and so the first character of the password is not greater than `t`.
+This does **not** return the "Welcome back" message, indicating that the injected condition is false, and so the first character of the password is not greater than `t`.
 
 Eventually, we send the following input, which returns the "Welcome back" message, thereby confirming that the first character of the password is `s`:
 
 `xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) = 's`
 
-We can continue this process to systematically determine the full password for the `Administrator` user.
+We can continue this process to systematically determine the full password for the `Administrator` user. 
 
 #### Note
 
 >The `SUBSTRING` function is called `SUBSTR` on some types of database. For more details, see the SQL injection cheat sheet.
+
+---
+
+## Error-based SQL injection
+
+Error-based SQL injection refers to cases where you're able to use error messages to either extract or infer sensitive data from the database, even in blind contexts. The possibilities depend on the configuration of the database and the types of errors you're able to trigger:
+
+- You may be able to induce the application to return a specific error response based on the result of a boolean expression. You can exploit this in the same way as the conditional responses we looked at in the previous section. For more information, see Exploiting blind SQL injection by triggering conditional errors.
+- You may be able to trigger error messages that output the data returned by the query. This effectively turns otherwise blind SQL injection vulnerabilities into visible ones. For more information, see Extracting sensitive data via verbose SQL error messages.
+
+## Exploiting blind SQL injection by triggering conditional errors
+
+Some applications carry out SQL queries but their behavior doesn't change, regardless of whether the query returns any data. The technique in the previous section won't work, because injecting different boolean conditions makes no difference to the application's responses.
+
+It's often possible to induce the application to return a different response depending on whether a SQL error occurs. You can modify the query so that it causes a database error only if the condition is true. Very often, an unhandled error thrown by the database causes some difference in the application's response, such as an error message. This enables you to infer the truth of the injected condition.
+
+## Exploiting blind SQL injection by triggering conditional errors - Continued
+
+To see how this works, suppose that two requests are sent containing the following `TrackingId` cookie values in turn:
+
+`xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 'a' END)='a 
+`xyz' AND (SELECT CASE WHEN (1=1) THEN 1/0 ELSE 'a' END)='a`
+
+These inputs use the `CASE` keyword to test a condition and return a different expression depending on whether the expression is true:
+
+- With the first input, the `CASE` expression evaluates to `'a'`, which does not cause any error.
+- With the second input, it evaluates to `1/0`, which causes a divide-by-zero error.
+
+If the error causes a difference in the application's HTTP response, you can use this to determine whether the injected condition is true.
+
+Using this technique, you can retrieve data by testing one character at a time:
+
+`xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a`
+
+#### Note
+
+> There are different ways of triggering conditional errors, and different techniques work best on different database types. For more details, see the SQL injection cheat sheet.
+
+## Extracting sensitive data via verbose SQL error messages
+
+Misconfiguration of the database sometimes results in verbose error messages. These can provide information that may be useful to an attacker. For example, consider the following error message, which occurs after injecting a single quote into an `id` parameter:
+
+`Unterminated string literal started at position 52 in SQL SELECT * FROM tracking WHERE id = '''. Expected char`
+
+This shows the full query that the application constructed using our input. We can see that in this case, we're injecting into a single-quoted string inside a `WHERE` statement. This makes it easier to construct a valid query containing a malicious payload. Commenting out the rest of the query would prevent the superfluous single-quote from breaking the syntax.
+
+Occasionally, you may be able to induce the application to generate an error message that contains some of the data that is returned by the query. This effectively turns an otherwise blind SQL injection vulnerability into a visible one.
+
+You can use the `CAST()` function to achieve this. It enables you to convert one data type to another. For example, imagine a query containing the following statement:
+
+`CAST((SELECT example_column FROM example_table) AS int)`
+
+Often, the data that you're trying to read is a string. Attempting to convert this to an incompatible data type, such as an `int`, may cause an error similar to the following:
+
+`ERROR: invalid input syntax for type integer: "Example data"`
+
+This type of query may also be useful if a character limit prevents you from triggering conditional responses.
+
+---
+
+## Exploiting blind SQL injection by triggering time delays
+
+If the application catches database errors when the SQL query is executed and handles them gracefully, there won't be any difference in the application's response. This means the previous technique for inducing conditional errors will not work.
+
+In this situation, it is often possible to exploit the blind SQL injection vulnerability by triggering time delays depending on whether an injected condition is true or false. As SQL queries are normally processed synchronously by the application, delaying the execution of a SQL query also delays the HTTP response. This allows you to determine the truth of the injected condition based on the time taken to receive the HTTP response.
+
+## Exploiting blind SQL injection by triggering time delays - Continued
+
+The techniques for triggering a time delay are specific to the type of database being used. For example, on Microsoft SQL Server, you can use the following to test a condition and trigger a delay depending on whether the expression is true:
+
+`'; IF (1=2) WAITFOR DELAY '0:0:10'-- '; IF (1=1) WAITFOR DELAY '0:0:10'--`
+
+- The first of these inputs does not trigger a delay, because the condition `1=2` is false.
+- The second input triggers a delay of 10 seconds, because the condition `1=1` is true.
+
+Using this technique, we can retrieve data by testing one character at a time:
+
+`'; IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay}'--`
+
+#### Note
+
+> There are various ways to trigger time delays within SQL queries, and different techniques apply on different types of database. For more details, see the SQL injection cheat sheet.
 
