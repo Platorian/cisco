@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
+                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e88b10ba7dbe9e84",
+            "id": "51d5d12745175154",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
+                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
+                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
+                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md"
+                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md"
               }
             }
           }
@@ -160,52 +160,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e88b10ba7dbe9e84",
+  "active": "51d5d12745175154",
   "lastOpenFiles": [
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG/Pasted image 20240906134315.png",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG/Pasted image 20240906115934.png",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906101344.png",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906100116.png",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906092834.png",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906081038.png",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906075351.png",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG",
+    "obsidian/CTF/Hacker101/CTF/PetShopPro",
+    "obsidian/CTF/Hacker101/CTF",
+    "obsidian/CTF/Hacker101",
+    "obsidian/CTF/HTB/Sea/Notes.md",
+    "obsidian/CTF/HTB/Sea/Scans.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
+    "obsidian/CTF/HTB/Sea/IMG",
+    "obsidian/CTF/HTB/Sea",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
     "obsidian/Extra/PortSwigger/SQL Injection/IMG",
     "obsidian/Extra/PortSwigger/SQL Injection/IMG/Pasted image 20240903110836.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./IMG",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./IMG/Pasted image 20240903110439.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 14./Lab - Blind SQL injection with out-of-band data exfiltration.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15.",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./Lab - Blind SQL injection with out-of-band interaction.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 14.",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./IMG",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 13.",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./IMG/Pasted image 20240903094744.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./IMG/Pasted image 20240903094216.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./IMG/Pasted image 20240903093858.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Cheat Sheet.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./IMG",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12.",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./IMG/Pasted image 20240903081846.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./IMG/Pasted image 20240903081734.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./Lab - Blind SQL injection with conditional errors.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./IMG",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11.",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./IMG/Pasted image 20240903075347.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./IMG/Pasted image 20240902084917.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./IMG/Pasted image 20240902082543.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./Lab - SQL injection attack, listing the database contents on non-Oracle databases.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Notes.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Exploit.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Lab - SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/Extra/Arch/Firefox.md",
     "obsidian/CTF/HTB/PermX/Notes.md",
     "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/Kali/Docs/OSCP/YACS.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 6./Lab - SQL injection UNION attack, retrieving multiple values in a single column.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 5./Lab - SQL injection UNION attack, retrieving data from other tables.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 2./Lab - SQL injection vulnerability allowing login bypass.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./Lab - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
-    "obsidian/Extra/PortSwigger/WebSockets Vulnerabilities/Lab 2./Lab - Manipulating the WebSocket handshake to exploit vulnerabilities.md"
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 6./Lab - SQL injection UNION attack, retrieving multiple values in a single column.md"
   ]
 }
