@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md"
+                "file": "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md"
               }
             }
           }
@@ -160,10 +160,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4213102d14ff3af0",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG/Pasted image 20240907160150.png",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG/Pasted image 20240907155005.png",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG/Pasted image 20240907154558.png",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG/Pasted image 20240907154232.png",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG/Pasted image 20240907154213.png",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG/Pasted image 20240907151942.png",
     "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG",
+    "obsidian/CTF/Hacker101/CTF/OSUSEC",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
     "obsidian/CTF/Hacker101/CTF/XSS-Playground/IMG",
     "obsidian/CTF/Hacker101/CTF/XSS-Playground",
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
@@ -174,11 +183,7 @@
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG",
     "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2",
     "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906101344.png",
-    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906100116.png",
-    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906092834.png",
     "obsidian/CTF/Hacker101/CTF/PetShopPro/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906081038.png",
-    "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG/Pasted image 20240906075351.png",
     "obsidian/CTF/Hacker101/CTF/PetShopPro/IMG",
     "obsidian/CTF/Hacker101/CTF/PetShopPro",
     "obsidian/CTF/Hacker101/CTF",
@@ -186,10 +191,7 @@
     "obsidian/CTF/HTB/Sea/Notes.md",
     "obsidian/CTF/HTB/Sea/Scans.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
-    "obsidian/CTF/HTB/Sea/IMG",
-    "obsidian/CTF/HTB/Sea",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/IMG/Pasted image 20240903110836.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 14./Lab - Blind SQL injection with out-of-band data exfiltration.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./Lab - Blind SQL injection with out-of-band interaction.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
@@ -205,8 +207,6 @@
     "obsidian/CTF/HTB/PermX/Notes.md",
     "obsidian/Kali/Tools/Website/GoBuster.md",
     "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 6./Lab - SQL injection UNION attack, retrieving multiple values in a single column.md"
+    "obsidian/Kali/Docs/CTF/CTF Resources.md"
   ]
 }
