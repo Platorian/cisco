@@ -13,27 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4213102d14ff3af0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
-                "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
+                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
+                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md"
+                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md"
               }
             }
           }
@@ -161,10 +147,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4213102d14ff3af0",
+  "active": "a6e537deb7fabc8a",
   "lastOpenFiles": [
-    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
+    "obsidian/Extra/PHP/10. Prepared Statements/Notes.md",
+    "obsidian/Extra/PHP/11. Cross Site Scripting XSS",
+    "obsidian/Extra/PHP/9. GET SQL Injection/Notes.md",
+    "obsidian/Extra/PHP/10. Prepared Statements",
+    "obsidian/Extra/PHP/8. Post SQL Injection/Notes.md",
+    "obsidian/Extra/PHP/9. GET SQL Injection",
+    "obsidian/Extra/PHP/7. Least Privilege/Notes.md",
+    "obsidian/Extra/PHP/8. Post SQL Injection",
+    "obsidian/Extra/PHP/6. Login Error Messaging/Notes.md",
+    "obsidian/Extra/PHP/7. Least Privilege",
+    "obsidian/Extra/PHP/5. Refactor the Code/Notes.md",
+    "obsidian/Extra/PHP/6. Login Error Messaging",
+    "obsidian/Extra/PHP/4. Using Clean URLs/Notes.md",
+    "obsidian/Extra/PHP/3. Single Page Loading/Notes.md",
+    "obsidian/Extra/PHP/5. Refactor the Code",
+    "obsidian/Extra/PHP/4. Using Clean URLs",
+    "obsidian/Extra/PHP/2. Secure File Includes/Notes.md",
+    "obsidian/Extra/PHP/3. Single Page Loading",
     "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
+    "obsidian/Extra/PHP/1. Keeping Code Private/Notes.md",
+    "obsidian/Extra/PHP/2. Secure File Includes",
+    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 4. Breif/Breif.md",
     "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908093824.png",
@@ -174,40 +182,18 @@
     "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908072900.png",
     "obsidian/CTF/Hacker101/CTF/TempImage/Notes.md",
     "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908071807.png",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog",
     "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908053220.png",
     "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908051941.png",
     "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908051546.png",
     "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908050743.png",
     "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities/Local File Inclusion Vulnerabilities.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/TempImage/IMG",
-    "obsidian/CTF/Hacker101/CTF/TempImage",
     "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
     "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/OSUSEC/IMG",
-    "obsidian/CTF/Hacker101/CTF/OSUSEC",
-    "obsidian/CTF/Hacker101/CTF/XSS-Playground/IMG",
-    "obsidian/CTF/Hacker101/CTF/XSS-Playground",
-    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/IMG",
-    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2",
     "obsidian/CTF/Hacker101/CTF/PetShopPro/Notes.md",
     "obsidian/CTF/HTB/Sea/Notes.md",
     "obsidian/CTF/HTB/Sea/Scans.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 14./Lab - Blind SQL injection with out-of-band data exfiltration.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./Lab - Blind SQL injection with out-of-band interaction.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Cheat Sheet.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./Lab - Blind SQL injection with conditional errors.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./Lab - SQL injection attack, listing the database contents on non-Oracle databases.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Notes.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Exploit.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Lab - SQL injection attack, querying the database type and version on MySQL and Microsoft.md"
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md"
   ]
 }
