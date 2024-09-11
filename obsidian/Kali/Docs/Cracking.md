@@ -189,6 +189,20 @@ hashcat -m 1710 -a 0 "<PASS>:<SALT>" --wordlist=/usr/share/wordlists/rockyou.txt
 - `hashcat --show` (try adding all of this to one command)
 - Untested... 
 
+Good Tool for Hash Identification.
+HAITI:
+https://en.kali.tools/?p=1567
+
+Provides codes in the output for hashcat and john.
+
+```php
+sudo apt install rubygems
+```
+
+```php
+sudo gem install haiti-hash
+```
+
 ---
 
 ### Md5sum

@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "4466d503c0137bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Kali/Docs/Cracking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a6e537deb7fabc8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
+                "file": "obsidian/CTF/Hacker101/CTF/Photo Gallery/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8c324b67753c230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md"
+                "file": "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md"
               }
             }
           }
@@ -147,53 +172,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6e537deb7fabc8a",
+  "active": "a8c324b67753c230",
   "lastOpenFiles": [
+    "obsidian/Extra/CyberMentor/Web App/Concepts/File Upload.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/XSS, DOM, and UI Bypassing.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection 1.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/XSS, SQL Injection, and Broken Access.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG/Pasted image 20240911074954.png",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG/Pasted image 20240911074933.png",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG/Pasted image 20240911074258.png",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG/Pasted image 20240911074145.png",
+    "obsidian/Kali/Docs/Cracking.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG",
+    "obsidian/CTF/Hacker101/CTF/Photo Gallery",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG/Pasted image 20240911060612.png",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG/Pasted image 20240911055957.png",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG/Pasted image 20240911055928.png",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG/Pasted image 20240911055727.png",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG/Pasted image 20240911053953.png",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG/Pasted image 20240911053944.png",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Input validation, and more XSS.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Command Injection.md",
+    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
+    "obsidian/Kali/Docs/Reverse Shells.md",
+    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/Kali/Docs/Networking/Subnet.md",
+    "obsidian/Kali/Docs/Concepts/Cisco Lab.md",
     "obsidian/Extra/PHP/11. Cross Site Scripting XSS/Notes.md",
-    "obsidian/Extra/PHP/10. Prepared Statements/Notes.md",
-    "obsidian/Extra/PHP/11. Cross Site Scripting XSS",
     "obsidian/Extra/PHP/9. GET SQL Injection/Notes.md",
-    "obsidian/Extra/PHP/10. Prepared Statements",
-    "obsidian/Extra/PHP/8. Post SQL Injection/Notes.md",
-    "obsidian/Extra/PHP/9. GET SQL Injection",
-    "obsidian/Extra/PHP/7. Least Privilege/Notes.md",
-    "obsidian/Extra/PHP/8. Post SQL Injection",
-    "obsidian/Extra/PHP/6. Login Error Messaging/Notes.md",
-    "obsidian/Extra/PHP/7. Least Privilege",
-    "obsidian/Extra/PHP/5. Refactor the Code/Notes.md",
-    "obsidian/Extra/PHP/6. Login Error Messaging",
-    "obsidian/Extra/PHP/4. Using Clean URLs/Notes.md",
-    "obsidian/Extra/PHP/3. Single Page Loading/Notes.md",
-    "obsidian/Extra/PHP/5. Refactor the Code",
-    "obsidian/Extra/PHP/4. Using Clean URLs",
-    "obsidian/Extra/PHP/2. Secure File Includes/Notes.md",
-    "obsidian/Extra/PHP/3. Single Page Loading",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
     "obsidian/Extra/PHP/1. Keeping Code Private/Notes.md",
-    "obsidian/Extra/PHP/2. Secure File Includes",
-    "obsidian/CTF/Hacker101/CTF/Micro-CMS-V2/Notes.md",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/1. Intro/Task 4. Breif/Breif.md",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908093824.png",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908085825.png",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908081732.png",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908073247.png",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908072900.png",
-    "obsidian/CTF/Hacker101/CTF/TempImage/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/IMG/Pasted image 20240908071807.png",
-    "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908053220.png",
-    "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908051941.png",
-    "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908051546.png",
-    "obsidian/CTF/Hacker101/CTF/TempImage/IMG/Pasted image 20240908050743.png",
-    "obsidian/Kali/Docs/Concepts/Exploiting Application-Based Vulnerabilities/Exploiting File Inclusion Vulnerabilities/Local File Inclusion Vulnerabilities.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/XSS-Playground/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/OSUSEC/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/PetShopPro/Notes.md",
-    "obsidian/CTF/HTB/Sea/Notes.md",
-    "obsidian/CTF/HTB/Sea/Scans.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Overview.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md"
+    "obsidian/Extra/PHP/2. Secure File Includes/Notes.md",
+    "obsidian/Extra/PHP/3. Single Page Loading/Notes.md",
+    "obsidian/Extra/PHP/4. Using Clean URLs/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/IMG",
+    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo",
+    "obsidian/Extra/PHP/11. Cross Site Scripting XSS",
+    "obsidian/Extra/PHP/10. Prepared Statements",
+    "obsidian/Extra/PHP/9. GET SQL Injection",
+    "obsidian/Extra/PHP/8. Post SQL Injection",
+    "obsidian/Extra/PHP/7. Least Privilege",
+    "obsidian/Extra/PHP/6. Login Error Messaging"
   ]
 }

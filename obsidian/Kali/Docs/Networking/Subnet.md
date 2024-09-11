@@ -1,4 +1,4 @@
-# Subnet Cheat Sheet
+# Subnet Cheat Sheet 
   
 | CIDR | Hosts         | Subnet        | Class |
 | :--- | :------------ | :------------ | :---- |
