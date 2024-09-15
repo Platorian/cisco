@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/HTB/BoardLight/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/HTB/BoardLight/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/HTB/BoardLight/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/HTB/BoardLight/Notes.md"
+                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md"
               }
             }
           }
@@ -172,9 +172,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8c324b67753c230",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084921.png",
+    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084658.png",
+    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084338.png",
+    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084126.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
+    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915082609.png",
+    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
+    "obsidian/Kali/Recon/Forensics.md",
+    "obsidian/Kali/Docs/Cracking.md",
+    "obsidian/CTF/Proving Grounds/Monkeybox/gobuster.md",
+    "obsidian/CTF/Proving Grounds/Monkeybox/nmap.md",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
+    "obsidian/CTF/Proving Grounds/Monkeybox/IMG",
+    "obsidian/CTF/Proving Grounds/Monkeybox",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG/Pasted image 20240915075440.png",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG/Pasted image 20240915075053.png",
+    "obsidian/Extra/Git Install/Git Install.md",
     "obsidian/CTF/HTB/BoardLight/Notes.md",
     "obsidian/CTF/HTB/BoardLight/IMG/Pasted image 20240914093237.png",
     "obsidian/CTF/HTB/BoardLight/IMG/Pasted image 20240914093128.png",
@@ -184,18 +201,12 @@
     "obsidian/CTF/HTB/BoardLight",
     "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240914074553.png",
     "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240914073925.png",
-    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread/Nmap.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Fuzzing HTTP Parameters.md",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread",
     "obsidian/Extra/CyberMentor/Web App/Concepts/DNS Zone Transfer.md",
-    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913141643.png",
-    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913141503.png",
     "obsidian/CTF/Proving Grounds/Gaara/Notes.md",
-    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913135331.png",
-    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913134258.png",
-    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913133637.png",
     "obsidian/Kali/Docs/OSCP/YACS.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Command Injection.md",
     "obsidian/CTF/Proving Grounds/Gaara/nmap.md",
@@ -203,21 +214,11 @@
     "obsidian/CTF/Hacker101/CTF/h1 thermostat/Notes.md",
     "obsidian/CTF/Proving Grounds/Gaara/IMG",
     "obsidian/CTF/Proving Grounds/Gaara",
-    "obsidian/CTF/Hacker101/CTF/h1 thermostat/IMG/Pasted image 20240913105027.png",
     "obsidian/CTF/Hacker101/CTF/h1 thermostat/IMG",
     "obsidian/CTF/Hacker101/CTF/Grayhatcon/Notes.md",
     "obsidian/CTF/Hacker101/CTF/h1 thermostat",
     "obsidian/CTF/Hacker101/CTF/Grayhatcon/gobuster.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
-    "obsidian/CTF/Hacker101/CTF/Grayhatcon/IMG",
-    "obsidian/CTF/Hacker101/CTF/Grayhatcon",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
-    "obsidian/Extra/Git Install/Git Install.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2/Lab - Web shell upload via Content-Type restriction bypass.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/File Upload.md",
-    "obsidian/CTF/Proving Grounds/Sar/Notes.md"
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md"
   ]
 }

@@ -238,7 +238,7 @@ mrkmety@kali:~ $ **sudo apt install binwalk -y**
 Run the following command to see if Binwalk finds any embedded files.
 
 ```
-mrkmety@kali:~ $ **binwalk dog.jpg  
+mrkmety@kali:~ $ binwalk dog.jpg  
 **DECIMAL       HEXADECIMAL     DESCRIPTION  
 -------------------------------------------------------------------  
 0             0x0             JPEG image data, JFIF standard 1.01  

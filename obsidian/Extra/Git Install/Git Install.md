@@ -81,3 +81,41 @@ Taking a look at `github-cli`
 
 - Declare your aliases for often-used commands with [`gh alias set`](https://cli.github.com/manual/gh_alias_set).
 
+```php
+gh auth login
+```
+
+```php
+gh auth status
+```
+
+- We can check the information regarding the authentication state using the command: “**gh auth status**” and also refresh the stored authentication credentials using the command: “**gh auth refresh**”.
+
+```php
+gh auth setup-git
+```
+
+Log in with a token from `stdin`
+
+If you have a personal access token generated from the GitHub website ([https://github.com/settings/tokens](https://github.com/settings/tokens) ) and want to log in with it, you can use the following command:
+
+```php
+echo your_token | gh auth login --with-token
+```
+
+- This use case is useful when you want to automate the authentication process or when you have a personal access token stored securely and want to use it for authentication.
+
+https://commandmasters.com/commands/gh-auth-common/
+
+To refresh the session and ensure that your authentication credentials have the correct minimum scopes, you can use the following command:
+
+```php
+gh auth refresh
+```
+
+To expand the permission scopes for the authentication, you can specify the desired scopes using the `--scopes` option. For example:
+
+```php
+gh auth refresh --scopes repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...
+```
+
