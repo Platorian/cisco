@@ -50,9 +50,51 @@ So simply put, if the dev has told the app to include any files that an attacker
 
 - Usage: `www.example.com/uploads/test.php`
 - Example:  `www.example.com/uploads/test&cmd=whoami`
-
+- If file is nested: `www.example.com/uploads/../../../../../test&cmd=whoami`
 
 **RFI with PHP** 
 
+RFI is when the web-server is setup to pull in a resource from an outside address. The attacker can manipulate where the server get's the file and imitate the server giving it a malicious file. 
+
+```php
+if (str_starts_with($file, 'http')){
+	$files[] = "http://localhost:1338/" . substr($file, 5);;
+}
+```
+
+In the above example the php would check the name of the file and if it starts with `http` then it will add it to the local host address and pull it into a remote end point on the server. 
+
+File: `test.php`
+
+End point: `http://localhost:1338/test.php`
+
+This is where an attacker would have an apache2 server setup ready to deliver the file. 
+
+Including a file from a network resource. 
+
+I think i understand it a littler better. If the PHP code for some reason is coded in a way that an attacker can manipulate it to go out into the network looking for that resource, like in the examples above, the attacker can setup there own server ready to deliver the file to the target. Now we just navigate to the location of the file and we can use the exploit. 
+
+Settings that allow for this RFI: `allow_url_include = ON`
+- The default is off so this might only work for certain CTF machines.
+
+Base64 Encode the Payload:
+
+```php
+php://filter/convert.base64-encode/resource=../../../../../etc/passwd
+```
+
+Where to add it:
+
+`http://example.com/page=<PAYLOAD>`
+
+Decode b64:
+```php
+echo 'b64' | base64 -d
+```
+
+Check to see if include is in the code:
+
+`http://example.com/page=<PAYLOAD>`
+- include.php
 
 

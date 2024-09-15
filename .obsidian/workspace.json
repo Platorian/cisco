@@ -20,31 +20,31 @@
             }
           },
           {
-            "id": "a6e537deb7fabc8a",
+            "id": "a8c324b67753c230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+                "file": "obsidian/CTF/HTB/BoardLight/Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a8c324b67753c230",
+            "id": "a6e537deb7fabc8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
+                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
+                "file": "obsidian/CTF/HTB/BoardLight/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
+                "file": "obsidian/CTF/HTB/BoardLight/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md"
+                "file": "obsidian/CTF/HTB/BoardLight/Notes.md"
               }
             }
           }
@@ -174,51 +174,50 @@
   },
   "active": "a8c324b67753c230",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/HTB/BoardLight/Notes.md",
+    "obsidian/CTF/HTB/BoardLight/IMG/Pasted image 20240914093237.png",
+    "obsidian/CTF/HTB/BoardLight/IMG/Pasted image 20240914093128.png",
+    "obsidian/CTF/HTB/BoardLight/nmap.md",
+    "obsidian/CTF/HTB/PermX/Notes.md",
+    "obsidian/CTF/HTB/BoardLight/IMG",
+    "obsidian/CTF/HTB/BoardLight",
+    "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240914074553.png",
+    "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240914073925.png",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Nmap.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Fuzzing HTTP Parameters.md",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/DNS Zone Transfer.md",
+    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913141643.png",
+    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913141503.png",
+    "obsidian/CTF/Proving Grounds/Gaara/Notes.md",
+    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913135331.png",
+    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913134258.png",
+    "obsidian/CTF/Proving Grounds/Gaara/IMG/Pasted image 20240913133637.png",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/Command Injection.md",
+    "obsidian/CTF/Proving Grounds/Gaara/nmap.md",
+    "obsidian/CTF/Proving Grounds/Gaara/gobuster.md",
+    "obsidian/CTF/Hacker101/CTF/h1 thermostat/Notes.md",
+    "obsidian/CTF/Proving Grounds/Gaara/IMG",
+    "obsidian/CTF/Proving Grounds/Gaara",
+    "obsidian/CTF/Hacker101/CTF/h1 thermostat/IMG/Pasted image 20240913105027.png",
+    "obsidian/CTF/Hacker101/CTF/h1 thermostat/IMG",
+    "obsidian/CTF/Hacker101/CTF/Grayhatcon/Notes.md",
+    "obsidian/CTF/Hacker101/CTF/h1 thermostat",
+    "obsidian/CTF/Hacker101/CTF/Grayhatcon/gobuster.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
+    "obsidian/CTF/Hacker101/CTF/Grayhatcon/IMG",
+    "obsidian/CTF/Hacker101/CTF/Grayhatcon",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
+    "obsidian/Extra/Git Install/Git Install.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2/Lab - Web shell upload via Content-Type restriction bypass.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2/IMG/Pasted image 20240912085516.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2/IMG/Pasted image 20240912085450.png",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/IMG/Pasted image 20240912084810.png",
     "obsidian/Extra/CyberMentor/Web App/Concepts/File Upload.md",
-    "obsidian/CTF/Proving Grounds/Sar/Notes.md",
-    "obsidian/CTF/Proving Grounds/Sar/IMG/Pasted image 20240912082851.png",
-    "obsidian/CTF/Proving Grounds/Sar/IMG/Pasted image 20240912045406.png",
-    "obsidian/CTF/Proving Grounds/Sar/IMG/Pasted image 20240912045032.png",
-    "obsidian/CTF/Proving Grounds/Sar/Scans.md",
-    "obsidian/CTF/Proving Grounds/Sar/IMG/Pasted image 20240912042958.png",
-    "obsidian/CTF/Proving Grounds/Sar/IMG/Pasted image 20240912041748.png",
-    "obsidian/Kali/Docs/Cracking.md",
-    "obsidian/CTF/Hacker101/CTF/Photo Gallery/Notes.md",
-    "obsidian/CTF/Proving Grounds/Sar/IMG",
-    "obsidian/CTF/Proving Grounds/Sar",
-    "obsidian/CTF/Proving Grounds",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/PHP.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/XSS, DOM, and UI Bypassing.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection 1.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/XSS, SQL Injection, and Broken Access.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/Blind SQL injection.md",
-    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG/Pasted image 20240911074954.png",
-    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG/Pasted image 20240911074933.png",
-    "obsidian/CTF/Hacker101/CTF/Tickettastic Demo/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/Photo Gallery/IMG",
-    "obsidian/CTF/Hacker101/CTF/Photo Gallery",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/Input validation, and more XSS.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/Command Injection.md",
-    "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/SQL Injection.md",
-    "obsidian/Kali/Docs/Reverse Shells.md",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/Kali/Docs/Networking/Subnet.md",
-    "obsidian/Kali/Docs/Concepts/Cisco Lab.md"
+    "obsidian/CTF/Proving Grounds/Sar/Notes.md"
   ]
 }

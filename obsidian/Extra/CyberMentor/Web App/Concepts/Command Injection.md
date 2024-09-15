@@ -1,7 +1,19 @@
 ## What is OS command injection?
 
-OS command injection is also known as shell injection. It allows an attacker to execute operating system (OS) commands on the server that is running an application, and typically fully compromise the application and its data. Often, an attacker can leverage an OS command injection vulnerability to compromise other parts of the hosting infrastructure, and exploit trust relationships to pivot the attack to other systems within the organization.
+OS command injection is also known as shell injection. It allows an attacker to execute operating system (OS) commands on the server that is running an application, and typically fully compromise the application and its data. Often, an attacker can leverage an OS command injection vulnerability to compromise other parts of the hosting infrastructure, and exploit trust relationships to pivot the attack to other systems within the organisation.
 
+Terminal:
+- Used to send commands to the shell.
+- The graphical application used to interact with the shell.
+
+The Shell:
+- The interpreter of the terminal commands.
+- The shell interacts with the operating system by using system calls.
+
+The OS
+- Gives back results to the shell which gives it to the terminal to display to the user.
+
+A web app doesn't use a terminal, it just interacts with the shell.
 ## Useful commands
 
 After you identify an OS command injection vulnerability, it's useful to execute some initial commands to obtain information about the system. Below is a summary of some commands that are useful on Linux and Windows platforms:
@@ -13,6 +25,7 @@ After you identify an OS command injection vulnerability, it's useful to execute
 | Network configuration | `ifconfig`    | `ipconfig /all` |
 | Network connections   | `netstat -an` | `netstat -an`   |
 | Running processes     | `ps -ef`      | `tasklist`      |
+| List directories      | `ls`          | `dir`           |
 ## Injecting OS commands
 
 In this example, a shopping application lets the user view whether an item is in stock in a particular store. This information is accessed via a URL:
@@ -58,3 +71,14 @@ Placing the additional command separator `&` after the injected command is usefu
 
 ![[Pasted image 20240623073025.png]]
 
+Redirecting output into a file:
+
+```php
+csrf=<CSRF>&name='&email=test@gmail.com ; whaomi > /var/www/images/whaomi.txt;&subject='&message='
+```
+
+```php
+www.example.com/images/whaomi.txt
+```
+
+You have to be able to access the file after you've created it. 
