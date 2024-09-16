@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
+                "file": "obsidian/CTF/HTB/Sea/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/OSCP/YACS.md",
+                "file": "obsidian/CTF/Proving Grounds/Sar/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
+                "file": "obsidian/CTF/HTB/Sea/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
+                "file": "obsidian/CTF/HTB/Sea/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md"
+                "file": "obsidian/CTF/HTB/Sea/Notes.md"
               }
             }
           }
@@ -174,51 +174,51 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084921.png",
-    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084658.png",
-    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084338.png",
-    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915084126.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916094729.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916094505.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916094156.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916093420.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916092956.png",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/HTB/Sea/Notes.md",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916091753.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916091525.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916090024.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916084648.png",
+    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916084532.png",
+    "obsidian/CTF/HTB/BoardLight/Notes.md",
+    "obsidian/CTF/HTB/PermX/Notes.md",
+    "obsidian/Extra/CyberMentor/Linux Priv Esc/LD_PRELOAD.md",
+    "obsidian/Extra/CyberMentor/Linux Priv Esc/Kernel.md",
+    "obsidian/CTF/Proving Grounds/Sar/Notes.md",
+    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
     "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
-    "obsidian/CTF/Proving Grounds/Monkeybox/IMG/Pasted image 20240915082609.png",
+    "obsidian/Kali/Docs/OSCP/YACS.md",
+    "obsidian/Extra/CyberMentor/Linux Priv Esc/IMG/Pasted image 20240915095746.png",
+    "obsidian/Extra/CyberMentor/Linux Priv Esc/IMG",
+    "obsidian/Extra/CyberMentor/Linux Priv Esc",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Kali/Recon/Forensics.md",
     "obsidian/Kali/Docs/Cracking.md",
     "obsidian/CTF/Proving Grounds/Monkeybox/gobuster.md",
     "obsidian/CTF/Proving Grounds/Monkeybox/nmap.md",
-    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
     "obsidian/CTF/Proving Grounds/Monkeybox/IMG",
     "obsidian/CTF/Proving Grounds/Monkeybox",
-    "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG/Pasted image 20240915075440.png",
-    "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG/Pasted image 20240915075053.png",
     "obsidian/Extra/Git Install/Git Install.md",
-    "obsidian/CTF/HTB/BoardLight/Notes.md",
-    "obsidian/CTF/HTB/BoardLight/IMG/Pasted image 20240914093237.png",
-    "obsidian/CTF/HTB/BoardLight/IMG/Pasted image 20240914093128.png",
     "obsidian/CTF/HTB/BoardLight/nmap.md",
-    "obsidian/CTF/HTB/PermX/Notes.md",
     "obsidian/CTF/HTB/BoardLight/IMG",
     "obsidian/CTF/HTB/BoardLight",
-    "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240914074553.png",
-    "obsidian/CTF/HTB/PermX/IMG/Pasted image 20240914073925.png",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread/Nmap.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Fuzzing HTTP Parameters.md",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread/IMG",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread",
     "obsidian/Extra/CyberMentor/Web App/Concepts/DNS Zone Transfer.md",
     "obsidian/CTF/Proving Grounds/Gaara/Notes.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
     "obsidian/Extra/CyberMentor/Web App/Concepts/Command Injection.md",
     "obsidian/CTF/Proving Grounds/Gaara/nmap.md",
     "obsidian/CTF/Proving Grounds/Gaara/gobuster.md",
     "obsidian/CTF/Hacker101/CTF/h1 thermostat/Notes.md",
     "obsidian/CTF/Proving Grounds/Gaara/IMG",
-    "obsidian/CTF/Proving Grounds/Gaara",
-    "obsidian/CTF/Hacker101/CTF/h1 thermostat/IMG",
-    "obsidian/CTF/Hacker101/CTF/Grayhatcon/Notes.md",
-    "obsidian/CTF/Hacker101/CTF/h1 thermostat",
-    "obsidian/CTF/Hacker101/CTF/Grayhatcon/gobuster.md",
-    "obsidian/Extra/CyberMentor/Web App/Concepts/File Inclusion Local and Remote.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md"
+    "obsidian/CTF/Proving Grounds/Gaara"
   ]
 }
