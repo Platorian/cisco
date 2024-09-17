@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/Lab - Remote code execution via polyglot web shell upload.md",
+                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 3/Lab - Indirect prompt injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md"
+                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md"
               }
             }
           }
@@ -174,10 +174,33 @@
   },
   "active": "a6e537deb7fabc8a",
   "lastOpenFiles": [
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 3/Lab - Indirect prompt injection.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 2/Lab - Exploiting vulnerabilities in LLM APIs.md",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 3",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/IMG",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/IMG/Pasted image 20240917074743.png",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 1/Lab - Exploiting LLM APIs with excessive agency.md",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 2",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/Lab - Remote code execution via polyglot web shell upload.md",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 1/IMG",
+    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 1",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/Notes.md",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/exploit.md",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/nmap.md",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/gobuster.md",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917055616.png",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917055144.png",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917044526.png",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917043940.png",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917043936.png",
+    "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
+    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG",
+    "obsidian/CTF/Proving Grounds/CyberSploit1",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/IMG/Pasted image 20240916134250.png",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/IMG/Pasted image 20240916134220.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/Lab - Web shell upload via obfuscated file extension.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/IMG",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6",
@@ -185,39 +208,17 @@
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/IMG/Pasted image 20240916132539.png",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4/Lab - Web shell upload via extension blacklist bypass.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4/IMG/Pasted image 20240916131542.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4/IMG/Pasted image 20240916131124.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4/IMG/Pasted image 20240916130009.png",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/IMG/Pasted image 20240916123413.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/IMG/Pasted image 20240916121727.png",
     "obsidian/Extra/PortSwigger/Path Traversal/Lab 6./Notes.md",
     "obsidian/Extra/PortSwigger/Path Traversal/Overview.md",
     "obsidian/CTF/Proving Grounds/Sar/Notes.md",
     "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/HTB/Sea/IMG/Pasted image 20240916094729.png",
     "obsidian/CTF/HTB/Sea/Notes.md",
     "obsidian/CTF/HTB/BoardLight/Notes.md",
     "obsidian/CTF/HTB/PermX/Notes.md",
     "obsidian/Extra/CyberMentor/Linux Priv Esc/LD_PRELOAD.md",
     "obsidian/Extra/CyberMentor/Linux Priv Esc/Kernel.md",
     "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
-    "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/Extra/CyberMentor/Linux Priv Esc/IMG",
-    "obsidian/Extra/CyberMentor/Linux Priv Esc",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
-    "obsidian/Kali/Recon/Forensics.md",
-    "obsidian/Kali/Docs/Cracking.md",
-    "obsidian/CTF/Proving Grounds/Monkeybox/gobuster.md",
-    "obsidian/CTF/Proving Grounds/Monkeybox/nmap.md",
-    "obsidian/CTF/Proving Grounds/Monkeybox/IMG",
-    "obsidian/CTF/Proving Grounds/Monkeybox",
-    "obsidian/Extra/Git Install/Git Install.md",
-    "obsidian/CTF/HTB/BoardLight/nmap.md"
+    "obsidian/Kali/Docs/OSCP/YACS.md"
   ]
 }
