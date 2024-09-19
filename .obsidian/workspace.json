@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 3/Lab - Indirect prompt injection.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md"
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md"
               }
             }
           }
@@ -172,53 +172,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6e537deb7fabc8a",
+  "active": "a8c324b67753c230",
   "lastOpenFiles": [
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/Lab - Detecting NoSQL injection.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 3./Lab - SQL injection UNION attack, determining the number of columns returned by the query.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./Lab - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 3/Lab - Indirect prompt injection.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/IMG",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1",
+    "obsidian/CTF/HTB/GreenHorn/Notes.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/IMG",
+    "obsidian/Extra/PortSwigger/NoSQL injection",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918083531.png",
+    "obsidian/CTF/HTB/GreenHorn/exploit.md",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918073418.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918073200.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918072907.png",
+    "obsidian/CTF/HTB/GreenHorn/nmap.md",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918072151.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918071124.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918070330.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918070211.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918065949.png",
+    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918065427.png",
+    "obsidian/CTF/HTB/BoardLight/Notes.md",
+    "obsidian/CTF/HTB/GreenHorn/IMG",
+    "obsidian/CTF/HTB/GreenHorn",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/HTB/Sea/Notes.md",
+    "obsidian/CTF/HTB/PermX/Notes.md",
+    "obsidian/CTF/Proving Grounds/SunsetNoonTide/Notes.md",
+    "obsidian/CTF/Proving Grounds/SunsetNoonTide/nmap.md",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Overview.md",
+    "obsidian/CTF/Proving Grounds/SunsetNoonTide/IMG",
+    "obsidian/CTF/Proving Grounds/SunsetNoonTide",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 2/Lab - Exploiting vulnerabilities in LLM APIs.md",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 3",
-    "obsidian/Extra/PortSwigger/Web LLM Attacks/IMG",
-    "obsidian/Extra/PortSwigger/Web LLM Attacks/IMG/Pasted image 20240917074743.png",
     "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 1/Lab - Exploiting LLM APIs with excessive agency.md",
-    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 2",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/Lab - Remote code execution via polyglot web shell upload.md",
-    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 1/IMG",
-    "obsidian/Extra/PortSwigger/Web LLM Attacks/Lab 1",
     "obsidian/CTF/Proving Grounds/CyberSploit1/Notes.md",
     "obsidian/CTF/Proving Grounds/CyberSploit1/exploit.md",
     "obsidian/CTF/Proving Grounds/CyberSploit1/nmap.md",
     "obsidian/CTF/Proving Grounds/CyberSploit1/gobuster.md",
-    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917055616.png",
-    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917055144.png",
-    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917044526.png",
-    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917043940.png",
-    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG/Pasted image 20240917043936.png",
     "obsidian/CTF/Proving Grounds/Monkeybox/Notes.md",
-    "obsidian/CTF/Proving Grounds/CyberSploit1/IMG",
-    "obsidian/CTF/Proving Grounds/CyberSploit1",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/IMG/Pasted image 20240916134250.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/IMG/Pasted image 20240916134220.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/Lab - Web shell upload via obfuscated file extension.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/IMG/Pasted image 20240916132615.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/IMG/Pasted image 20240916132539.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 4/Lab - Web shell upload via extension blacklist bypass.md",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/IMG",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 3/Lab - Web shell upload via path traversal.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6./Notes.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Overview.md",
-    "obsidian/CTF/Proving Grounds/Sar/Notes.md",
-    "obsidian/Python Essentials/Cheat Sheet.md",
-    "obsidian/CTF/HTB/Sea/Notes.md",
-    "obsidian/CTF/HTB/BoardLight/Notes.md",
-    "obsidian/CTF/HTB/PermX/Notes.md",
-    "obsidian/Extra/CyberMentor/Linux Priv Esc/LD_PRELOAD.md",
-    "obsidian/Extra/CyberMentor/Linux Priv Esc/Kernel.md",
-    "obsidian/CTF/Proving Grounds/OneSystemShellDread/Notes.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md"
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 5/Lab - Web shell upload via obfuscated file extension.md"
   ]
 }
