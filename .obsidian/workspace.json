@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "a6e537deb7fabc8a",
+            "id": "a8c324b67753c230",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,24 +32,12 @@
             }
           },
           {
-            "id": "a8c324b67753c230",
+            "id": "a6e537deb7fabc8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a7288386846e2af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Extra/PortSwigger/SQL Injection/Lab 2./Lab - SQL injection vulnerability allowing login bypass.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md",
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md"
+                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md"
               }
             }
           }
@@ -184,12 +172,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8c324b67753c230",
+  "active": "a6e537deb7fabc8a",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 2./Lab - SQL injection vulnerability allowing login bypass.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG/Pasted image 20240921054622.png",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./Lab - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG/Pasted image 20240921042948.png",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG/Pasted image 20240921040622.png",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240920133009.png",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240920114747.png",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 2./Lab - SQL injection vulnerability allowing login bypass.md",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240920113040.png",
+    "obsidian/Kali/Exploits/PHP/php reverse shell.md",
+    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920090324.png",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920085713.png",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920085148.png",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920084637.png",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/Notes.md",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920083750.png",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/nmap.md",
+    "obsidian/Kali/Exploits/PHP",
+    "obsidian/Kali/Exploits",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/gobuster.md",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG",
+    "obsidian/CTF/Proving Grounds/FunBoxEasy",
+    "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./Lab - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./Lab - Blind SQL injection with out-of-band interaction.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 14./Lab - Blind SQL injection with out-of-band data exfiltration.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
@@ -200,37 +213,12 @@
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./Lab - SQL injection attack, listing the database contents on non-Oracle databases.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./Lab - Blind SQL injection with conditional errors.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240919112731.png",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/IMG/Pasted image 20240919111512.png",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/IMG",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/IMG/Pasted image 20240919105912.png",
     "obsidian/Extra/Arch/Obsidian.md",
     "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 6/Lab - Remote code execution via polyglot web shell upload.md",
-    "obsidian/Extra/Arch/Packages.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/HTB/Editorial/IMG/Pasted image 20240919085111.png",
-    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
-    "obsidian/CTF/HTB/Editorial/Notes.md",
-    "obsidian/CTF/HTB/Editorial/IMG/Pasted image 20240919083202.png",
-    "obsidian/CTF/HTB/Editorial/nmap.md",
-    "obsidian/CTF/HTB/GreenHorn/Notes.md",
-    "obsidian/CTF/HTB/Editorial/IMG",
-    "obsidian/CTF/HTB/Editorial",
-    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240919074437.png",
-    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240919074358.png",
-    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240919071607.png",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/Lab - Detecting NoSQL injection.md",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/IMG",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1",
-    "obsidian/Extra/PortSwigger/NoSQL injection/IMG",
-    "obsidian/Extra/PortSwigger/NoSQL injection",
-    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918083531.png",
-    "obsidian/CTF/HTB/GreenHorn/IMG/Pasted image 20240918073418.png"
+    "obsidian/CTF/HTB/Editorial/IMG"
   ]
 }
