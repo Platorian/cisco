@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
+                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4/Lab - CSRF where token is not tied to user session.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4/Lab - CSRF where token is not tied to user session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4/Lab - CSRF where token is not tied to user session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md"
+                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4/Lab - CSRF where token is not tied to user session.md"
               }
             }
           }
@@ -172,9 +172,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8c324b67753c230",
+  "active": "a6e537deb7fabc8a",
   "lastOpenFiles": [
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 3/Lab - CSRF where token validation depends on token being present.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4/Lab - CSRF where token is not tied to user session.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Overview.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 2/Lab - CSRF where token validation depends on request method.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 1/Lab - CSRF vulnerability with no defenses.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 3/IMG",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 3",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 2/IMG",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 2",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 1/IMG/Pasted image 20240922063609.png",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 1/IMG",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 1",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/IMG",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/IMG/Pasted image 20240922054555.png",
+    "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/Lab - Detecting NoSQL injection.md",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
@@ -193,10 +210,8 @@
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 3./Lab - SQL injection UNION attack, determining the number of columns returned by the query.md",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG/Pasted image 20240921054622.png",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG/Pasted image 20240921042948.png",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/IMG/Pasted image 20240921040622.png",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240920133009.png",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240920114747.png",
     "obsidian/Extra/PortSwigger/SQL Injection/Lab 11./Lab - Visible error-based SQL injection.md",
@@ -204,21 +219,6 @@
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG/Pasted image 20240920113040.png",
     "obsidian/Kali/Exploits/PHP/php reverse shell.md",
     "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920090324.png",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920085713.png",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920085148.png",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/Notes.md",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/nmap.md",
-    "obsidian/Kali/Exploits/PHP",
-    "obsidian/Kali/Exploits",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/gobuster.md",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG",
-    "obsidian/CTF/Proving Grounds/FunBoxEasy",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 1./Lab - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 7./Lab - SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/IMG",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/IMG",
-    "obsidian/CTF/HTB/Editorial/IMG"
+    "obsidian/CTF/Proving Grounds/FunBoxEasy/IMG/Pasted image 20240920090324.png"
   ]
 }
