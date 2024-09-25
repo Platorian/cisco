@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 8/Lab - SameSite Strict bypass via client-side redirect.md",
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Overview.md",
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Overview.md",
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Overview.md"
+                "file": "obsidian/Python Essentials/Python Modules/BeautifulSoup.md"
               }
             }
           }
@@ -172,53 +172,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8c324b67753c230",
+  "active": "a6e537deb7fabc8a",
   "lastOpenFiles": [
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Methodology.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 8/Lab - SameSite Strict bypass via client-side redirect.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Overview.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 7/Lab - SameSite Lax bypass via method override.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 8",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 7/IMG",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 7/IMG/Pasted image 20240924092929.png",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 5/Lab - CSRF where token is tied to non-session cookie.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 6/Lab - CSRF where token is duplicated in cookie.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 7",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/IMG/Pasted image 20240924085746.png",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/IMG/Pasted image 20240924084738.png",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 6/IMG",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 6/IMG/Pasted image 20240924084521.png",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 6",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 7./Lab - User role can be modified in user profile.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 6./Exploit.md",
-    "obsidian/Extra/PortSwigger/Path Traversal/Lab 7.",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4/Lab - CSRF where token is not tied to user session.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 5",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 3/Lab - CSRF where token validation depends on token being present.md",
-    "obsidian/Kali/Tools/Post Exploitation/CheatSheet.md",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG/Pasted image 20240923055359.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG/Pasted image 20240923055310.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG/Pasted image 20240923055207.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG/Pasted image 20240923055104.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG/Pasted image 20240923054953.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG/Pasted image 20240923054909.png",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/IMG",
-    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Methodology.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 4",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 2/Lab - CSRF where token validation depends on request method.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 1/Lab - CSRF vulnerability with no defenses.md",
-    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 3/IMG",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 4/Lab - Exploiting NoSQL operator injection to extract unknown fields.md",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Overview.md",
+    "obsidian/Python Essentials/Python Modules/Argparse.md",
+    "obsidian/Python Essentials/Python Modules/URLlib.md",
+    "obsidian/Python Essentials/Python Modules/Socket.md",
+    "obsidian/Python Essentials/Python Modules/Requests.md",
+    "obsidian/Python Essentials/Python Modules/BeautifulSoup.md",
+    "obsidian/Extra/PortSwigger/Access Control Vulnerabilities/Lab 5/Lab - User ID controlled by request parameter.md",
+    "obsidian/Python Essentials/Code/CTF functions/Get CSRF.md",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 3/Lab - Exploiting NoSQL injection to extract data.md",
-    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/Lab - Detecting NoSQL injection.md",
+    "obsidian/Python Essentials/Code/CTF functions",
     "obsidian/Extra/PortSwigger/NoSQL injection/Lab 2/Lab - Exploiting NoSQL operator injection to bypass authentication.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 12./Lab - Blind SQL injection with time delays and information retrieval.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 15./Lab - SQL injection with filter bypass via XML encoding.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 14./Lab - Blind SQL injection with out-of-band data exfiltration.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 13./Lab - Blind SQL injection with out-of-band interaction.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 10./Lab - Blind SQL injection with conditional errors.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 9./Lab - Blind SQL injection with conditional responses.md",
-    "obsidian/Extra/PortSwigger/SQL Injection/Lab 8./Lab - SQL injection attack, listing the database contents on non-Oracle databases.md"
+    "obsidian/Extra/PortSwigger/NoSQL injection/Lab 1/Lab - Detecting NoSQL injection.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 12/Lab - Password brute-force via password change.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 11/Lab - Password reset poisoning via middleware.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 10/Lab - Password reset broken logic.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 9/Lab - Offline password cracking.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 8/Lab - Brute-forcing a stay-logged-in cookie.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 7/Lab - 2FA broken logic.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 6/Lab - 2FA simple bypass.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 5/Lab - Username enumeration via account lock.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 4/Lab - Broken brute-force protection, IP block.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 3/Lab - Username enumeration via response timing.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 2/Lab - Username enumeration via subtly different responses.md",
+    "obsidian/Extra/PortSwigger/Authentication Vulnerabilities/Lab 1/Lab - Username enumeration via different responses.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Overview.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 2/Lab - Web shell upload via Content-Type restriction bypass.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Notes.md",
+    "obsidian/Extra/PortSwigger/File Upload Vulnerabilities/Lab 1/Exploit.md",
+    "obsidian/Extra/PortSwigger/Access Control Vulnerabilities/Lab 5",
+    "obsidian/Extra/PortSwigger/Access Control Vulnerabilities",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 12",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 11",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 10",
+    "obsidian/Kali/Exploits/Kernal",
+    "obsidian/Kali/Exploits/WEB",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG/Pasted image 20240925075308.png",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG/Pasted image 20240925071852.png",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG/Pasted image 20240925071726.png",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG/Pasted image 20240925070617.png",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG/Pasted image 20240925064523.png",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG/Pasted image 20240925063819.png",
+    "obsidian/CTF/Proving Grounds/DC-1/IMG",
+    "obsidian/CTF/Proving Grounds/DC-1",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 8/IMG/Pasted image 20240924110839.png",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 8/IMG/Pasted image 20240924102827.png",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/Lab 7/IMG/Pasted image 20240924092929.png",
+    "obsidian/Extra/PortSwigger/Cross-site request forgery (CSRF)/IMG/Pasted image 20240924085746.png"
   ]
 }

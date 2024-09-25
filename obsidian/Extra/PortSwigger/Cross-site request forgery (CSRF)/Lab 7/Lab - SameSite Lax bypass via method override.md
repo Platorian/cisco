@@ -59,7 +59,7 @@ I need to add in the meatadata for the referer:
 ```html
 <html>
     <head>
-        <meta name="referrer" content="never"> 
+        <meta name="referer" content="never"> 
     </head>
     <body>
         <h1>Hello world!</h1>
@@ -72,3 +72,4 @@ I need to add in the meatadata for the referer:
 </html>
 ```
 
+Works, but doesn't complete the lab.
