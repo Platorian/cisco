@@ -1,6 +1,0 @@
----
-myip: IP
-target: Target
----
-
-
