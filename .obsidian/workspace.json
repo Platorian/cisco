@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md"
+                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md"
               }
             }
           }
@@ -163,21 +163,26 @@
   },
   "active": "4466d503c0137bc2",
   "lastOpenFiles": [
+    "obsidian/CTF/Proving Grounds/evilbox-one/Scans.md",
+    "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003085558.png",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003085524.png",
+    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003083449.png",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082716.png",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082201.png",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082007.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md",
+    "obsidian/CTF/Proving Grounds/evilbox-one/IMG",
+    "obsidian/CTF/Proving Grounds/evilbox-one",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002092017.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002091813.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002091426.png",
-    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447/Wordpress - CVE-2021-29447.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG",
     "obsidian/CTF/TryHackMe/CTF/0x41haz/Notes.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt",
     "Pasted image 20241002082255.png",
-    "Pasted image 20241002082302.png",
-    "obsidian/CTF/TryHackMe/CTF/0x41haz/IMG/Pasted image 20241002082201.png",
-    "obsidian/CTF/TryHackMe/CTF/0x41haz/IMG/Pasted image 20241002081053.png",
-    "obsidian/CTF/TryHackMe/CTF/0x41haz/IMG/Pasted image 20241002074244.png",
-    "obsidian/CTF/TryHackMe/CTF/0x41haz/IMG/Pasted image 20241002073936.png",
     "obsidian/CTF/TryHackMe/CTF/0x41haz/IMG",
     "obsidian/CTF/Proving Grounds/FunBoxEasyEnum/Notes.md",
     "obsidian/CTF/TryHackMe/CTF/0x41haz",
@@ -197,17 +202,11 @@
     "obsidian/Code/JS/Variables",
     "obsidian/Code/JS",
     "obsidian/Code",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447/IMG/Pasted image 20240927100258.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447/IMG/Pasted image 20240927080431.png",
     "obsidian/CTF/Proving Grounds/infosecprep/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447/IMG",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447",
     "obsidian/CTF/Proving Grounds/infosecprep/Scans.md",
     "obsidian/CTF/PicoCTF/Reversing/Packer/Notes.md",
     "obsidian/CTF/PicoCTF/Reversing/Vault-Door-Training/Notes.md",
     "obsidian/CTF/PicoCTF/Reversing/Transformation/Notes.md",
-    "obsidian/Kali/Tools/Post Exploitation/Evil-WinRM.md",
-    "obsidian/CTF/TryHackMe/CTF/Compiled/Notes.md",
-    "obsidian/Code/Python Essentials/Python Modules/BeautifulSoup.md"
+    "obsidian/Kali/Tools/Post Exploitation/Evil-WinRM.md"
   ]
 }
