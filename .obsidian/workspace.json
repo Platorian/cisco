@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1189354d2c16a3d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
+                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md"
+                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md"
               }
             }
           }
@@ -163,11 +175,32 @@
   },
   "active": "4466d503c0137bc2",
   "lastOpenFiles": [
-    "obsidian/CTF/Proving Grounds/evilbox-one/Scans.md",
+    "obsidian/CTF/Proving Grounds/Sumo/img/Pasted image 20241005090233.png",
+    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
+    "obsidian/Kali/Exploits/Kernal/DirtyCow.md",
+    "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
+    "obsidian/CTF/Proving Grounds/Sumo/img/Pasted image 20241005074659.png",
+    "obsidian/Kali/Exploits/WEB/spring4shell.md",
+    "obsidian/CTF/Proving Grounds/Sumo/img",
+    "obsidian/CTF/Proving Grounds/Sumo",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Spring4Shell - CVE-2022-22965/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Spring4Shell - CVE-2022-22965/img/Pasted image 20241005053744.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Spring4Shell - CVE-2022-22965/img/Pasted image 20241005053708.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Empire/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Spring4Shell - CVE-2022-22965/img",
+    "obsidian/CTF/TryHackMe/Walkthrough/Spring4Shell - CVE-2022-22965",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 24. Empire Overview/Empire Overview.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 27. Empire Agents/Empire Agents.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 26. Empire Stagers/Empire Stagers.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 23. Empire Install/Empire Install.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Empire/Scans.md",
     "obsidian/CTF/Proving Grounds/evilbox-one/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Empire/img",
+    "obsidian/CTF/TryHackMe/Walkthrough/Empire",
+    "obsidian/CTF/Proving Grounds/evilbox-one/Scans.md",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003085558.png",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003085524.png",
-    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003083449.png",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082716.png",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082201.png",
@@ -176,37 +209,17 @@
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG",
     "obsidian/CTF/Proving Grounds/evilbox-one",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002092017.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002091813.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002091426.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447/Wordpress - CVE-2021-29447.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG",
     "obsidian/CTF/TryHackMe/CTF/0x41haz/Notes.md",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt",
-    "Pasted image 20241002082255.png",
-    "obsidian/CTF/TryHackMe/CTF/0x41haz/IMG",
     "obsidian/CTF/Proving Grounds/FunBoxEasyEnum/Notes.md",
-    "obsidian/CTF/TryHackMe/CTF/0x41haz",
     "obsidian/CTF/Proving Grounds/FunBoxEasyEnum/Scans.md",
     "obsidian/Extra/Arch/Docker.md",
-    "obsidian/CTF/Proving Grounds/FunBoxEasyEnum",
     "obsidian/Extra/CyberMentor/Resources.md",
     "obsidian/Extra/Bash/Bash.md",
     "README.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
-    "obsidian/Kali/Docs/OSCP/YACS.md",
-    "obsidian/Kali/Docs/OSCP/Forensics.md",
-    "obsidian/Kali/Tools/Post Exploitation/File Transfer/File Transfer And Shell Stabilisation.md",
-    "obsidian/Code/JS/Notes.md",
-    "obsidian/Code/JS/Variables",
-    "obsidian/Code/JS",
-    "obsidian/Code",
-    "obsidian/CTF/Proving Grounds/infosecprep/Notes.md",
-    "obsidian/CTF/Proving Grounds/infosecprep/Scans.md",
-    "obsidian/CTF/PicoCTF/Reversing/Packer/Notes.md",
-    "obsidian/CTF/PicoCTF/Reversing/Vault-Door-Training/Notes.md",
-    "obsidian/CTF/PicoCTF/Reversing/Transformation/Notes.md",
-    "obsidian/Kali/Tools/Post Exploitation/Evil-WinRM.md"
+    "obsidian/Kali/Docs/CTF/Cheat Sheet.md"
   ]
 }

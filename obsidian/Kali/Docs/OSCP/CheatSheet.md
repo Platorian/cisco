@@ -136,6 +136,10 @@ Python
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
+```php
+python -c 'import pty; pty.spawn("/bin/bash")'
+```
+
 **CTL+Z**
 
 Tell your machine to push the special characters straight to the target so we can use auto-complete etc.
