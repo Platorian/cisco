@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/CTF/Proving Grounds/Sumo/Notes.md"
+                "file": "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Notes.md"
               }
             }
           }
@@ -175,10 +175,22 @@
   },
   "active": "4466d503c0137bc2",
   "lastOpenFiles": [
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241010062251.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Code.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241009105811.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241009102859.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241009100052.png",
+    "obsidian/CTF/TryHackMe/Walkthrough/Bypass Disable Functions/Notes.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img",
+    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory",
+    "obsidian/Kali/Docs/Networking/packet tracer.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Bypass Disable Functions/img",
+    "obsidian/CTF/TryHackMe/Walkthrough/Bypass Disable Functions",
+    "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
     "obsidian/CTF/Proving Grounds/Sumo/img/Pasted image 20241005090233.png",
     "obsidian/Kali/Docs/OSCP/CheatSheet.md",
     "obsidian/Kali/Exploits/Kernal/DirtyCow.md",
-    "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
     "obsidian/CTF/Proving Grounds/Sumo/img/Pasted image 20241005074659.png",
     "obsidian/Kali/Exploits/WEB/spring4shell.md",
     "obsidian/CTF/Proving Grounds/Sumo/img",
@@ -202,24 +214,12 @@
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003085558.png",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003085524.png",
     "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003083449.png",
-    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082716.png",
-    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082201.png",
-    "obsidian/CTF/Proving Grounds/evilbox-one/IMG/Pasted image 20241003082007.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Bolt/Notes.md",
-    "obsidian/CTF/Proving Grounds/evilbox-one/IMG",
-    "obsidian/CTF/Proving Grounds/evilbox-one",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG/Pasted image 20241002092017.png",
     "obsidian/CTF/TryHackMe/Walkthrough/Wordpress-CVE-2021-29447/Wordpress - CVE-2021-29447.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bolt/IMG",
     "obsidian/CTF/TryHackMe/CTF/0x41haz/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bolt",
     "obsidian/CTF/Proving Grounds/FunBoxEasyEnum/Notes.md",
     "obsidian/CTF/Proving Grounds/FunBoxEasyEnum/Scans.md",
     "obsidian/Extra/Arch/Docker.md",
-    "obsidian/Extra/CyberMentor/Resources.md",
-    "obsidian/Extra/Bash/Bash.md",
-    "README.md",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Kali/Docs/CTF/Cheat Sheet.md"
+    "obsidian/Extra/CyberMentor/Resources.md"
   ]
 }
