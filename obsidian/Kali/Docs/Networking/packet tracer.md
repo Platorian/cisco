@@ -31,3 +31,40 @@ cp /usr/share/applications/cisco-pt.desktop ~/Desktop
 ```php
 chmod +x cisco-pt.desktop
 ```
+
+---
+
+The Cisco Internetwork Operating System (IOS) is an operating system used in Cisco networking devices. It allows creation of configurations that customize the operation of network devices in different network environments. The CLI is accessible via the device console port using terminal software or remotely via Secure Shell (SSH). Network administrators use a computer to access the device console in order to create or modify the device configuration.
+
+Change hostname 
+
+```php
+enable
+configure terminal
+hostname Edge_Router_Backup
+end
+```
+
+```php
+
+```
+
+```php
+
+```
+
+```php
+
+```
+
+```php
+
+```
+
+```php
+
+```
+
+```php
+
+```
