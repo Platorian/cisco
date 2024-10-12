@@ -13,6 +13,30 @@ or
 sudo apt --fix-broken install
 ```
 
+Try Updating
+
+```php
+sudo apt update
+```
+
+Missing packages
+
+```php
+sudo apt-get install libxcb-xinerama0-dev
+```
+- https://packages.debian.org/sid/riscv64/libgl1-mesa-glx/download (Couldn't locate the file after looking in a few of the mirrors)
+
+
+**Alternative Software:** _GNS3, short for Graphical Network Simulator 3_
+
+or
+- use it on a windows VM instead of kali. 
+- docker image
+
+```php
+
+```
+
 The program throws errors and i found it difficult to install the dependencies, but if you just use the dpkg command it will install packet tracer into the /opt folder which you can run from the command line.
 
 ```php
