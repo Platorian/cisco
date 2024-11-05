@@ -16,7 +16,9 @@
                 "file": "obsidian/Kali/Docs/OSCP/CheatSheet.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "CheatSheet"
             }
           },
           {
@@ -28,7 +30,23 @@
                 "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "1.2 Data Transmission"
+            }
+          },
+          {
+            "id": "01af4fb631360747",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.3 Network Components, Types, and Connections Quiz.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.4.3 Network Components, Types, and Connections Quiz"
             }
           },
           {
@@ -40,11 +58,13 @@
                 "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Empire Listeners"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -79,7 +101,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -118,7 +144,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1.2 Data Transmission"
             }
           },
           {
@@ -130,7 +158,9 @@
                 "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1.2 Data Transmission"
             }
           },
           {
@@ -141,7 +171,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -151,7 +183,9 @@
               "type": "outline",
               "state": {
                 "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1.2 Data Transmission"
             }
           }
         ],
@@ -173,53 +207,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4466d503c0137bc2",
+  "active": "01af4fb631360747",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.1 Network Types.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.1 What Did I Learn in this Module?.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.3 Network Components, Types, and Connections Quiz.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/2.3.4 Additional Connectivity Options.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/img/Pasted image 20241105072355.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/2.3.3 Cable and DSL Connections.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/img/Pasted image 20241105072111.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/2.3.2 ISP Connections.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/img/Pasted image 20241105072013.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/2.3.1 ISP Services.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/img/Pasted image 20241105071912.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components/2.2.3 End Devices.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/img",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components/img/Pasted image 20241105071548.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components/2.2.2 Network Infrastructure.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components/img/Pasted image 20241105071406.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.5 Multiple Roles in the Network.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components/img",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070629.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.4 Peer-to-Peer Applications.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070522.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.3 Peer-to-Peer Networks.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070408.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.2 Client and Server Roles.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070249.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1 Clients and Servers.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.4 Communications in a Connected World Summary.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.3 Bandwidth and Throughput.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.1 Network Types.md",
+    "obsidian/Kali/Docs/Cisco/Cisco packet tracer/packet tracer install.md",
     "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication",
     "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
     "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
     "obsidian/Kali/Recon/Active Recon/SMB.md",
     "obsidian/Kali/Recon/Active Recon/SMTP.md",
     "obsidian/Kali/Recon/Active Recon/SNMP.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Recon/Active Recon/FTP.md",
-    "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
-    "obsidian/Kali/Docs/Linux Cheat Sheet.md",
-    "obsidian/Code/JS/Notes.md",
-    "obsidian/Kali/Docs/Cisco/Cisco packet tracer/packet tracer install.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics",
-    "obsidian/Kali/Docs/Cisco/Cisco packet tracer/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241011112657.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/Code.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241011103051.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241011102507.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241011094348.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241011093333.png",
-    "obsidian/Kali/Docs/Networking/Subnet.md",
-    "obsidian/Kali/Docs/Cisco/Cisco packet tracer/img/Pasted image 20241010103204.png",
-    "obsidian/Kali/Docs/Cisco/Cisco packet tracer/img",
-    "obsidian/Kali/Docs/Cisco/Cisco packet tracer",
-    "obsidian/Kali/Docs/Cisco",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241010062251.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241009105811.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241009102859.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img/Pasted image 20241009100052.png",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bypass Disable Functions/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory/img",
-    "obsidian/CTF/TryHackMe/Walkthrough/Breaching Active Directory",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bypass Disable Functions/img",
-    "obsidian/CTF/TryHackMe/Walkthrough/Bypass Disable Functions",
-    "obsidian/CTF/Proving Grounds/Sumo/Notes.md",
-    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
-    "obsidian/Kali/Exploits/Kernal/DirtyCow.md",
-    "obsidian/Kali/Exploits/WEB/spring4shell.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Spring4Shell - CVE-2022-22965/Notes.md",
-    "obsidian/CTF/TryHackMe/Walkthrough/Empire/Notes.md"
+    "obsidian/Kali/Recon/Active Recon/Nmap.md"
   ]
 }

@@ -69,9 +69,18 @@ hostname Edge_Router_Backup
 end
 ```
 
-```php
+ARCH
+- download: cisco academy
+- mv packettracer.deb into `/home/z0d/.cache/yay/packettracer`
 
+```php
+yay -S packettracer
 ```
+- you could have to start the install so it first makes the folder, then move the `.deb` file into the folder mentioned in the error message.
+
+`ERROR: CiscoPacketTracer822_amd64_signed.deb was not found in the build directory and is not a URL.`
+
+`error downloading sources: /home/z0d/.cache/yay/packettracer`
 
 ```php
 
