@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
+                "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management/router.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 Data Transmission"
+              "title": "router"
             }
           },
           {
@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.3 Network Components, Types, and Connections Quiz.md",
+                "file": "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.4.3 Network Components, Types, and Connections Quiz"
-            }
-          },
-          {
-            "id": "1189354d2c16a3d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Empire Listeners"
+              "title": "Document the Network"
             }
           }
         ],
@@ -209,10 +195,23 @@
   },
   "active": "01af4fb631360747",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Cisco/Network Support and Security/img/router-img.png",
+    "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
+    "obsidian/Kali/Docs/Cisco/Network Support and Security/img",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management/router.md",
+    "README.md",
+    "obsidian/Kali/Docs/Cisco/Network Support and Security",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
+    "obsidian/Kali/Recon/Passive Recon/OSINT/Usernames.md",
+    "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
+    "obsidian/Kali/Recon/Passive Recon/OSINT/Breach Data.md",
+    "obsidian/CTF/TryHackMe/Walkthrough/Wreath/5. Command and Control/Task 25. Empire Listeners/Empire Listeners.md",
+    "obsidian/Kali/Docs/Networking/Subnet.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.3 Network Components, Types, and Connections Quiz.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.1 What Did I Learn in this Module?.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary/2.4.3 Network Components, Types, and Connections Quiz.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.4 Network Components, Types, and Connections Summary",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/2.3.4 Additional Connectivity Options.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.3 ISP Connectivity Options/img/Pasted image 20241105072355.png",
@@ -231,29 +230,15 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.5 Multiple Roles in the Network.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components/img",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.2 Network Components",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070629.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.4 Peer-to-Peer Applications.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070522.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.3 Peer-to-Peer Networks.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070408.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1.2 Client and Server Roles.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img/Pasted image 20241105070249.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/2.1 Clients and Servers.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.4 Communications in a Connected World Summary.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections/2.1 Client and Servers/img",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 2. Network Components, Types, and Connections",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.3 Bandwidth and Throughput.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.1 Network Types.md",
-    "obsidian/Kali/Docs/Cisco/Cisco packet tracer/packet tracer install.md",
-    "obsidian/Kali/Recon/Passive Recon/OSINT/Google Dorks.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img",
-    "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
-    "obsidian/Kali/Recon/Active Recon/SMB.md",
-    "obsidian/Kali/Recon/Active Recon/SMTP.md",
-    "obsidian/Kali/Recon/Active Recon/SNMP.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md"
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.1 Network Types.md"
   ]
 }
