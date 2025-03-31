@@ -10,15 +10,9 @@ Copy exploit to working directory.
 searchsploit -m aspx/webapps/46153.py
 ```
 
-
-
-
-
-
-
 ##### Meta
 
-
+![](img/meta-cheat-sheet.png)
 
 
 ## msfvenom
