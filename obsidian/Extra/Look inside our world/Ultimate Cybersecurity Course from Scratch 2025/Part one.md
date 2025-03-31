@@ -281,7 +281,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 - echo 1 - enable port forwarding
 - If you don't have any errors then it's setup correctly
 
-**Capture the Packets  While Exploiting a Man in the Middle Attack **
+**Capture the Packets  While Exploiting a Man in the Middle Attack**
 
 Tools: bettercap
 
