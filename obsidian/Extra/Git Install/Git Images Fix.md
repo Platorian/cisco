@@ -1,2 +1,2 @@
-![[./img/git-image.png]]
+![[../img/git-image.png]]
 
