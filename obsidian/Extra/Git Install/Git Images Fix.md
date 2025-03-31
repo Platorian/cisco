@@ -4,7 +4,7 @@ Try to change ‘New link format’ to ‘Relative path to file’ in Obsidian a
 
 **Website**
 
-If you save your image inside a folder. Then you will have to access your image by following the pattern: _./folder_name/image_name_ 
+If you save your image inside a folder. Then you will have to access your image by following the pattern: _./folder_name/image_name_ or remove the _./_ completely: _folder_name/image_name_
 
 If you save your image inside a folder of a folder. Then you will have to access your image by following the pattern:  _./folder_name/folder_name/image_name_
 
@@ -28,4 +28,4 @@ So, update the first line of your `obsidian/Extra/Git Install/Git Images Fix.md`
 
 This should resolve the issue of the image not showing up.
 
-I'll leave the broken image in for future reference. 
+I'll leave the broken image in, for future reference. 
