@@ -1,2 +1,2 @@
-![[img/git-image.png]]
+![[obsidian/Extra/Git Install/img/git-image.png]]
 

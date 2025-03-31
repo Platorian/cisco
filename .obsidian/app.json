@@ -1,4 +1,5 @@
 {
-  "newLinkFormat": "relative",
-  "alwaysUpdateLinks": true
+  "newLinkFormat": "absolute",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
 }
