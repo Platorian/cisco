@@ -1,6 +1,6 @@
 **Network**
 
-![[img/network01.png]]
+![git image](img/network01.png)
 
 **Change MAC Address**
 
@@ -179,7 +179,7 @@ sudo aireplay-ng --deauth 4 -a <target-bssid> -c <client-mac> wlan0
 ```
 - target mac - located under the heading station (one column right of the bssid)
 
-![[img/client-mac.png]]
+![git image](img/client-mac.png)
 
 Try increasing the --deauth time to 400 to try and capture the handshake which should show up in airodump command. This ill show up next to the top of the running commands first line
 
@@ -252,11 +252,11 @@ sudo nmap -T4 -F 10.0.2.0/24
 
 **Man in the Middle Attack**
 
-![[img/man-in-the-middle.png]]
+![git image](img/man-in-the-middle.png)
 
 Also called ARP Spoofing. This is where we try to position our hacker computer so that the victim first connects to us before reaching the access point
 
-![[img/man-in-the-middle2.png]]
+![git image](img/man-in-the-middle2.png)
 
 Using arpspoof to use a man in the middle attack
 ```sh

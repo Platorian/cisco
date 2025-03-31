@@ -12,3 +12,20 @@ However, if your html file is in one folder and your images or css files are in 
 
 ![git image](./img/git-image.png)
 
+After asking co-pilot it gave me the correct answer:
+
+The issue with the image not showing up in the Markdown file is due to the syntax used for embedding the image. The current syntax `![[./img/git-image.png]]` is not standard Markdown syntax for images. Instead, you should use the standard Markdown image syntax like this:
+
+```markdown
+![Description](./img/git-image.png)
+```
+
+So, update the first line of your `obsidian/Extra/Git Install/Git Images Fix.md` file to:
+
+```markdown
+![Git Image](./img/git-image.png)
+```
+
+This should resolve the issue of the image not showing up.
+
+I'll leave the broken image in for future reference. 

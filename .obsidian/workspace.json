@@ -35,7 +35,8 @@
               "title": "Part one"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,11 +180,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "36b8d06c5ee350f4",
+  "active": "01af4fb631360747",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
-    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part one.md",
     "obsidian/Extra/Git Install/Git Images Fix.md",
+    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part one.md",
+    "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
     "obsidian/Extra/Git Install/img/git-image.png",
     "obsidian/Extra/Git Install/img",
     "obsidian/Extra/Git Install/Git Install.md",
