@@ -119,3 +119,75 @@ To expand the permission scopes for the authentication, you can specify the desi
 gh auth refresh --scopes repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...
 ```
 
+---
+
+**Using git credential helper**
+
+Setup credential helper
+```sh
+git config --global credential.helper store
+```
+
+Get an access token classic for the password. You can't use your github account password. 
+- developer tools
+- personal access token
+- token classic
+- give it repo privileges
+- generate token and use it as the password
+
+You should now be able to use git push
+
+This will save the token in plain text under the file .git.credentials
+
+You can use this file to update the token. So it might be better to have a 30 day token to limit the vulnerability. 
+
+---
+
+**Script storage**
+
+Store git upload script
+```sh
+/usr/local/bin
+```
+
+Move file into bin
+```sh
+sudo mv git-upload-script.sh /usr/local/bin
+```
+
+Change permissions for security
+```sh
+sudo chown root:root /usr/local/bin/git-upload-script.sh
+```
+
+The alias step might not be necessary try using `which` to see if the OS detects the script in `$PATH`
+```sh
+which git-upload-script.sh
+```
+- It might be better to give it a shorter name when doing it this way
+
+Check what's in PATH
+```sh
+echo $PATH
+```
+
+Environment variables
+```sh
+env
+```
+
+Set /usr/local/bin in PATH
+```sh
+export PATH=/usr/local/bin:$PATH
+```
+- `$PATH` at the end includes all of the other directories already in the PATH variable
+
+Now add it as an alias that points to the file
+
+```sh
+alias gitup = /usr/local/bin/git-upload-script.sh
+```
+
+File extensions are not required in Linux.
+
+
