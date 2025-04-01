@@ -327,26 +327,116 @@ Now use the URL on the DVWA website to hopefully get the reverse shell.
 
 **Managing and Manipulating MySQL**
 
+What is MySQL?
+MySQL, is the most popular open-source relational database management system.
 
+Opening MySQL on the metasploitable machine:
+```sh
+mysql -u root
+```
 
+Connecting to a different machine's MySQL
+```sh
+mysql -u <username> <ip>
+```
 
+View databases
+```sh
+show databases
+```
 
+View row
+```sh
+use owasp10;
+```
 
+View tables
+```sh
+show tables;
+```
 
+View table
+```sh
+select * from accounts; 
+```
+- * - Everything
 
+insert an entry into accounts
+```sh
+insert into accounts (usrername,password,mysignature) values("bob","pass123","test signature");
+```
+- It will display that the query is okay if everything was entered correctly.
 
+Check the added entry
+```sh
+select * from accounts;
+```
 
+Delete the added entry using the `cid` number
+```sh
+delete from accounts where cid = 18;
+```
 
+How to update data
+```sh
+update accounts set username = "bob", password = "set123" where cid = 15;
+```
 
+Check entry
+```sh
+select * from accounts;
+```
 
+List specific parts of a table
+```sh
+selesct username from accounts;
+```
 
+List both username and password
+```sh
+select username,password from accounts;
+```
 
+List the admin password
+```sh
+select password from accounts where username = "admin";
+```
 
+What would a login look like?
+```sh
+select * from accounts where user = "admin" and password = "adminpass";
+```
+- This would login the admin user, but if one of the conditions was not true, like the password, you wouldn't be allowed to login.
+- AND is asking "is this condition also true?"
 
+What SQL injection would look like
+```sh
+select * from accounts where user = "adminSQL" and password = "adminpass" and 1 = 1;
+```
 
+If the database is very large you might have issues with `SELECT *` so you can narrow it down in these situations.
+```sh
+select username,password from accounts;
+```
 
+Using `ORDER BY`
+```sh
+select * from accounts order by cid;
+```
+- You can modify the table view by using either `asc` or `desc` after `cid`.
+- You can order by anything else such as username.
 
+```sh
+select username,password from accounts order by username;
+```
 
+How a hacker uses order by to determine the amount of entries
+```sh
+select * from accounts where username = "admin" and password = "adminpass" order by 1;
+```
+- We know that the database on metasploitable currently has 16 rows in accounts so this command would work, but if you tried using 17 or more it would return an error.
+
+Union 
 
 
 
