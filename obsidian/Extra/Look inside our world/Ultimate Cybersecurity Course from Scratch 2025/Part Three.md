@@ -438,6 +438,138 @@ select * from accounts where username = "admin" and password = "adminpass" order
 
 Union 
 
+Again, we'll use the metasploitable machine for this testing.
+
+```sh
+mysql -u root
+```
+
+```sh
+show databases
+```
+
+```sh
+use owasp10;
+```
+
+```sh
+show tables;
+```
+
+```sh
+select * from accounts;
+```
+
+View credit card infpmation
+```sh
+selsct * from credit_cards;
+```
+
+Pull data from more than one table with `UNION`
+```sh
+select usernames from accounts union select ccnumber from credit_cards;
+```
+
+Information Schema
+
+Information_schema has all the tables from the other databases.
+
+How to get the table names form information schema
+```sh
+select table_name from information_schema.tables;
+```
+
+---
+
+**SQL Injection**
+
+Here we are using Metasploitable - Mutillidae Website. You might be able to notice, on the left, the owasp10 table that we have been practising on. 
+
+Make a user account. If you get an error go into the server and cd into `/var/www/mutillidae`. Then nano open the file `config.inc` and change the database name ($dbname) to owasp10.. 
+
+You can remove the last part of the URL leaving just the website name, then click refresh to re-send the user register details. 
+
+Check the Metasploit server to see if MySQL has saved the user:
+
+```sh
+mysql -u root
+```
+
+```sh
+show databases
+```
+
+```sh
+use owasp10;
+```
+
+```sh
+show tables;
+```
+
+```sh
+select * from accounts;
+```
+
+How to delete the account if you want to:
+```sh
+delete from accounts where username = "user";
+```
+- You can use the `cid` if you want to.
+
+If you deleted the account, make another one filling in all the options. Now we can try some SQL Injection.
+
+It's a good idea to crat your SQL payloads in a text editor because it will show you if you've typed something wrong, and it's easier to copy and paste from it. 
+
+We start by adding a single quote to the password field:
+Name: username
+Password: '
+
+If the website returns an error then it's vulnerable to SQL injection. It does this because in the database it breaks the SQL command. Most modern websites will not reveal any error information but you can use a sleep command, for example, to see if the webpage hangs (freezes) 
+
+Simple SQL payload attacking the password field:
+```sh
+12345' and 1=1#
+```
+- The `12345` might have to be the correct password but i don't have Kali installed to test it yet. I'll update the notes when i go through everything after finishing the course.
+- This tells you if the website allows you to use SQL or not.
+
+Switch the website to Owasp top 10 >  A1 - Injection > SQL - Extra Data > User Info and add the user details that you made into the fields. It will change the URL to match what you entered in a URL format. Try changing the username to see what happens!
+
+This is called the GET method. I think you can run curl on the site and it will tell you if GET is allowed or not. If it's POST you will not be able to see it in the URL.
+
+To find out if you can use SQL we can add something to the URL to check, for example after the username add:
+```sh
+' order by 1 %23
+```
+- %23 - URL encoded version of #
+- The comment tells the site to ignore everything after it and sees it as a comment.
+- You could also find out how many columns are in the table using this method, you would keep increasing the order number until it returns an error.
+
+**Terminology:**
+A table is a collection of rows having one or more columns. A row is a value of a row type. Every row of the same table has the same row type. **The value of the i-th field of every row in a table is the value of the i-th column of that row in the table**. The row is the smallest unit of data that can be inserted into a table and deleted from a table.
+
+I'll add a screenshot here of the table from the Metasploitable server, when i get on it, because it might be easier to see what is happening and what is meant by the different terminology. 
+
+Video at 2:36:02- I'll finish the course tomorrow. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
