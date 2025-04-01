@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part Three.md",
+                "file": "obsidian/CTF/Blue Team Labs/Log Analysis Compromised WordPress/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part Three"
+              "title": "Notes"
             }
           }
         ],
@@ -180,12 +180,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "01af4fb631360747",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/CTF/Blue Team Labs/Log Analysis Compromised WordPress",
+    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part Three.md",
+    "obsidian/CTF/Blue Team Labs/Log Analysis Compromised WordPress/Notes.md",
+    "obsidian/CTF/Blue Team Labs",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img/dvwa-file-inclusion.png",
     "obsidian/Kali/Exploits/Reverse Shells Cheat Sheet.md",
     "obsidian/Kali/Exploits/PHP/php reverse shell.md",
-    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part Three.md",
     "obsidian/Extra/CyberMentor/Resources.md",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img/autoit-to-exe.png",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part Two.md",
@@ -216,17 +219,14 @@
     "Pasted image 20250330120136.png",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img/man-in-the-middle2.png",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img/client-mac.png",
-    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img/man-in-the-middle.png",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img",
     "obsidian/Extra/CyberMentor/Practical Help Desk/PHDA.md",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025",
     "obsidian/Extra/Look inside our world",
     "obsidian/Extra/CyberMentor/Web App/Passive recon/Enumeration - Web Host.md",
     "obsidian/Extra/CyberMentor/Practical Help Desk",
-    "obsidian/Extra/CyberMentor/Tools/Sublist3r.md",
     "obsidian/Kali/Docs/Cisco/Network Support and Security/img",
     "obsidian/Kali/Docs/Cisco/Network Support and Security",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks"
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management"
   ]
 }
