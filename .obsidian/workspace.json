@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Active Directory/4. Initial AD Attacks Overview.md",
+                "file": "obsidian/Extra/CyberMentor/Active Directory/5. IPv6 Attacks Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Initial AD Attacks Overview"
+              "title": "5. IPv6 Attacks Overview"
             }
           },
           {
@@ -179,21 +179,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Extra/CyberMentor/Active Directory/4. Initial AD Attacks Overview.md",
+    "obsidian/Extra/CyberMentor/Active Directory/5. IPv6 Attacks Overview.md",
+    "obsidian/Extra/CyberMentor/Active Directory/img/smb03.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/smb02.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/smb01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/llmnr02.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/hashcat01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/hash01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/event01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/impacket01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/llmnr01.png",
     "obsidian/Extra/CyberMentor/Active Directory/3. Logical Active Directory Components.md",
-    "obsidian/Extra/CyberMentor/Active Directory/4. Initial AD Attacks Overview.md",
     "obsidian/Extra/CyberMentor/Active Directory/img/adc09.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc08.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc07.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc06.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc05.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc04.png",
     "obsidian/Extra/CyberMentor/Active Directory/2. Physical Active Directory Components.md",
     "obsidian/Extra/CyberMentor/Active Directory/1. Overview.md",
     "obsidian/Kali/Fresh Install.md",
