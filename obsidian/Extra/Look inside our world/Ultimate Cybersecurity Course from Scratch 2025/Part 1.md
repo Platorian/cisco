@@ -390,9 +390,3 @@ dns.spoof on
 - Use the WireShark search bar to look for specific protocols like HTTP. Now you could look for POST to find any login details under `HTML Form URL Encoded`
 - WireShark also has a find feature to help you find specific strings in the search results. So in this case you might search for username. Press find a few times if the desired result does not show the first time
 
-
-
-
-
-
-

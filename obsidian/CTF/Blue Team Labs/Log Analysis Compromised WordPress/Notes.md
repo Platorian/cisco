@@ -113,7 +113,7 @@ Grep for contact
 ```sh
 grep "contact" access.log
 ```
-
+- Check for versions `ver=`
 
 
 

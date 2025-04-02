@@ -589,7 +589,3 @@ Another way is using `Fake Flash Update`
 
 As you can see there is a lot of things that can be done with just a few tools.
 
-
-
-
-

