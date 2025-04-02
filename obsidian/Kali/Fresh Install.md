@@ -218,8 +218,30 @@ sudo find / -user oldUID -exec chown -h newUID {} \;
 
 ---
 
-Tools: PimpMyKali: https://github.com/Dewalt-arch/pimpmykali
+Tools: **PimpMyKali:** https://github.com/Dewalt-arch/pimpmykali
+- If you have an error at the ghidra install spot, try giving it extra RAM and CPU. This fixed my problem and it installed correctly after. 
+- I also enabled 3d acceleration and gave it 256MB video memory
+
+How to get full screen on BSPWM:
+- disabling the mini-toolbar under user interface settings
+
+**Metasploitable**
+1. Make a standard Linux VM. 
+- Type: Linux
+- Sub Type: Other Linux
+- Verison: Other Linux (64-bit)
+
+2. Add the metasploitable image as the hardrive in Settings > Storage > Attributes Hard Disk. Now choose the metasploitable Disk
+- Add it to the options so you can select it. You're looking for it's `.vmdk` file in it's download folder
+- You can give it 1024 MB Base Memory and 1 CPU
+
+How to shut down: **sudo power off**
+
+Make sure they are on NAT Network
 
 Resources: 
 Bash command explanations: https://explainshell.com/
 
+**VirtualBox**
+
+To return ownership of keyboard and **mouse** **to** your host operating system, **VirtualBox** reserves a special key on your keyboard for itself: the "host key". By default, this is the right Control key on your keyboard; on a Mac host, the default host key is the left Command key.
