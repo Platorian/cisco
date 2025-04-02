@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.51103591918945
+    "width": 200
   },
   "right": {
     "id": "11679b6984b12500",
@@ -179,8 +179,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "36b8d06c5ee350f4",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Extra/CyberMentor/Active Directory/img/hashcat01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/hash01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/event01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/impacket01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/llmnr01.png",
     "obsidian/Extra/CyberMentor/Active Directory/3. Logical Active Directory Components.md",
     "obsidian/Extra/CyberMentor/Active Directory/4. Initial AD Attacks Overview.md",
     "obsidian/Extra/CyberMentor/Active Directory/img/adc09.png",
@@ -189,12 +194,8 @@
     "obsidian/Extra/CyberMentor/Active Directory/img/adc06.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/adc05.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/adc04.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc03.png",
     "obsidian/Extra/CyberMentor/Active Directory/2. Physical Active Directory Components.md",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc02.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc01.png",
     "obsidian/Extra/CyberMentor/Active Directory/1. Overview.md",
-    "obsidian/Extra/CyberMentor/Active Directory/img/overview02.png",
     "obsidian/Kali/Fresh Install.md",
     "obsidian/Extra/CyberMentor/Active Directory/img",
     "obsidian/Extra/CyberMentor/Active Directory",
@@ -222,7 +223,6 @@
     "obsidian/Kali/Tools/MultiTool/img",
     "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
     "obsidian/Extra/Git Install/img",
-    "obsidian/Extra/Git Install/Git Install.md",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025",
     "obsidian/Extra/Look inside our world",
