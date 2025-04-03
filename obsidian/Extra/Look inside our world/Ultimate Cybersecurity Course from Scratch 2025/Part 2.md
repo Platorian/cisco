@@ -525,7 +525,39 @@ After installing the file you can run the App which is called MainActivity.
 
 **BeEF Framework**
 
+Update Kali
+```sh
+sudo apt-get update
+```
+
+Install beef from git
+```sh
+cd /opt
+git clone https://github.com/beefproject/beef.git
+cd beef
+./install
+```
+
+Install beef from kai repo
+```sh
+sudo apt install beef-xss
+```
+
+Start service 
+```sh
+sudo service beef-xss start
+```
+
+Verify service
+```sh
+sudo service beef-xss status
+```
+
 Start beef
+```sh
+sudo beef-xss start
+```
+
 ```sh
 sudo beef-xss
 ```
