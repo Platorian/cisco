@@ -235,7 +235,7 @@ How to get full screen on BSPWM:
 - Add it to the options so you can select it. You're looking for it's `.vmdk` file in it's download folder
 - You can give it 1024 MB Base Memory and 1 CPU
 
-How to shut down: **sudo power off**
+How to shut down: **sudo poweroff**
 
 Make sure they are on NAT Network
 
