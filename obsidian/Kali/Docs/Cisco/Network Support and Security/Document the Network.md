@@ -55,7 +55,7 @@ show ip route connected
 ```
 - remove connected for a more detailed view
 
-![[img/router-img.png]]
+![](img/router-img.png)
 - this shows details of which wires are connected to what devices
 
 ```php

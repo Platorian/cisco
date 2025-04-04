@@ -41,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Exploits/PHP/php reverse shell.md",
+                "file": "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.4 Communications in a Connected World Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "php reverse shell"
+              "title": "1.4 Communications in a Connected World Summary"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,15 +194,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "01af4fb631360747",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.3 Bandwidth and Throughput.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.2 Data Transmission.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/1.1 Network Types.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/bandwidth.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/pc-pic.png",
+    "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
+    "obsidian/Kali/Docs/Cisco/Network Support and Security/img/router-img.png",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management/router.md",
+    "obsidian/Code/JS/Notes.md",
+    "obsidian/Kali/Docs/Networking/Subnet.md",
+    "obsidian/Kali/Docs/Networking/img/tcp-ip-header02.png",
+    "obsidian/Kali/Docs/Networking/img",
+    "obsidian/Kali/Docs/Networking/img/tcp-ip-header01.png",
+    "obsidian/Kali/Docs/Networking/Networking Commands.md",
     "obsidian/Kali/Exploits/PHP/php reverse shell.md",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part 3.md",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part 2.md",
     "obsidian/Extra/CyberMentor/Active Directory/5. IPv6 Attacks Overview.md",
     "obsidian/Kali/Docs/Troubleshoot.md",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part 1.md",
-    "obsidian/Kali/Docs/Networking/Networking Commands.md",
     "obsidian/Extra/CyberMentor/Practical Help Desk/PHDA.md",
     "obsidian/Kali/Fresh Install.md",
     "README.md",
@@ -211,12 +225,7 @@
     "obsidian/Extra/CyberMentor/Active Directory/img/smb01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/llmnr02.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/hashcat01.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/hash01.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/event01.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/impacket01.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/llmnr01.png",
     "obsidian/Extra/CyberMentor/Active Directory/3. Logical Active Directory Components.md",
-    "obsidian/Extra/CyberMentor/Active Directory/img/adc09.png",
     "obsidian/Extra/CyberMentor/Active Directory/2. Physical Active Directory Components.md",
     "obsidian/Extra/CyberMentor/Active Directory/1. Overview.md",
     "obsidian/Extra/CyberMentor/Active Directory/img",
@@ -228,18 +237,10 @@
     "obsidian/Extra/CyberMentor/Resources.md",
     "obsidian/Kali/Docs/Linux Cheat Sheet.md",
     "obsidian/Extra/Bash/Bash.md",
-    "obsidian/Extra/Arch/UFW.md",
-    "obsidian/Extra/Arch/Troubleshooting.md",
-    "obsidian/Extra/Arch/Packages.md",
-    "obsidian/Extra/Arch/Obsidian.md",
-    "obsidian/Extra/Arch/Firefox.md",
-    "obsidian/Extra/Arch/Docker.md",
-    "obsidian/Extra/Arch/Custom Scripts.md",
     "obsidian/Kali/Tools/MultiTool/img",
     "obsidian/Extra/Git Install/img",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025",
-    "obsidian/Extra/Look inside our world",
-    "obsidian/Extra/CyberMentor/Practical Help Desk"
+    "obsidian/Extra/Look inside our world"
   ]
 }

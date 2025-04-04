@@ -1,4 +1,4 @@
-# Subnet Cheat Sheet 
+### Subnet Cheat Sheet 
   
 | CIDR | Hosts         | Subnet        | Class |
 | :--- | :------------ | :------------ | :---- |
@@ -34,3 +34,10 @@
 | /30  | 4             | 255.255.255.x | C     |
 | /31  | 2             | 255.255.255.x | C     |
 | /32  | 1             | 255.255.255.x | C     |
+
+### TCP/IP Header
+
+![](img/tcp-ip-header01.png)
+
+![](img/tcp-ip-header02.png)
+
