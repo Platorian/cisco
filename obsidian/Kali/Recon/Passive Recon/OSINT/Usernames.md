@@ -9,7 +9,7 @@ https://api.github.com/repos/<GIT_USERNAME>/<REPO_NAME>/commits
 
 curl and grep emails
 ```python
-https://api.github.com/repos/gophish/gophish/commits | grep -Eio '([[:alnum:]_.]+@[[:alnum:]_]+?\.[[:alpha:].]{2,6})'
+curl https://api.github.com/repos/gophish/gophish/commits | grep -Eio '([[:alnum:]_.]+@[[:alnum:]_]+?\.[[:alpha:].]{2,6})'
 ```
 
 breach data
