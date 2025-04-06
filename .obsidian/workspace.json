@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 209.51103591918945
   },
   "right": {
     "id": "11679b6984b12500",
@@ -179,22 +179,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
-    "obsidian/Extra/CyberMentor/Active Directory/img/crackmap04.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/crackmap03.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/crackmap02.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/crackmap01.png",
+    "Pasted image 20250406165501.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token08.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token07.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token06.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token05.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token04.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token03.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token02.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/token01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/pth01.png",
+    "obsidian/Extra/CyberMentor/Active Directory/img/psecec01.png",
     "obsidian/Extra/CyberMentor/Active Directory/8. Post Compromise Enumeration.md",
     "obsidian/Extra/CyberMentor/Active Directory/9. Post-Compromise Attacks.md",
     "obsidian/Extra/CyberMentor/Active Directory/7. Attacking AD.md",
     "obsidian/Extra/CyberMentor/Active Directory/6. Passback Attacks.md",
     "obsidian/Extra/CyberMentor/Active Directory/5. IPv6 Attacks Overview.md",
-    "obsidian/Extra/CyberMentor/Active Directory/img/ipv6-mitigation.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/mit601.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/domain-users01.png",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part 3.md",
-    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img/sql-tables-and-columns.png",
     "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
     "obsidian/Kali/Tools/MultiTool/Sniper.md",
     "obsidian/Kali/Tools/MultiTool/Recon-ng.md",
@@ -214,9 +217,6 @@
     "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
     "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
     "obsidian/Kali/Recon/Passive Recon/OSINT/Usernames.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/bandwidth.png",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/pc-pic.png",
-    "obsidian/Kali/Docs/Cisco/Network Support and Security/img/router-img.png",
     "obsidian/Kali/Docs/Networking/img",
     "obsidian/Extra/CyberMentor/Active Directory/img",
     "obsidian/Extra/CyberMentor/Active Directory",
