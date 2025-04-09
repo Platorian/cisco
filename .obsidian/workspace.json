@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Code/C/19. Return Statements.md",
+                "file": "obsidian/Code/C/09. Maths Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19. Return Statements"
+              "title": "09. Maths Functions"
             }
           },
           {
@@ -181,8 +181,16 @@
   },
   "active": "01af4fb631360747",
   "lastOpenFiles": [
-    "obsidian/Code/C/copy-temp.md",
+    "obsidian/Code/C/08. Mad Libs Game.md",
+    "obsidian/Code/C/07. Shopping Cart Program.md",
+    "obsidian/Code/C/06. User Input.md",
+    "obsidian/Code/C/05. Arithmetic Operators.md",
+    "obsidian/Code/C/04. Format Specifiers.md",
+    "obsidian/Code/C/03. Variables.md",
+    "obsidian/Code/C/02. Comments and Escape sequences.md",
+    "obsidian/Code/C/01. First Program.md",
     "obsidian/Code/C/19. Return Statements.md",
+    "obsidian/Code/C/copy-temp.md",
     "obsidian/Code/C/18. Functions.md",
     "obsidian/Code/C/17. Logical Operators.md",
     "obsidian/Code/C/16. Calculator.md",
@@ -192,17 +200,9 @@
     "obsidian/Code/C/12. If Statements.md",
     "obsidian/Code/C/11. Compound Interest Calculator.md",
     "obsidian/Code/C/10. Circle Calculator.md",
-    "obsidian/Code/C/5. Arithmetic Operators.md",
-    "obsidian/Code/C/6. User Input.md",
-    "obsidian/Code/C/7. Shopping Cart Program.md",
-    "obsidian/Code/C/8. Mad Libs Game.md",
-    "obsidian/Code/C/9. Maths Functions.md",
-    "obsidian/Code/C/4. Format Specifiers.md",
-    "obsidian/Code/C/3. Variables.md",
+    "obsidian/Code/C/09. Maths Functions.md",
     "obsidian/Code/C/38. Memory Addresses.md",
     "obsidian/Code/C/39. Pointers.md",
-    "obsidian/Code/C/1. First Program.md",
-    "obsidian/Code/C/2. Comments and Escape sequences.md",
     "obsidian/Extra/CyberMentor/Active Directory/9. Post-Compromise Attacks.md",
     "obsidian/Code/C",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
