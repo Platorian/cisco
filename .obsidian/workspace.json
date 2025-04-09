@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36b8d06c5ee350f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Extra/CyberMentor/Active Directory/9. Post-Compromise Attacks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "9. Post-Compromise Attacks"
-            }
-          },
-          {
             "id": "01af4fb631360747",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part 3.md",
+                "file": "obsidian/Code/C/19. Return Statements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 3"
+              "title": "19. Return Statements"
+            }
+          },
+          {
+            "id": "36b8d06c5ee350f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Code/C/copy-temp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "copy-temp"
             }
           }
         ]
@@ -179,8 +179,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "01af4fb631360747",
   "lastOpenFiles": [
+    "obsidian/Code/C/copy-temp.md",
+    "obsidian/Code/C/19. Return Statements.md",
+    "obsidian/Code/C/18. Functions.md",
+    "obsidian/Code/C/17. Logical Operators.md",
+    "obsidian/Code/C/16. Calculator.md",
+    "obsidian/Code/C/15. Nested If Statements.md",
+    "obsidian/Code/C/14. Switches.md",
+    "obsidian/Code/C/13. Converters.md",
+    "obsidian/Code/C/12. If Statements.md",
+    "obsidian/Code/C/11. Compound Interest Calculator.md",
+    "obsidian/Code/C/10. Circle Calculator.md",
+    "obsidian/Code/C/5. Arithmetic Operators.md",
+    "obsidian/Code/C/6. User Input.md",
+    "obsidian/Code/C/7. Shopping Cart Program.md",
+    "obsidian/Code/C/8. Mad Libs Game.md",
+    "obsidian/Code/C/9. Maths Functions.md",
+    "obsidian/Code/C/4. Format Specifiers.md",
+    "obsidian/Code/C/3. Variables.md",
+    "obsidian/Code/C/38. Memory Addresses.md",
+    "obsidian/Code/C/39. Pointers.md",
+    "obsidian/Code/C/1. First Program.md",
+    "obsidian/Code/C/2. Comments and Escape sequences.md",
+    "obsidian/Extra/CyberMentor/Active Directory/9. Post-Compromise Attacks.md",
+    "obsidian/Code/C",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp02.png",
@@ -190,33 +214,10 @@
     "obsidian/Extra/CyberMentor/Active Directory/5. IPv6 Attacks Overview.md",
     "obsidian/Extra/CyberMentor/Active Directory/6. Passback Attacks.md",
     "obsidian/Extra/CyberMentor/Active Directory/7. Attacking AD.md",
-    "obsidian/Extra/CyberMentor/Active Directory/8. Post Compromise Enumeration.md",
-    "obsidian/Extra/CyberMentor/Active Directory/9. Post-Compromise Attacks.md",
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson02.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson01.png",
     "Pasted image 20250406165501.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/token08.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/token07.png",
-    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/Part 3.md",
-    "obsidian/CTF/Hacker101/CTF/CodyBlog/Notes.md",
-    "obsidian/Kali/Tools/MultiTool/Sniper.md",
-    "obsidian/Kali/Tools/MultiTool/Recon-ng.md",
-    "obsidian/Kali/Tools/MultiTool/Metasploit.md",
-    "obsidian/Kali/Tools/MultiTool/AutoRecon.md",
-    "obsidian/Kali/Tools/MultiTool/Amass.md",
-    "obsidian/Kali/Tools/Cracking/John the Ripper.md",
-    "obsidian/Kali/Tools/Cracking/Hydra.md",
-    "obsidian/Kali/Tools/Cracking/Hash.md",
-    "obsidian/Kali/Tools/Ettercap.md",
-    "obsidian/Kali/Recon/Active Recon/SNMP.md",
-    "obsidian/Kali/Recon/Active Recon/SMTP.md",
-    "obsidian/Kali/Recon/Active Recon/SMB.md",
-    "obsidian/Kali/Recon/Active Recon/Nmap.md",
-    "obsidian/Kali/Recon/Active Recon/FTP.md",
-    "obsidian/Kali/Recon/Active Recon/DNS Zone Transfer.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/DNS.md",
-    "obsidian/Kali/Recon/Passive Recon/IP/IP Search.md",
-    "obsidian/Kali/Recon/Passive Recon/OSINT/Usernames.md",
     "obsidian/Kali/Docs/Networking/img",
     "obsidian/Extra/CyberMentor/Active Directory/img",
     "obsidian/Extra/CyberMentor/Active Directory",
@@ -225,7 +226,6 @@
     "obsidian/Kali/Tools/MultiTool/img",
     "obsidian/Extra/Git Install/img",
     "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025/img",
-    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025",
-    "obsidian/Extra/Look inside our world"
+    "obsidian/Extra/Look inside our world/Ultimate Cybersecurity Course from Scratch 2025"
   ]
 }
