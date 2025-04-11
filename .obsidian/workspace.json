@@ -49,7 +49,8 @@
               "title": "CheatSheet"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,10 +194,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "01af4fb631360747",
+  "active": "f7de38669429f398",
   "lastOpenFiles": [
-    "obsidian/Code/C/32. Memory Addresses.md",
     "obsidian/Code/C/34. Reading and Writing Files.md",
+    "obsidian/Code/C/32. Memory Addresses.md",
     "obsidian/Code/C/copy-temp.md",
     "obsidian/Code/C/31. Structs.md",
     "obsidian/Code/C/33. Pointers.md",
