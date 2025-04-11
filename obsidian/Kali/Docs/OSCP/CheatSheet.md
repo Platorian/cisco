@@ -1322,6 +1322,7 @@ list my priv
 ```php
 whoami /priv
 ```
+- Look for escalation based on what privileges you have access to
 
 list my groups
 
@@ -1335,7 +1336,7 @@ list users
 net user
 ```
 
-list my users details
+list specific users details
 
 ```php
 net user <MY-NAME>
@@ -1361,6 +1362,7 @@ network information
 ipconfig /all
 route print
 netstat -ano
+netstat -ao -p tcp
 ```
 
 get env variables
@@ -1368,6 +1370,43 @@ get env variables
 ```php
 dir env:
 ```
+
+list env variable
+
+```sh
+set
+```
+
+print specific env variable value
+
+```sh
+echo %PATH%
+```
+
+Look for command in path
+
+```sh
+where whoami
+```
+
+#### Powershell
+
+List local users
+```powershell
+Get-LocalUser
+```
+
+List local groups
+```powershell
+Get-LocalGroup
+```
+
+Get members from local groups
+```powershell
+Get-LocalGroupMember <group-name>
+```
+
+
 
 installed apps (32 bit)
 
@@ -1401,9 +1440,54 @@ running processes
 Get-Process
 ```
 
-#### Files, services and History
+#### Files, Services and History
 
-search files recursively
+Print working directory
+
+```sh
+cd
+```
+
+List files in current directory
+
+```sh
+dir 
+dir /A
+```
+
+Create directory
+
+```sh
+mkdir test
+```
+
+Create new empty file
+
+```sh
+type NUL > test.txt
+```
+
+Create and add to new file
+
+```sh
+echo "Hello" > test.txt
+```
+
+Read file contents
+
+```sh
+type test.txt
+```
+
+Get permission of a file
+
+```sh
+icacls <file>
+```
+- Access control list
+
+
+Search files recursively
 
 ```php
 Get-ChildItem -Path C:\Users\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
@@ -1425,7 +1509,7 @@ dir /a:hd
 icacls auditTracker.exe
 ```
 
-get service info
+Get service info
 
 ```php
 Get-Service * | Select-Object Displayname,Status,ServiceName,Can*

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Code/C/09. Maths Functions.md",
+                "file": "obsidian/Code/C/34. Reading and Writing Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09. Maths Functions"
+              "title": "34. Reading and Writing Files"
             }
           },
           {
@@ -33,6 +33,20 @@
               },
               "icon": "lucide-file",
               "title": "copy-temp"
+            }
+          },
+          {
+            "id": "f7de38669429f398",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Kali/Docs/OSCP/CheatSheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CheatSheet"
             }
           }
         ]
@@ -181,29 +195,32 @@
   },
   "active": "01af4fb631360747",
   "lastOpenFiles": [
+    "obsidian/Code/C/32. Memory Addresses.md",
+    "obsidian/Code/C/34. Reading and Writing Files.md",
+    "obsidian/Code/C/copy-temp.md",
+    "obsidian/Code/C/31. Structs.md",
+    "obsidian/Code/C/33. Pointers.md",
+    "obsidian/Code/C/30. Enums.md",
+    "obsidian/Code/C/29. Typedef.md",
+    "obsidian/Code/C/28. Ternary Operators.md",
+    "obsidian/Code/C/27. Arrays.md",
+    "obsidian/Code/C/26. Practice Games.md",
+    "obsidian/Code/C/25. Random Numbers.md",
+    "obsidian/Code/C/24. Nested Loops.md",
+    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
+    "obsidian/Code/C/23. Break and Continue.md",
+    "obsidian/Code/C/22. For Loops.md",
+    "obsidian/Code/C/21. While Loops.md",
+    "obsidian/Code/C/20. Function Prototypes.md",
+    "obsidian/Code/C/02. Comments and Escape sequences.md",
+    "obsidian/Code/C/19. Return Statements.md",
+    "obsidian/Code/C/09. Maths Functions.md",
     "obsidian/Code/C/08. Mad Libs Game.md",
     "obsidian/Code/C/07. Shopping Cart Program.md",
     "obsidian/Code/C/06. User Input.md",
     "obsidian/Code/C/05. Arithmetic Operators.md",
     "obsidian/Code/C/04. Format Specifiers.md",
     "obsidian/Code/C/03. Variables.md",
-    "obsidian/Code/C/02. Comments and Escape sequences.md",
-    "obsidian/Code/C/01. First Program.md",
-    "obsidian/Code/C/19. Return Statements.md",
-    "obsidian/Code/C/copy-temp.md",
-    "obsidian/Code/C/18. Functions.md",
-    "obsidian/Code/C/17. Logical Operators.md",
-    "obsidian/Code/C/16. Calculator.md",
-    "obsidian/Code/C/15. Nested If Statements.md",
-    "obsidian/Code/C/14. Switches.md",
-    "obsidian/Code/C/13. Converters.md",
-    "obsidian/Code/C/12. If Statements.md",
-    "obsidian/Code/C/11. Compound Interest Calculator.md",
-    "obsidian/Code/C/10. Circle Calculator.md",
-    "obsidian/Code/C/09. Maths Functions.md",
-    "obsidian/Code/C/38. Memory Addresses.md",
-    "obsidian/Code/C/39. Pointers.md",
-    "obsidian/Extra/CyberMentor/Active Directory/9. Post-Compromise Attacks.md",
     "obsidian/Code/C",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
@@ -211,9 +228,6 @@
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/kerber02.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/kerb01.png",
-    "obsidian/Extra/CyberMentor/Active Directory/5. IPv6 Attacks Overview.md",
-    "obsidian/Extra/CyberMentor/Active Directory/6. Passback Attacks.md",
-    "obsidian/Extra/CyberMentor/Active Directory/7. Attacking AD.md",
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson02.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson01.png",
     "Pasted image 20250406165501.png",
