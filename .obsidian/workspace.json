@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Code/C/33. Pointers.md",
+                "file": "obsidian/Code/C/35. Command Line Arguments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "33. Pointers"
+              "title": "35. Command Line Arguments"
             }
           }
         ],
@@ -182,6 +182,8 @@
   },
   "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Code/C/33. Pointers.md",
+    "obsidian/Code/C/35. Command Line Arguments.md",
     "obsidian/Code/C/12. If Statements.md",
     "obsidian/Code/C/VS Code Setup.md",
     "obsidian/Code/C/06. User Input.md",
@@ -200,7 +202,6 @@
     "obsidian/Kali/Docs/OSCP/CheatSheet.md",
     "obsidian/Code/C/32. Memory Addresses.md",
     "obsidian/Code/C/31. Structs.md",
-    "obsidian/Code/C/33. Pointers.md",
     "obsidian/Code/C/30. Enums.md",
     "obsidian/Code/C/29. Typedef.md",
     "obsidian/Code/C/28. Ternary Operators.md",
@@ -211,7 +212,6 @@
     "obsidian/Code/C/23. Break and Continue.md",
     "obsidian/Code/C/21. While Loops.md",
     "obsidian/Code/C/20. Function Prototypes.md",
-    "obsidian/Code/C/02. Comments and Escape sequences.md",
     "obsidian/Code/C",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
