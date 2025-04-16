@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Code/C/Practice/Practice Programs.md",
+                "file": "obsidian/Code/Python Scripts/Username Generator and API Test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practice Programs"
+              "title": "Username Generator and API Test"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,15 +180,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Code/C/Practice/Practice Programs.md",
+    "obsidian/Code/Python Scripts/Username Generator and API Test.md",
+    "obsidian/Code/Python Scripts",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege",
     "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/02. File Transfer Commands.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/01. Reverse Shell vs Bind Shell.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/02. Windows Permissions/01. Authentication, Authorisation and Session Management.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells",
-    "obsidian/Code/C/Practice/Practice Programs.md",
     "obsidian/Code/C/26. Practice Games.md",
     "obsidian/Code/C/Practice",
     "obsidian/Code/C/35. Command Line Arguments.md",
@@ -224,8 +227,6 @@
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson01.png",
     "Pasted image 20250406165501.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/token08.png",
-    "obsidian/Kali/Docs/Networking/img",
-    "obsidian/Extra/CyberMentor/Active Directory/img",
-    "obsidian/Extra/CyberMentor/Active Directory"
+    "obsidian/Kali/Docs/Networking/img"
   ]
 }
