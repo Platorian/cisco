@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/Windows Permissions/01. Authentication, Authorisation and Session Management.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. Authentication, Authorisation and Session Management"
+              "title": "03. Reverse Shells Payloads"
             }
           },
           {
@@ -179,8 +179,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "01af4fb631360747",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/02. File Transfer Commands.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/01. Reverse Shell vs Bind Shell.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/02. Windows Permissions/01. Authentication, Authorisation and Session Management.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells",
     "obsidian/Code/C/Practice/Practice Programs.md",
     "obsidian/Code/C/26. Practice Games.md",
     "obsidian/Code/C/Practice",
@@ -193,11 +199,10 @@
     "obsidian/Code/C/18. Functions.md",
     "obsidian/Code/C/22. For Loops.md",
     "obsidian/Code/C/copy-temp.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/Windows Permissions/01. Authentication, Authorisation and Session Management.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/Introduction to the Windows Shells/02. PowerShell Commands.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/Windows Permissions",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/Introduction to the Windows Shells",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/Introduction to the Windows Shells/01. CMD Commands.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/02. PowerShell Commands.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/02. Windows Permissions",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/01. CMD Commands.md",
     "obsidian/Code/C/34. Reading and Writing Files.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc",
     "obsidian/Extra/Hexdump",
@@ -208,10 +213,6 @@
     "obsidian/Code/C/29. Typedef.md",
     "obsidian/Code/C/28. Ternary Operators.md",
     "obsidian/Code/C/27. Arrays.md",
-    "obsidian/Code/C/25. Random Numbers.md",
-    "obsidian/Code/C/24. Nested Loops.md",
-    "obsidian/Code/C/23. Break and Continue.md",
-    "obsidian/Code/C/21. While Loops.md",
     "obsidian/Code/C",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
@@ -225,7 +226,6 @@
     "obsidian/Extra/CyberMentor/Active Directory/img/token08.png",
     "obsidian/Kali/Docs/Networking/img",
     "obsidian/Extra/CyberMentor/Active Directory/img",
-    "obsidian/Extra/CyberMentor/Active Directory",
-    "obsidian/CTF/Blue Team Labs/Log Analysis Compromised WordPress"
+    "obsidian/Extra/CyberMentor/Active Directory"
   ]
 }
