@@ -1530,6 +1530,12 @@ Connect to MSSQL database
 impacket-mssqlclient Administrator:Lab123@192.168.50.18 -windows-auth
 ```
 
+**Get WiFi Password**
+
+```powershell
+netsh wlan show profile <SSID-Name> key=clear
+```
+
 #### File transfer
 
 ```php

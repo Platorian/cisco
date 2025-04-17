@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege/SeImpersonatePrivilege Exploitation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03. Reverse Shells Payloads"
+              "title": "SeImpersonatePrivilege Exploitation"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Code/Python Scripts/Username Generator and API Test.md",
+                "file": "obsidian/Kali/Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Username Generator and API Test"
+              "title": "Resources"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,16 +179,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "36b8d06c5ee350f4",
+  "active": "01af4fb631360747",
   "lastOpenFiles": [
-    "obsidian/Code/C/Practice/Practice Programs.md",
-    "obsidian/Code/Python Scripts/Username Generator and API Test.md",
-    "obsidian/Code/Python Scripts",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/02. File Transfer Commands.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/01. Reverse Shell vs Bind Shell.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/02. PowerShell Commands.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/01. CMD Commands.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege/SeImpersonatePrivilege Exploitation.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/02. Windows Permissions/01. Authentication, Authorisation and Session Management.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/02. File Transfer Commands.md",
+    "obsidian/Kali/Resources.md",
+    "obsidian/Kali/Docs/CTF/CTF Resources.md",
+    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
+    "README.md",
+    "obsidian/Code/Python Scripts/Username Generator and API Test.md",
+    "obsidian/Code/C/Practice/Practice Programs.md",
+    "obsidian/Code/Python Scripts",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/01. Reverse Shell vs Bind Shell.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells",
     "obsidian/Code/C/26. Practice Games.md",
     "obsidian/Code/C/Practice",
@@ -202,20 +208,13 @@
     "obsidian/Code/C/18. Functions.md",
     "obsidian/Code/C/22. For Loops.md",
     "obsidian/Code/C/copy-temp.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/02. PowerShell Commands.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/02. Windows Permissions",
     "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/01. CMD Commands.md",
     "obsidian/Code/C/34. Reading and Writing Files.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc",
     "obsidian/Extra/Hexdump",
-    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
     "obsidian/Code/C/32. Memory Addresses.md",
     "obsidian/Code/C/31. Structs.md",
-    "obsidian/Code/C/30. Enums.md",
-    "obsidian/Code/C/29. Typedef.md",
-    "obsidian/Code/C/28. Ternary Operators.md",
-    "obsidian/Code/C/27. Arrays.md",
     "obsidian/Code/C",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
