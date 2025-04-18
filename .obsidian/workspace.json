@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/01. History Logs.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/05. Hash Cracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. History Logs"
+              "title": "05. Hash Cracking"
             }
           },
           {
@@ -181,7 +181,13 @@
   },
   "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/04. Obtain Net-NTLMv hashes with Responder.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/03. Obtain LM and NTLM hashes with Mimikatz.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/01. Hash Functions and Authentication.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/02. Windows Hashes.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/05. Hash Cracking.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/02. Dumping SAM with mimikatz.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes",
     "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/01. History Logs.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/11. Always Installed Elevated/01. Create Custom MSI.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/03. UAC Bypass.md",
@@ -212,12 +218,6 @@
     "obsidian/Kali/Resources.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/05. Cross Compilation",
     "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/02. PowerShell Commands.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/01. Introduction to the Windows Shells/01. CMD Commands.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/02. Windows Permissions/01. Authentication, Authorisation and Session Management.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/02. File Transfer Commands.md",
-    "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Code/Python Scripts",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp02.png",
