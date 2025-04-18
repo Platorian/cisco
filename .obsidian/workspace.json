@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/01. Unquoted Service Paths.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. Unquoted Service Paths"
+              "title": "03. Hijacking the DLL Search Order"
+            }
+          },
+          {
+            "id": "7bc627d54acb2e43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Extra/Game Hacking/Resource links.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resource links"
             }
           }
         ]
@@ -165,20 +179,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/02. First Technique - Overwriting DLL Binary.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/01. Unquoted Service Paths.md",
+    "obsidian/Extra/Game Hacking/Resource links.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/img/broken-path.png",
     "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/img",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/01. Unquoted Service Paths.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/11. Always Installed Elevated/01. Create Custom MSI.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/03. UAC Bypass.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/11. Always Installed Elevated",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/02. Enumerate UAC configuration.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/01. User Account Control (UAC).md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/02. First Technique - Overwriting DLL Binary.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking",
     "obsidian/Extra/Hexdump/Windows Priv Esc/07. Weak Service Permissions/02. Weak Permission on Service Binary.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/07. Weak Service Permissions/01. Weak Permission on Service Configuration.md",
@@ -211,7 +226,6 @@
     "obsidian/Extra/CyberMentor/Active Directory/img/kerb01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson02.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/imperson01.png",
-    "Pasted image 20250406165501.png",
-    "obsidian/Extra/CyberMentor/Active Directory/img/token08.png"
+    "Pasted image 20250406165501.png"
   ]
 }
