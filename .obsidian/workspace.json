@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/03. UAC Bypass.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/02. Dumping SAM with mimikatz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03. UAC Bypass"
+              "title": "02. Dumping SAM with mimikatz"
             }
           },
           {
@@ -181,10 +181,13 @@
   },
   "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/01. History Logs.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/03. UAC Bypass.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/02. Enumerate UAC configuration.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/02. Dumping SAM with mimikatz.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/01. User Account Control (UAC).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/11. Always Installed Elevated/01. Create Custom MSI.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/03. UAC Bypass.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/02. First Technique - Overwriting DLL Binary.md",
@@ -214,10 +217,7 @@
     "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/03. Reverse Shells Payloads.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/03. Windows Reverse Shells/02. File Transfer Commands.md",
     "obsidian/Kali/Docs/CTF/CTF Resources.md",
-    "obsidian/Kali/Docs/OSCP/CheatSheet.md",
-    "README.md",
     "obsidian/Code/Python Scripts",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/04. SeImpersonatePrivilege",
     "obsidian/Extra/CyberMentor/Active Directory/img/mimi01.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp03.png",
     "obsidian/Extra/CyberMentor/Active Directory/img/gpp02.png",
