@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03. Hijacking the DLL Search Order"
+              "title": "01. Dynamic Link Libraries (DLL)"
             }
           },
           {
@@ -181,9 +181,9 @@
   },
   "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
-    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/02. First Technique - Overwriting DLL Binary.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/01. Unquoted Service Paths.md",
     "obsidian/Extra/Game Hacking/Resource links.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/08. Unquoted Service Path/img/broken-path.png",
