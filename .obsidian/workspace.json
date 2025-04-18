@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/02. Dumping SAM with mimikatz.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/01. History Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02. Dumping SAM with mimikatz"
+              "title": "01. History Logs"
             }
           },
           {
@@ -181,13 +181,13 @@
   },
   "active": "36b8d06c5ee350f4",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/02. Dumping SAM with mimikatz.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/01. History Logs.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/11. Always Installed Elevated/01. Create Custom MSI.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/03. UAC Bypass.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/02. Enumerate UAC configuration.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data/02. Dumping SAM with mimikatz.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data",
     "obsidian/Extra/Hexdump/Windows Priv Esc/10. UAC Bypass/01. User Account Control (UAC).md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/11. Always Installed Elevated/01. Create Custom MSI.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/12. Files with Sensitive Data",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/03. Hijacking the DLL Search Order.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/01. Dynamic Link Libraries (DLL).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/09. DLL Hijacking/02. First Technique - Overwriting DLL Binary.md",
