@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/19. A Cheatsheet and A Methodology/02. The Methodology.md",
+                "file": "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/02. First Bypass.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02. The Methodology"
+              "title": "02. First Bypass"
             }
           }
         ]
@@ -167,11 +167,11 @@
   },
   "active": "3aef9e7c27bc981a",
   "lastOpenFiles": [
-    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/04. Obtain Net-NTLMv hashes with Responder.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/01. Windows Antimalware Scan Interface (AMSI).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/19. A Cheatsheet and A Methodology/02. The Methodology.md",
+    "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/04. Obtain Net-NTLMv hashes with Responder.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/19. A Cheatsheet and A Methodology/01. The Cheatsheet.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/02. First Bypass.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/01. Windows Antimalware Scan Interface (AMSI).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/17. Useful Tools/01. On Tools.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/03. Obtain LM and NTLM hashes with Mimikatz.md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/13. Windows Hashes/01. Hash Functions and Authentication.md",
