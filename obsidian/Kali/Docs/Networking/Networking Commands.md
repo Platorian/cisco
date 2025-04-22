@@ -1,4 +1,4 @@
-View networks
+**View networks**
 ```sh
 ifconfig -a 
 ```
@@ -8,17 +8,22 @@ or
 ip link show
 ```
 
-Turn off eth0
+on newer systems
+```sh
+ip -c a
+```
+
+**Turn off eth0**
 ```sh
 ifdown eth0
 ```
 
-Turn on eth0
+**Turn on eth0**
 ```sh
 ifup eth0
 ```
 
-See ip address info
+See specific ip address info
 ```sh 
 ip a show eth0
 ```

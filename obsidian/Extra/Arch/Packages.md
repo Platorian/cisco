@@ -4,7 +4,7 @@ To update your package list using Pacman, use the **-Sy** flag:
 
 `sudo pacman -Sy`
 
-After synchronizing your system's package list with the master servers, you need to upgrade the packages. Use the **-Syu** flag to do the same. This command can take some time depending on the package list and your network connectivity.
+After synchronising your system's package list with the master servers, you need to upgrade the packages. Use the **-Syu** flag to do the same. This command can take some time depending on the package list and your network connectivity.
 
 `sudo pacman -Syu`
 
