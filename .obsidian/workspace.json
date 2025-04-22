@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CyberMentor/Active Directory/1. Overview and Lab Setup.md",
+                "file": "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Overview and Lab Setup"
+              "title": "01. Introduction to AD"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "3.3.3 Wireless and Mobile Networks Quiz"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,8 +181,16 @@
   },
   "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.3.1 What Did I Learn in this Module.md",
+    "obsidian/Extra/Hexdump/Active Directory/img/tree.png",
+    "obsidian/Extra/Hexdump/Active Directory/img",
+    "obsidian/Extra/Hexdump/Active Directory/img/forrest.png",
+    "obsidian/Extra/CyberMentor/Active Directory/1. Overview and Lab Setup.md",
+    "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
+    "obsidian/Extra/Hexdump/Active Directory",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.3.3 Wireless and Mobile Networks Quiz.md",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network",
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.3.1 What Did I Learn in this Module.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.5  Bluetooth Configuration on a Windows Laptop.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.4 Configure Cellular Data Settings.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.8 Explore Your Network Settings on Your Mobile Device.md",
@@ -216,17 +223,9 @@
     "obsidian/Extra/Arch/Troubleshooting.md",
     "obsidian/Extra/Arch/Pacman Cheatsheet.md",
     "obsidian/Extra/Arch/Packages.md",
-    "obsidian/Extra/CyberMentor/Active Directory/1. Overview and Lab Setup.md",
     "obsidian/Extra/CyberMentor/Practical Help Desk/PHDA.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/02. First Bypass.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/01. Windows Antimalware Scan Interface (AMSI).md",
     "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/img/asmi-arch.png",
     "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/img",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/15. Scheduled Tasks/img/task01.png",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/15. Scheduled Tasks/img",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/19. A Cheatsheet and A Methodology",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/17. Useful Tools",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/16. Critical Registry Paths"
+    "obsidian/Extra/Hexdump/Windows Priv Esc/15. Scheduled Tasks/img"
   ]
 }
