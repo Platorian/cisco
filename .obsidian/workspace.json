@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
+                "file": "obsidian/Extra/Hexdump/Active Directory/02. Active Directory Exploitation                        Exposed Attack Surface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. Introduction to AD"
+              "title": "02. Active Directory Exploitation                        Exposed Attack Surface"
             }
           },
           {
@@ -179,13 +179,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19752380c3e0b1b0",
+  "active": "3aef9e7c27bc981a",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
+    "obsidian/Extra/Hexdump/Active Directory/02. Active Directory Exploitation                        Exposed Attack Surface.md",
+    "obsidian/Kali/Docs/Networking/Networking Cheatsheet.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/10. Governance and Compliance.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/09. Third Party Vendor Risks.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/08. Risk Management.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/07. Cryptographic Solutions.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/06. Data Protection.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/05. Malware.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/04. Social Engineering.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/03. Physical Security.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/02. Threat Actors.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes/01. Fundamentals of Security.md",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes",
+    "obsidian/Extra/CompTIA/CompTIA-Sec-Notes.md",
+    "obsidian/Extra/CompTIA",
     "obsidian/Extra/Hexdump/Active Directory/img/tree.png",
     "obsidian/Extra/Hexdump/Active Directory/img",
     "obsidian/Extra/Hexdump/Active Directory/img/forrest.png",
     "obsidian/Extra/CyberMentor/Active Directory/1. Overview and Lab Setup.md",
-    "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
     "obsidian/Extra/Hexdump/Active Directory",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.3.3 Wireless and Mobile Networks Quiz.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics",
@@ -206,26 +221,11 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.1 Mobile Devices and Wi-Fi.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/3.1.4 Check Your Understanding - Wireless Networks.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/3.1.3 Other Wireless Networks.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/3.1.2 Video - Cell Phone Interactions with Different Networks.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/3.1.1 Video - Types of Wireless Networks.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1.2 Video - Cell Phone Interactions with Different Networks",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img/nfc-network.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img/wifi-network.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img/bluetooth-network.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/pc-pic.png",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Cisco Management/router.md",
-    "obsidian/Kali/Docs/Cisco/Network Support and Security/Document the Network.md",
-    "obsidian/Kali/Docs/Networking/Networking Cheatsheet.md",
-    "obsidian/Kali/Docs/Networking/Networking Commands.md",
-    "obsidian/Kali/Docs/Networking/Subnet.md",
-    "obsidian/Extra/Arch/Troubleshooting.md",
-    "obsidian/Extra/Arch/Pacman Cheatsheet.md",
-    "obsidian/Extra/Arch/Packages.md",
-    "obsidian/Extra/CyberMentor/Practical Help Desk/PHDA.md",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/img/asmi-arch.png",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/18. AMSI Bypass/img",
-    "obsidian/Extra/Hexdump/Windows Priv Esc/15. Scheduled Tasks/img"
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/pc-pic.png"
   ]
 }

@@ -1,0 +1,101 @@
+## Risk Assessment Frequency
+The regularity of which risk assessments are conducted.
+#### Ad-Hoc
+Conducted as and when needed, often in response to an event that has potential to introduce new risks or changing nature of existing risks. May be repeated.
+#### Recurring
+Conducted at regular intervals.
+#### One-Time
+Conducted for a specific purpose, not repeated.
+#### Continuous
+Ongoing monitoring and evaluation of risk.
+
+## Risk Identification
+Crucial first step in risk assessment. Often followed by a business impact analysis.
+#### Business Impact Analysis
+Process that involves evaluating the potential effects of disruption to an organization's business functions and processes.
+###### Recovery Time Objective (RTO)
+Represents the maximum acceptable length of time that can elapse before the lack of business function severely impacts the organization.
+###### Recovery Point Objective
+Represents maximum acceptable amount of data loss measured in time.
+###### Mean Time to Repair (MTTR)
+Represents the average time required to repair a failed component or system. Lower MTTR is a more repairable system.
+###### Mean Time Between Repairs
+Represents the average time between failures. Measure of reliability.
+
+## Risk Register
+A key tool in risk management, featuring key risk indicators, risk owners, and risk thresholds. A document detailing identified risks, including their description, impact likelihood, and mitigation strategies. May resemble a heat map matrix.
+#### Risk Description
+Entails identifying and providing a detailed description of the risk.
+#### Risk Outcome
+Result of a risk, linked to its impact and likelihood.
+#### Risk Impact
+Potential consequences if risk materializes. Usually on a scale.
+#### Risk Level/Threshold
+Determined by combining the impact and likelihood.
+#### Risk Likelihood
+Chance of particular risk occurring.
+#### Key Risk Indicators (KRIs)
+Essential predictive metrics used by organizations to signal rising risk levels in different parts of the enterprise. Allows for proactive risk management, preventing escalation.
+#### Risk Owner
+Person or group responsible for managing the risk.
+#### Cost
+Pertains to its financial impact on the project, including potential expenses if it occurs or the cost of its mitigation.
+## Risk Tolerance/Risk Acceptance
+The organization's or individual's willingness to deal with uncertainty in pursuit of their goals.
+## Risk Appetite
+Organization's willingness to embrace or retain specific types and levels of risk to fulfill its strategic goals.
+#### Expansionary Risk Appetite
+Open to taking more risk in the hopes of achieving greater returns.
+#### Conservative Risk Appetite
+Implies organization favors less risk, even if it leads to lower returns.
+#### Neutral Risk Appetite
+Signifies balance between risk and return.
+
+## Qualitative Risk Analysis
+Method of assessing risk based on their potential impact and the likelihood of their occurrence.
+
+## Quantitative Risk Analysis
+More objective and numerical risk assessment.
+#### Single Loss Expectancy (SLE)
+Monetary value expected to be lost in a single event. Calculated by asset times exposure factor (EF):
+- $100,000 (Asset) * 70% EF = $70,000 SLE
+- *Asset x EF = SLE*
+#### Annualized Rate of Occurrence (ARO)
+Estimated frequency with which a threat is expected to occur within  a year.
+#### Annualized Loss Expectancy (ALE)
+Expected annual loss from a risk. Calculated by:
+- *SLE x ARO*
+#### Exposure Factor (EF)
+Proportion of an asset that is lost in an event. Recorded as:
+- 0% (No loss)
+- 100% (total loss)
+- Examples:
+	- HQ Flooding = 70% lost assets
+	- EF = 70%
+
+## Risk Management Strategies
+#### Risk Transference (Risk Sharing)
+Involves shifting the risk from the organization to another party.
+###### Contract Indemnity Clause
+A contractual agreement where one party agrees to cover the other's harm, liability, or loss stemming from the contract.
+#### Risk Acceptance
+Recognizing a risk and choosing to address it when it arises.
+###### Exemption
+Rule that grants an exception from a specific rule or requirement.
+###### Exception
+Permits a party to bypass a rule or requirement under specific circumstances.
+#### Risk Avoidance
+Strategy of altering plans or approaches to completely eliminate a specific risk.
+#### Risk Mitigation
+Implementing measures to decrease the likelihood or impact of a risk.
+
+## Risk Monitoring and Reporting
+Involves continuously tracking identified risks, assessing new risks, executing response plans, and evaluating their effectiveness during a project's life cycle, and communicating that information.
+- Informed decision-making
+- Risk mitigation
+- Stakeholder communication
+- Regulatory Compliance
+#### Residual Risk
+Likelihood and impact after implementing mitigation, transference, or acceptance measures on the initial risk.
+#### Control Risk
+Assessment of how a security measure has lost effectiveness over time.
