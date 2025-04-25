@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Active Directory/04. Active Directory Exploitation Kerberos.md",
+                "file": "obsidian/Extra/Hexdump/Active Directory/05. Active Directory Exploitation Roasting Attacks on Kerberos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04. Active Directory Exploitation Kerberos"
+              "title": "05. Active Directory Exploitation Roasting Attacks on Kerberos"
             }
           },
           {
@@ -33,6 +33,20 @@
               },
               "icon": "lucide-file",
               "title": "3.3.3 Wireless and Mobile Networks Quiz"
+            }
+          },
+          {
+            "id": "7dca5599631ddd6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Extra/Arch/Troubleshooting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Troubleshooting"
             }
           }
         ]
@@ -181,11 +195,12 @@
   },
   "active": "3aef9e7c27bc981a",
   "lastOpenFiles": [
+    "obsidian/Extra/Hexdump/Active Directory/04. Active Directory Exploitation Kerberos.md",
+    "obsidian/Extra/Hexdump/Active Directory/05. Active Directory Exploitation Roasting Attacks on Kerberos.md",
+    "obsidian/Extra/Arch/Troubleshooting.md",
     "obsidian/Extra/Hexdump/Active Directory/img/kerberos.png",
     "obsidian/Extra/Hexdump/Active Directory/03. Active Directory Exploitation Server Message Block.md",
-    "obsidian/Extra/Hexdump/Active Directory/04. Active Directory Exploitation Kerberos.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.3.3 Wireless and Mobile Networks Quiz.md",
-    "obsidian/Extra/Arch/Troubleshooting.md",
     "obsidian/Extra/Hexdump/Active Directory/02. Active Directory Exploitation Exposed Attack Surface.md",
     "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
     "obsidian/Kali/Docs/Networking/Networking Cheatsheet.md",
@@ -225,7 +240,6 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img/nfc-network.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img/wifi-network.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img/bluetooth-network.png",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 1. Communication/img/pc-pic.png"
+    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.1 Wireless Networks/img"
   ]
 }

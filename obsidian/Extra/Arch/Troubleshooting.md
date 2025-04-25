@@ -184,7 +184,7 @@ journalctl --list-boots
 
 Resource: https://www.howtogeek.com/499623/how-to-use-journalctl-to-read-linux-system-logs/
 
-Looking at the output of `journalctl` it looks like the `BIOS` needs to be updated, which makes sense since it hasn't been done since i got the PC.
+Looking at the output of `journalctl` it looks like the `BIOS` needs to be updated, which makes sense since it hasn't been done since i got the PC. **The Problem fixed itself after a few updates.**
 
 Journalctl Errors: 
 amd pstate
