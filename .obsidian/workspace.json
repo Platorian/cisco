@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/Active Directory/05. Active Directory Exploitation Roasting Attacks on Kerberos.md",
+                "file": "obsidian/Extra/Hexdump/Active Directory/06. Active Directory Exploitation User Enumeration in Kerberos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05. Active Directory Exploitation Roasting Attacks on Kerberos"
+              "title": "06. Active Directory Exploitation User Enumeration in Kerberos"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Arch/Troubleshooting.md",
+                "file": "obsidian/Extra/Arch/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Troubleshooting"
+              "title": "Obsidian"
             }
           }
         ]
@@ -195,9 +195,13 @@
   },
   "active": "3aef9e7c27bc981a",
   "lastOpenFiles": [
-    "obsidian/Extra/Hexdump/Active Directory/04. Active Directory Exploitation Kerberos.md",
-    "obsidian/Extra/Hexdump/Active Directory/05. Active Directory Exploitation Roasting Attacks on Kerberos.md",
+    "obsidian/Extra/Arch/Obsidian.md",
+    "obsidian/Extra/Hexdump/Active Directory/06. Active Directory Exploitation User Enumeration in Kerberos.md",
+    "obsidian/Extra/Git Install/Git Images Fix.md",
+    "obsidian/Extra/Bash/Bash.md",
     "obsidian/Extra/Arch/Troubleshooting.md",
+    "obsidian/Extra/Hexdump/Active Directory/05. Active Directory Exploitation Roasting Attacks on Kerberos.md",
+    "obsidian/Extra/Hexdump/Active Directory/04. Active Directory Exploitation Kerberos.md",
     "obsidian/Extra/Hexdump/Active Directory/img/kerberos.png",
     "obsidian/Extra/Hexdump/Active Directory/03. Active Directory Exploitation Server Message Block.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.3.3 Wireless and Mobile Networks Quiz.md",
@@ -226,10 +230,6 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.3.1 What Did I Learn in this Module.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.5  Bluetooth Configuration on a Windows Laptop.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.4 Configure Cellular Data Settings.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.8 Explore Your Network Settings on Your Mobile Device.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.7 Bluetooth Pairing.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/3.2.6 Simple Connectivity with Bluetooth.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/img/ios-cell-data.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/img/android-cell-data.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.2 Mobile Device Connectivity/img/ios-switch.png",
