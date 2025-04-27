@@ -293,3 +293,123 @@ Some useful references:
   - https://visualgdb.com/gdbreference/commands/frame
   - https://interrupt.memfault.com/blog/advanced-gdb
 
+--- 
+
+## GDB Info from other sources
+
+Compile program with stripped value
+```sh
+gcc -o main main.c -s
+```
+
+Check file 
+```sh
+file main
+```
+
+Check words
+```sh
+wc -c main
+```
+
+Compile program so in can be debugged with **GDB**
+```sh
+gcc -o main main.c -g
+```
+- adds debug information but makes the code slightly larger
+
+Start GDB and change layout
+```sh
+gdb main
+```
+
+```sh
+lay next
+```
+- hit enter to cycle layouts
+
+Add breakpoint at function main
+```sh
+break main
+```
+
+Start program 
+```sh
+run
+```
+
+Jump to next line in C
+```sh
+next
+```
+
+Jump to next line in assembly 
+```sh
+nexti
+```
+- nexti - next instruction 
+
+Step into code, for example `puts`
+```sh
+step
+```
+
+Step over if you don't want to see what's inside the call to `puts`
+```sh
+next
+```
+
+Refresh screen if layout is not correctly showing
+```sh
+ref
+```
+- ref - refresh
+
+If you have a `scanf` function you'd have to type it into GDB.
+
+Try using this sample code with an error
+```c
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	int d = 2;
+	printf("Welcome to a program with a bug\n");
+	scanf("%d", d);
+	printf("You gave me: %d", d);
+
+	return 0;
+}
+```
+
+After inputting a number like the program requests, GDB will try to tell you what is wrong with error statements.
+
+Examine memory
+```sh
+x/i $pc 
+```
+
+What is the register state
+```sh
+info registers
+```
+
+In intel a `%` is a dereference, for example: `%rdx`. 
+
+Fixing the error
+```sh
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	int d = 2;
+	printf("Welcome to a program with a bug\n");
+	scanf("%d", &d);
+	printf("You gave me: %d", d);
+
+	return 0;
+}
+```
+- Added the `&` to scanf function which adds the input value to the variable
+
+scanf() needs to modify values of a and b and but they are not local to scanf(). So in order to reflect changes in the variable a and b of the main function, we need to pass addresses of them. We cannot simply pass them by value.
