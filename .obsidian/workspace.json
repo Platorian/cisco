@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/Hexdump/The GNU Project Debugger.md",
+                "file": "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The GNU Project Debugger"
+              "title": "Cisco Cheatsheet"
             }
           }
         ],
@@ -194,8 +194,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5185febe0fd0a86a",
+  "active": "19752380c3e0b1b0",
   "lastOpenFiles": [
+    "obsidian/Kali/Docs/Networking/Networking Cheatsheet.md",
+    "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
+    "obsidian/Kali/Docs/Networking/Networking Commands.md",
+    "obsidian/Kali/Docs/Networking/Subnet.md",
     "obsidian/Extra/Hexdump/The GNU Project Debugger.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.5 Build a Home Network Summary/4.5.1 What Did I Learn in this Module.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.4 Set Up a Home Router/4.4.2 Design Considerations.md",
@@ -230,11 +234,7 @@
     "obsidian/Extra/Bash/Bash.md",
     "obsidian/Extra/Arch/Troubleshooting.md",
     "obsidian/Extra/Hexdump/Active Directory/05. Active Directory Exploitation Roasting Attacks on Kerberos.md",
-    "obsidian/Extra/Hexdump/Active Directory/04. Active Directory Exploitation Kerberos.md",
     "obsidian/Extra/Hexdump/Active Directory/img/kerberos.png",
-    "obsidian/Extra/Hexdump/Active Directory/03. Active Directory Exploitation Server Message Block.md",
-    "obsidian/Extra/Hexdump/Active Directory/02. Active Directory Exploitation Exposed Attack Surface.md",
-    "obsidian/Extra/Hexdump/Active Directory/01. Introduction to AD.md",
     "obsidian/Extra/CompTIA/CompTIA-Sec-Notes",
     "obsidian/Extra/CompTIA",
     "obsidian/Extra/Hexdump/Active Directory/img/tree.png",

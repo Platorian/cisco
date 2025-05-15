@@ -68,7 +68,7 @@ tui layout split
 
 when working with TUI, to refresh screen
 ```sh
-C-l
+Ctrl+l
 ```
 
 ## Documentation
@@ -143,6 +143,7 @@ n
 ```sh
 si
 ```
+- hit enter to repeat the last command 
 
 - step source instruction
 ```sh
@@ -172,6 +173,16 @@ info registers
 
 ```sh
 i r
+```
+
+show value inside register
+```sh
+print $rax
+```
+
+show value inside register in hex
+```sh
+print /x $rax
 ```
 
 you can reference a value saved in a register with the syntax
