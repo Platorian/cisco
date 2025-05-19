@@ -5,11 +5,13 @@ _These notes are still in the rough stage, and are yet to be fully organised._
 ## Completed Courses and Content
 
 Udemy https://www.udemy.com/
-- CompTIA
-- CompTIA
-- CompTIA
-- CompTIA
-- CompTIA
+- CompTIA A+ Core 1 - Completed: 13 Dec, 2023
+- CompTIA A+ Core 2 - Completed: 12 March, 2024
+- CompTIA Network+ - Completed: 16 Oct, 2023
+- CompTIA Security+ - Completed: 24 Oct, 2023
+- Assembly Language Programming for Reverse Engineering - Completed: 2 May, 2024 
+- CompTIA PenTest+ - Completed: 22 May, 2024
+
 
 Cisco Academy https://www.netacad.com/
 - Ethical Hacker - Completed: Jun 22, 2024

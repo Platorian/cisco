@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Explain the use and purpose of network services"
+              "title": "README"
             }
           },
           {
@@ -196,6 +196,7 @@
   },
   "active": "cb69b4116d73e153",
   "lastOpenFiles": [
+    "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/4. Given a scenario, configure a subnet and use appropriate IP addressing schemes.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/3. Summarize the types of cables and connectors and explain which is the appropriate type for a solution.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/2. Explain the characteristics of network topologies and network types.md",
@@ -203,7 +204,6 @@
     "obsidian/Extra/CompTIA/CompTIA-Network/img/ip-header.png",
     "obsidian/Extra/CompTIA/CompTIA-Network/img",
     "obsidian/Extra/CompTIA/CompTIA-Network/img/ethernet-header.png",
-    "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
     "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
     "obsidian/Extra/CompTIA/CompTIA-Network",
     "obsidian/Kali/Docs/Networking/Networking Commands.md",
