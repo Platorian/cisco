@@ -196,11 +196,14 @@
   },
   "active": "cb69b4116d73e153",
   "lastOpenFiles": [
-    "obsidian/Extra/CompTIA/CompTIA-Network/1. Compare and contrast the Open Systems Interconnection (OSI) model layers and encapsulation concepts.md",
-    "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/4. Given a scenario, configure a subnet and use appropriate IP addressing schemes.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/3. Summarize the types of cables and connectors and explain which is the appropriate type for a solution.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/2. Explain the characteristics of network topologies and network types.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network/1. Compare and contrast the Open Systems Interconnection (OSI) model layers and encapsulation concepts.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network/img/ip-header.png",
+    "obsidian/Extra/CompTIA/CompTIA-Network/img",
+    "obsidian/Extra/CompTIA/CompTIA-Network/img/ethernet-header.png",
+    "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
     "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
     "obsidian/Extra/CompTIA/CompTIA-Network",
     "obsidian/Kali/Docs/Networking/Networking Commands.md",
@@ -232,15 +235,11 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.3 Typical Home Network Routers.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img/router-ports01.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.2 Components of a Home Network.md",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.1 Typical Home Network Setup.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img/wlan01.png",
     "obsidian/Extra/Hexdump/Active Directory/img/kerberos.png",
     "obsidian/Extra/CompTIA/CompTIA-Sec-Notes",
     "obsidian/Extra/CompTIA",
-    "obsidian/Extra/Hexdump/Active Directory/img/tree.png",
-    "obsidian/Extra/Hexdump/Active Directory/img",
-    "obsidian/Extra/Hexdump/Active Directory/img/forrest.png",
-    "obsidian/Extra/Hexdump/Active Directory"
+    "obsidian/Extra/Hexdump/Active Directory/img"
   ]
 }
