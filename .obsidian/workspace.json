@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
+                "file": "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cisco Cheatsheet"
+              "title": "5. Explain the use and purpose of network services"
             }
           },
           {
@@ -196,11 +196,17 @@
   },
   "active": "cb69b4116d73e153",
   "lastOpenFiles": [
+    "obsidian/Extra/CompTIA/CompTIA-Network/1. Compare and contrast the Open Systems Interconnection (OSI) model layers and encapsulation concepts.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network/4. Given a scenario, configure a subnet and use appropriate IP addressing schemes.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network/3. Summarize the types of cables and connectors and explain which is the appropriate type for a solution.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network/2. Explain the characteristics of network topologies and network types.md",
+    "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
+    "obsidian/Extra/CompTIA/CompTIA-Network",
     "obsidian/Kali/Docs/Networking/Networking Commands.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.5 Build a Home Network Summary/4.5.1 What Did I Learn in this Module.md",
     "obsidian/Extra/Hexdump/Active Directory/07. Active Directory Exploitation Ticket Forging Attacks.md",
     "obsidian/Extra/Arch/Linux Hardening.md",
-    "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
     "README.md",
     "obsidian/Kali/Docs/Networking/Networking Cheatsheet.md",
     "obsidian/Kali/Docs/Networking/Subnet.md",
@@ -229,18 +235,12 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.1 Typical Home Network Setup.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img/wlan01.png",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 3. Wireless and Mobile Networks/3.3.3 Wireless and Mobile Networks Quiz.md",
-    "obsidian/Extra/Hexdump/Active Directory/06. Active Directory Exploitation User Enumeration in Kerberos.md",
-    "obsidian/Extra/Arch/Obsidian.md",
-    "obsidian/Extra/Git Install/Git Images Fix.md",
-    "obsidian/Extra/Bash/Bash.md",
     "obsidian/Extra/Hexdump/Active Directory/img/kerberos.png",
     "obsidian/Extra/CompTIA/CompTIA-Sec-Notes",
     "obsidian/Extra/CompTIA",
     "obsidian/Extra/Hexdump/Active Directory/img/tree.png",
     "obsidian/Extra/Hexdump/Active Directory/img",
     "obsidian/Extra/Hexdump/Active Directory/img/forrest.png",
-    "obsidian/Extra/Hexdump/Active Directory",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics"
+    "obsidian/Extra/Hexdump/Active Directory"
   ]
 }
