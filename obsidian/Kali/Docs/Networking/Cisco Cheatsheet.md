@@ -428,7 +428,7 @@ Restore from tftp:
 
 ---
 
-## My Cheatsheet
+# My Cheatsheet
 
 ## General Commands
 
@@ -663,6 +663,20 @@ banner motd #Authorized Access Only!#
 copy running-config startup-config
 ```
 
+**Optional**
+
+Save startup-config to flash
+
+```ios
+copy startup-config flash
+```
+
+Check it saved correctly
+
+```ios
+show flash
+```
+
 ## Enable SSH
 
 **Step 1. Verify SSH support.**
@@ -771,39 +785,39 @@ Configure default gateway
 ip default-gateway <ip>
 ```
 
-
+Remove password for telnet
 ```ios
-
+no password <password>
 ```
 
-
+Remove ip address
 ```ios
+no ipv6 <address>
+```
+- or be in the interface you want to remove
 
+Add ipv6 default gateway
+```ios
+ipv6 address fe80::1 link-local
 ```
 
-
+Add ipv6 address
 ```ios
-
+ipv6 address <ipv6>/<subnet>
 ```
 
-
+**Remove ACL**
 ```ios
-
+int se0/0/0
 ```
 
-
 ```ios
-
+no ip access-group 11 out
 ```
 
-
+Remove ACL from global config
 ```ios
-
-```
-
-
-```ios
-
+no access-list 11
 ```
 
 

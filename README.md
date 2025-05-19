@@ -19,6 +19,8 @@ Cisco Academy https://www.netacad.com/
 - Network Addressing and Basic Troubleshooting - Completed: Nov 10, 2024
 - Network Support and Security - Completed: Nov 15, 2024
 - Exploring Networking with Cisco Packet Tracer - Completed: Nov 16, 2024
+- Introduction to Cybersecurity - Completed: Apr 28, 2025
+- Networking Devices and Initial Configuration - Completed: May 14, 2025
 
 CTF
 - Hacker101
