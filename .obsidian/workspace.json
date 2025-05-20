@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Cisco Cheatsheet"
             }
           },
           {
@@ -196,6 +196,7 @@
   },
   "active": "cb69b4116d73e153",
   "lastOpenFiles": [
+    "README.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/4. Given a scenario, configure a subnet and use appropriate IP addressing schemes.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/3. Summarize the types of cables and connectors and explain which is the appropriate type for a solution.md",
@@ -210,7 +211,6 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.5 Build a Home Network Summary/4.5.1 What Did I Learn in this Module.md",
     "obsidian/Extra/Hexdump/Active Directory/07. Active Directory Exploitation Ticket Forging Attacks.md",
     "obsidian/Extra/Arch/Linux Hardening.md",
-    "README.md",
     "obsidian/Kali/Docs/Networking/Networking Cheatsheet.md",
     "obsidian/Kali/Docs/Networking/Subnet.md",
     "obsidian/Extra/Hexdump/The GNU Project Debugger.md",

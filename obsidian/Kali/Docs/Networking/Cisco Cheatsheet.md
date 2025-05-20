@@ -820,24 +820,26 @@ Remove ACL from global config
 no access-list 11
 ```
 
+## Configure a named standard ACL.
 
+Open configuration window
 ```ios
-
+configure terminal
 ```
 
-
+Configure the following named ACL
 ```ios
-
+ip access-list standard File_Server_Restrictions
 ```
 
-
+Permit access
 ```ios
-
+permit host 192.168.20.4
 ```
 
-
+Deny for everyone else 
 ```ios
-
+deny any
 ```
 
 
