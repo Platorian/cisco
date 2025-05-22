@@ -228,6 +228,8 @@ pacman -Qs pam
 
 The command `pacman -Syu` is used for updating your system by refreshing the package database and upgrading installed packages, while `pacman -Syyu` forces a refresh of the package database even if it appears up to date, which can be useful if you suspect database corruption. Generally, you should use `-Syu` for regular updates unless you have specific reasons to force a refresh with `-Syyu`.
 
+---
+
 
 
 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
+                "file": "obsidian/Extra/Arch/Wipe Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cisco Cheatsheet"
+              "title": "Wipe Data"
             }
           },
           {
@@ -196,6 +196,10 @@
   },
   "active": "cb69b4116d73e153",
   "lastOpenFiles": [
+    "obsidian/Extra/Arch/Troubleshooting.md",
+    "obsidian/Extra/Arch/Wipe Data.md",
+    "obsidian/Extra/Arch/Custom Scripts.md",
+    "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
     "README.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/5. Explain the use and purpose of network services.md",
     "obsidian/Extra/CompTIA/CompTIA-Network/4. Given a scenario, configure a subnet and use appropriate IP addressing schemes.md",
@@ -205,7 +209,6 @@
     "obsidian/Extra/CompTIA/CompTIA-Network/img/ip-header.png",
     "obsidian/Extra/CompTIA/CompTIA-Network/img",
     "obsidian/Extra/CompTIA/CompTIA-Network/img/ethernet-header.png",
-    "obsidian/Kali/Docs/Networking/Cisco Cheatsheet.md",
     "obsidian/Extra/CompTIA/CompTIA-Network",
     "obsidian/Kali/Docs/Networking/Networking Commands.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.5 Build a Home Network Summary/4.5.1 What Did I Learn in this Module.md",
@@ -232,9 +235,7 @@
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img/electro-spectrum.png",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.4 Check Your Understanding - Home Network Basics.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.2 Network Technologies in the Home",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.3 Typical Home Network Routers.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img/router-ports01.png",
-    "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/4.1 Home Network Basics/4.1.2 Components of a Home Network.md",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img",
     "obsidian/Kali/Docs/Cisco/Networking Basics/Mod 4. Build a Home Network/img/wlan01.png",
     "obsidian/Extra/Hexdump/Active Directory/img/kerberos.png",
